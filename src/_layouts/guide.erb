@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="<%= site.locale %>">
+  <head>
+    <%= render "head", metadata: site.metadata, title: data.title %>
+  </head>
+  <body class="<%= data.layout %> <%= data.page_class %>">
+    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+
+    <main class="m-32">
+      <div class="mb-16">
+        <h1 class="text-2xl mb-4">About this guide</h1>
+        <hr class="my-2"/>
+        <p>This style guide is to provide website developer(s) with color specs, typography details, button and anchor details, etc. for A People’s History 
+        of Tech: The Mobile Phone, MVP website project kicking off on January 19, 2024. It does not include website container sizes, or content 
+        spacing. Please see annotated screenshots for those details.</p>
+      </div>
+      <div>
+        <h1 class="text-2xl mb-4">Color Palette</h1>
+        <hr class="my-2"/>
+        <div class="flex-wrap flex gap-8  my-8">
+          <%= render Shared::Palette.new(name: 'Solid Black', hexcode: '#000000', classname: 'solid-black') %>
+          <%= render Shared::Palette.new(name: 'Very Black', hexcode: '#101012', classname: 'very-black') %>
+          <%= render Shared::Palette.new(name: 'Medium Black', hexcode: '#1A1A1A', classname: 'medium-black') %>
+          <%= render Shared::Palette.new(name: 'Dark Grey', hexcode: '#383838', classname: 'dark-grey') %>
+          <%= render Shared::Palette.new(name: 'Medium Grey', hexcode: '#A3A2A2', classname: 'medium-grey') %>
+          <%= render Shared::Palette.new(name: 'Off White', hexcode: '#F2F2F2', classname: 'off-white') %>
+          <%= render Shared::Palette.new(name: 'Lime Green', hexcode: '#2EF853', classname: 'lime-green') %>
+          <%= render Shared::Palette.new(name: 'Fuchsia', hexcode: '#F20DAF', classname: 'fuchsia') %>
+          <%= render Shared::Palette.new(name: 'Blue', hexcode: '#08C9f4', classname: 'blue') %>
+          <%= render Shared::Palette.new(name: 'White', hexcode: '#FFFFFF', classname: 'white') %>
+          
+          <div class="bg-solid-black bg-very-black bg-medium-black bg-dark-grey bg-medium-grey bg-off-white bg-lime-green bg-fuchsia bg-blue bg-white"></div>
+
+        </div>
+      </div>
+    </main>
+
+    <%= render "footer", metadata: site.metadata %>
+  </body>
+</html>
