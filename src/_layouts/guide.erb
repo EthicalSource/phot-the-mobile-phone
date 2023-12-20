@@ -9,14 +9,14 @@
     <main class="m-32">
       <section>
         <div class="mb-16">
-        <h1 class="text-2xl mb-4">About this guide</h1>
+        <h3 class="text-2xl mb-4">About this guide</h3>
         <hr class="my-2"/>
-        <p>This style guide is to provide website developer(s) with color specs, typography details, button and anchor details, etc. for A People’s History 
+          <p>This style guide is to provide website developer(s) with color specs, typography details, button and anchor details, etc. for A People’s History 
         of Tech: The Mobile Phone, MVP website project kicking off on January 19, 2024. It does not include website container sizes, or content 
         spacing. Please see annotated screenshots for those details.</p>
-      </div>
+        </div>
       <div>
-        <h1 class="text-2xl mb-4">Color Palette</h1>
+        <h3 class="text-2xl mb-4">Color Palette</h3>
         <hr class="my-2"/>
         <div class="flex-wrap flex gap-8  my-8">
           <%= render Shared::Palette.new(name: 'Solid Black', hexcode: '#000000', classname: 'solid-black') %>
@@ -30,77 +30,77 @@
           <%= render Shared::Palette.new(name: 'Blue', hexcode: '#08C9f4', classname: 'blue') %>
           <%= render Shared::Palette.new(name: 'White', hexcode: '#FFFFFF', classname: 'white') %>
           
-          <span class="bg-solid-black bg-very-black bg-medium-black bg-dark-grey bg-medium-grey bg-off-white bg-lime-green bg-fuchsia bg-blue bg-white"></span>
-        </div>
+          <%# <span class="bg-solid-black bg-very-black bg-medium-black bg-dark-grey bg-medium-grey bg-off-white bg-lime-green bg-fuchsia bg-blue bg-white"></span> %>
+      </div>
       </section>
       <section>
         <div class="mb-16">
-          <h1 class="text-2xl mb-4">Web Typography</h1>
+          <h3 class="text-2xl mb-4">Web Typography</h3>
           <hr class="my-2"/>
           <p class="my-4"><span class="mr-8"><span class="text-medium-grey font-medium">Base Font: </span><span class="font-medium">Montserrat</span></span><span class="text-medium-grey font-medium">Weights:</span><span class="font-medium"> Regular; SemiBold; Medium; Bold (+ Italics)</span></p>
           <p class="my-4"><span class="text-medium-grey font-medium">Paragraphs:</span><span class="font-medium"> The base body text is 16px. The paragraph width is capped at 960px, and there should be 30px between paragraphs.</span></p>
         <div>
-          <h1 class="text-dark-grey">Heading XXXL</h1>
+          <h1 class="text-dark-grey text-heading-xxxl">Heading XXXL</h1>
           <p>Mobile Font-size: 72px / Line-height: 72px Desktop: 180px / 170px SemiBold; Title Case; Letter Spacing -25%</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <h2 class="text-dark-grey">Heading XXL</h2>
+          <h2 class="text-dark-grey text-heading-xxl">Heading XXL</h2>
           <p>Mobile: [Not yet defined.] Desktop: 90px / 94px Bold</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <h3 class="text-dark-grey">Heading XL</h3>
+          <h3 class="text-dark-grey text-heading-xl">Heading XL</h3>
           <p>Mobile: [Not yet defined.] Desktop: 72px / 78px Regular</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <h4 class="text-dark-grey">Heading Lg</h4>
+          <h4 class="text-dark-grey text-heading-lg">Heading Lg</h4>
           <p>Mobile: 36px / 30px Desktop: 56px / 50px Bold; Uppercase</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <h5 class="text-dark-grey">Heading Md</h5>
+          <h5 class="text-dark-grey text-heading-md">Heading Md</h5>
           <p>Mobile: 36px / 40px Desktop: 40px / 46px Regular</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <h6 class="text-dark-grey">Heading Sm</h6>
+          <h6 class="text-dark-grey text-heading-sm">Heading Sm</h6>
           <p>Mobile + Desktop: 36px / 40px Bold; Letter Spacing 10%</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="heading-7 text-dark-grey">Heading Sm-Alt</p>
+          <p class="text-heading-sm-alt text-dark-grey">Heading Sm-Alt</p>
           <p>Mobile + Desktop: 36px / 40px Regular</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="heading-8 text-dark-grey">Heading Xs</p>
+          <p class="text-heading-xs text-dark-grey">Heading Xs</p>
           <p>Mobile + Desktop: 24px / 28px Medium; Letter Spacing 10%</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="heading-9 text-dark-grey">Heading Xs-Alt</p>
+          <p class="text-heading-xs-alt text-dark-grey">Heading Xs-Alt</p>
           <p>Mobile + Desktop: 24px / 28px Regular</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="heading-10 text-dark-grey">Heading Xxs</p>
+          <p class="text-heading-xxs text-dark-grey">Heading Xxs</p>
           <p>Mobile + Desktop: 20px / 24px SemiBold; Title Case</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="text-dark-grey">Body</p>
+          <p class="text-dark-grey text-body">Body</p>
           <p>Mobile + Deskop: 17px / 26px Regular</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="base text-dark-grey">Base</p>
+          <p class="text-base text-dark-grey">Base</p>
           <p>Mobile + Desktop: 16px / 24px Regular</p>
         </div>
         <hr class="my-2"/>
         <div>
-          <p class="meta text-dark-grey">Meta</p>
+          <p class="text-meta text-dark-grey">Meta</p>
           <p>Mobile + Deskop: 16px / 20px Regular + Medium; lowercase</p>
         </div>
         <hr class="my-2"/>
