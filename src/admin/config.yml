@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true # Allow local DecapCMS
+
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "entries" # Used in routes, e.g., /admin/collections/events
+    label: "Entries" # Used in the UI
+    folder: "src/_entries" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., title-YYYY-MM-DD.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "event" }
+      - { label: "Headline", name: "title", widget: "string" }
+      - label: "Location"
+        name: "location"
+        widget: string
+        hint: "Enter either [City] or [City, Country]"
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        required: false
+      - label: "Source"
+        name: "source"
+        widget: "string"
+        required: false
+      - label: "Media Credit"
+        name: "credit"
+        widget: "string"
+        required: false
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+
+  - name: "tags"
+    label: "Tags"
+    slug: "{{name}}"
+    folder: "src/_tags" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - { label: "Name", name: "name", widget: "string" }
+      - label: "Type"
+        name: "tag_type"
+        widget: "select"
+        options: ["collection", "decade"]
+        required: true
