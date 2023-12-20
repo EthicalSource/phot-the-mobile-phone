@@ -32,3 +32,16 @@ template_engine: erb
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+
+collections:
+  entries:
+    permalink: /entry/:title.*
+    output: true
+    sort_by: date
+    sort_direction: descending
+
+  tags:
+    permalink: /tag/:name.*
+    output: true
+    sort_by: ["tag_type", "date"]
+    sort_direction: descending
