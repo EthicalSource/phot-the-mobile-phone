@@ -5,7 +5,7 @@ backend:
 local_backend: true # Allow local DecapCMS
 
 publish_mode: editorial_workflow
-media_folder: "images/uploads"
+media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
