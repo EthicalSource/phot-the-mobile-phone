@@ -43,13 +43,14 @@ collections:
         widget: "string"
         required: false
       - label: "Media Credit"
-        name: "credit"
+        name: "media_credit"
         widget: "string"
         required: false
       - label: "Media Link"
         name: "media_link"
         widget: "string"
         required: false
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Publish Date", name: "date", widget: "datetime" }
 
   - name: "tags"
