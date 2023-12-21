@@ -7,10 +7,10 @@
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
     <main class="m-32">
-      <%= partial 'guide/buttons' %>
       <%= partial 'guide/about' %>
       <%= partial 'guide/colors' %>
       <%= partial 'guide/typography' %>
+      <%= partial 'guide/buttons' %>
     </main>
 
     <%= render "footer", metadata: site.metadata %>

@@ -15,7 +15,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}" # Filename template, e.g., title-YYYY-MM-DD.md
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "event" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "entry" }
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Location"
         name: "location"
@@ -38,8 +38,16 @@ collections:
         name: "source"
         widget: "string"
         required: false
+      - label: "Source Link"
+        name: "source_link"
+        widget: "string"
+        required: false
       - label: "Media Credit"
         name: "credit"
+        widget: "string"
+        required: false
+      - label: "Media Link"
+        name: "media_link"
         widget: "string"
         required: false
       - { label: "Publish Date", name: "date", widget: "datetime" }
