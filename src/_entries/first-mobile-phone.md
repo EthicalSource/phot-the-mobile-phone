@@ -4,13 +4,6 @@ title: First Mobile Phone
 location: Chicago, IL, USA
 tags:
   - 1970s
-content: Velit lectus nunc egestas ante imperdiet tempor eget, mauris curabitur
-  convallis tempus sem lectus ante, tincidunt diam sem justo curabitur est. Sem
-  maecenas tempor nisl taciti lacinia duis libero quam dictumst, venenatis
-  pellentesque etiam sit fusce neque turpis. Nulla aptent lacus molestie potenti
-  curabitur pretium vitae primis sem commodo, class nisi mattis et suscipit
-  ornare dolor condimentum semper, tortor pulvinar hac blandit aliquet egestas
-  malesuada pharetra lacinia.
 thumbnail: /images/uploads/first_mobile-phone-call.png
 source: https://www.theatlantic.com/technology/archive/2013/04/the-first-mobile-phone-call-was-made-40-years-ago-today/274611/
 credit: The Atlantic
