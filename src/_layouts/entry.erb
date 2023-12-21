@@ -22,9 +22,19 @@
           <%= yield %>
         </article>
 
-        <aside class="w-full flex flex-row align-text-bottom">
-          <a href="#" class="block font-bold pr-2">Styled Link: Goes Offsite</a>
-          <img src="<%= relative_url '/images/shared/arrow_forward_icon.svg' %>" class="w-[16px] max-h-[16px] min-h-[16px] min-w-[16px] max-w-[16px] mt-1 block" />
+        <aside class="flex flex-col">
+          <a href="#" class="font-bold flex">
+            <div class="pr-2">
+              Styled Link #1: Goes Offsite
+            </div>
+            <img src="<%= relative_url '/images/shared/arrow_forward_icon.svg' %>" class="w-[16px]" />
+          </a>
+          <a href="#" class="font-bold flex">
+            <div class="pr-2">
+              Styled Link #2: Goes elsewhere Offsite
+            </div>
+            <img src="<%= relative_url '/images/shared/arrow_forward_icon.svg' %>" class="w-[16px]" />
+          </a>
         </aside>
       </section>
     </main>
