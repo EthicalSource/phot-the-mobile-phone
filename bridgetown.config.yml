@@ -33,6 +33,10 @@ template_engine: erb
 # pagination:
 #   enabled: true
 
+defaults:
+  - values:
+      layout: "default"
+
 collections:
   entries:
     permalink: /entry/:title.*

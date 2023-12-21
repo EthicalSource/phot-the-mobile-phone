@@ -1,0 +1,29 @@
+<section>
+  <div class="mb-16">
+  <h3 class="text-2xl mb-4">Buttons + Text Anchors</h3>
+  <hr class="my-2"/>
+  <div class="flex-col">
+    <div class="flex py-5">
+      <p class="w-48">
+        Primary Button:
+      </p>
+      <%= render Shared::Button.new(text: "primary", href: "#") %>
+    </div>
+    <div class="flex py-5">
+      <p class="w-48 bg-white">
+        Secondary Button:
+      </p>
+      <div class="w-full h-fit p-5 bg-solid-black">
+        <%= render Shared::Button.new(text: "secondary", href: "#", type: :secondary) %>
+      </div>
+    </div>
+    <div class="flex py-5">
+      <p class="w-48 bg-white">
+        Tertiary Button:
+      </p>
+      <div class="w-full h-fit p-5 bg-solid-black">
+        <%= render Shared::Button.new(text: "tertiary", href: "#", type: :tertiary) %>
+      </div>
+    </div>
+  </div>
+</section

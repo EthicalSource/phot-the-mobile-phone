@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="<%= site.locale %>">
+  <head>
+    <%= render "head", metadata: site.metadata, title: data.title %>
+  </head>
+  <body class="<%= data.layout %> <%= data.page_class %> bg-black text-off-white">
+
+    <main class="min-w-[960px] max-w-[960px] mx-auto mt-[150px]">
+      <section class="px-[50px]">
+        <h1 class="text-heading-xl w-full text-center mb-[50px]"><%= data.title%></h1>
+        <img src="<%= relative_url data.thumbnail %>" alt="" class="mb-[60px] max-h-[450px] mx-auto" />
+      </section>
+      <section class="bg-very-black p-[50px] mb-[130px] min-h-[520px]">
+        <aside class="mb-[50px]">
+          <h3 class="text-heading-xxs">Date, Location</h3>
+          <p class="text-medium-grey">Media: <a href="#" class="text-off-white">@nightwolfchesh</a></p>
+          <p class="text-medium-grey">Source: <a href="#" class="text-off-white">The Atlantic</a></p>
+        </aside>
+
+        <article class="mb-[50px]">
+          <h2 class="text-heading-xs text-white mb-[40px]"><%= data.title %></h2>
+          <%= yield %>
+        </article>
+
+        <aside class="flex flex-col">
+          <a href="#" class="font-bold flex">
+            <div class="pr-2">
+              Styled Link #1: Goes Offsite
+            </div>
+            <img src="<%= relative_url '/images/shared/arrow_forward_icon.svg' %>" class="w-[16px]" />
+          </a>
+          <a href="#" class="font-bold flex">
+            <div class="pr-2">
+              Styled Link #2: Goes elsewhere Offsite
+            </div>
+            <img src="<%= relative_url '/images/shared/arrow_forward_icon.svg' %>" class="w-[16px]" />
+          </a>
+        </aside>
+      </section>
+    </main>
+
+    <%= render "footer", metadata: site.metadata %>
+  </body>
+</html>
