@@ -1,0 +1,8 @@
+<% if data.tags.any? %>
+  <div class="flex flex-wrap gap-4 mt-16">
+    <div class="text-off-white border border-medium-grey text-meta rounded-sm px-[15px] py-3 uppercase block min-h-[50px] text-center">Tags</div>
+    <% data.tags.each do |tag| %>
+      <%= render Shared::Button.new(text: tag, href: tag) %>
+    <% end %>
+  </div>
+<% end %>
