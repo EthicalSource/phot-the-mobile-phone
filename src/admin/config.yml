@@ -52,19 +52,7 @@ collections:
         widget: "string"
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
-      - label: "Resource Links"
-        name: "links"
-        widget: "list"
-        fields:
-          - label: "Title"
-            name: "title"
-            widget: string
-            required: true
-          - label: "Destination"
-            name: "destination"
-            widget: "string"
-            required: true
-            pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown" }
 
   - name: "tags"
     label: "Tags"

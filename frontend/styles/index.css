@@ -10,3 +10,24 @@
 :root {
   font-family: 'Montserrat', sans-serif;
 }
+
+.card_links {
+  aside {
+    flex: flex-col;
+
+    > *:not(p) { display: none !important }
+    a {
+      display: block;
+      font-weight: bold;
+      padding-bottom: 2px;
+    }
+    a::after {
+      content: url('/images/shared/arrow_forward_icon.svg');
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      padding-left: 4px;
+      vertical-align: sub;
+    }
+  }
+}

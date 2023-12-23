@@ -1,10 +1,5 @@
-<% if data.link_title && data.link_destination %>
-  <aside class="flex flex-col">
-    <a href="<%= data.link_destination %>" class="font-bold flex">
-      <div class="pr-2">
-        <%= data.link_title %>
-      </div>
-      <img src="<%= relative_url '/images/shared/arrow_forward_icon.svg' %>" class="w-[16px]" />
-    </a>
+<div class="card_links">
+  <aside>
+    <%= markdownify data.outbound_links %>
   </aside>
-<% end %>
+</div>

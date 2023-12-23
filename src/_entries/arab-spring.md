@@ -1,9 +1,8 @@
 ---
-link_destination: https://en.wikipedia.org/wiki/Arab_Spring
 layout: entry
 thumbnail: /images/uploads/arab-spring.jpg
+outbound_links: "[Wikipedia: Arab Spring](https://en.wikipedia.org/wiki/Arab_Spring)"
 date: 2023-12-21T20:56:03.566Z
-link_title: "Wikipedia: Protests and revolutions in the Arab World in the 2010s"
 title: Arab Spring
 location: Egypt
 tags:
