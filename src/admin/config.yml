@@ -42,22 +42,24 @@ collections:
         name: "source_link"
         widget: "string"
         required: false
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - label: "Media Credit"
-        name: "credit"
+        name: "media_credit"
         widget: "string"
         required: false
       - label: "Media Link"
         name: "media_link"
         widget: "string"
         required: false
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown" }
 
   - name: "tags"
     label: "Tags"
     slug: "{{name}}"
-    folder: "src/_tags" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields for each document, usually in front matter
+    folder: "src/_tags"
+    create: true
+    fields:
       - { label: "Name", name: "name", widget: "string" }
       - label: "Type"
         name: "tag_type"
