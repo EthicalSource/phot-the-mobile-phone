@@ -18,7 +18,7 @@
   @apply text-[90px]/[94px] font-semibold capitalize tracking-tight
 }
 .heading-xl {
-  @apply text-[72px]/[78px]
+  @apply text-[20px]/[24px] md:text-[72px]/[78px]
 }
 .heading-lg {
   @apply text-4xl/[30px] md:text-[56px]/[50px] font-bold uppercase

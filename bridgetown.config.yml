@@ -44,6 +44,12 @@ collections:
     sort_by: date
     sort_direction: descending
 
+  journals:
+    permalink: /journal/:title.*
+    output: true
+    sort_by: date
+    sort_direction: descending
+
   tags:
     permalink: /tag/:name.*
     output: true
