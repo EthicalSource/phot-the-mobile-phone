@@ -81,3 +81,21 @@
 .button.tertiary {
   @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase
 }
+
+.carousel {
+  width: 85%;
+}
+.swiper {
+  margin-left: auto !important;
+  margin-right: 2rem !important;
+}
+.swiper-slide {
+  @apply bg-very-black flex-shrink-0 flex flex-col items-center gap-5 text-off-white p-10
+}
+.swiper-slide {
+  width: 400px !important;
+  height: 512px !important;
+}
+.swiper-slide.swiper-initial {
+  display: none !important;
+}
