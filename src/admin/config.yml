@@ -9,6 +9,61 @@ media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "journals"
+    label: "Journal"
+    folder: "src/_journals"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "journal" }
+      - { label: "Headline", name: "title", widget: "string" }
+      - { label: "Highlight", name: "highlight", widget: "string" }
+      - label: "Location"
+        name: "location"
+        widget: string
+        hint: "Enter either [City] or [City, Country]"
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
+      - label: "Related Events"
+        name: "related_events"
+        widget: "relation"
+        collection: "entries"
+        search_fields: [ "title" ]
+        value_field: "title" # should this be an ID?
+        multiple: true
+        min: 1
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        required: false
+      - label: "Source"
+        name: "source"
+        widget: "string"
+        required: false
+      - label: "Source Link"
+        name: "source_link"
+        widget: "string"
+        required: false
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - label: "Media Credit"
+        name: "media_credit"
+        widget: "string"
+        required: false
+      - label: "Media Link"
+        name: "media_link"
+        widget: "string"
+        required: false
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - { label: "Alt Text", name: "media_alt", widget: "string" }
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown" }
+
   - name: "entries" # Used in routes, e.g., /admin/collections/events
     label: "Entries" # Used in the UI
     folder: "src/_entries" # The path to the folder where the documents are stored

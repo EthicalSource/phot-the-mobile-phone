@@ -22,6 +22,8 @@ url: "" # the base hostname & protocol for your site, e.g. https://example.com
 permalink: pretty
 template_engine: erb
 
+svg:
+  optimize: true
 # Other options you might want to investigate:
 #
 # base_path: "/" # the subpath of your site, e.g. /blog. If you set this option,
@@ -40,6 +42,12 @@ defaults:
 collections:
   entries:
     permalink: /entry/:title.*
+    output: true
+    sort_by: date
+    sort_direction: descending
+
+  journals:
+    permalink: /journal/:title.*
     output: true
     sort_by: date
     sort_direction: descending

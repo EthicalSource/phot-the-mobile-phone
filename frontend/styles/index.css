@@ -18,7 +18,7 @@
   @apply text-[90px]/[94px] font-semibold capitalize tracking-tight
 }
 .heading-xl {
-  @apply text-[72px]/[78px]
+  @apply text-[20px]/[24px] md:text-[72px]/[78px]
 }
 .heading-lg {
   @apply text-4xl/[30px] md:text-[56px]/[50px] font-bold uppercase
@@ -80,4 +80,36 @@
 }
 .button.tertiary {
   @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase
+}
+
+.carousel {
+  width: 85%;
+}
+.swiper {
+  margin-left: auto !important;
+  margin-right: 2rem !important;
+}
+.swiper-wrapper {
+  @apply h-[320px] md:h-[512px]
+}
+
+.swiper-slide {
+  @apply bg-very-black flex-shrink-0 flex flex-col items-center gap-5 text-off-white p-10
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  width: 280px !important;
+  height: 320px !important;
+
+  p {
+    white-space: nowrap;
+  }
+}
+@media (min-width: 768px) {
+  .swiper-slide {
+    width: 400px !important;
+    height: 512px !important;
+  }
 }
