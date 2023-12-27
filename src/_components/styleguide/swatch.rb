@@ -1,4 +1,4 @@
-class Shared::Palette < Bridgetown::Component
+class Styleguide::Swatch < Bridgetown::Component
   def initialize(name:, hexcode:, classname:)
     @name, @hexcode, @classname = name, hexcode, classname
     if @hexcode == "#FFFFFF"
