@@ -11,6 +11,46 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.heading-xxxl {
+  @apply text-[72px]/[72px] font-semibold capitalize tracking-tight md:text-[180px]/[170px]
+}
+.heading-xxl {
+  @apply text-[90px]/[94px] font-semibold capitalize tracking-tight
+}
+.heading-xl {
+  @apply text-[72px]/[78px]
+}
+.heading-lg {
+  @apply text-4xl/[30px] md:text-[56px]/[50px] font-bold uppercase
+}
+.heading-md {
+  @apply text-4xl/10 md:text-[40px]/[46px]
+}
+.heading-sm {
+  @apply text-4xl/10 tracking-widest font-bold
+}
+.heading-sm-alt {
+  @apply text-4xl/10
+}
+.heading-xs {
+  @apply text-2xl/7 tracking-widest font-medium
+}
+.heading-xs-alt {
+  @apply text-2xl/7
+}
+.heading-xxs {
+  @apply text-xl/6 font-semibold capitalize
+}
+.body {
+  @apply text-[17px]/[26px]
+}
+.base {
+  @apply text-base/6
+}
+.meta {
+  @apply text-base/5 lowercase
+}
+
 .card_links {
   aside {
     flex: flex-col;
@@ -30,4 +70,14 @@
       vertical-align: sub;
     }
   }
+}
+
+.button.primary {
+  @apply bg-lime-green text-black rounded-sm px-[15px] py-3 hover:underline hover:opacity-70 active:no-underline  block min-h-[50px] min-w-[190px] w-fit text-center uppercase
+}
+.button.secondary {
+  @apply text-medium-grey border border-medium-grey rounded-sm px-[15px] py-3 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center uppercase
+}
+.button.tertiary {
+  @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase
 }
