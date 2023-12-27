@@ -89,13 +89,27 @@
   margin-left: auto !important;
   margin-right: 2rem !important;
 }
+.swiper-wrapper {
+  @apply h-[320px] md:h-[512px]
+}
+
 .swiper-slide {
   @apply bg-very-black flex-shrink-0 flex flex-col items-center gap-5 text-off-white p-10
 }
+
 .swiper-slide {
-  width: 400px !important;
-  height: 512px !important;
+  display: flex;
+  align-items: center;
+  width: 280px !important;
+  height: 320px !important;
+
+  p {
+    white-space: nowrap;
+  }
 }
-.swiper-slide.swiper-initial {
-  display: none !important;
+@media (min-width: 768px) {
+  .swiper-slide {
+    width: 400px !important;
+    height: 512px !important;
+  }
 }
