@@ -17,7 +17,10 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "entry" }
       - { label: "Headline", name: "title", widget: "string" }
-      - { label: "Highlight", name: "highlight", widget: "string" }
+      - label: "Highlight"
+        name: "highlight"
+        widget: "string"
+        pattern: ['.*{0,85}', "Must be 85 characters or less"]
       - label: "Location"
         name: "location"
         widget: string
