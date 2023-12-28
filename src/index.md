@@ -6,3 +6,4 @@
 <%= partial "landing/quote-entry" %>
 <%= partial "landing/double-entry" %>
 <%= partial "landing/tell-your-story" %>
+<%= partial "landing/take-action" %>
