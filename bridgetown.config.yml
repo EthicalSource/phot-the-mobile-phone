@@ -40,14 +40,14 @@ defaults:
       layout: "default"
 
 collections:
-  entries:
-    permalink: /entry/:title.*
+  events:
+    permalink: /:collection/:title.*
     output: true
     sort_by: date
     sort_direction: descending
 
   journals:
-    permalink: /journal/:title.*
+    permalink: /:collection/:title.*
     output: true
     sort_by: date
     sort_direction: descending

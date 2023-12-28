@@ -93,7 +93,7 @@
 }
 
 .swiper-slide {
-  @apply bg-very-black flex-shrink-0 flex flex-col items-center gap-5 text-off-white p-10
+  @apply bg-very-black gap-5 p-10
 }
 
 .swiper-slide {
@@ -101,14 +101,19 @@
   align-items: center;
   width: 280px !important;
   height: 320px !important;
-
-  p {
-    white-space: nowrap;
-  }
 }
 @media (min-width: 768px) {
   .swiper-slide {
     width: 400px !important;
     height: 512px !important;
+
+    a {
+      width: 300px;
+      height: 412px;
+    }
   }
+}
+
+.swiper-button-disabled {
+  @apply text-dark-grey
 }
