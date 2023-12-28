@@ -10,8 +10,8 @@
     <div class="swiper-wrapper">
       <% collections.journals.resources.select {|j| j.data.tags.include?("Connection & Access")}.each do |journal| %>
         <% link = url_for(journal) %>
-        <div class="swiper-slide flex justify-center items-center">
-          <a href="<%= link %>">
+        <div class="swiper-slide">
+          <a href="<%= link %>" class="w-full h-full flex flex-col justify-center items-center">
             <h5 class="heading-sm text-fuchsia text-center mb-4">
               <%= journal.data.highlight %>
             </h5>
