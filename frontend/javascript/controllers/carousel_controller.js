@@ -13,6 +13,11 @@ export default class extends Controller {
             modules: [Navigation],
             slidesPerView: 'auto',
             spaceBetween: 20,
+            breakpoints: {
+                768: {
+                    spaceBetween: 30,
+                }
+            },
             navigation: {
                 nextEl: this.nextTarget,
                 prevEl: this.prevTarget,
