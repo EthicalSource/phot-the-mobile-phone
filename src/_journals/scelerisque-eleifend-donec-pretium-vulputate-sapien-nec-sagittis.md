@@ -1,5 +1,5 @@
 ---
-layout: journal
+layout: entry
 title: Scelerisque eleifend donec pretium vulputate sapien nec sagittis
 highlight: Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt
   ornare massa
