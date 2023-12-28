@@ -54,7 +54,6 @@
 .card_links {
   aside {
     flex: flex-col;
-
     > *:not(p) { display: none !important }
     a {
       display: block;
@@ -62,8 +61,13 @@
       padding-bottom: 2px;
     }
     a::after {
-      content: url('/images/shared/arrow_forward_icon.svg');
+      content: "";
+      color: #2EF853;
+      background-color: currentColor;
+      mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
+      vertical-align: sub;
       display: inline-block;
+      margin-left: 4px;
       width: 16px;
       height: 16px;
       padding-left: 4px;
