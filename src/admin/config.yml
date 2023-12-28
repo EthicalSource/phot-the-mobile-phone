@@ -36,7 +36,7 @@ collections:
       - label: "Related Events"
         name: "related_events"
         widget: "relation"
-        collection: "entries"
+        collection: "events"
         search_fields: [ "title" ]
         value_field: "title" # should this be an ID?
         multiple: true
@@ -67,9 +67,9 @@ collections:
       - { label: "Alt Text", name: "media_alt", widget: "string", required: false }
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
 
-  - name: "entries" # Used in routes, e.g., /admin/collections/events
-    label: "Entries" # Used in the UI
-    folder: "src/_entries" # The path to the folder where the documents are stored
+  - name: "events" # Used in routes, e.g., /admin/collections/events
+    label: "Events" # Used in the UI
+    folder: "src/_events" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}" # Filename template, e.g., title-YYYY-MM-DD.md
     fields: # The fields for each document, usually in front matter

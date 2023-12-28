@@ -40,7 +40,7 @@ defaults:
       layout: "default"
 
 collections:
-  entries:
+  events:
     permalink: /:collection/:title.*
     output: true
     sort_by: date

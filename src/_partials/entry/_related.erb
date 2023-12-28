@@ -1,3 +1,5 @@
+<% related_journals = PostHelpers.suggested_posts_by_tags(post: event.data, posts: site.collections.journals.resources, count_per_facet: 6) %>
+
 <section data-controller="carousel" class="bg-off-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black">
   <div class="swiper carousel">
     <div class="flex w-full justify-between mb-[30px]">
@@ -8,14 +10,13 @@
       </div>
     </div>
     <div class="swiper-wrapper">
-      <% collections.journals.resources.select {|j| j.data.tags.include?("Connection & Access")}.each do |journal| %>
-        <% link = url_for(journal) %>
+      <% related_journals.each do |journal| %>  
         <div class="swiper-slide">
-          <a href="<%= link %>" class="w-full h-full flex flex-col justify-center items-center">
+          <a href="<%= url_for(journal) %>" class="w-full h-full flex flex-col justify-center items-center">
             <h5 class="heading-sm text-fuchsia text-center mb-4">
-              <%= journal.data.highlight %>
+              <%= journal.highlight_summary %>
             </h5>
-            <p class="base text-off-white text-center">- <%=journal.data.source || "Anonymous" %><%= ", #{journal.data.location}" %></p>
+            <p class="base text-off-white text-center">- <%=journal.data.source%>, <%=journal.data.location%></p>
           </a>
         </div>
       <% end %>

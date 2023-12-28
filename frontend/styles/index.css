@@ -113,3 +113,7 @@
     }
   }
 }
+
+.swiper-button-disabled {
+  @apply text-dark-grey
+}
