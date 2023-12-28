@@ -8,25 +8,17 @@
       </div>
     </div>
     <div class="swiper-wrapper">
-      <div class="swiper-slide flex justify-center items-center">
-          <h5 class="heading-sm text-fuchsia text-center">
-            "Cupcake ipsum dolor sit amet danish gingerbread. Icing sugar plum dessert chocolate..."
-          </h5>
-          <p class="base text-off-white text-center">- Ana Enriquez, Brooklyn NY</p>
-        
-      </div>
-      <div class="swiper-slide">
-        2 card 2
-      </div>
-      <div class="swiper-slide">
-        3 card 3
-      </div>
-      <div class="swiper-slide">
-        4 card 4
-      </div>
-      <div class="swiper-slide">
-        5 card 5
-      </div>
+      <% collections.journals.resources.select {|j| j.data.tags.include?("Connection & Access")}.each do |journal| %>
+        <% link = url_for(journal) %>
+        <div class="swiper-slide flex justify-center items-center">
+          <a href="<%= link %>">
+            <h5 class="heading-sm text-fuchsia text-center mb-4">
+              <%= journal.data.highlight %>
+            </h5>
+            <p class="base text-off-white text-center">- <%=journal.data.source || "Anonymous" %><%= ", #{journal.data.location}" %></p>
+          </a>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>

@@ -15,7 +15,7 @@ collections:
     create: true
     slug: "{{title}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "journal" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "entry" }
       - { label: "Headline", name: "title", widget: "string" }
       - { label: "Highlight", name: "highlight", widget: "string" }
       - label: "Location"
@@ -37,7 +37,7 @@ collections:
         search_fields: [ "title" ]
         value_field: "title" # should this be an ID?
         multiple: true
-        min: 1
+        required: false
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Featured Image"
         name: "thumbnail"
@@ -61,8 +61,8 @@ collections:
         widget: "string"
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
-      - { label: "Alt Text", name: "media_alt", widget: "string" }
-      - { label: "Outbound links", name: "outbound_links", widget: "markdown" }
+      - { label: "Alt Text", name: "media_alt", widget: "string", required: false }
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
 
   - name: "entries" # Used in routes, e.g., /admin/collections/events
     label: "Entries" # Used in the UI
@@ -107,7 +107,7 @@ collections:
         widget: "string"
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
-      - { label: "Outbound links", name: "outbound_links", widget: "markdown" }
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
 
   - name: "tags"
     label: "Tags"
