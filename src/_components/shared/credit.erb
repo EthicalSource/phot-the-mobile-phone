@@ -1,0 +1,12 @@
+<p class='body text-medium-grey'>
+  <%= @label %>
+  <% if @href.nil? || @href.empty? %>
+    <span class="text-off-white">
+      <%= @text %>
+    </span>
+  <% else %>
+    <a href="<%= @href %>" class='text-off-white'>
+      <%= @text %>
+    </a>
+  <% end %>
+</p>
