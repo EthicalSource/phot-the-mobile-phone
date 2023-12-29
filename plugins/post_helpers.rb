@@ -16,6 +16,14 @@ module PostHelpers
     results.flatten
   end
 
+  def self.events_by_collection(posts:, value:, count: 5)
+    return [] if value.nil?
+    
+    posts.select do |event|
+      Bridgetown::Utils.slugify(event.data.clusters) == Bridgetown::Utils.slugify(value)
+    end
+  end
+
   def self.suggested_by(posts:, facet:, value:, count: 2)
     return [] if value.nil?
     posts.select { |post| post.data.send(facet).map(&:downcase).include? value.downcase }.take count

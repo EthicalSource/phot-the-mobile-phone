@@ -40,6 +40,13 @@ defaults:
       layout: "default"
 
 collections:
+  clusters:
+    permalink: /collection/:title.*
+    output: true
+    relations:
+      has_many:
+        - journals
+
   events:
     permalink: /:collection/:title.*
     output: true
@@ -51,6 +58,9 @@ collections:
     output: true
     sort_by: date
     sort_direction: descending
+    relations:
+      belongs_to:
+        - cluster
 
   tags:
     permalink: /tag/:name.*

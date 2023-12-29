@@ -1,0 +1,4 @@
+<h1><%= @cluster %></h1>
+<% @events.each do |event| %>
+  <p><%= link_to event.data.title, event %></p>
+<% end %>

@@ -9,6 +9,20 @@ media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "clusters" # Collections is a reserved word
+    label: "Collections"
+    folder: "src/_clusters"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Intro", name: "intro", widget: "markdown" }
+      - label: "Hero Image"
+        name: "hero"
+        widget: "image"
+        required: false
+
   - name: "journals"
     label: "Journal"
     folder: "src/_journals"
@@ -25,6 +39,13 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
       - label: "Tags"
         name: "tags"
         widget: "relation"
@@ -79,6 +100,13 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
       - label: "Tags"
         name: "tags"
         widget: "relation"
