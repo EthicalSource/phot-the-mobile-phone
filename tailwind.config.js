@@ -19,6 +19,8 @@ module.exports = {
         'white': '#FFFFFF',
       },
       screens: {
+        'sm': {max: '640px'},
+        // => @media (min-width: 640px) { ... }
         'md': '768px',
         // => @media (min-width: 768px) { ... }
   
@@ -30,8 +32,6 @@ module.exports = {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
-        'sm': {max: '640px'},
-        // => @media (min-width: 640px) { ... }
       },
     },
   },

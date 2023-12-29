@@ -113,3 +113,30 @@
     height: 512px !important;
   }
 }
+.category-title-container {
+  position: relative;
+  text-align: center;
+  height: 200px;
+
+  img {
+    @apply md:w-[454px] md:h-[454px]
+  }
+}
+.category-title {
+  @apply heading-lg uppercase text-medium-black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-133%, 380%) rotate(270deg);
+  transform-origin: left top;
+  z-index: 2;
+
+  &.glow {
+    stroke-width: 6px;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-fill-color: #1a1a1a;
+    z-index: 1;
+  }
+}
