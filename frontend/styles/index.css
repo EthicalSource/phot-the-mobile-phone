@@ -206,7 +206,7 @@
   @apply heading-lg uppercase text-medium-black;
 
   position: absolute;
-  top: 260px;
+  top: 275px;
   left: -5%;
   transform: rotate(270deg);
   transform-origin: left top;
@@ -221,7 +221,8 @@
   }
 
   @media (min-width: 768px) {
-    top: 454px;
+    top: 484px;
+    left: -15%;
   }
 }
 .swiper-button-disabled {
