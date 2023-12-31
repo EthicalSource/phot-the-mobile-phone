@@ -155,6 +155,15 @@
       height: 240px;
       overflow: hidden;
       text-overflow: ellipsis;
+
+      quotes: "“" "”"; /* Sets the types of quotation marks to use */
+
+      &::before {
+        content: open-quote;
+      }
+      &::after {
+        content: close-quote;
+      }
     }
     .source {
       @apply base text-off-white text-center;
