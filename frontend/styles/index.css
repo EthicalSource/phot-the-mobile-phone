@@ -70,6 +70,7 @@
       width: 16px;
       height: 16px;
       margin-left: 4px;
+      vertical-align: sub;
     }
   }
 }
