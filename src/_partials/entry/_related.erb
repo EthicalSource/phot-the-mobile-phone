@@ -1,22 +1,22 @@
 <% related_journals = PostHelpers.suggested_posts_by_tags(post: event.data, posts: site.collections.journals.resources, count_per_facet: 6) %>
 
-<section data-controller="carousel" class="bg-off-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black">
+<section data-controller="carousel">
   <div class="swiper carousel">
-    <div class="flex w-full justify-between mb-[30px]">
-      <h4 class="heading-xs">Explore More</h4>
-      <div class="heading-xxs text-dark-grey my-auto flex gap-x-5">
-        <button data-carousel-target="prev" class="text-fuchsia">Prev</button>
-        <button data-carousel-target="next" class="text-fuchsia">Next</button>
+    <div class="header">
+      <h4>Explore More</h4>
+      <div class="navigation">
+        <button data-carousel-target="prev">Prev</button>
+        <button data-carousel-target="next">Next</button>
       </div>
     </div>
     <div class="swiper-wrapper">
       <% related_journals.each do |journal| %>  
         <div class="swiper-slide">
           <a href="<%= url_for(journal) %>" class="w-full h-full flex flex-col justify-center items-center">
-            <h5 class="heading-sm text-fuchsia text-center mb-4">
+            <h5 class="highlight">
               <%= journal.highlight_summary %>
             </h5>
-            <p class="base text-off-white text-center">- <%=journal.data.source%>, <%=journal.data.location%></p>
+            <p class="source">- <%=journal.data.source%>, <%=journal.data.location%></p>
           </a>
         </div>
       <% end %>
