@@ -61,16 +61,15 @@
       padding-bottom: 2px;
     }
     a::after {
+      @apply text-lime-green;
       content: "";
-      color: #2EF853;
       background-color: currentColor;
-      mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
-      vertical-align: sub;
       display: inline-block;
-      margin-left: 4px;
+      mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
       width: 16px;
       height: 16px;
-      padding-left: 4px;
+      margin-left: 4px;
+      vertical-align: sub;
     }
   }
 }
@@ -85,8 +84,49 @@
   @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase
 }
 
+[data-controller="carousel"] {
+  @apply bg-off-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black;
+}
+
 .carousel {
   width: 85%;
+
+  & .header {
+    @apply flex w-full justify-between heading-xs mb-[30px];
+  }
+
+  & .navigation {
+    @apply text-fuchsia heading-xxs flex gap-x-5 my-auto;
+
+    [data-carousel-target="prev"] {
+      &::before {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_back_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+        vertical-align: sub;
+      }
+    }
+    [data-carousel-target="next"] {
+      &::after {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 4px;
+        vertical-align: sub;
+      }
+    }
+  }
 }
 .swiper {
   margin-left: auto !important;
@@ -105,6 +145,29 @@
   align-items: center;
   width: 280px !important;
   height: 320px !important;
+
+  a {
+    .highlight {
+      @apply heading-xs text-fuchsia text-center mb-4;
+
+      width: 210px;
+      height: 240px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      quotes: "“" "”"; /* Sets the types of quotation marks to use */
+
+      &::before {
+        content: open-quote;
+      }
+      &::after {
+        content: close-quote;
+      }
+    }
+    .source {
+      @apply base text-off-white text-center;
+    }
+  }
 }
 @media (min-width: 768px) {
   .swiper-slide {
@@ -114,6 +177,12 @@
     a {
       width: 300px;
       height: 412px;
+
+      .highlight {
+        @apply heading-sm;
+        width: 300px;
+        height: 412px;
+      }
     }
   }
 }
