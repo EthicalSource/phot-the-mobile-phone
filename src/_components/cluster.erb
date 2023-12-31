@@ -1,4 +1,6 @@
-<h1><%= @cluster %></h1>
-<% @events.each do |event| %>
-  <p><%= link_to event.data.title, event %></p>
-<% end %>
+<%= partial "landing/prompt" %>
+<%= partial "landing/category-entry", locals: { cluster: @cluster, event: @events.first } %>
+<%= partial "landing/quote-entry" %>
+<%= partial "landing/double-entry" %>
+<%= partial "landing/tell-your-story" %>
+<%= partial "landing/take-action" %>

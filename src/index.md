@@ -1,16 +1,11 @@
 ---
 ---
 <% events = collections.events.resources %>
-<% collections.clusters.resources.each do |cluster| %>
-  <%= render Cluster.new(cluster: cluster, events: events) %>
-<% end %>
+<% clusters = collections.clusters.resources %>
 
 <%= partial "landing/header" %>
-<main class="w-[1550px] mx-auto">
-  <%= partial "landing/prompt" %>
-  <%= partial "landing/category-entry" %>
-  <%= partial "landing/quote-entry" %>
-  <%= partial "landing/double-entry" %>
-  <%= partial "landing/tell-your-story" %>
-  <%= partial "landing/take-action" %>
+<main class="min-w-[260px] max-w-[260px] md:min-w-[1550px] md:max-w-[1550px] mx-auto mt-[40px]">
+  <% clusters.each do |cluster| %>
+    <%= render Cluster.new(cluster: cluster, events: events) %>
+  <% end %>
 </main>
