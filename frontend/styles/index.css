@@ -62,11 +62,14 @@
       padding-bottom: 2px;
     }
     a::after {
-      content: url('/images/shared/arrow_forward_icon.svg');
+      @apply text-lime-green;
+      content: "";
+      background-color: currentColor;
       display: inline-block;
+      mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
       width: 16px;
       height: 16px;
-      padding-left: 4px;
+      margin-left: 4px;
     }
   }
 }
@@ -83,6 +86,39 @@
 
 .carousel {
   width: 85%;
+
+  & .navigation {
+    @apply text-fuchsia;
+
+    [data-carousel-target="prev"] {
+      &::before {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_back_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+        vertical-align: sub;
+      }
+    }
+    [data-carousel-target="next"] {
+      &::after {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 4px;
+        vertical-align: sub;
+      }
+    }
+  }
 }
 .swiper {
   margin-left: auto !important;
