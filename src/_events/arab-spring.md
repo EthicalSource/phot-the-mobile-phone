@@ -8,7 +8,7 @@ clusters: MOVEMENTS & RESISTANCE
 tags:
   - 2010s
 media_link: https://www.nytimes.com/2020/04/01/movies/the-uprising.html
-credit: Rien à Voir/Third Films
+media_credit: Rien à Voir/Third Films
 source: Al Jazeera
 source_link: https://www.aljazeera.com/news/2021/1/14/arab-spring-ten-years-on
 ---

@@ -1,3 +1,4 @@
+
 <% title = event.data.title %>
 <% content = event.content %>
 
@@ -5,20 +6,21 @@
   <div class="w-full h-fit md:w-[725px] flex justify-center mb-[80px] md:mb-[200px]">
     <div class="category-title-container">
       <img src="/images/arron_swartz.jpeg">
-      <div class="category-title"><%= cluster %></div>
-      <div class="category-title glow"><%= cluster %></div>
+      <div class="category-title"><%= collection %></div>
+      <div class="category-title glow"><%= collection %></div>
     </div>
   </div>
   <div class="w-full md:w-[725px] flex justify-start mt-0 md:mt-[160px]">
-    <div class="flex gap-[50px] sm:flex-wrap-reverse">
-      <img class="h-60" src="./images/eric_snowden.jpeg"/>
-      <div class="w-full md:w-1/2 sm:text-right mt-[50px]">
+    <div class="flex gap-[16px] md:gap-[50px] sm:flex-col-reverse">
+    <button class="w-fit md:hidden p-1 px-4 border border-solid-black mt-[16px]"><%= collection %></button>
+      <img class="w-full h-fit md:w-60 md:h-60 mt-[10px]" src="./images/eric_snowden.jpeg"/>
+      <div class="w-full md:w-1/2 sm:text-right mt-[26px] md:mt-[50px]">
         <p class="meta text-dark-grey mb-[20px]">2013</p>
         <h3 class="heading-sm text-medium-black mb-[26px]"><%= title %></h3>
         <p class="base">
           <%= content %>
         </p>
-        <button class="p-1 px-4 border border-solid-black mt-[25px]"><%= cluster %></button>
+        <button class="p-1 px-4 border border-solid-black mt-[25px] sm:hidden"><%= collection %></button>
       </div>
     </div>
   </div>

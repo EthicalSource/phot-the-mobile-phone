@@ -1,8 +1,11 @@
-require 'pry'
 class Cluster < Bridgetown::Component
-  def initialize(cluster:, events: [])
-    @cluster = cluster.data.title.downcase
-    @events = PostHelpers.events_by_collection(posts: events, value: @cluster)
+  def initialize(site:, cluster:)
+    @cluster = cluster
+    @collection = cluster.data.title.downcase
+    journals = site.collections.journals.resources
+    events = site.collections.events.resources
+    @events = PostHelpers.events_by_collection(posts: events, value: @collection)
+    @journals = PostHelpers.journals_by_collection(posts: journals, value: @collection) || []
   end
 
   def render?
