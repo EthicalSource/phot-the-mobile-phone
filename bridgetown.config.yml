@@ -61,6 +61,14 @@ collections:
     relations:
       belongs_to:
         - cluster
+  prompts:
+    permalink: /:collection/:question.*
+    output: true
+    sort_by: date
+    sort_direction: descending
+    relations:
+      belongs_to:
+        - cluster
 
   tags:
     permalink: /tag/:name.*

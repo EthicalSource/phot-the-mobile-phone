@@ -16,6 +16,14 @@ module PostHelpers
     results.flatten
   end
 
+  def self.prompts_by_collection(posts:, value:, count: 1)
+    return [] if value.nil?
+
+    posts.select do |prompt|
+      Bridgetown::Utils.slugify(prompt.data.clusters) == Bridgetown::Utils.slugify(value)
+    end
+  end
+
   def self.events_by_collection(posts:, value:, count: 5)
     return [] if value.nil?
   
