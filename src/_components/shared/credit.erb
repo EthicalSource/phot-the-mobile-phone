@@ -1,12 +1,14 @@
+<% link_missing = @href.nil? || @href.empty? %>
+
 <p class='body text-medium-grey'>
   <%= @label %>
-  <% if @href.nil? || @href.empty? %>
+  <% if link_missing %>
     <span class="text-off-white">
       <%= @credit %>
     </span>
   <% else %>
     <a href="<%= @href %>" class='text-off-white'>
-      <%= @text %>
+      <%= @credit %>
     </a>
   <% end %>
 </p>
