@@ -75,13 +75,13 @@
 }
 
 .button.primary {
-  @apply bg-lime-green text-black rounded-sm px-[15px] py-3 hover:underline hover:opacity-70 active:no-underline  block min-h-[50px] min-w-[190px] w-fit text-center uppercase
+  @apply bg-lime-green text-black rounded-sm px-[15px] py-3 hover:underline hover:opacity-70 active:no-underline  block min-h-[50px] min-w-[190px] w-fit text-center uppercase;
 }
 .button.secondary {
-  @apply text-medium-grey border border-medium-grey rounded-sm px-[15px] py-3 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center uppercase
+  @apply text-medium-grey border border-medium-grey rounded-sm px-[15px] py-3 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center uppercase;
 }
 .button.tertiary {
-  @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase
+  @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase;
 }
 
 [data-controller="carousel"] {
