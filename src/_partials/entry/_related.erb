@@ -10,15 +10,8 @@
       </div>
     </div>
     <div class="swiper-wrapper">
-      <% related_journals.each do |journal| %>  
-        <div class="swiper-slide">
-          <a href="<%= url_for(journal) %>" class="w-full h-full flex flex-col justify-center items-center">
-            <h5 class="highlight">
-              <%= journal.highlight_summary %>
-            </h5>
-            <p class="source">- <%=journal.data.source%>, <%=journal.data.location%></p>
-          </a>
-        </div>
+      <% related_journals.each do |journal| %>
+        <%= render Cards::Journal.new(post: journal) %>
       <% end %>
     </div>
   </div>

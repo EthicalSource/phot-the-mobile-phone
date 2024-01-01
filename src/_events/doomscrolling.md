@@ -2,7 +2,7 @@
 layout: entry
 title: Doomscrolling
 location: Online
-clusters: CULTURE & BEHAVIORS
+clusters: CONNECTION & ACCESS
 tags:
   - 2020s
 thumbnail: /images/uploads/doomscrolling-idea2.gif

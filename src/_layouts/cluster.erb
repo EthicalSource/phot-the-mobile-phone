@@ -3,13 +3,35 @@
   <head>
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
-  <body class="<%= data.layout %> <%= data.page_class %>">
+  <% cluster = data %>
+
+  <% events = PostHelpers.events_by_collection(posts: collections.events.resources, value: cluster.title) %>
+  <% journals = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
+
+  <body class="<%= data.layout %> <%= data.page_class %> bg-dark-grey ">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+    <%= partial "cluster/header", locals: {cluster: cluster, events: []} %>
+    <main class="min-w-[1260px] max-w-[1260px] text-off-white grid grid-cols-3 gap-[30px] mx-auto my-[150px]">
 
-    <main>
-      <%= yield %>
+      <% # Draw the first 4 cards %>
+      <% events.slice!(0,4).each do |event| %>
+        <%= render Cards::Event.new(post: event) %>
+      <% end %>
+
+      <% # Draw the journal card %>
+      <% journals.each do |journal| %>
+        <%= render Cards::Journal.new(post: journal) %>
+      <% end %>
+
+      <% # Draw two more event cards %>
+      <% events.slice(0,2).each do |event| %>
+        <%= render Cards::Event.new(post: event) %>
+      <% end %>
+
+      <% # Draw the prompt card %>
+
+      <% # Draw the take action card %>
     </main>
-
     <%= render "footer", metadata: site.metadata %>
   </body>
 </html>

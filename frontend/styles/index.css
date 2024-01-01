@@ -133,59 +133,9 @@
   margin-right: 2rem !important;
 }
 .swiper-wrapper {
-  @apply h-[320px] md:h-[512px]
+  @apply h-[320px] md:h-[512px] flex;
 }
 
-.swiper-slide {
-  @apply bg-very-black gap-5 p-10
-}
-
-.swiper-slide {
-  display: flex;
-  align-items: center;
-  width: 280px !important;
-  height: 320px !important;
-
-  a {
-    .highlight {
-      @apply heading-xs text-fuchsia text-center mb-4;
-
-      width: 210px;
-      height: 240px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-
-      quotes: "“" "”"; /* Sets the types of quotation marks to use */
-
-      &::before {
-        content: open-quote;
-      }
-      &::after {
-        content: close-quote;
-      }
-    }
-    .source {
-      @apply base text-off-white text-center;
-    }
-  }
-}
-@media (min-width: 768px) {
-  .swiper-slide {
-    width: 400px !important;
-    height: 512px !important;
-
-    a {
-      width: 300px;
-      height: 412px;
-
-      .highlight {
-        @apply heading-sm;
-        width: 300px;
-        height: 412px;
-      }
-    }
-  }
-}
 .category-title-container {
   position: relative;
   text-align: left;
@@ -227,4 +177,60 @@
 }
 .swiper-button-disabled {
   @apply text-dark-grey
+}
+
+.card {
+  @apply w-[400px] min-w-[400px] h-[512px] min-h-[512px] bg-very-black text-base text-off-white;
+
+  .content {
+    @apply w-[300px] h-[412px] max-h-[412px] m-[50px] flex flex-col;
+    text-overflow: ellipsis;
+  }
+  &.event {
+    h2 {
+      @apply heading-xs text-white mb-[20px];
+    }
+    img {
+      @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
+    }
+    .date {
+      @apply text-medium-grey mb-[20px];
+    }
+    p {
+      @apply w-full overflow-hidden;
+    }
+  }
+  &.journal {
+    @apply text-center;
+
+    h5 {
+      @apply heading-sm text-fuchsia mb-5;
+
+      quotes: "“" "”";
+      &::before { content: open-quote }
+      &::after { content: close-quote }
+    }
+    p {
+      @apply base text-off-white;
+    }
+  }
+  &.swiper-slide {
+    /* Should apply to all cards */
+    width: 280px !important;
+    height: 320px !important;
+  }
+  @media (min-width: 768px) {
+    .swiper-slide {
+      width: 400px !important;
+      height: 512px !important;
+    }
+  }
+}
+
+.cluster {
+  .card {
+    &:nth-child(3n+2) {
+      margin-top: -75px;
+    }
+  }
 }

@@ -2,7 +2,7 @@
 layout: entry
 thumbnail: /images/uploads/arab-spring.jpg
 date: 2023-12-21T20:56:03.566Z
-title: Arab Spring
+title: Copy 4
 location: Egypt
 clusters: CONNECTION & ACCESS
 tags:

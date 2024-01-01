@@ -29,7 +29,7 @@ module PostHelpers
 
     posts.select do |journal|
       Bridgetown::Utils.slugify(journal.data.clusters) == Bridgetown::Utils.slugify(value)
-    end
+    end.take(count)
   end
 
   def self.suggested_by(posts:, facet:, value:, count: 2)

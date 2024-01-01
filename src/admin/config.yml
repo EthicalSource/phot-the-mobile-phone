@@ -46,14 +46,6 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
-      - label: "Tags"
-        name: "tags"
-        widget: "relation"
-        collection: "tags"
-        search_fields: [ "name" ]
-        value_field: "name"
-        multiple: true
-        min: 1
       - label: "Related Events"
         name: "related_events"
         widget: "relation"
@@ -62,6 +54,14 @@ collections:
         value_field: "title" # should this be an ID?
         multiple: true
         required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Featured Image"
         name: "thumbnail"
