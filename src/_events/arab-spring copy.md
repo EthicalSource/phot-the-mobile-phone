@@ -1,15 +1,15 @@
 ---
 layout: entry
-thumbnail: /images/uploads/arab-spring.jpg
+thumbnail: /images/uploads/tech-events.jpg
 date: 2023-12-21T20:56:03.566Z
-title: Copy 4
+title: The Big Cheese
 location: Egypt
 clusters: CONNECTION & ACCESS
 tags:
   - 2010s
-media_link: https://www.nytimes.com/2020/04/01/movies/the-uprising.html
-media_credit: Rien à Voir/Third Films
 source: Al Jazeera
 source_link: https://www.aljazeera.com/news/2021/1/14/arab-spring-ten-years-on
+media_credit: Rien à Voir/Third Films
+media_link: https://www.nytimes.com/2020/04/01/movies/the-uprising.html
 ---
-Mobile phones were essential tools for activists to organize demonstrations and disseminate information. Tunisia, Egypt, Libya, Yemen, and other countries saw rulers deposed or major disruptions, with cellphones playing a significant part. In Egypt, images and videos from Tahrir Square, largely captured on smartphones, garnered global attention.
+The big cheese gouda cauliflower cheese. Cottage cheese airedale cream cheese goat hard cheese everyone loves manchego lancashire. Everyone loves pepper jack ricotta when the cheese comes out everybody's happy croque monsieur camembert de normandie boursin fondue.

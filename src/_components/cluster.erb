@@ -1,8 +1,8 @@
 <%= partial "landing/prompt" %>
-<%= partial "landing/category-entry", locals: { cluster: @cluster.data, collection: @collection, event: @events.first } %>
+<%= partial "landing/category-entry", locals: { cluster: @cluster.data, collection: @collection, event: @events.slice!(0,1).first } %>
 <% if @journals.any? %>
   <%= partial "landing/quote-entry", locals: { journal: @journals.first } %>
 <% end %>
-<%= partial "landing/double-entry" %>
+<%= partial "landing/double-entry", locals: { events: @events.slice!(0,2) } %>
 <%= partial "landing/tell-your-story" %>
 <%= partial "landing/take-action" %>
