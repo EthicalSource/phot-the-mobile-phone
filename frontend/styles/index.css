@@ -209,13 +209,31 @@
 
     h2 {
       @apply heading-sm text-fuchsia mb-5;
-
+      margin-top: auto;
       quotes: "“" "”";
       &::before { content: open-quote }
       &::after { content: close-quote }
     }
     p {
       @apply base text-off-white;
+      margin-bottom: auto;
+    }
+  }
+  &.prompt {
+    h2 {
+      @apply heading-sm text-lime-green mb-5;
+    }
+    a:not(.button) {
+      display: block;
+      margin-top: auto;
+    }
+    a.button.tertiary {
+      @apply text-medium-grey border-medium-grey;
+      margin-bottom: auto;
+
+      &:hover {
+        @apply text-lime-green border-lime-green;
+      }
     }
   }
   &.swiper-slide {

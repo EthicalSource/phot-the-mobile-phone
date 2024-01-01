@@ -29,6 +29,9 @@
       <% end %>
 
       <% # Draw the prompt card %>
+      <% journals.each do |prompt| %>
+        <%= render Cards::Prompt.new(post: prompt) %>
+      <% end %>
 
       <% # Draw the take action card %>
       <% events.slice(0,1).each do |event| %>
