@@ -256,3 +256,7 @@
     }
   }
 }
+
+.hero-image {
+  @apply bg-cover bg-center w-[454px] h-[454px];
+}

@@ -1,5 +1,5 @@
 <%= partial "landing/prompt" %>
-<%= partial "landing/category-entry", locals: { cluster: @cluster, collection: @collection, event: @events.first } %>
+<%= partial "landing/category-entry", locals: { cluster: @cluster.data, collection: @collection, event: @events.first } %>
 <% if @journals.any? %>
   <%= partial "landing/quote-entry", locals: { journal: @journals.first } %>
 <% end %>
