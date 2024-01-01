@@ -186,24 +186,28 @@
     @apply w-[300px] h-[412px] max-h-[412px] m-[50px] flex flex-col;
     text-overflow: ellipsis;
   }
+  img {
+    @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
+  }
+  .subhead {
+    @apply text-medium-grey mb-[20px];
+  }
+  p {
+    @apply w-full overflow-hidden;
+  }
+  h2 {
+    @apply heading-xs mb-[20px];
+  }
   &.event {
-    h2 {
-      @apply heading-xs text-white mb-[20px];
-    }
-    img {
-      @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
-    }
-    .date {
-      @apply text-medium-grey mb-[20px];
-    }
-    p {
-      @apply w-full overflow-hidden;
-    }
+    h2 { @apply text-white;}
+  }
+  &.take-action {
+    h2 { @apply text-blue;}
   }
   &.journal {
     @apply text-center;
 
-    h5 {
+    h2 {
       @apply heading-sm text-fuchsia mb-5;
 
       quotes: "“" "”";

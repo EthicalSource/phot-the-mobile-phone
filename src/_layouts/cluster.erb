@@ -31,6 +31,10 @@
       <% # Draw the prompt card %>
 
       <% # Draw the take action card %>
+      <% events.slice(0,1).each do |event| %>
+        <% # TODO: Select TakeAction items not an event %>
+        <%= render Cards::TakeAction.new(post: event) %>
+      <% end %>
     </main>
     <%= render "footer", metadata: site.metadata %>
   </body>
