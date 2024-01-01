@@ -249,14 +249,26 @@
   }
 }
 
-.cluster {
+
+.cluster { /* layout */
   .card {
     &:nth-child(3n+2) {
       margin-top: -75px;
     }
+  }
+  .poster {
+    @apply w-[300px];
+
+    .cover {
+      @apply bg-cover bg-center h-[430px] w-[300px] mb-[30px];
+      border-radius: 5% 5% 5% 0;
+    }
+    h2 { @apply heading-xxs text-medium-black mb-[26px] }
+    p { @apply text-base text-dark-grey }
   }
 }
 
 .hero-image {
   @apply bg-cover bg-center w-[454px] h-[454px];
 }
+

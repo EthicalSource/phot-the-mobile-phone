@@ -39,6 +39,11 @@
         <%= render Cards::TakeAction.new(post: event) %>
       <% end %>
     </main>
+    <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+      <% collections.clusters.resources.each do |cluster| %>
+        <%= render Poster::Cluster.new(cluster: cluster) %>
+      <% end %>
+    <% end %>
     <%= render "footer", metadata: site.metadata %>
   </body>
 </html>
