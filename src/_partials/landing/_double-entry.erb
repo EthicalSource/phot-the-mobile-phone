@@ -5,9 +5,11 @@
       <div class="bg-cover bg-center md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
       <div class="w-full md:w-1/2 sm:text-right md:mt-[50px]">
         <p class="meta text-dark-grey mb-[20px]">2013</p>
-        <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
+        <a href="<%= url_for(event) %>">
+          <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
+        </a>
         <p class="base mb-[25px]"><%= event.content_summary %></p>
-        <button class="p-1 px-4 border border-solid-black">risk and safety</button>
+        <button class="p-1 px-4 border border-solid-black lowercase"><%= event.data.clusters %></button>
       </div>
     </div>
   </div>
@@ -19,7 +21,7 @@
         <p class="meta text-dark-grey mb-[20px]">2013</p>
         <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
         <p class="base"><%= event.content_summary %></p>
-        <button class="p-1 px-4 border border-solid-black mt-[25px]">risk and safety</button>
+        <button class="p-1 px-4 border border-solid-black mt-[25px] lowercase"><%= event.data.clusters %></button>
       </div>
     </div>
   </div>
