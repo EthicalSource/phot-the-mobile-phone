@@ -5,6 +5,7 @@
   </head>
   <% cluster = data %>
 
+  <% other_clusters = PostHelpers.other_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
   <% events = PostHelpers.events_by_collection(posts: collections.events.resources, value: cluster.title) %>
   <% journals = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
 
@@ -40,7 +41,7 @@
       <% end %>
     </main>
     <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
-      <% collections.clusters.resources.each do |cluster| %>
+      <% other_clusters.each do |cluster| %>
         <%= render Poster::Cluster.new(cluster: cluster) %>
       <% end %>
     <% end %>
