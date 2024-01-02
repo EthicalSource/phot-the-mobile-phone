@@ -1,6 +1,11 @@
 ---
 layout: entry
-thumbnail: /images/uploads/first_mobile-phone-call.png
+start_date:
+  year: 1973
+media:
+  thumbnail: /images/uploads/first_mobile-phone-call.png
+  alt: Guy holding a phone
+  credit: Dolph Lundgren
 outbound_links: >+
   [Wikipedia: Mobile phone](https://en.wikipedia.org/wiki/Mobile_phone)
 
@@ -18,7 +23,7 @@ tags:
   - 1970s
 source: The Atlantic
 source_link: https://www.theatlantic.com/technology/archive/2013/04/the-first-mobile-phone-call-was-made-40-years-ago-today/274611/
-media_credit: AP
-media_link: https://apnews.com
 ---
-Neque ipsum urna molestie ultricies risus vitae, ipsum tristique urna a non nibh ultricies, ut dictum purus ullamcorper sagittis amet, adipiscing inceptos etiam scelerisque diam. Feugiat senectus iaculis sodales iaculis netus augue potenti interdum feugiat, dictum quis molestie magna vitae ut pretium aenean magna non, orci iaculis sociosqu inceptos vulputate ut tempus elementum. Elit quisque accumsan convallis adipiscing vestibulum aliquet interdum non sagittis porttitor, viverra mollis sagittis consectetur morbi praesent iaculis aenean varius, non tristique ligula feugiat ultricies molestie nunc taciti dapibus.[](https://en.wikipedia.org/wiki/Arab_Spring)
+The first portable cell phone was invented in 1973 by Motorola. On April 3, 1973, Motorola engineer Martin Cooper made the first-ever cell phone call on the DynaTAC 8000X. The prototype he used weighed 2.4 lb (1.1 kg)  and measured 9.1 x 5.1 x 1.8 in (23 x 13 x 4.5 cm). This clunky device offered a talk time of just 30 minutes and required 10 hours to recharge. Before this, owning a car phone was the closest that one could get to not being tied to a landline. 
+
+The DynaTAC phone was priced at $3,995, equivalent to $10,000 today.[](https://en.wikipedia.org/wiki/Arab_Spring)
