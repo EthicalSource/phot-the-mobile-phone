@@ -97,6 +97,7 @@
 
   & .navigation {
     @apply text-fuchsia heading-xxs flex gap-x-5 my-auto;
+    margin-right: 1rem !important;
 
     [data-carousel-target="prev"] {
       &::before {
@@ -130,7 +131,7 @@
 }
 .swiper {
   margin-left: auto !important;
-  margin-right: 2rem !important;
+  margin-right: 0px !important;
 }
 .swiper-wrapper {
   @apply h-[320px] md:h-[512px] flex;
@@ -269,4 +270,46 @@
 
 .hero-image {
   @apply bg-cover bg-center w-[260px] h-[260px] md:w-[454px] md:h-[454px] mx-auto;
+}
+
+
+/* Ticker section */
+
+@keyframes ticker {
+  0% {
+    transform: translate3d(25%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-25%, 0, 0);
+  }
+}
+.ticker-wrap {
+  overflow: hidden;
+  height: 100%;
+}
+.ticker-wrap .ticker {
+  display: flex;
+  gap: 8px;
+  transform: translate3d(25%, 0, 0);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  white-space: nowrap;
+  animation-name: ticker;
+  animation-duration: 30s;
+}
+
+.ticker ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ticker .ticker-bullet {
+  line-height: 100%;
+  align-self: flex-end;
+}
+
+.ticker-bullet {
+  padding-left: 8px;
+  padding-right: 8px;
 }
