@@ -40,6 +40,12 @@ module PostHelpers
     end.take(count)
   end
 
+  def self.featured_collections(posts:, count: 11)
+    posts.select do |collection|
+      collection.data.feature
+    end.take(count)
+  end
+
   def self.other_collections(posts:, value:, count: 11)
     return [] if value.nil?
 

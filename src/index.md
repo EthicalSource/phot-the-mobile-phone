@@ -5,7 +5,8 @@
 
 <%= partial "landing/header" %>
 <main class="min-w-[260px] max-w-[260px] md:min-w-[1550px] md:max-w-[1550px] mx-auto mt-[40px]">
-  <% clusters.each do |cluster| %>
+  <% PostHelpers.featured_collections(posts: clusters).each do |cluster| %>
     <%= render Cluster.new(site: site, cluster: cluster) %>
   <% end %>
+
 </main>

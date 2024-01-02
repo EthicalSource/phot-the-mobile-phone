@@ -17,6 +17,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Feature", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
       - { label: "Intro", name: "intro", widget: "markdown" }
       - label: "Hero Image"
         name: "hero"
