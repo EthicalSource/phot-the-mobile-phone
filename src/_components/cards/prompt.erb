@@ -2,7 +2,7 @@
   <a href="<%= @link %>">
     <div class="content">
       <h2>
-        Describe any boundaries you set with your phone, or phone usage.
+        <%= @prompt.question %>
       </h2>
       <%= render Shared::Button.new(text: "Tell Your Story", href: @link, type: :secondary) %>
     </div>

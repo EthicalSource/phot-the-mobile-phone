@@ -8,6 +8,7 @@
   <% other_clusters = PostHelpers.other_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
   <% events = PostHelpers.events_by_collection(posts: collections.events.resources, value: cluster.title) %>
   <% journals = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
+  <% prompts = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title) %>
 
   <body class="<%= data.layout %> <%= data.page_class %> bg-dark-grey ">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
@@ -30,7 +31,7 @@
       <% end %>
 
       <% # Draw the prompt card %>
-      <% journals.each do |prompt| %>
+      <% prompts.each do |prompt| %>
         <%= render Cards::Prompt.new(post: prompt) %>
       <% end %>
 
