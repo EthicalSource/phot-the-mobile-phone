@@ -307,3 +307,8 @@
   line-height: 100%;
   align-self: flex-end;
 }
+
+.ticker-bullet {
+  padding-left: 8px;
+  padding-right: 8px;
+}
