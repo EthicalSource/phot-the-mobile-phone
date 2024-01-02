@@ -227,8 +227,7 @@
       display: block;
       margin-top: auto;
     }
-    a.button.tertiary {
-      @apply text-medium-grey border-medium-grey;
+    a.button {
       margin-bottom: auto;
 
       &:hover {
