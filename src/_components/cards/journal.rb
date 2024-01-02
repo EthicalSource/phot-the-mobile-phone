@@ -10,6 +10,6 @@ class Cards::Journal < Bridgetown::Component
   def source
     return "Anonymous" if @journal.source.nil?
     return @journal.source if @journal.location.empty?
-    "#{@journal.source}, #{@journal.location}"
+    "– #{@journal.source}, #{@journal.location}"
   end
 end
