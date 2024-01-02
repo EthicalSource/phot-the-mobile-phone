@@ -1,0 +1,6 @@
+<section class="tell-your-story relative bg-medium-black text-white w-full flex justify-center items-center">
+  <div class="flex flex-col items-center mt-[200px] mb-[200px] sm:mt-[140px] mb-[140px]">
+    <h2 class="heading-xxxl text-center mb-[80px]">Tell Your Story</h2>
+    <button class="text-lime-green border border-lime-green base rounded-[2px] uppercase px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3"><a>Particpate here</a></button>
+  </div>
+</section>
