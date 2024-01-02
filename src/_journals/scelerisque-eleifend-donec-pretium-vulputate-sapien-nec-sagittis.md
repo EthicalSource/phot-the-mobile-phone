@@ -1,9 +1,10 @@
 ---
 layout: entry
-title: Scelerisque eleifend donec pretium vulputate sapien nec sagittis
-highlight: Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt
+title: 2 Scelerisque eleifend donec pretium vulputate sapien nec sagittis
+highlight: 2 Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt
   ornare massa
 location: Wales, UK
+clusters: CONNECTION & ACCESS
 tags:
   - Connection & Access
 related_events:

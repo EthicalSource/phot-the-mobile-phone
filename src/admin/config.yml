@@ -9,6 +9,21 @@ media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "clusters" # Collections is a reserved word
+    label: "Collections"
+    folder: "src/_clusters"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Feature", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
+      - { label: "Intro", name: "intro", widget: "markdown" }
+      - label: "Hero Image"
+        name: "hero"
+        widget: "image"
+        required: false
+
   - name: "journals"
     label: "Journal"
     folder: "src/_journals"
@@ -25,14 +40,13 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
-      - label: "Tags"
-        name: "tags"
+      - label: "Collection"
+        name: "clusters"
         widget: "relation"
-        collection: "tags"
-        search_fields: [ "name" ]
-        value_field: "name"
-        multiple: true
-        min: 1
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
       - label: "Related Events"
         name: "related_events"
         widget: "relation"
@@ -41,6 +55,14 @@ collections:
         value_field: "title" # should this be an ID?
         multiple: true
         required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Featured Image"
         name: "thumbnail"
@@ -79,6 +101,13 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
       - label: "Tags"
         name: "tags"
         widget: "relation"
@@ -111,6 +140,21 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+
+  - name: "prompts"
+    label: "Prompts"
+    slug: "{{question}}"
+    folder: "src/_prompts"
+    create: true
+    fields:
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
+      - { label: "Question", name: "question", widget: "string" }
 
   - name: "tags"
     label: "Tags"

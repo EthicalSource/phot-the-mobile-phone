@@ -1,9 +1,10 @@
 ---
 layout: entry
-title: Connectivity is always in jeopardy.
-highlight: Connectivity is always in jeopardy... It is not something to be
+title: 2 Connectivity is always in jeopardy.
+highlight: 2 Connectivity is always in jeopardy... It is not something to be
   assumed at any point.
 location: California
+clusters: CONNECTION & ACCESS
 tags:
   - Connection & Access
 related_events:

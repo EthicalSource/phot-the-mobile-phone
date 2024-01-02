@@ -1,0 +1,14 @@
+<section data-controller="carousel">
+  <div class="swiper carousel">
+    <div class="header">
+      <h4><%= @header_text %></h4>
+      <div class="navigation">
+        <button data-carousel-target="prev">Prev</button>
+        <button data-carousel-target="next">Next</button>
+      </div>
+    </div>
+    <div class="swiper-wrapper">
+      <%= content %>
+    </div>
+  </div>
+</section>

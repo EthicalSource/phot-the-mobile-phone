@@ -1,23 +1,35 @@
+<% event = events.shift %>
 <div class="w-full flex gap-[100px] sm:flex-wrap">
-  <div class="w-full md:w-[725px] flex justify-start mt-[160px]">
-    <div class="flex gap-[50px]">
-      <img class="h-60" src="./images/eric_snowden.jpeg"/>
-      <div class="w-full md:w-1/2 sm:text-right">
+  <div class="w-full md:w-[725px] flex justify-start md:mt-[160px]">
+    <div class="flex flex-col-reverse md:flex-row md:gap-[50px] sm:items-end">
+      <button class="md:hidden p-1 px-4 border border-solid-black lowercase mt-[16px]"><%= event.data.clusters %></button>
+      <a href="<%= url_for(event) %>">
+        <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
+      </a>
+      <div class="w-full md:w-1/2 sm:text-right md:mt-[50px]">
         <p class="meta text-dark-grey mb-[20px]">2013</p>
-        <h3 class="heading-sm text-medium-black mb-[26px]">Snowdan Revelations</h3>
-        <p class="base mb-[25px]">Disclosures revealed numerous global surveillance programs, many run by the NSA and the Five Eyes intelligence alliance with the coopertion of telecommunciation companies and European governments and prompted a cultural discussion about national secruity and indvidual privacy</p>
-        <button class="p-1 px-4 border border-solid-black">risk and safety</button>
+        <a href="<%= url_for(event) %>">
+          <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
+        </a>
+        <p class="base mb-[25px]"><%= event.content_summary %></p>
+        <button class="sm:hidden p-1 px-4 border border-solid-black lowercase"><%= event.data.clusters %></button>
       </div>
     </div>
   </div>
+  <% event = events.shift %>
   <div class="w-full md:w-[725px] flex justify-start">
-    <div class="flex gap-[50px] sm:flex-wrap-reverse">
-      <img class="h-60" src="./images/eric_snowden.jpeg"/>
-      <div class="w-full md:w-1/2 sm:text-right">
+    <div class="flex md:gap-[50px] sm:flex-col-reverse sm:items-start">
+      <button class="md:hidden p-1 px-4 border border-solid-black lowercase mt-[16px]"><%= event.data.clusters %></button>
+      <a href="<%= url_for(event) %>">
+        <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
+      </a>
+      <div class="w-full md:w-1/2 sm:text-left md:mt-[50px]">
         <p class="meta text-dark-grey mb-[20px]">2013</p>
-        <h3 class="heading-sm text-medium-black mb-[26px]">Snowdan Revelations</h3>
-        <p class="base">Disclosures revealed numerous global surveillance programs, many run by the NSA and the Five Eyes intelligence alliance with the coopertion of telecommunciation companies and European governments and prompted a cultural discussion about national secruity and indvidual privacy</p>
-        <button class="p-1 px-4 border border-solid-black mt-[25px]">risk and safety</button>
+        <a href="<%= url_for(event) %>">
+          <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
+        </a>
+        <p class="base"><%= event.content_summary %></p>
+        <button class="sm:hidden p-1 px-4 border border-solid-black mt-[25px] lowercase"><%= event.data.clusters %></button>
       </div>
     </div>
   </div>

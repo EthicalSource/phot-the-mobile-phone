@@ -4,6 +4,7 @@ title: The digital divide doesn't stop at deliverying access to the network.
 highlight: "Even if you have a network that's up and running, there's fears of
   safety, data privacy, data sovereignty "
 location: Diné
+clusters: CONNECTION & ACCESS
 tags:
   - 2020s
   - Connection & Access

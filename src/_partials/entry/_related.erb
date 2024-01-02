@@ -1,25 +1,7 @@
 <% related_journals = PostHelpers.suggested_posts_by_tags(post: event.data, posts: site.collections.journals.resources, count_per_facet: 6) %>
 
-<section data-controller="carousel">
-  <div class="swiper carousel">
-    <div class="header">
-      <h4>Explore More</h4>
-      <div class="navigation">
-        <button data-carousel-target="prev">Prev</button>
-        <button data-carousel-target="next">Next</button>
-      </div>
-    </div>
-    <div class="swiper-wrapper">
-      <% related_journals.each do |journal| %>  
-        <div class="swiper-slide">
-          <a href="<%= url_for(journal) %>" class="w-full h-full flex flex-col justify-center items-center">
-            <h5 class="highlight">
-              <%= journal.highlight_summary %>
-            </h5>
-            <p class="source">- <%=journal.data.source%>, <%=journal.data.location%></p>
-          </a>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</section>
+<%= render Shared::Carousel.new do %>
+  <% related_journals.each do |journal| %>
+    <%= render Cards::Journal.new(post: journal) %>
+  <% end %>
+<% end %>

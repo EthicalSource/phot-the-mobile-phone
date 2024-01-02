@@ -1,9 +1,9 @@
-<div class="flex gap-[100px]">
+<div class="flex md:gap-[100px] sm:my-[100px]">
   <div class="hidden md:flex md:w-[725px]"></div>
-  <div class="w-full md:w-[725px] flex justify-start">
-    <div class="md:w-[500px]">
-      <p class="heading-sm mb-[26px]">Tell me about a time when you felt vulnerable because of your mobile phone</p>
-      <%= render Shared::Button.new(text: "Tell your story", href: "#") %>
+  <div class="w-full md:w-[725px] flex md:justify-start">
+    <div class="sm:flex sm:flex-col sm:items-end md:w-[500px] sm:text-right sm:">
+      <p class="heading-sm mb-[26px]"><%= prompt.data.question %></p>
+      <%= render Shared::Button.new(text: "Tell your story", href: url_for(prompt)) %>
     </div>
   </div>
 </div>

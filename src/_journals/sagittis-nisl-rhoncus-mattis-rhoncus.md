@@ -1,8 +1,9 @@
 ---
 layout: entry
-title: Sagittis nisl rhoncus mattis rhoncus
-highlight: "Tellus at urna condimentum mattis "
+title: 2 Sagittis nisl rhoncus mattis rhoncus
+highlight: 2 Tellus at urna condimentum mattis
 location: Nairobi, Kenya
+clusters: CONNECTION & ACCESS
 tags:
   - Connection & Access
 related_events:
