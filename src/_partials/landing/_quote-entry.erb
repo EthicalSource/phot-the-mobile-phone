@@ -1,14 +1,12 @@
 <% if journal %>
   <div class="w-full my-[100px] md:my-[90px]">
-    <div class="w-1/2 flex justify-end items-center sm:w-full">
+    <div class="w-full md:w-1/2 flex justify-end items-center">
       <div class="quote-content flex flex-col justify-center">
-        <p class="heading-sm text-fuchsia text-left md:text-center mb-[20px]">
+        <h2 class="heading-sm text-fuchsia text-left md:text-center mb-[20px]">
           <%= journal.highlight_summary(length: 110) %>
-        </p>
-        <p class="text-left md:text-center mb-[26px]">- <%=journal.data.source%>, <%=journal.data.location%></p>
-        <p class="text-left md:text-center">
-          <button class="w-fit p-1 px-4 border border-solid-black">people's voice</button>
-        </p>
+        </h2>
+        <p class="text-left md:text-center mb-[26px]">– <%=journal.data.source%>, <%=journal.data.location%></p>
+        <button class="w-fit p-1 px-4 border border-solid-black">people's voice</button>
       </div>
     </div>
   </div>

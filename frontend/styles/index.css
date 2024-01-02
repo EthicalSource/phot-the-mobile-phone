@@ -157,7 +157,7 @@
 
   position: absolute;
   top: 275px;
-  left: -5%;
+  left: -8%;
   transform: rotate(270deg);
   transform-origin: left top;
   z-index: 2;
@@ -269,6 +269,5 @@
 }
 
 .hero-image {
-  @apply bg-cover bg-center w-[454px] h-[454px];
+  @apply bg-cover bg-center w-[260px] h-[260px] md:w-[454px] md:h-[454px] mx-auto;
 }
-

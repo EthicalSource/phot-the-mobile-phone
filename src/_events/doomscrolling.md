@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Doomscrolling
+title: Doom-scrolling
 location: Online
 clusters: CONNECTION & ACCESS
 tags:
