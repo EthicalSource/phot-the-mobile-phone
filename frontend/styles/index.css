@@ -270,3 +270,40 @@
 .hero-image {
   @apply bg-cover bg-center w-[260px] h-[260px] md:w-[454px] md:h-[454px] mx-auto;
 }
+
+
+/* Ticker section */
+
+@keyframes ticker {
+  0% {
+    transform: translate3d(25%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-25%, 0, 0);
+  }
+}
+.ticker-wrap {
+  overflow: hidden;
+  height: 100%;
+}
+.ticker-wrap .ticker {
+  display: flex;
+  gap: 8px;
+  transform: translate3d(25%, 0, 0);
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  white-space: nowrap;
+  animation-name: ticker;
+  animation-duration: 30s;
+}
+
+.ticker ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ticker .ticker-bullet {
+  line-height: 100%;
+  align-self: flex-end;
+}
