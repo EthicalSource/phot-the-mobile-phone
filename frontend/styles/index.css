@@ -97,6 +97,7 @@
 
   & .navigation {
     @apply text-fuchsia heading-xxs flex gap-x-5 my-auto;
+    margin-right: 1rem !important;
 
     [data-carousel-target="prev"] {
       &::before {
@@ -130,7 +131,7 @@
 }
 .swiper {
   margin-left: auto !important;
-  margin-right: 2rem !important;
+  margin-right: 0px !important;
 }
 .swiper-wrapper {
   @apply h-[320px] md:h-[512px] flex;
