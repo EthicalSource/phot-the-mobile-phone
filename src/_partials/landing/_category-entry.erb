@@ -3,23 +3,29 @@
 
 <div class="w-full flex-wrap md:flex gap-[100px] mb-[60px]">
   <div class="w-full h-fit md:w-[725px] flex justify-center mb-[80px] md:mb-[200px]">
-    <div class="category-title-container">
-      <div class="hero-image" style="background-image: url(<%= relative_url cluster.hero %>)"></div>
-      <div class="category-title"><%= collection %></div>
-      <div class="category-title glow"><%= collection %></div>
-    </div>
+    <a href="<%= url_for(cluster) %>">
+      <div class="category-title-container">
+        <div class="hero-image" style="background-image: url(<%= relative_url cluster.data.hero %>)"></div>
+        <div class="category-title"><%= collection %></div>
+        <div class="category-title glow"><%= collection %></div>
+      </div>
+    </a>
   </div>
   <div class="w-full md:w-[725px] flex justify-start mt-0 md:mt-[160px]">
     <div class="flex gap-[16px] md:gap-[50px] sm:flex-col-reverse sm:items-end">
-      <button class="w-fit md:hidden p-1 px-4 border border-solid-black"><%= collection %></button>
-      <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
+      <a  class="w-fit md:hidden p-1 px-4 border border-solid-black"><%= collection %>ff</a>
+      <a href="<%= url_for(event) %>">
+        <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
+      </a>
       <div class="w-full md:w-1/2 sm:text-right mt-[26px] md:mt-[50px]">
         <p class="meta text-dark-grey mb-[20px]">2013</p>
-        <h3 class="heading-sm text-medium-black mb-[26px]"><%= title %></h3>
+        <a href="<%= url_for(event) %>">
+          <h3 class="heading-sm text-medium-black mb-[26px]"><%= title %></h3>
+        </a>
         <p class="base">
           <%= content %>
         </p>
-        <button class="p-1 px-4 border border-solid-black mt-[25px] sm:hidden"><%= collection %></button>
+        <a href="<%= url_for(cluster) %>" class="p-1 px-4 border border-solid-black mt-[25px] sm:hidden md:block md:w-fit"><%= collection %></a>
       </div>
     </div>
   </div>
