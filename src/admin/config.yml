@@ -18,7 +18,22 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Feature", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
-      - { label: "Intro", name: "intro", widget: "markdown" }
+      - label: "Highlight"
+        name: "highlight"
+        widget: "string"
+        hint: 85 characters max
+        pattern: ['.*{0,85}', "Must be 85 characters or less"]
+        required: true
+      - label: "Carousel Description"
+        name: "carousel_description"
+        widget: "string"
+        hint: 110 characters max
+        pattern: ['.*{0,110}', "Must be 110 characters or less"]
+        required: true
+      - label: "Intro"
+        name: "intro"
+        widget: "markdown"
+        required: true
       - label: "Hero Image"
         name: "hero"
         widget: "image"
