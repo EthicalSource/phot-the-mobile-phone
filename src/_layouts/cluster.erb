@@ -46,6 +46,7 @@
         <%= render Poster::Cluster.new(cluster: cluster) %>
       <% end %>
     <% end %>
+    <%= partial "shared/tell-your-story" %>
     <%= render "footer", metadata: site.metadata %>
   </body>
 </html>
