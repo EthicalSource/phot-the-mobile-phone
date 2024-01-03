@@ -8,5 +8,5 @@ carousel_description: Tech acts simultaneously as an instrument and a focus in
 intro: Technology is a dual-edged entity, serving not only as a tool
   facilitating collective action but also as a target for such actions,
   reflecting its pivotal role in societal change and group movements.
-hero: /images/uploads/revere6-1-768x432.webp
+hero: /images/uploads/screenshot-2024-01-03-at-9.08.30 am.png
 ---
