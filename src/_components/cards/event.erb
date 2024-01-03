@@ -2,7 +2,7 @@
   <%= link_to @link do %>
     <div class="content">
       <img src="<%= relative_url @event.media&.thumbnail %>" alt="<%= @event.media&.alt %>" />
-      <div class="subhead"><%= @event.start_date&.year %></div>
+      <time><%= @event.start_date&.year %></time>
       <h2><%= @event.title %></h2>
       <p><%= @content %></p>
     </div>
