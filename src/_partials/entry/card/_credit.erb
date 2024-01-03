@@ -1,5 +1,5 @@
 <aside class="mb-[50px]">
-  <h3 class="heading-xxs">2010, <%= data.location %></h3>
-  <%= render Shared::Credit.new(label: "Media", credit: data.media_credit, href: data.media_link) %>
+  <h3 class="heading-xxs"><%= data.start_date&.year %>, <%= data.location %></h3>
+  <%= render Shared::Credit.new(label: "Media", credit: data.media&.credit, href: data.media&.link) %>
   <%= render Shared::Credit.new(label: "Source", credit: data.source, href: data.source_link) %>
 </aside>
