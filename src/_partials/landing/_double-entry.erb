@@ -22,10 +22,10 @@
       <div class="flex md:gap-[50px] sm:flex-col-reverse sm:items-start">
         <button class="md:hidden p-1 px-4 border border-solid-black lowercase mt-[16px]"><%= event.data.clusters %></button>
         <a href="<%= url_for(event) %>">
-          <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
+          <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.media&.thumbnail %>)"></div>
         </a>
         <div class="w-full md:w-1/2 sm:text-left md:mt-[50px]">
-          <p class="meta text-dark-grey mb-[20px]">2013</p>
+          <p class="meta text-dark-grey mb-[20px]"><time><%= event.data.start_date&.year %></time></p>
           <a href="<%= url_for(event) %>">
             <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
           </a>

@@ -190,7 +190,7 @@
   img {
     @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
   }
-  .subhead {
+  time {
     @apply text-medium-grey mb-[20px];
   }
   p {
