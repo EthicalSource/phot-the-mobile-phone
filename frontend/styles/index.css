@@ -1,57 +1,16 @@
 /* If you need to add @import statements, do so up here */
+@import "./shared/buttons.css";
+@import "./shared/carousel.css";
+@import "./shared/typography.css";
 
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 /* Set up Tailwind imports */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: 'Montserrat', sans-serif;
-}
 
-.heading-xxxl {
-  @apply text-[72px]/[72px] font-semibold capitalize tracking-tight md:text-[180px]/[170px]
-}
-.heading-xxl {
-  @apply text-[90px]/[94px] font-semibold capitalize tracking-tight
-}
-.heading-xl {
-  @apply text-[20px]/[24px] md:text-[72px]/[78px]
-}
-.heading-lg {
-  @apply text-4xl/[30px] md:text-[56px]/[50px] font-bold uppercase
-}
-.heading-md {
-  @apply text-4xl/10 md:text-[40px]/[46px]
-}
-.heading-sm {
-  @apply text-4xl/10 tracking-widest font-bold
-}
-.heading-sm-alt {
-  @apply text-4xl/10
-}
-.heading-xs {
-  @apply text-2xl/7 tracking-widest font-medium
-}
-.heading-xs-alt {
-  @apply text-2xl/7
-}
-.heading-xxs {
-  @apply text-xl/6 font-semibold capitalize
-}
-.body {
-  @apply text-[17px]/[26px]
-}
-.base {
-  @apply text-base/6
-}
-.meta {
-  @apply text-base/5 lowercase
-}
-
-.card_links {
+.outbound {
   aside {
     flex: flex-col;
     > *:not(p) { display: none !important }
@@ -72,69 +31,6 @@
       vertical-align: sub;
     }
   }
-}
-
-.button.primary {
-  @apply bg-lime-green text-black rounded-sm px-[15px] py-3 hover:underline hover:opacity-70 active:no-underline  block min-h-[50px] min-w-[190px] w-fit text-center uppercase;
-}
-.button.secondary {
-  @apply text-medium-grey border border-medium-grey rounded-sm px-[15px] py-3 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center uppercase;
-}
-.button.tertiary {
-  @apply text-lime-green border border-lime-green rounded-sm px-5 hover:text-lime-green hover:border-lime-green hover:underline hover:opacity-70 active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase;
-}
-
-[data-controller="carousel"] {
-  @apply bg-off-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black;
-}
-
-.carousel {
-  width: 85%;
-
-  & .header {
-    @apply flex w-full justify-between heading-xs mb-[30px];
-  }
-
-  & .navigation {
-    @apply text-fuchsia heading-xxs flex gap-x-5 my-auto;
-    margin-right: 1rem !important;
-
-    [data-carousel-target="prev"] {
-      &::before {
-        content: "";
-        background-color: currentColor;
-        display: inline-block;
-        mask: url('/images/shared/arrow_back_icon.svg') no-repeat 50% 50%;
-        mask-size: contain;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        margin-right: 4px;
-        vertical-align: sub;
-      }
-    }
-    [data-carousel-target="next"] {
-      &::after {
-        content: "";
-        background-color: currentColor;
-        display: inline-block;
-        mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
-        mask-size: contain;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        margin-left: 4px;
-        vertical-align: sub;
-      }
-    }
-  }
-}
-.swiper {
-  margin-left: auto !important;
-  margin-right: 0px !important;
-}
-.swiper-wrapper {
-  @apply h-[320px] md:h-[512px] flex;
 }
 
 .category-title-container {
@@ -175,9 +71,6 @@
     top: 484px;
     left: -15%;
   }
-}
-.swiper-button-disabled {
-  @apply text-dark-grey
 }
 
 .card {
@@ -237,15 +130,10 @@
     }
   }
   &.swiper-slide {
-    /* Should apply to all cards */
-    width: 280px !important;
-    height: 320px !important;
-  }
-  @media (min-width: 768px) {
-    .swiper-slide {
-      width: 400px !important;
-      height: 512px !important;
-    }
+    @apply w-[280px] !important;
+    @apply h-[320px] !important;
+    @apply md:w-[400px] !important;
+    @apply md:h-[512px] !important;
   }
 }
 

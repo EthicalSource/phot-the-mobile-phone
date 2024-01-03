@@ -1,0 +1,55 @@
+[data-controller="carousel"] {
+  @apply bg-off-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black;
+}
+
+.carousel {
+  width: 85%;
+
+  & .header {
+    @apply flex w-full justify-between heading-xs mb-[30px];
+  }
+
+  & .navigation {
+    @apply text-fuchsia heading-xxs flex gap-x-5 my-auto;
+    margin-right: 1rem !important;
+
+    [data-carousel-target="prev"] {
+      &::before {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_back_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+        vertical-align: sub;
+      }
+    }
+    [data-carousel-target="next"] {
+      &::after {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 4px;
+        vertical-align: sub;
+      }
+    }
+  }
+}
+.swiper {
+  margin-left: auto !important;
+  margin-right: 0px !important;
+}
+.swiper-wrapper {
+  @apply h-[320px] md:h-[512px] flex;
+}
+.swiper-button-disabled {
+  @apply text-dark-grey
+}

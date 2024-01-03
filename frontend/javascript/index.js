@@ -1,5 +1,4 @@
 import "$styles/index.css"
-import "$styles/syntax-highlighting.css"
 import { Application } from "@hotwired/stimulus"
 
 // Import all JavaScript & CSS files from src/_components
