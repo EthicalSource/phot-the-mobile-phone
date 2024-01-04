@@ -77,11 +77,21 @@
   @apply w-[400px] min-w-[400px] h-[512px] min-h-[512px] bg-very-black text-base text-off-white;
 
   .content {
-    @apply w-[300px] h-[412px] max-h-[412px] m-[50px] flex flex-col;
+    @apply w-[300px] h-[412px] md:max-h-[412px] m-[50px] flex flex-col;
     text-overflow: ellipsis;
+
+    @media (max-width: 768px) {
+      width: 100% !important;
+      margin: 0;
+      height: 100% !important;
+      padding: 32px;
+    }
   }
   img {
     @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
+    @media (max-width: 400px) {
+      width: 100%;
+    }
   }
   time {
     @apply text-medium-grey mb-[20px];
@@ -135,13 +145,19 @@
     @apply md:w-[400px] !important;
     @apply md:h-[512px] !important;
   }
+  @media (max-width: 400px) {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
 }
 
 
 .cluster { /* layout */
   .card {
-    &:nth-child(3n+2) {
-      margin-top: -75px;
+    @media (min-width: 768px) {
+      &:nth-child(3n+2) {
+        @apply md:-mt-[75px];
+      }
     }
   }
   .poster {
