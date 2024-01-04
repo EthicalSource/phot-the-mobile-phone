@@ -1,7 +1,7 @@
 <% title = event.data.title %>
 <% content = event.content %>
 
-<div class="w-full flex-wrap md:flex gap-[100px] mb-[60px]">
+<div class="w-full flex-wrap md:flex md:flex-nowrap gap-[100px] mb-[60px]">
   <div class="w-full h-fit md:w-[725px] flex justify-center mb-[80px] md:mb-[200px]">
     <a href="<%= url_for(cluster) %>">
       <div class="category-title-container">
@@ -20,7 +20,7 @@
       <div class="w-full md:w-1/2 sm:text-right mt-[26px] md:mt-[50px]">
         <p class="meta text-dark-grey mb-[20px]"><time><%= event.data.start_date&.year %></time></p>
         <a href="<%= url_for(event) %>">
-          <h3 class="heading-sm text-medium-black mb-[26px]"><%= title %></h3>
+          <h3 class="heading-sm text-medium-black mb-[26px] break-all"><%= title %></h3>
         </a>
         <p class="base">
           <%= content %>
