@@ -268,7 +268,7 @@
   .card {
     @media (min-width: 768px) {
       &:nth-child(3n+2) {
-        margin-top: -75px;
+        @apply md:-mt-[75px];
       }
     }
   }
