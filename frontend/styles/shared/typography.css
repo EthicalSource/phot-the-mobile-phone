@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading-xxxl {
+  @apply text-[72px]/[72px] font-semibold capitalize tracking-tight md:text-[180px]/[170px];
+}
+.heading-xxl {
+  @apply text-[90px]/[94px] font-semibold capitalize tracking-tight;
+}
+.heading-xl {
+  @apply text-[20px]/[24px] md:text-[72px]/[78px];
+}
+.heading-lg {
+  @apply text-4xl/[30px] md:text-[56px]/[50px] font-bold uppercase;
+}
+.heading-md {
+  @apply text-4xl/10 md:text-[40px]/[46px];
+}
+.heading-sm {
+  @apply text-4xl/10 tracking-widest font-bold;
+}
+.heading-sm-alt {
+  @apply text-4xl/10;
+}
+.heading-xs {
+  @apply text-2xl/7 tracking-widest font-medium;
+}
+.heading-xs-alt {
+  @apply text-2xl/7;
+}
+.heading-xxs {
+  @apply text-xl/6 font-semibold capitalize;
+}
+.body {
+  @apply text-[17px]/[26px];
+}
+.base {
+  @apply text-base/6;
+}
+.meta {
+  @apply text-base/5 lowercase;
+}
