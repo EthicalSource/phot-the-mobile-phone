@@ -187,7 +187,7 @@
     @apply w-[300px] h-[412px] md:max-h-[412px] m-[50px] flex flex-col;
     text-overflow: ellipsis;
 
-    @media (max-width: 400px) {
+    @media (max-width: 768px) {
       width: 100% !important;
       margin: 0;
       height: 100% !important;
