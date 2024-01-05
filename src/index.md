@@ -8,5 +8,4 @@
   <% PostHelpers.featured_collections(posts: clusters).each do |cluster| %>
     <%= render Cluster.new(site: site, cluster: cluster) %>
   <% end %>
-
 </main>

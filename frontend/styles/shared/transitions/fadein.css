@@ -2,6 +2,9 @@
   --fade-in-duration: 2s;
 }
 
+@media (prefers-reduced-motion) {
+  --fade-in-duration: 5s;
+}
 .fade-in {
   animation: fadein var(--fade-in-duration);
   -moz-animation: fadein --fade-in-duration; /* Firefox */
