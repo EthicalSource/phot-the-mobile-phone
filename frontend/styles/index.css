@@ -1,6 +1,7 @@
 /* If you need to add @import statements, do so up here */
 @import "./shared/buttons.css";
 @import "./shared/carousel.css";
+@import "./shared/transitions/fadein.css";
 @import "./shared/typography.css";
 
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
@@ -10,6 +11,9 @@
 @tailwind utilities;
 
 
+main {
+  @apply fade-in;
+}
 .outbound {
   aside {
     flex: flex-col;
