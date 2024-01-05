@@ -1,5 +1,5 @@
 ---
-layout: entry
+layout: cta
 media:
   thumbnail: /images/uploads/protest-1682x946.jpeg
   alt: Graphic of protesters using mobile phones and wearing masks with a red overlay filter.
