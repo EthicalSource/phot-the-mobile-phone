@@ -169,6 +169,64 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+
+  - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
+    label: "CTAs"                      # Used in the UI
+    label_singular: "Call To Action"   # Used in the UI
+    folder: "src/_ctas"                # The path to the folder where the documents are stored
+    create: true                       # Allow users to create new documents in this collection
+    slug: "{{title}}"                  # Filename template, e.g., title-YYYY-MM-DD.md
+    fields:                            # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "cta" }
+      - { label: "Headline", name: "title", widget: "string" }
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Media"
+        name: "media"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "thumbnail"
+            widget: "image"
+            required: false
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+            required: true
+          - label: "Credit"
+            name: "credit"
+            widget: "string"
+            required: false
+          - label: "Link"
+            name: "link"
+            widget: "string"
+            required: false
+            pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - label: "Source"
+        name: "source"
+        widget: "string"
+        required: false
+      - label: "Source Link"
+        name: "source_link"
+        widget: "string"
+        required: false
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+
   - name: "journals"
     label: "Journal"
     folder: "src/_journals"

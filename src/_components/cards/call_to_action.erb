@@ -1,0 +1,11 @@
+<div class="card take-action">
+  <%= link_to @link do %>
+    <div class="content">
+      <img src="<%= relative_url @cta.media&.thumbnail %>"
+           alt="<%= @cta.media&.alt %>" />
+      <div class="subhead text-medium-grey mb-[20px]">Take Action</div>
+      <h2><%= @cta.title %></h2>
+      <p><%= markdownify @content %></p>
+    </div>
+  <% end %>
+</div>
