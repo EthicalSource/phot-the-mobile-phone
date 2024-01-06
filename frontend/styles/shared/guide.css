@@ -1,0 +1,18 @@
+.guide.reduced-motion {
+  @apply p-5 bg-dark-grey text-off-white;
+
+  &::before {
+    content: "🚫";
+    padding-right: 5px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .guide.reduced-motion {
+    @apply bg-lime-green text-very-black;
+
+    &::before {
+      content: "✅";
+    }
+  }
+}
