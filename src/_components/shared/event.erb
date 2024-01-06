@@ -1,0 +1,25 @@
+<div class="w-full md:w-[725px] flex justify-start mt-0 md:mt-[160px">
+  <div class="flex gap-[16px] md:gap-[50px] sm:flex-col-reverse sm:items-end">
+    <a class="w-fit md:hidden p-1 px-4 border border-solid-black">
+      <%= @contents %>
+    </a>
+     <a href="<%= url_for(@event) %>">
+      <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url @event.data.media&.thumbnail %>)">
+      </div>
+    </a>
+    <div class="w-full md:w-1/2 <%= @classname %>t mt-[26px] md:mt-[50px]">
+      <p class="meta text-dark-grey mb-[20px]"><time><%= @event.data.start_date&.year %></time></p>
+      <a href="<%= url_for(@event) %>">
+        <h3 class="heading-sm text-medium-black mb-[26px] break-all">
+          <%= @title %>
+        </h3>
+      </a>
+      <p class="base">
+        <%= @collection %>
+      </p>
+      <a href="<%= url_for(@cluster) %>" class="p-1 px-4 border border-solid-black mt-[25px] sm:hidden md:block md:w-fit">
+        <%= @contents %>
+      </a>
+    </div>
+  </div>
+</div>
