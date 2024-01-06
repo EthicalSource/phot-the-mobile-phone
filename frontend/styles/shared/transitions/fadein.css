@@ -1,0 +1,45 @@
+:root {
+  --fade-in-duration: 2s;
+}
+
+@media (prefers-reduced-motion) {
+  --fade-in-duration: 5s;
+}
+.fade-in {
+  animation: fadein var(--fade-in-duration);
+  -moz-animation: fadein --fade-in-duration; /* Firefox */
+  -webkit-animation: fadein var(--fade-in-duration); /* Safari and Chrome */
+  -o-animation: fadein var(--fade-in-duration); /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
