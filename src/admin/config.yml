@@ -16,8 +16,11 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Feature", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Art Direction: All categories contain two words separated by an &amp; character"
+      - { label: "Feature?", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
       - label: "Highlight"
         name: "highlight"
         widget: "string"
