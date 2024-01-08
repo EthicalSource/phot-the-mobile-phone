@@ -1,6 +1,9 @@
 /* If you need to add @import statements, do so up here */
 @import "./shared/buttons.css";
 @import "./shared/carousel.css";
+@import "./shared/guide.css";
+@import "./shared/transitions/general.css";
+@import "./shared/transitions/fadein.css";
 @import "./shared/typography.css";
 
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
@@ -10,6 +13,9 @@
 @tailwind utilities;
 
 
+body {
+  @apply fade-in;
+}
 .outbound {
   aside {
     flex: flex-col;
@@ -176,6 +182,15 @@
   @apply bg-cover bg-center w-[260px] h-[260px] md:w-[454px] md:h-[454px] mx-auto;
 }
 
+.page-md-style {
+  h2 { @apply md:text-2xl lg:text-4xl font-semibold mb-6 text-white }
+  h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
+  h4 { @apply md:text-lg  lg:text-xl  font-semibold mb-6 text-white }
+  p  { @apply text-base leading-relaxed mb-6 text-medium-grey  }
+  strong { @apply text-lg font-semibold text-white }
+  a { @apply text-white underline decoration-lime-green hover:underline-offset-4 hover:text-off-white transition-all   }
+  ul { @apply list-disc pl-6 marker:text-lime-green }
+}
 
 /* Ticker section */
 
@@ -217,3 +232,5 @@
   padding-left: 8px;
   padding-right: 8px;
 }
+
+.invert { filter: invert(100%); }

@@ -3,7 +3,7 @@ module PostHelpers
   def self.suggested_posts_by_tags(post:, posts:, count_per_facet: 5)
     results = []
     filtered_posts = posts.reject { |p| post.title === p.data.title }.shuffle
-    
+
     tags = post.tags.reject(&:empty?)
 
     tags.each do |tag|
@@ -12,7 +12,7 @@ module PostHelpers
                     value: tag,
                     count: count_per_facet)
     end
-    
+
     results.flatten
   end
 
@@ -26,10 +26,18 @@ module PostHelpers
 
   def self.events_by_collection(posts:, value:, count: 5)
     return [] if value.nil?
-  
+
     posts.select do |event|
       Bridgetown::Utils.slugify(event.data.clusters) == Bridgetown::Utils.slugify(value)
     end
+  end
+
+  def self.ctas_by_collection(posts:, value:, count: 1)
+    return [] if value.nil?
+
+    posts.select do |cta|
+      Bridgetown::Utils.slugify(cta.data.clusters) == Bridgetown::Utils.slugify(value)
+    end.take(count)
   end
 
   def self.journals_by_collection(posts:, value:, count: 1)

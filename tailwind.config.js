@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        fadein: "fadein .75s ease-in",
+      },
       colors: {
         'solid-black': '#000000',
         'very-black': '#101012',
@@ -18,18 +21,24 @@ module.exports = {
         'blue': '#08C9f4',
         'white': '#FFFFFF',
       },
+      keyframes: {
+        fadein: {
+          "0%":   { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
       screens: {
         'sm': {'max': '767px'},
         // => @media (min-width: 640px) { ... }
         'md': '768px',
         // => @media (min-width: 768px) { ... }
-  
+
         'lg': '1024px',
         // => @media (min-width: 1024px) { ... }
-  
+
         'xl': '1280px',
         // => @media (min-width: 1280px) { ... }
-  
+
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },

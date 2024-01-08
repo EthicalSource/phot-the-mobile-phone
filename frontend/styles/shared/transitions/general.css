@@ -1,0 +1,28 @@
+:root {
+  --animation-duration: 500ms;
+  --transition-duration: 500ms;
+}
+
+@media (prefers-reduced-motion) {
+  :root {
+    /* Providing insiginficant values allows the animations
+       to run successfully without triggering a negative
+       response in users */
+    --animation-duration: 0.001ms !important;
+    --transition-duration: 0.001ms !important;
+  }
+}
+
+.animate_color {
+  cursor: pointer;
+  -webkit-transition: color var(--transition-duration) ease-out !important;
+  -moz-transition: color var(--transition-duration) ease-out !important;
+  -o-transition: color var(--transition-duration) ease-out !important;
+  transition: color var(--transition-duration) ease-out !important;
+}
+.animate_opacity {
+  -webkit-transition: opacity var(--transition-duration) ease-out !important;
+  -moz-transition: opacity var(--transition-duration) ease-out !important;
+  -o-transition: opacity var(--transition-duration) ease-out !important;
+  transition: opacity var(--transition-duration) ease-out !important;
+}

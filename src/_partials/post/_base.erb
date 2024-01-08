@@ -3,14 +3,11 @@
   <head>
     <%= render "head", metadata: site.metadata, title: data.title %>
   </head>
-  <body class="<%= data.layout %> <%= data.page_class %>">
+  <body class="<%= data.layout %> <%= data.page_class %> bg-black text-off-white">
     <%= render Shared::Navbar.new(site: site, resource: resource) %>
 
-    <main>
-      <%= yield %>
-    </main>
+    <%= content  %>
 
-    <%= partial "shared/tell-your-story"%>
     <%= render "footer", metadata: site.metadata %>
   </body>
 </html>

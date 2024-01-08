@@ -1,4 +1,5 @@
 import "$styles/index.css"
+import "./ensureTwoLineCategoryTitles"
 import { Application } from "@hotwired/stimulus"
 
 // Import all JavaScript & CSS files from src/_components

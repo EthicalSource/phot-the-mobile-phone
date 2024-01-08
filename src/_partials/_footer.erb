@@ -1,31 +1,40 @@
 <footer class="footer relative bg-solid-black text-white w-full pt-[60px]">
   <div class="footer-content flex flex-col items-center">
-     <img class="bg-black h-[50px] mb-[40px]" src="/images/shared/phone-icon.png">
+    <img class="bg-black h-[50px] mb-[40px]" src="/images/shared/phone-icon.png">
     <p class="mb-[30px] body text-medium-grey">© 2023 CC BY-NC 4.0</p>
     <ul class="flex justify-evenly mb-[30px] w-full base text-white">
-      <li>About</li>
-      <li>Contact</li>
+      <% PageHelpers.pages_in_footer(pages: collections.pages.resources).each do |page| %>
+        <li>
+          <%= link_to page.data.nav_label, page.relative_url %>
+        </li>
+      <% end %>
       <li>Terms</li>
       <li>Privacy</li>
       <li>Subscribe</li>
     </ul>
-     <div class="flex justify-center mb-[30px] gap-6">
+    <div class="flex justify-center mb-[30px] gap-6">
       <span>
-        <img class="bg-white" src="/images/shared/the-tech-we-want_footer-logo.png">
+        <img src="/images/shared/the-tech-we-want_footer-logo-white.png">
       </span>
-       <span>
-        <img class="bg-white" src="/images/shared/cc-by-nc_footer-logo.png">
+      <span>
+        <img class="invert" src="/images/shared/cc-by-nc_footer-logo.png">
       </span>
     </div>
     <ul class="flex justify-center mb-[60px] h-[40px] gap-6">
       <li>
-        <img class=" h-[20px] p-30p" src="/images/shared/instagram.svg">
+        <a href="https://www.instagram.com/peopleshistoryoftech" target="blank">
+          <img class=" h-[20px] p-30p" src="/images/shared/instagram.svg">
+        </a>
       </li>
-       <li>
-        <img class="h-[20px]" src="/images/shared/tik-tok.svg">
+      <li>
+        <a href="https://www.tiktok.com/@peoplestech" target="blank">
+          <img class="h-[20px]" src="/images/shared/tik-tok.svg">
+        </a>
       </li>
-       <li>
-       <img class="h-[20px]" src="/images/shared/spotify.svg">
+      <li>
+        <a href="https://open.spotify.com/playlist/6OFgXxZhGNhGZE7TYA3JUH?si=df9ff3df7bd64a33&nd=1&dlsi=04312e2a6b73485f" target="blank">
+          <img class="h-[20px]" src="/images/shared/spotify.svg">
+        </a>
       </li>
     </ul>
   </div>

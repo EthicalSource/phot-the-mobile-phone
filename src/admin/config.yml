@@ -16,8 +16,11 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Feature", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Art Direction: All categories contain two words separated by an &amp; character"
+      - { label: "Feature?", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
       - label: "Highlight"
         name: "highlight"
         widget: "string"
@@ -169,6 +172,64 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+
+  - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
+    label: "CTAs"                      # Used in the UI
+    label_singular: "Call To Action"   # Used in the UI
+    folder: "src/_ctas"                # The path to the folder where the documents are stored
+    create: true                       # Allow users to create new documents in this collection
+    slug: "{{title}}"                  # Filename template, e.g., title-YYYY-MM-DD.md
+    fields:                            # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "cta" }
+      - { label: "Headline", name: "title", widget: "string" }
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Media"
+        name: "media"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "thumbnail"
+            widget: "image"
+            required: false
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+            required: true
+          - label: "Credit"
+            name: "credit"
+            widget: "string"
+            required: false
+          - label: "Link"
+            name: "link"
+            widget: "string"
+            required: false
+            pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - label: "Source"
+        name: "source"
+        widget: "string"
+        required: false
+      - label: "Source Link"
+        name: "source_link"
+        widget: "string"
+        required: false
+        pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+
   - name: "journals"
     label: "Journal"
     folder: "src/_journals"
@@ -240,6 +301,53 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+
+  - name: "pages"                          # Used in routes, e.g., /admin/collections/events
+    label: "Pages"                         # Used in the UI
+    label_singular: "General Content Page" # Used in the UI
+    folder: "src/_pages"                   # The path to the folder where the documents are stored
+    create: true                           # Allow users to create new documents in this collection
+    identifier_field: "nav_label"          # Filename template, e.g., title-YYYY-MM-DD.md
+    fields:                                # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug.*" }
+      - label: "Should the footer contain a link to this page?"
+        name: "in_footer"
+        widget: "boolean"
+      - label: "Should the main navigation contain a link to this page?"
+        name: "in_nav"
+        widget: "boolean"
+      - { label: "Headline", name: "title", widget: "string" }
+      - label: "Navigation Label"
+        name: "nav_label"
+        widget: "string"
+        hint: "The for the page link within the site navigation"
+      - label: "Page URL location"
+        name: "slug"
+        widget: "string"
+        hint: "ex:'about', will make this page avaiable at '/about'"
+      - label: "Media"
+        name: "media"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "thumbnail"
+            widget: "image"
+            required: false
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+            required: true
+          - label: "Credit"
+            name: "credit"
+            widget: "string"
+            required: false
+          - label: "Link"
+            name: "link"
+            widget: "string"
+            required: false
+            pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "prompts"
     label: "Prompts"
