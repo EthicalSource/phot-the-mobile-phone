@@ -1,38 +1,10 @@
 <% if events.length > 1 %>
+<div class="w-full flex-wrap md:flex md:flex-nowrap gap-[100px] mb-[60px]">
   <% event = events.shift %>
-  <div class="w-full flex gap-[100px] sm:flex-wrap">
-    <div class="w-full md:w-[725px] flex justify-start md:mt-[160px]">
-      <div class="flex flex-col-reverse md:flex-row md:gap-[50px] sm:items-end">
-        <button class="md:hidden p-1 px-4 border border-solid-black lowercase mt-[16px]"><%= event.data.clusters %></button>
-        <a href="<%= url_for(event) %>">
-          <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.thumbnail %>)"></div>
-        </a>
-        <div class="w-full md:w-1/2 sm:text-right md:mt-[50px]">
-          <p class="meta text-dark-grey mb-[20px]">2013</p>
-          <a href="<%= url_for(event) %>">
-            <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
-          </a>
-          <p class="base mb-[25px]"><%= event.content_summary %></p>
-          <button class="sm:hidden p-1 px-4 border border-solid-black lowercase"><%= event.data.clusters %></button>
-        </div>
-      </div>
-    </div>
-    <% event = events.shift %>
-    <div class="w-full md:w-[725px] flex justify-start">
-      <div class="flex md:gap-[50px] sm:flex-col-reverse sm:items-start">
-        <button class="md:hidden p-1 px-4 border border-solid-black lowercase mt-[16px]"><%= event.data.clusters %></button>
-        <a href="<%= url_for(event) %>">
-          <div class="bg-cover bg-center w-[200px] h-[200px] md:w-[325px] md:h-[325px] mt-[10px]" style="background-image: url(<%= relative_url event.data.media&.thumbnail %>)"></div>
-        </a>
-        <div class="w-full md:w-1/2 sm:text-left md:mt-[50px]">
-          <p class="meta text-dark-grey mb-[20px]"><time><%= event.data.start_date&.year %></time></p>
-          <a href="<%= url_for(event) %>">
-            <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
-          </a>
-          <p class="base"><%= event.content_summary %></p>
-          <button class="sm:hidden p-1 px-4 border border-solid-black mt-[25px] lowercase"><%= event.data.clusters %></button>
-        </div>
-      </div>
-    </div>
+  <div class="md:mt-[160px]">
+    <%= render Shared::Event.new(event: event, cluster: cluster) %>
+  </div>
+  <% event = events.shift %>
+  <%= render Shared::Event.new(event: event, cluster: cluster) %>
   </div>
 <% end %>
