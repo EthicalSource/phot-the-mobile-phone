@@ -188,6 +188,7 @@ body {
   p  { @apply text-base leading-relaxed mb-6 text-medium-grey  }
   strong { @apply text-lg font-semibold text-white }
   a { @apply text-white underline decoration-lime-green hover:underline-offset-4 hover:text-off-white transition-all   }
+  ul { @apply list-disc pl-6 marker:text-lime-green }
 }
 
 /* Ticker section */
