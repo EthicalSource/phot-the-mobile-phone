@@ -11,5 +11,7 @@
       </div>
     </a>
   </div>
-  <%= render Shared::Event.new(event: event, cluster: cluster,align: :right, breakall: :true) %>
+  <div class="md:mt-[160px]">
+    <%= render Shared::Event.new(event: event, cluster: cluster) %>
+  </div>
 </div>

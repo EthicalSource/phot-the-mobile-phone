@@ -1,16 +1,18 @@
 class Shared::Event < Bridgetown::Component
-  def initialize(event:, align:, breakall:, cluster:)
-    @event, @align, @cluster, @breakall = event, align, cluster, breakall
+  def initialize(event:, cluster:, align: :right)
+    @event, @cluster, @align  = event, cluster, align
     case @align
     when :right
       @classname = 'sm:text-right'
     when :left
       @classname = 'sm:text-left'
     end
+  end
 
-    case @breakall
-    when :true
-      @breakAllClass = 'break-all'
-    end
+  def render?
+    return false if @event.nil?
+    return false if @cluster.nil?
+    true
   end
 end
+
