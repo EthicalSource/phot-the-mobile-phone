@@ -4,6 +4,7 @@ permalink: /:slug.*
 title: Contact Page
 nav_label: Contact
 in_footer: true
+in_nav: true
 slug: contact
 media:
   thumbnail: /images/uploads/screenshot-2023-12-28-at-9.35.34 pm.png

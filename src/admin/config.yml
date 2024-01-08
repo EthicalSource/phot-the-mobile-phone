@@ -311,6 +311,9 @@ collections:
       - label: "Should the footer contain a link to this page?"
         name: "in_footer"
         widget: "boolean"
+      - label: "Should the main navigation contain a link to this page?"
+        name: "in_nav"
+        widget: "boolean"
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Navigation Label"
         name: "nav_label"
