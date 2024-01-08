@@ -4,6 +4,7 @@ title: About A People's History of Tech
 nav_label: About
 slug: about
 permalink: /:slug.*
+in_footer: true
 media:
   thumbnail: /images/uploads/about-hero-image.png
   alt: Screenshot from a movie scene featuring two men in a kitchen. The man in the foreground is shirtless, wearing a gold necklace, and talking on a cordless phone, with a playful expression. He has a closely cropped haircut. In the background, another man, wearing a black T-shirt with the text 'YES I AM BLACK' in yellow letters, is holding an American football and smiling broadly. The kitchen is wood-paneled with a fridge covered in children's drawings, and the image contains a media player overlay with a play button and a caption that reads 'Show me the money.

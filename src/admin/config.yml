@@ -308,6 +308,9 @@ collections:
     fields:                                # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
       - { label: "Permalink", name: "permalink", widget: "hidden", default: "/:slug.*" }
+      - label: "Should the footer contain a link to this page?"
+        name: "in_footer"
+        widget: "boolean"
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Navigation Label"
         name: "nav_label"
