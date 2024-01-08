@@ -30,7 +30,10 @@
             <h3 class="heading-sm text-medium-black mb-[26px]"><%= event.data.title %></h3>
           </a>
           <p class="base"><%= event.content_summary %></p>
-          <button class="sm:hidden p-1 px-4 border border-solid-black mt-[25px] lowercase"><%= event.data.clusters %></button>
+          <a href="<%= url_for(event.data.clusters)%>" class="p-1 px-4 border border-solid-black mt-[25px] sm:hidden md:block md:w-fit lowercase">
+            <%= event.data.clusters %>
+          </a>
+          <%# <button class="sm:hidden p-1 px-4 border border-solid-black mt-[25px] lowercase"><%= event.data.clusters %></button> %>
         </div>
       </div>
     </div>

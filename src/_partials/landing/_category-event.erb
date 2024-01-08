@@ -11,6 +11,5 @@
       </div>
     </a>
   </div>
-  <%# RENDER EVENT  %>
-  <%= render Shared::Event.new(event: event,title: title,collection: collection,contents: content,cluster: cluster, align: :left) %>
+  <%= render Shared::Event.new(event: event, cluster: cluster,align: :right, breakall: :true) %>
 </div>
