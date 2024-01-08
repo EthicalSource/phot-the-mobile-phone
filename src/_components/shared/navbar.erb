@@ -1,5 +1,21 @@
 <header>
 </header>
 
-<nav>
+<nav data-controller="open-close"
+  data-open-close-open-class="nav--open"
+  class="flex flex-col items-end p-6 group relative bg-black z-10">
+  <%= svg "images/shared/menu-icon.svg",
+    "data-action" => "click->open-close#updateState",
+    class: "z-30"
+  %>
+  <ul class="w-screen bg-black text-white
+    hidden absolute py-16 group-[.nav--open]:block
+    group-[.nav--open]:animate-fadein">
+    <% clusters.each do |cluster| %>
+      <li class="text-right"><%= link_to cluster.data.title, cluster.relative_url %></li>
+    <% end %>
+    <% pages_in_nav.each do |page| %>
+      <li class="text-right"><%= link_to page.data.nav_label, page.relative_url %></li>
+    <% end %>
+  </ul>
 </nav>

@@ -12,7 +12,7 @@
   <% prompts   = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title) %>
 
   <body class="<%= data.layout %> <%= data.page_class %> bg-dark-grey ">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+    <%= render Shared::Navbar.new(site: site, resource: resource) %>
     <%= partial "cluster/header", locals: {cluster: cluster, events: []} %>
     <main class="max-w-[1260px] text-off-white grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] mx-auto my-[150px] p-[20px] md:p-0">
 
