@@ -41,14 +41,14 @@ defaults:
 
 collections:
   clusters:
-    permalink: /collection/:title.*
+    permalink: /collections/:slug.*
     output: true
     relations:
       has_many:
         - journals
 
   ctas:
-    permalink: /:collection/:title.*
+    permalink: /resources/:slug.*
     output: true
     sort_by: date
     sort_direction: descending
@@ -57,13 +57,13 @@ collections:
         - cluster
 
   events:
-    permalink: /:collection/:title.*
+    permalink: /:collection/:slug.*
     output: true
     sort_by: date
     sort_direction: descending
 
   journals:
-    permalink: /:collection/:title.*
+    permalink: /:collection/:slug.*
     output: true
     sort_by: date
     sort_direction: descending
@@ -72,7 +72,7 @@ collections:
         - cluster
 
   prompts:
-    permalink: /:collection/:question.*
+    permalink: /:collection/:slug.*
     output: true
     sort_by: date
     sort_direction: descending
@@ -81,7 +81,7 @@ collections:
         - cluster
 
   tags:
-    permalink: /tag/:name.*
-    output: true
+    permalink: /:collection/:slug.*
+    output: false
     sort_by: ["tag_type", "date"]
     sort_direction: descending
