@@ -1,7 +1,0 @@
-<% related_journals = PostHelpers.suggested_posts_by_tags(post: event.data, posts: site.collections.journals.resources, count_per_facet: 6) %>
-
-<%= render Shared::Carousel.new do %>
-  <% related_journals.each do |journal| %>
-    <%= render Cards::Journal.new(post: journal) %>
-  <% end %>
-<% end %>
