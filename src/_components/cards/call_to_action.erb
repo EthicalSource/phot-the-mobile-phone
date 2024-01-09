@@ -1,9 +1,9 @@
-<div class="card take-action">
+<div class="card cta">
   <%= link_to @link do %>
     <article>
       <header>
         <h2><%= @cta.title %></h2>
-        <div class="subhead text-medium-grey mb-[20px]">Take Action</div>
+        <span class="subhead text-medium-grey mb-[20px]">Take Action</span>
         <img src="<%= relative_url @cta.media&.thumbnail %>"
            alt="<%= @cta.media&.alt %>" />
       </header>

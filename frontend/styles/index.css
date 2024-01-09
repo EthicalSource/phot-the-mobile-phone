@@ -106,8 +106,7 @@ body.page main {
     text-overflow: ellipsis;
 
     header {
-      display: flex;
-      flex-direction: column-reverse;
+      @apply flex flex-col-reverse w-[300px] bg-inherit
     }
 
     @media (max-width: 768px) {
@@ -135,7 +134,7 @@ body.page main {
   &.event {
     h2 { @apply text-white;}
   }
-  &.take-action {
+  &.cta {
     h2 { @apply text-blue;}
   }
   &.journal {
