@@ -1,0 +1,6 @@
+<header>
+  <h2><%= @post.data.title %></h2>
+  <img src="<%= relative_url @post.data.media&.thumbnail %>"
+    alt="<%= @post.data.media&.alt %>" />
+</header>
+<p><%= @post.content_summary %></p>

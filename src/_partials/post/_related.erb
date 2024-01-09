@@ -1,0 +1,9 @@
+<% related = Object.const_get(resource.data.class_name)
+              .new(resource.data)
+              .resources_to_explore %>
+
+<%= render Shared::Carousel.new do %>
+  <% related.each do |post| %>
+    <%= render Cards::ExploreMore::Base.new(post) %>
+  <% end %>
+<% end %>
