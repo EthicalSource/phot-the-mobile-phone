@@ -94,9 +94,14 @@ body {
 .card {
   @apply w-[400px] min-w-[400px] h-[512px] min-h-[512px] bg-very-black text-base text-off-white;
 
-  .content {
+  article {
     @apply w-[300px] h-[412px] md:max-h-[412px] m-[50px] flex flex-col;
     text-overflow: ellipsis;
+
+    header {
+      display: flex;
+      flex-direction: column-reverse;
+    }
 
     @media (max-width: 768px) {
       width: 100% !important;

@@ -1,10 +1,12 @@
 <div class="card event">
   <%= link_to @link do %>
-    <div class="content">
-      <img src="<%= relative_url @event.media&.thumbnail %>" alt="<%= @event.media&.alt %>" />
-      <time><%= @event.start_date&.year %></time>
-      <h2><%= @event.title %></h2>
+    <article>
+      <header>
+        <h2><%= @event.title %></h2>
+        <time><%= @event.start_date&.year %></time>
+        <img src="<%= relative_url @event.media&.thumbnail %>" alt="<%= @event.media&.alt %>" />
+      </header>
       <p><%= @content %></p>
-    </div>
+    </article>
   <% end %>
 </div>
