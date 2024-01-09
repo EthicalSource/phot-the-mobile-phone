@@ -5,9 +5,7 @@
   </head>
   <body class="<%= data.layout %> <%= data.page_class %> bg-black text-off-white">
     <%= render Shared::Navbar.new(site: site, resource: resource) %>
-
     <%= content  %>
-
     <%= render "footer", metadata: site.metadata %>
   </body>
 </html>

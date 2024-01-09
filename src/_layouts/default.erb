@@ -5,11 +5,7 @@
   </head>
   <body class="<%= data.layout %> <%= data.page_class %>">
     <%= render Shared::Navbar.new(site: site, resource: resource) %>
-
-    <main>
-      <%= yield %>
-    </main>
-
+    <%= yield %>
     <%= partial "shared/tell-your-story"%>
     <%= render "footer", metadata: site.metadata %>
   </body>
