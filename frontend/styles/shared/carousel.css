@@ -1,17 +1,22 @@
 [data-controller="carousel"] {
   @apply bg-off-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black;
+
+  h4 { @apply heading-xs ml-[15%] mb-[30px] md:-mb-[25px] }
 }
 
 .carousel {
-  width: 85%;
+  @apply w-[85%] flex-col gap-12;
 
-  & .header {
-    @apply flex w-full justify-between heading-xs mb-[30px];
-  }
 
-  & .navigation {
-    @apply text-fuchsia heading-xxs flex gap-x-5 my-auto;
+  nav {
+    @apply text-fuchsia order-last self-start md:self-end md:order-first heading-xxs flex gap-x-5;
     margin-right: 1rem !important;
+
+    button:not(.swiper-button-disabled):hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-thickness: 2px;
+    }
 
     [data-carousel-target="prev"] {
       &::before {
@@ -44,7 +49,6 @@
   }
 }
 .swiper {
-  margin-left: auto !important;
   margin-right: 0px !important;
 }
 .swiper-wrapper {
