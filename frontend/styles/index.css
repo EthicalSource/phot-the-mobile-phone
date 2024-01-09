@@ -12,7 +12,29 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --cluster-image-size:
+    clamp(
+      var(--cluster-image-size-min),
+      var(--cluster-image-size-val),
+      var(--cluster-image-size-max)
+    );
+  --cluster-image-size-min: 260px;
+  --cluster-image-size-val: 25vw;
+  --cluster-image-size-max: 454px;
 
+  /* TODO: Use this in event component */
+  --event-image-square-size:
+    clamp(
+      var(--event-image-square-min),
+      var(--event-image-square-val),
+      var(--event-image-square-max)
+    );
+
+  --event-image-square-min: 200px;
+  --event-image-square-val: 18vw;
+  --event-image-square-max: 325px;
+}
 body {
   @apply fade-in;
 }
@@ -42,26 +64,20 @@ body {
 .category-title-container {
   position: relative;
   text-align: left;
-  height: 260px;
-  img {
-    width: 260px;
-    height: 260px;
-  }
 
-  @media (min-width: 768px) {
-    img {
-      width: 454px;
-      height: 454px;
-    }
-  }
+  width: var(--cluster-image-size);
+  height: var(--cluster-image-size);
 }
 .category-title {
   @apply heading-lg uppercase text-medium-black;
 
   position: absolute;
-  top: 275px;
-  left: -8%;
-  transform: rotate(270deg);
+  top: 0;
+  left: 0;
+  transform:
+    translateX(calc(var(--cluster-image-size)*-0.18))
+    translateY(calc(var(--cluster-image-size)*1.05))
+    rotate(270deg);
   transform-origin: left top;
   z-index: 2;
 
@@ -71,11 +87,6 @@ body {
     -webkit-text-stroke-color: #fff;
     -webkit-text-fill-color: #1a1a1a;
     z-index: 1;
-  }
-
-  @media (min-width: 768px) {
-    top: 484px;
-    left: -15%;
   }
 }
 
@@ -179,7 +190,9 @@ body {
 }
 
 .hero-image {
-  @apply bg-cover bg-center w-[260px] h-[260px] md:w-[454px] md:h-[454px] mx-auto;
+  @apply bg-cover bg-center mx-auto;
+  width: var(--cluster-image-size);
+  height: var(--cluster-image-size);
 }
 
 .page-md-style {
