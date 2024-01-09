@@ -1,0 +1,9 @@
+<div class="heading">
+  <a href="<%= url_for(@cluster) %>">
+    <article>
+      <h2 class="category-title"><%= @title %></h2>
+      <div class="category-title glow" aria-hidden="true"><%= @title %></div>
+      <div class="hero-image" style="background-image: url(<%= relative_url @cluster.data.hero %>)"></div>
+    </article>
+  </a>
+</div>
