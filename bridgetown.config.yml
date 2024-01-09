@@ -38,6 +38,18 @@ svg:
 defaults:
   - values:
       layout: "default"
+  - scope:
+      collection: ctas
+    values:
+      class_name: Cta
+  - scope:
+      collection: events
+    values:
+      class_name: Event
+  - scope:
+      collection: journals
+    values:
+      class_name: Journal
 
 collections:
   clusters:
