@@ -1,0 +1,7 @@
+<header>
+  <h2><%= @post.data.title %></h2>
+  <time><%= @post.data.start_date&.year %></time>
+  <img src="<%= relative_url @post.data.media&.thumbnail %>"
+    alt="<%= @post.data.media&.alt %>" />
+</header>
+<p><%= @post.content_summary %></p>
