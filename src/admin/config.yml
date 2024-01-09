@@ -53,7 +53,7 @@ collections:
       - label: "Location"
         name: "location"
         widget: string
-        hint: "Enter either [City] or [City, Country]"
+        hint: "Enter either City, State; Country; or Global"
       - label: "Start Date"
         name: "start_date"
         widget: "object"
