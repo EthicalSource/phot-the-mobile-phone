@@ -5,4 +5,4 @@
 <% end %>
 <%= partial "landing/double-entry", locals: { events: @events.slice!(0,2), cluster: @cluster } %>
 <%= partial "landing/tell-your-story", locals: { prompt: @prompts.first } %>
-<%= partial "landing/take-action" %>
+<%= partial "landing/take-action", locals: {cta: @ctas.first, cluster: @cluster} %>

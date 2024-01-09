@@ -5,6 +5,7 @@ class Cluster < Bridgetown::Component
     @events = filter_events
     @journals = filter_journals
     @prompts = filter_prompts
+    @ctas = filter_ctas
   end
 
   def render?
@@ -28,5 +29,10 @@ class Cluster < Bridgetown::Component
   def filter_prompts
     posts = @site.collections.prompts.resources
     PostHelpers.prompts_by_collection(posts: posts, value: collection)
+  end
+  
+  def filter_ctas
+    posts = @site.collections.ctas.resources
+    PostHelpers.ctas_by_collection(posts: posts, value: collection)
   end
 end

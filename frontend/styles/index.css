@@ -62,6 +62,13 @@ body {
   }
 }
 
+body.cta main,
+body.entry main,
+body.journal main,
+body.page main {
+  @apply px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[150px];
+}
+
 .category-title-container {
   position: relative;
   text-align: left;
