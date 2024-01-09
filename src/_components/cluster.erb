@@ -1,4 +1,4 @@
-<%= partial "landing/prompt", locals: { cluster: @cluster.data } %>
+<%= partial "landing/highlight", locals: { cluster: @cluster.data } %>
 <%= partial "landing/category-entry", locals: { cluster: @cluster, collection: @collection, event: @events.slice!(0,1).first } %>
 <% if @journals.any? %>
   <%= partial "landing/journal-entry", locals: { journal: @journals.first } %>
