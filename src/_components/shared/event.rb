@@ -1,6 +1,6 @@
 class Shared::Event < Bridgetown::Component
-  def initialize(event:, cluster:, align: :right)
-    @event, @cluster, @align  = event, cluster, align
+  def initialize(event:, cluster:,meta: '', align: :right)
+    @event, @cluster,@meta, @align  = event, cluster, meta, align
     case @align
     when :right
       @classname = 'sm:text-right'
