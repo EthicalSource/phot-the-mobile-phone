@@ -1,18 +1,18 @@
-<div class="bg-solid-black text-white h-screen w-full hero flex justify-around gap-0 px-5 md:px-0">
+<header>
   <div class="max-w-[1260px] flex gap-[50px] m-auto flex-wrap md:flex-nowrap">
-    <div class="w-full md:w-1/2 mt-[100px]">
-      <h1 class="heading-lg mb-[26px]"><%= cluster.title %></h1>
-      <h2 class="heading-sm-alt text-off-white mb-[26px]"><%= cluster.highlight %></h2>
-      <p class="text-medium-grey">
+    <article>
+      <h1><%= cluster.title %></h1>
+      <h2><%= cluster.highlight %></h2>
+      <p>
         <%= cluster.intro %>
       </p>
-    </div>
-    <div class="w-full md:w-1/2">
-      <div class="hero-image rotate-3" style="background-image: url(<%= relative_url cluster.hero %>)"></div>
-    </div>
+    </article>
+    <aside>
+      <div class="hero-image" style="background-image: url(<%= relative_url cluster.hero %>)"></div>
+    </aside>
   </div>
-  <div class="absolute bottom-0 w-full text-center">
-    <span class="body text-off-white">Explore</span>
-    <div class="bottom-0 mx-auto w-[1px] h-[25px] bg-off-white"></div>
+  <div class="explore">
+    <span>Explore</span>
+    <div class="line-down"></div>
   </div>
-</div>
+</header>
