@@ -1,13 +1,4 @@
 <% if journal %>
   <div class="w-full my-[100px] md:my-[90px]">
-    <div class="w-full md:w-1/2 flex justify-end items-center">
-      <div class="quote-content flex flex-col justify-center">
-        <h3 class="heading-sm text-fuchsia text-left md:text-center mb-[20px]">
-          <%= journal.highlight_summary(length: 110) %>
-        </h3>
-        <p class="text-left md:text-center mb-[26px]">– <%=journal.data.source%>, <%=journal.data.location%></p>
-        <p class="text-left md:text-center"><button class="w-fit p-1 px-4 border border-solid-black">people's voice</button></p>
-      </div>
-    </div>
-  </div>
+  <%= render Shared::Journal.new(journal: journal, cluster: cluster)%>
 <% end %>

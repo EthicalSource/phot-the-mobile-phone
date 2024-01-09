@@ -1,0 +1,15 @@
+ <div class="w-full md:w-1/2 flex justify-end items-center">
+      <div class="quote-content flex flex-col justify-center">
+        <a href="<%= url_for(@journal)%>">
+            <h3 class="heading-sm text-fuchsia text-left md:text-center mb-[20px]">
+            <%= @journal.highlight_summary(length: 110) %>
+          </h3>
+        </a>
+        <p class="text-left md:text-center mb-[26px]"> 
+        <%= @journal.data.source%>, <%= @journal.data.location%></p>
+        <p class="text-left md:text-center">
+          <a href="<%= url_for(@cluster)%>" class="p-1 px-4 border border-solid-black mt-[25px] w-fit lowercase"><%= @journal.data.clusters%>
+          </a>
+        </p>
+      </div>
+    </div>

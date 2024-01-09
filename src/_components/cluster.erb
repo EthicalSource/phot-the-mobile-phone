@@ -1,7 +1,7 @@
 <%= partial "landing/prompt", locals: { cluster: @cluster.data } %>
 <%= partial "landing/category-entry", locals: { cluster: @cluster, collection: @collection, event: @events.slice!(0,1).first } %>
 <% if @journals.any? %>
-  <%= partial "landing/journal-entry", locals: { journal: @journals.first } %>
+  <%= partial "landing/journal-entry", locals: { journal: @journals.first, cluster: @cluster } %>
 <% end %>
 <%= partial "landing/double-entry", locals: { events: @events.slice!(0,2), cluster: @cluster } %>
 <%= partial "landing/tell-your-story", locals: { prompt: @prompts.first } %>
