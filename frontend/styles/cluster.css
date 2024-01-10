@@ -1,5 +1,5 @@
 .cluster {
-  header {
+  > header {
     @apply bg-solid-black text-white flex justify-around gap-0 px-5 md:px-0;
     width: 100vw;
     height: calc(100vh - var(--nav-height))
