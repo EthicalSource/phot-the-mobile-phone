@@ -7,5 +7,16 @@ carousel_description: Engage proactively to envision and shape improved technolo
 intro: Actively participate and use your imagination to shape better
   technological futures, inspiring innovation and positive change in the world
   of tech.
-hero: /images/uploads/screenshot-2024-01-01-at-10.24.07 pm.png
+hero_image:
+  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_RISK & SAFETY.jpg
+  alt: What's Next?
+nav_image:
+  alt: What's Next?
+  src: /images/uploads/risk-and-safety_nav_thumb_80x80.jpg
+cluster_homepage_image:
+  alt: What's Next?
+  src: /images/uploads/History-of-the-Mobile-Phone_Collection-Header_FINAL-RISK-&-SAFETY.png
+explore_image:
+  alt: What's Next?
+  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_RISK & SAFETY.jpg
 ---

@@ -1,0 +1,12 @@
+nav.nav--open #menu-icon > #middle {
+  opacity: 0;
+}
+nav.nav--open #menu-icon > #bottom {
+  transform: rotate(-45deg) translate(-15px);
+}
+nav.nav--open #menu-icon > #top {
+  transform: rotate(45deg) translate(4px, -12px);
+}
+nav #menu-icon path {
+  transition: all .75s;
+}

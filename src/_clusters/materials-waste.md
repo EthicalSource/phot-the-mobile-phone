@@ -8,5 +8,16 @@ carousel_description: The human process of transforming metals and sand into
 intro: Human activities involving the transformation of metals and sand into
   various products have profound environmental impacts, affecting ecosystems and
   contributing to changes in the natural balance of our planet.
-hero: /images/uploads/screenshot-2024-01-01-at-10.04.49 pm.png
+hero_image:
+  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_MATERIALS & WASTE.jpg
+  alt: Materials & Waste
+nav_image:
+  alt: Materials & Waste
+  src: /images/uploads/materials-and-waste_nav_thumb_80x80.jpg
+cluster_homepage_image:
+  alt: Materials & Waste
+  src: /images/uploads/History-of-the-Mobile-Phone_Collection-Header_MATERIALS-&-WASTE.png
+explore_image:
+  alt: Materials & Waste
+  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_MATERIALS & WASTE.jpg
 ---

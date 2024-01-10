@@ -38,10 +38,45 @@ collections:
         widget: "markdown"
         required: true
       - label: "Hero Image"
-        name: "hero"
-        widget: "image"
-        required: false
-
+        name: "hero_image"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+      - label: "Nav Image"
+        name: "nav_image"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+      - label: "Collection Image on Homepage"
+        name: "cluster_homepage_image"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+      - label: "Explore Image (Carousel)"
+        name: "explore_image"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
   - name: "events" # Used in routes, e.g., /admin/collections/events
     label: "Events" # Used in the UI
     folder: "src/_events" # The path to the folder where the documents are stored
