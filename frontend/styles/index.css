@@ -157,7 +157,7 @@ body.page main {
   @apply underline text-very-black;
 }
 
-li > a:hover, p > a:hover {
+a:hover {
   @apply underline text-white;
 }
 
