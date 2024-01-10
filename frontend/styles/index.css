@@ -153,8 +153,16 @@ body.page main {
   }
 }
 
-h3.event-underline:hover {
-  @apply border-b-4 border-very-black
+ a > h1:hover,a > h2:hover,a > h3:hover, a > h4:hover, a >h5:hover,a > h6:hover {
+  @apply underline text-very-black
+}
+
+p > a:hover {
+  @apply underline text-white
+}
+
+li > a:hover {
+  @apply underline text-white
 }
 
 .page-md-style {
@@ -209,7 +217,3 @@ h3.event-underline:hover {
 }
 
 .invert { filter: invert(100%); }
-
-.footer-link:hover {
-  @apply border-b-2 border-white cursor-pointer
-}
