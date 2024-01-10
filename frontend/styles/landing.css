@@ -2,7 +2,7 @@
   & > header {
     @apply bg-solid-black text-white items-center;
     display: flex;
-    height: calc(100vh - 88px);
+    height: calc(100vh - var(--nav-height));
     position: relative;
     width: 100%;
   }

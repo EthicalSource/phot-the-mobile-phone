@@ -16,6 +16,7 @@
 @tailwind utilities;
 
 :root {
+  --nav-height: 114px;
   --cluster-image-size:
     clamp(
       var(--cluster-image-size-min),
