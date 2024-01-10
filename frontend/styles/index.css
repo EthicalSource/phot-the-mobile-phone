@@ -188,6 +188,10 @@ body.page main {
   animation-duration: 30s;
 }
 
+.ticker-wrap .ticker:hover {
+  animation-play-state: paused;
+}
+
 .ticker ul {
   width: 100%;
   display: flex;
