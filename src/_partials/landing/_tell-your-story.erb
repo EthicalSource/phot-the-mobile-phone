@@ -1,7 +1,7 @@
 <div class="flex md:gap-[100px] sm:my-[100px]">
   <div class="hidden md:flex md:w-[725px]"></div>
   <div class="w-full md:w-[725px] flex md:justify-start">
-    <div class="sm:flex sm:flex-col sm:items-end md:w-[500px] sm:text-right sm:">
+    <div class="sm:flex sm:flex-col sm:items-end md:w-[500px] sm:text-right">
       <p class="heading-sm mb-[26px]"><%= prompt.data.question %></p>
       <%= render Shared::Button.new(text: "Tell your story", href: url_for(prompt)) %>
     </div>

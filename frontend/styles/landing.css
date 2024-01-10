@@ -43,4 +43,58 @@
       }
     }
   }
+
+  figure {
+    .event-image {
+      @apply bg-cover bg-center mt-[10px];
+      @apply md:w-[325px] md:h-[325px];
+      width: var(--event-image-square-size);
+      height: var(--event-image-square-size);
+    }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+  }
+  .cluster-link {
+    @apply p-1 px-4 border border-solid-black w-fit lowercase self-end;
+    margin-top: 25px;
+    display: block
+  }
+
+  ul > li .event-wrapper {
+    @apply w-full md:w-[725px];
+    @apply flex flex-col-reverse md:flex-row;
+    @apply justify-start md:gap-[50px] sm:items-end;
+
+    header {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  @media (max-width: 1024px) {
+    ul > li .event-wrapper {
+      @apply mx-auto;
+    }
+  }
+  @media (min-width: 1024px) {
+    .cluster-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+
+      & > li:nth-child(2), & > li:nth-child(4) {
+        margin-top: 160px;
+      }
+      & > li:nth-child(3), & > li:nth-child(6) {
+        grid-column: 1 / -1;
+      }
+    }
+  }
 }
