@@ -1,0 +1,8 @@
+<a href="<%= url_for(@event) %>">
+  <figure>
+    <div class="event-image" 
+      style="background-image: url(<%= relative_url @image %>)">
+    </div>
+    <figcaption class="visually-hidden"><%= @alt %></figcaption>
+  </figure>
+</a>
