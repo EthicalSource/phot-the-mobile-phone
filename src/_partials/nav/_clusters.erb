@@ -1,0 +1,17 @@
+<nav class="max-w-[960px] mx-auto mb-10">
+  <h2 class="heading-xs pb-6 mb-8 border-b border-b-grey-medium">Explore Collections</h2>
+  <ul class="flex flex-wrap gap-y-6 gap-x-16">
+    <% clusters.each do |cluster| %>
+      <li class="w-full lg:w-[45%]">
+        <%= link_to cluster.relative_url,
+          class: "flex gap-6 items-center group/link" do %>
+          <div class="block min-w-[80px] h-[80px] w-[80px] bg-center bg-no-repeat bg-auto" style="background-image: url(<%= relative_url cluster.data.hero %>)"></div>
+          <div>
+            <span class="block font-semibold text-xl mb-2 group-hover/link:underline group-hover/link:underline-offset-2"><%= cluster.data.title %></span>
+            <span class="text-lg text-medium-grey"><%= cluster.data.highlight %></span>
+          </div>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</nav>
