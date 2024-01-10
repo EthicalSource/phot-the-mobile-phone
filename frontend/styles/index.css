@@ -153,6 +153,10 @@ body.page main {
   }
 }
 
+h3.event-underline:hover {
+  @apply border-b-4 border-very-black
+}
+
 .page-md-style {
   h2 { @apply md:text-2xl lg:text-4xl font-semibold mb-6 text-white }
   h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
@@ -205,3 +209,7 @@ body.page main {
 }
 
 .invert { filter: invert(100%); }
+
+.footer-link:hover {
+  @apply border-b-2 border-white cursor-pointer
+}

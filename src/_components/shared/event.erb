@@ -9,8 +9,8 @@
     </a>
     <div class="w-full md:w-1/2 <%= @classname %> mt-[26px] md:mt-[50px]">
       <p class="meta text-dark-grey mb-[20px]"><time><%= @event.data.start_date&.year %></time></p>
-      <a href="<%= url_for(@event) %>">
-        <h3 class="heading-sm text-medium-black mb-[26px]">
+      <a href="<%= url_for(@event)%>">
+        <h3 class="heading-sm text-medium-black mb-[26px] event-underline">
           <%= @event.data.title %>
         </h3>
       </a>
