@@ -8,5 +8,16 @@ carousel_description: The design of technology not only shapes our usage but is
 intro: The design of technology profoundly shapes and influences our patterns of
   use, while our interactions and needs, in turn, guide and inform its continual
   evolution, creating a dynamic interplay between user and device.
-hero: /images/uploads/screenshot-2024-01-01-at-10.03.18 pm.png
+hero_image:
+  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_DESIGN & USE.jpg
+  alt: Design & Use
+nav_image:
+  alt: Design & Use
+  src: /images/uploads/design-and-use_nav_thumb_80x80.jpg
+cluster_homepage_image:
+  alt: Design & Use
+  src: /images/uploads/History-of-the-Mobile-Phone_Collection-Header_DESIGN-&-USE.png
+explore_image:
+  alt: Design & Use
+  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_DESIGN & USE.jpg
 ---
