@@ -1,16 +1,17 @@
 .default {
-  header {
+  & > header {
     @apply bg-solid-black text-white items-center;
     display: flex;
     height: calc(100vh - 88px);
     position: relative;
     width: 100%;
   }
+
   .cluster-heading {
     @apply h-fit md:max-w-[725px] justify-center md:mb-[200px];
     display: flex;
     margin-bottom: 80px;
-    width: 100vh;
+    width: 100%;
 
     article {
       position: relative;
