@@ -1,18 +1,23 @@
 <nav data-controller="open-close"
   data-open-close-open-class="nav--open"
-  class="flex flex-col items-end p-6 group relative bg-black z-10">
-  <%= svg "images/shared/menu-icon.svg",
-    "data-action" => "click->open-close#updateState",
-    class: "z-30"
-  %>
-  <ul class="w-screen h-screen bg-fuchsia text-white
-    hidden absolute py-16 group-[.nav--open]:block
-    group-[.nav--open]:animate-fadein">
-    <% clusters.each do |cluster| %>
-      <li class="text-right"><%= link_to cluster.data.title, cluster.relative_url %></li>
-    <% end %>
-    <% pages_in_nav.each do |page| %>
-      <li class="text-right"><%= link_to page.data.nav_label, page.relative_url %></li>
-    <% end %>
-  </ul>
+  class="px-16 py-8 group bg-solid-black relative">
+
+  <div class="flex justify-between items-center w-full">
+    <%= partial "nav/logo" %>
+    <%= svg "images/shared/menu-icon.svg",
+      "data-action" => "click->open-close#updateState",
+      class: "z-30 fill-white"
+    %>
+  </div>
+
+  <div class="w-screen h-screen bg-very-black z-20 text-white
+    hidden fixed left-0 right-0 px-16 py-12 mt-4 gap-y-10 gap-x-6
+    overflow-scroll overscroll-contain
+    group-[.nav--open]:block group-[.nav--open]:animate-fadein">
+    <%= partial "nav/clusters", locals: { clusters: clusters } %>
+    <div class="max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20">
+      <%= partial "nav/pages", locals: { pages: pages_in_nav } %>
+      <%= partial "nav/social_links" %>
+    </div>
+  </div>
 </nav>
