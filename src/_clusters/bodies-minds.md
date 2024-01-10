@@ -9,5 +9,16 @@ intro: Pocket computers, as highly personal devices, are intimately integrated
   into our daily lives. They represent not just technology, but a deep, almost
   seamless connection with our digital world, reflecting our preferences and
   habits.
-hero: /images/uploads/screenshot-2023-12-28-at-9.33.19 pm.png
+hero_image:
+  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_BODIES & MINDS.jpg
+  alt: Alt
+nav_image:
+  src: /images/uploads/bodies-and-minds_nav_thumb_80x80.jpg
+  alt: Alt
+cluster_homepage_image:
+  src: /images/uploads/History-of-the-Mobile-Phone_Collection-Header_BODIES-&-MINDS.png
+  alt: Alt
+explore_image:
+  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_BODIES & MINDS.jpg
+  alt: Alt
 ---
