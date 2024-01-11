@@ -1,7 +1,7 @@
 import { Controller } from '@hotwired/stimulus';
 
 export default class extends Controller {
-  static classes = [ 'open' ]
+  static classes = [ 'open', 'close' ]
 
   updateState(e) {
     e.preventDefault();
@@ -18,9 +18,11 @@ export default class extends Controller {
 
   closeElement() {
     this.element.classList.remove(this.openClass)
+    this.element.classList.add(this.closeClass)
   }
 
   openElement() {
+    this.element.classList.remove(this.closeClass)
     this.element.classList.add(this.openClass)
   }
 }
