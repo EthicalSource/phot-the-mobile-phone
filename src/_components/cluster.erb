@@ -1,5 +1,5 @@
 <ul class="cluster-grid">  
-  <li><%= partial "landing/highlight", locals: { cluster: @cluster.data } %></li>
+  <li><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
   <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
   <li><%= render Shared::Event.new(event: @events.pop, cluster: @cluster) %></li>
   <li><%= partial "landing/journal-entry", locals: { journal: @journals.pop, cluster: @cluster } %></li>
