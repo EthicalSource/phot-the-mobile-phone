@@ -50,3 +50,18 @@ CC BY-NC-SA includes the following elements:
 BY: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 NC: You may not use the material for commercial purposes.
 SA: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Software is licensed under The Hippocratic License (HL3-FULL); created by the Organization for Ethical Source in partnership with Corporate Accountability Lab.
+[![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
+
+## Credits
+
+A People’s History of Tech is a project supported by [The Tech We Want](https://omidyar.com/the-tech-we-want/) and was incubated by the Omidyar Network’s Digital Luminary Fellows.
+
+![The Tech We Want Logo](../images/shared/the-tech-we-want_footer-logo-white.png)
+
+Production and editorial direction by Emily Best and [Sara M. Watson](https://www.saramwatson.com/).
+
+Digital experience design and build by [Fly Media Productions](https://flymediaproductions.com/), in joint collaboration with [Flagrant](https://beflagrant.com). Accessibility support provided by [Small Technology Foundation](https://small-tech.org/). Illustrations by Becky Russell.
+
+Special thank you to Tech We Want Luminary Fellows Coraline Ada Ehmke, Eli Pariser, Jasmine Sun, and Xiaowei Wang.
