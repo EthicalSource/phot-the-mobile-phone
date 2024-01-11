@@ -1,0 +1,38 @@
+.fade-out {
+  animation: fadeout var(--transition-duration);
+  -moz-animation: fadeout --transition-duration; /* Firefox */
+  -webkit-animation: fadeout var(--transition-duration); /* Safari and Chrome */
+  -o-animation: fadeout var(--transition-duration); /* Opera */
+}
+@keyframes fadeout {
+  from {
+      opacity:1;
+  }
+  to {
+      opacity:0;
+  }
+}
+@-moz-keyframes fadeout { /* Firefox */
+  from {
+      opacity:1;
+  }
+  to {
+      opacity:0;
+  }
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+  from {
+      opacity:1;
+  }
+  to {
+      opacity:0;
+  }
+}
+@-o-keyframes fadeout { /* Opera */
+  from {
+      opacity:1;
+  }
+  to {
+      opacity: 0;
+  }
+}
