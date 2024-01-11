@@ -9,3 +9,4 @@
     <%= render Cluster.new(site: site, cluster: cluster) %>
   <% end %>
 </main>
+<%= partial "shared/tell-your-story" %>
