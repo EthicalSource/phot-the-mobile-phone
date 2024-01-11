@@ -293,7 +293,7 @@ collections:
         widget: "relation"
         collection: "events"
         search_fields: [ "title" ]
-        value_field: "title" # should this be an ID?
+        value_field: "title"
         multiple: true
         required: false
       - label: "Tags"
