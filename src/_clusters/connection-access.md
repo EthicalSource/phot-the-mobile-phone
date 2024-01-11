@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: CONNECTION & ACCESS
 feature: true
 highlight: Connectivity is never a given.

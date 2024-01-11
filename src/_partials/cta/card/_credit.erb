@@ -1,4 +1,8 @@
 <aside class="mb-[50px]">
-  <%= render Shared::Credit.new(label: "Media", credit: data.media&.credit, href: data.media&.link) %>
-  <%= render Shared::Credit.new(label: "Source", credit: data.source, href: data.source_link) %>
+  <p class='body text-medium-grey'>
+    <%= render Shared::Credit.new(label: "Media", credit: data.media&.credit, href: data.media&.link) %>
+  </p>
+  <p class='body text-medium-grey'>
+    <%= render Shared::Credit.new(label: "Source", credit: data.source, href: data.source_link) %>
+  </p>
 </aside>

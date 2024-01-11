@@ -1,51 +1,45 @@
-<!doctype html>
-<html lang="<%= site.locale %>">
-  <head>
-    <%= render "head", metadata: site.metadata, title: data.title %>
-  </head>
-  <% cluster = data %>
+---
+layout: default
+---
 
-  <% other_clusters = PostHelpers.other_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
-  <% events    = PostHelpers.events_by_collection(posts: collections.events.resources, value: cluster.title) %>
-  <% ctas      = PostHelpers.ctas_by_collection(posts: collections.ctas.resources, value: cluster.title, count: 1) %>
-  <% journals  = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
-  <% prompts   = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title) %>
+<% cluster = data %>
+<% other_clusters = PostHelpers.other_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
+<% events    = PostHelpers.events_by_collection(posts: collections.events.resources, value: cluster.title) %>
+<% ctas      = PostHelpers.ctas_by_collection(posts: collections.ctas.resources, value: cluster.title, count: 1) %>
+<% journals  = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
+<% prompts   = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title) %>
 
-  <body class="<%= data.layout %> <%= data.page_class %> bg-dark-grey ">
-    <%= render Shared::Navbar.new(site: site, resource: resource) %>
-    <%= partial "cluster/header", locals: {cluster: cluster, events: []} %>
-    <main class="max-w-[1260px] text-off-white grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] mx-auto my-[150px] p-[20px] md:p-0">
-      <% # Draw the first 4 cards %>
-      <% events.slice!(0,4).each do |event| %>
-        <%= render Cards::Event.new(post: event) %>
-      <% end %>
 
-      <% # Draw the journal card %>
-      <% journals.each do |journal| %>
-        <%= render Cards::Journal.new(post: journal) %>
-      <% end %>
+<%= partial "cluster/header", locals: { cluster: cluster } %>
+<main class="max-w-[1260px] text-off-white grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] mx-auto my-[150px] p-[20px] md:p-0">
+  <% # Draw the first 4 cards %>
+  <% events.slice!(0,4).each do |event| %>
+    <%= render Cards::Event.new(post: event) %>
+  <% end %>
 
-      <% # Draw two more event cards %>
-      <% events.slice(0,2).each do |event| %>
-        <%= render Cards::Event.new(post: event) %>
-      <% end %>
+  <% # Draw the journal card %>
+  <% journals.each do |journal| %>
+    <%= render Cards::Journal.new(post: journal) %>
+  <% end %>
 
-      <% # Draw the prompt card %>
-      <% prompts.each do |prompt| %>
-        <%= render Cards::Prompt.new(post: prompt) %>
-      <% end %>
+  <% # Draw two more event cards %>
+  <% events.slice(0,2).each do |event| %>
+    <%= render Cards::Event.new(post: event) %>
+  <% end %>
 
-      <% # Draw the take action card %>
-      <% ctas.each do |cta| %>
-        <%= render Cards::CallToAction.new(post: cta) %>
-      <% end %>
-    </main>
-    <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
-      <% other_clusters.each do |cluster| %>
-        <%= render Poster::Cluster.new(cluster: cluster) %>
-      <% end %>
-    <% end %>
-    <%= partial "shared/tell-your-story" %>
-    <%= render "footer", metadata: site.metadata %>
-  </body>
-</html>
+  <% # Draw the prompt card %>
+  <% prompts.each do |prompt| %>
+    <%= render Cards::Prompt.new(post: prompt) %>
+  <% end %>
+
+  <% # Draw the take action card %>
+  <% ctas.each do |cta| %>
+    <%= render Cards::CallToAction.new(post: cta) %>
+  <% end %>
+</main>
+<%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+  <% other_clusters.each do |cluster| %>
+    <%= render Poster::Cluster.new(cluster: cluster) %>
+  <% end %>
+<% end %>
+<%= partial "shared/tell-your-story" %>
