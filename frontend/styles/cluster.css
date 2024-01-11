@@ -7,6 +7,10 @@
 
     width: 100vw;
     height: calc(100vh - var(--nav-height));
+
+    a {
+      margin-right: 5px;
+    }
   }
   header > .explore {
     @apply absolute bottom-0 w-full text-center;

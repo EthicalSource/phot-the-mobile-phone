@@ -37,6 +37,26 @@ collections:
         name: "intro"
         widget: "markdown"
         required: true
+      - label: 'Photo Credit'
+        name: 'photo_credit'
+        widget: 'object'
+        fields:
+          - label: 'Photo Credit Link Text'
+            name: 'link_text'
+            widget: 'string'
+          - label: 'Link'
+            name: 'link_href'
+            widget: 'string'
+      - label: 'Illustrations Credit'
+        name: 'illustrations_credit'
+        widget: 'object'
+        fields:
+          - label: 'Illustration Credit Link Text'
+            name: 'illustration_text'
+            widget: 'string'
+          - label: 'Link'
+            name: 'link_href'
+            widget: 'string'
       - label: "Hero Image"
         name: "hero_image"
         widget: "object"
