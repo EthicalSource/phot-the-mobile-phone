@@ -1,4 +1,5 @@
 ---
+body_classes: ""
 ---
 <% events = collections.events.resources %>
 <% clusters = collections.clusters.resources %>
