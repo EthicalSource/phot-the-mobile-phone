@@ -9,6 +9,18 @@
     height: calc(100vh - var(--nav-height));
     position: relative;
     width: 100%;
+    
+    @media (max-width: 1024px) {
+      h1 {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: bold;
+      }
+    }
+
+    @media (min-width: 1025px) {
+      h1 { @apply heading-xxl; }
+    }
   }
 
   article.highlight {
@@ -112,6 +124,9 @@
       gap: 10px;
 
       & > li:nth-child(1) {
+        grid-column: 1 / -1;
+      }
+      & > li:nth-child(2) {
         grid-column: 1 / -1;
       }
       & > li:nth-child(3), & > li:nth-child(6) {

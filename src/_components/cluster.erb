@@ -1,4 +1,11 @@
-<ul class="cluster-grid">  
+<ul class="cluster-grid">
+  <li class="flex justify-center">
+    <div class="px-5 flex gap-[20px] flex-col w-full md:w-3/5 my-[50px]">
+      <p>Join us in building a living artifact, sharing the human impact of technology, and harnessing our joint power for the future of tech citizenship.</p>
+      <p>Our journey begins with the mobile phone, a pocket-sized marvel that has transformed our relationship with time, space and each other. How did we get here?</p>
+      <p>We’ve seeded the timeline with key events and critical voices. Explore themes and <a class="underline">personal histories</a>, add <a class="underline">your story</a>, and <a class="underline">discover actionable steps</a> to ensure technology serves us all.</p>
+    </div>
+  </li>
   <li><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
   <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
