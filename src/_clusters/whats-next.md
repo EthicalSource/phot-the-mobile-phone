@@ -1,5 +1,5 @@
 ---
-layout: cluster
+layout: cluster_resource
 title: RESOURCES
 feature: false
 highlight: Take action and imagine better tech futures.
