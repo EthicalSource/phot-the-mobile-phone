@@ -181,6 +181,7 @@ a:hover {
 }
 .ticker-wrap {
   overflow: hidden;
+  margin-top: -10px;
   height: 100%;
 }
 .ticker-wrap .ticker {
