@@ -19,10 +19,30 @@ export default class extends Controller {
   closeElement() {
     this.element.classList.remove(this.openClass)
     this.element.classList.add(this.closeClass)
+    this.detachCloseEventListeners()
+
   }
 
   openElement() {
     this.element.classList.remove(this.closeClass)
     this.element.classList.add(this.openClass)
+    this.attachCloseEventsListeners()
+  }
+
+  attachCloseEventsListeners() {
+    document.addEventListener("keydown", this.closeOnEscKeyListener());
+  }
+
+  detachCloseEventListeners() {
+    document.removeEventListener("keydown", this.closeOnEscKeyListener())
+  }
+
+  closeOnEscKeyListener() {
+    const listener = e => {
+      if (e.key === "Escape") {
+        this.closeElement();
+      }
+    }
+    return listener;
   }
 }
