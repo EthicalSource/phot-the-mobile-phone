@@ -1,14 +1,14 @@
 <ul class="cluster-grid">  
-  <li><%= partial "landing/highlight", locals: { cluster: @cluster.data } %></li>
+  <li><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
   <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
-  <li><%= render Shared::Event.new(event: @events.pop, cluster: @cluster) %></li>
+  <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li><%= partial "landing/journal-entry", locals: { journal: @journals.pop, cluster: @cluster } %></li>
   <li class="hidden md:block"></li>
-  <li><%= render Shared::Event.new(event: @events.pop, cluster: @cluster) %></li>
-  <li><%= render Shared::Event.new(event: @events.pop, cluster: @cluster) %></li>
+  <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
+  <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li class="hidden md:block"></li>
   <li><%= partial "landing/tell-your-story", locals: { prompt: @prompts.first } %></li>
-  <li><%= render Shared::Event.new(event: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
+  <li><%= render Shared::Entry.new(entry: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
 </ul>
 
 

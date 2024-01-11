@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="<%= site.locale %>">
+  <head>
+    <%= render "head", metadata: site.metadata, title: data.title %>
+  </head>
+  <body class="<%= data.layout %> <%= data.page_class %>">
+    <%= render Shared::Navbar.new(site: site, resource: resource) %>
+    
+    <% prompt = resource %>
+    <%= render Prompt::TypeForm.new(prompt: prompt) %>
+
+    <%= render "footer", metadata: site.metadata %>
+  </body>
+</html>

@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       animation: {
         fadein: "fadein .75s ease-in",
+        fadeout: "fadeout .75s ease-in",
       },
       colors: {
         'solid-black': '#000000',
@@ -25,6 +26,10 @@ module.exports = {
         fadein: {
           "0%":   { opacity: "0" },
           "100%": { opacity: "1" },
+        },
+        fadeout: {
+          "100%":   { opacity: "1" },
+          "0%": { opacity: "0" },
         },
       },
       screens: {

@@ -11,6 +11,21 @@
     width: 100%;
   }
 
+  article.highlight {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 0 80px;
+
+    h2 {
+      @apply heading-md text-dark-grey text-center w-full md:w-1/2;
+    }
+    img {
+      width: 65px;
+      height: 65px;
+      margin-bottom: 30px;
+    }
+  }
   .cluster-heading {
     @apply h-fit md:min-w-[320px] md:max-w-[725px] justify-center mb-[80px] md:mb-[200px];
     display: flex;

@@ -187,7 +187,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
-            required: true
+            required: false
           - label: "Credit"
             name: "credit"
             widget: "string"
@@ -244,7 +244,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
-            required: true
+            required: false
           - label: "Credit"
             name: "credit"
             widget: "string"
@@ -293,7 +293,7 @@ collections:
         widget: "relation"
         collection: "events"
         search_fields: [ "title" ]
-        value_field: "title" # should this be an ID?
+        value_field: "title"
         multiple: true
         required: false
       - label: "Tags"
@@ -316,7 +316,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
-            required: true
+            required: false
           - label: "Credit"
             name: "credit"
             widget: "string"
@@ -349,9 +349,11 @@ collections:
       - label: "Should the footer contain a link to this page?"
         name: "in_footer"
         widget: "boolean"
+        default: false
       - label: "Should the main navigation contain a link to this page?"
         name: "in_nav"
         widget: "boolean"
+        default: false
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Navigation Label"
         name: "nav_label"
@@ -372,7 +374,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
-            required: true
+            required: false
           - label: "Credit"
             name: "credit"
             widget: "string"
@@ -398,6 +400,8 @@ collections:
         value_field: "title"
         required: true
       - { label: "Question", name: "question", widget: "string" }
+      - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
 
   - name: "tags"
     label: "Tags"

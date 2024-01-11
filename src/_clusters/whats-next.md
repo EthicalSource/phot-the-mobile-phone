@@ -1,6 +1,6 @@
 ---
 layout: cluster
-title: What's Next?
+title: RESOURCES
 feature: false
 highlight: Take action and imagine better tech futures.
 carousel_description: Engage proactively to envision and shape improved technological futures.
@@ -9,14 +9,14 @@ intro: Actively participate and use your imagination to shape better
   of tech.
 hero_image:
   src: /images/uploads/History-of-the-Mobile-Phone_Homepage_RISK & SAFETY.jpg
-  alt: What's Next?
+  alt: Resources
 nav_image:
-  alt: What's Next?
-  src: /images/uploads/risk-and-safety_nav_thumb_80x80.jpg
+  alt: Resources
+  src: /images/uploads/resources_nav_thumb_80x80.jpg
 cluster_homepage_image:
-  alt: What's Next?
-  src: /images/uploads/History-of-the-Mobile-Phone_Collection-Header_FINAL-RISK-&-SAFETY.png
+  alt: Resources
+  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_RESOURCES.jpg
 explore_image:
-  alt: What's Next?
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_RISK & SAFETY.jpg
+  alt: Resources
+  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_RESOURCES.jpg
 ---

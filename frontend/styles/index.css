@@ -7,6 +7,7 @@
 @import "./shared/guide.css";
 @import "./shared/transitions/general.css";
 @import "./shared/transitions/fadein.css";
+@import "./shared/transitions/fadeout.css";
 @import "./shared/typography.css";
 
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
@@ -154,12 +155,8 @@ body.page main {
   }
 }
 
- a > h1:hover,a > h2:hover,a > h3:hover, a > h4:hover, a >h5:hover,a > h6:hover {
-  @apply underline text-very-black;
-}
-
 a:hover {
-  @apply underline text-white;
+  text-decoration: underline;
 }
 
 .page-md-style {
