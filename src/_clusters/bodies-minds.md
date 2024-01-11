@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: BODIES & MINDS
 feature: true
 highlight: Pocket computers are intimate tech.

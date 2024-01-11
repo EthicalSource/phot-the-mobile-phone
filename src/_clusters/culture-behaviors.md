@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: CULTURE & BEHAVIORS
 feature: true
 highlight: From emojis to memes, we connect and make meaning with tech.

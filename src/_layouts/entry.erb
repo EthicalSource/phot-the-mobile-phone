@@ -1,9 +1,10 @@
+---
+layout: default
+---
 <% event = resource %>
-<%= render("post/base") do  %>
-  <main class="px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[150px]">
-    <%= partial 'post/headline' %>
-    <%= partial 'entry/card' %>
-  </main>
 
-  <%= partial 'post/related', locals: { resource: event } %>
-<% end %>
+<main class="px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[150px]">
+  <%= partial 'post/headline' %>
+  <%= partial 'entry/card' %>
+</main>
+<%= partial 'post/related', locals: { resource: event } %>

@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: RISK & SAFETY
 feature: true
 highlight: Tech can simultaneously expose and protect our vulnerabilities.

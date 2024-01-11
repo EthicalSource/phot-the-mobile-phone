@@ -1,4 +1,5 @@
 ---
+body_classes: ""
 ---
 <% events = collections.events.resources %>
 <% clusters = collections.clusters.resources %>
@@ -9,3 +10,4 @@
     <%= render Cluster.new(site: site, cluster: cluster) %>
   <% end %>
 </main>
+<%= partial "shared/tell-your-story" %>

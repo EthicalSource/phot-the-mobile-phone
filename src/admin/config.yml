@@ -15,7 +15,6 @@ collections:
     create: true
     slug: "{{title}}"
     fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "cluster" }
       - label: "Title"
         name: "title"
         widget: "string"
