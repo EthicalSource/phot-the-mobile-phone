@@ -63,6 +63,7 @@ defaults:
   - scope:
       collection: prompts
     values:
+      layout: prompt
       body_classes: "bg-black text-off-white"
 
 collections:
