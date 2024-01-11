@@ -2,4 +2,4 @@
 layout: default
 ---
 <% prompt = resource %>
-<%= render Prompt::TypeForm.new(prompt: prompt) %>
+<%= render Prompt::TypeForm.new(prompt.data.typeform_id) %>
