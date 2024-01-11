@@ -4,10 +4,13 @@
 
   <div class="flex justify-between items-center w-full">
     <%= partial "nav/logo" %>
-    <%= svg "images/shared/menu-icon.svg",
-      "data-action" => "click->open-close#updateState",
-      class: "z-30 fill-white"
-    %>
+    <div class="flex items-center gap-6">
+      <%= link_to "#", class: "flex", data: { action: "click->open-close#updateState" } do %>
+        <span class="inline-block mr-1 hidden group-[.nav--open]:block">Close Menu</span>
+        <%= svg "images/shared/menu-icon.svg", class: "z-30 fill-white" %>
+      <% end %>
+      <%= link_to "Participate", "#", class: "button primary !hidden lg:!block" %>
+    </div>
   </div>
 
   <div class="w-screen h-screen bg-very-black z-20 text-white
