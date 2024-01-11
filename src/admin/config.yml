@@ -398,6 +398,8 @@ collections:
         value_field: "title"
         required: true
       - { label: "Question", name: "question", widget: "string" }
+      - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
 
   - name: "tags"
     label: "Tags"
