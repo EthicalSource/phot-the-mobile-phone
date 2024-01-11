@@ -1,6 +1,10 @@
 .default {
   & > header {
-    @apply bg-solid-black text-white items-center;
+    @apply text-white items-center;
+    @apply bg-[url("/images/shared/History-of-the-Mobile-Phone_Homepage_Header-Bg-mobile.jpg")];
+    @apply lg:bg-[url("/images/shared/History-of-the-Mobile-Phone_Homepage_Header-Bg-fullscreen.jpg")];
+    @apply bg-origin-border bg-no-repeat bg-bottom bg-cover
+
     display: flex;
     height: calc(100vh - var(--nav-height));
     position: relative;
