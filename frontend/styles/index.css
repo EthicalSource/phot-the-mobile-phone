@@ -207,6 +207,10 @@ a:hover {
 .ticker .ticker-bullet {
   line-height: 100%;
   align-self: flex-end;
+
+  &:last-of-type {
+    display: none;
+  }
 }
 
 .ticker-bullet {
