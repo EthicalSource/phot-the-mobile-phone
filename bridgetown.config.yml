@@ -39,6 +39,10 @@ defaults:
   - values:
       layout: "default"
   - scope:
+      collection: clusters
+    values:
+      layout: "cluster"
+  - scope:
       collection: ctas
     values:
       class_name: Cta

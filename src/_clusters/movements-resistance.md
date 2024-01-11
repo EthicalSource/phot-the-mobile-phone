@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: MOVEMENTS & RESISTANCE
 feature: true
 highlight: Tech is both a tool and a target for collective action.

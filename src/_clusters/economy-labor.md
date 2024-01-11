@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: ECONOMY & LABOR
 feature: true
 highlight: Tech disrupts economies and changes the nature of work.

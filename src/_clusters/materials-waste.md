@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: MATERIALS & WASTE
 feature: true
 highlight: Human transformation of metals and sand has environmental impacts.

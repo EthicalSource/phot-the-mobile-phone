@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: DESIGN & USE
 feature: true
 highlight: The design of tech shapes and influences our use, and vice versa.
