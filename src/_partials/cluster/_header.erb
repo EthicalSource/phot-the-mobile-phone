@@ -6,6 +6,10 @@
       <p>
         <%= cluster.intro %>
       </p>
+      <p class="mt-[30px]">
+       <%= render Shared::Credit.new(label: 'Photo', credit: cluster.photo_credit&.link_text, href: cluster.photo_credit&.link_href)%>
+        <%= render Shared::Credit.new(label: 'Illustration', credit: cluster.illustrations_credit&.illustration_text, href: '')%>
+      </p>
     </article>
     <aside>
       <div class="hero-image" style="background-image: url(<%= relative_url cluster.hero_image.src %>)"></div>
