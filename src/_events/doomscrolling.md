@@ -1,17 +1,17 @@
 ---
 layout: entry
+title: Doomscrolling
+location: Online
 start_date:
   year: 2020
+clusters: CONNECTION & ACCESS
+tags:
+  - 2020s
 media:
   alt: An illustration of a devil scrolling a phone with a flaming background
   thumbnail: /images/uploads/doomscrolling-idea2.gif
   credit: EMMA KUMER/RD.COM
   link: https://www.rd.com/article/doomscrolling/
-title: Doom-scrolling
-location: Online
-clusters: CONNECTION & ACCESS
-tags:
-  - 2020s
 source: Scientific American
 source_link: https://www.scientificamerican.com/article/how-to-stop-doomscrolling-news-and-social-media/
 ---

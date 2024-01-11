@@ -1,4 +1,5 @@
 <% if journal %>
-  <div class="w-full my-[100px] md:my-[90px]">
-  <%= render Shared::Journal.new(journal: journal, cluster: cluster)%>
+  <div class="my-[100px] md:my-[90px] wrapper">
+    <%= render Shared::Journal.new(journal: journal, cluster: cluster)%>
+  </div>
 <% end %>

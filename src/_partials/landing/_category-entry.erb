@@ -1,16 +1,5 @@
-<% title = event.data.title %>
-<% content = event.content %>
-
 <div class="w-full flex-wrap md:flex md:flex-nowrap gap-[100px] mb-[60px]">
-  <div class="w-full h-fit md:w-[725px] flex justify-center mb-[80px] md:mb-[200px]">
-    <a href="<%= url_for(cluster) %>">
-      <div class="category-title-container">
-        <div class="hero-image" style="background-image: url(<%= relative_url cluster.data.cluster_homepage_image&.src %>)"></div>
-        <h2 class="category-title"><%= collection %></h2>
-        <div class="category-title glow"><%= collection %></div>
-      </div>
-    </a>
-  </div>
+  <%= render Cluster::Heading.new(cluster: cluster) %>
   <div class="md:mt-[160px]">
     <%= render Shared::Event.new(event: event, cluster: cluster) %>
   </div>

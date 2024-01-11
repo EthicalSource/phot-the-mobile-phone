@@ -1,4 +1,4 @@
-var categoryTitles = document.querySelectorAll('.default .category-title');
+var categoryTitles = document.querySelectorAll('.break-on-amp');
 
 categoryTitles.forEach(function(title){
   let htmlContent = title.innerHTML;
