@@ -210,3 +210,8 @@ body.page main {
 }
 
 .invert { filter: invert(100%); }
+.quote-content {
+  quotes: "“" "”";
+  &::before { content: open-quote }
+  &::after { content: close-quote }
+}
