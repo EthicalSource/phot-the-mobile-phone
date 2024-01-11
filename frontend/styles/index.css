@@ -16,10 +16,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav--close {
-  /* @apply fade-out; */
-}
-
 :root {
   --nav-height: 114px;
   --cluster-image-size:
