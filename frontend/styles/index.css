@@ -154,6 +154,14 @@ body.page main {
   }
 }
 
+ a > h1:hover,a > h2:hover,a > h3:hover, a > h4:hover, a >h5:hover,a > h6:hover {
+  @apply underline text-very-black;
+}
+
+a:hover {
+  @apply underline text-white;
+}
+
 .page-md-style {
   h2 { @apply md:text-2xl lg:text-4xl font-semibold mb-6 text-white }
   h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
