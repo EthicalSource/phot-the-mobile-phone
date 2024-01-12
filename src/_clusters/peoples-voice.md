@@ -1,5 +1,4 @@
 ---
-layout: cluster
 title: PEOPLE'S STORIES
 feature: false
 highlight: A participatory history of tech needs your voice!

@@ -1,3 +1,13 @@
+nav.nav--open #main-site-nav-wrapper {
+  @apply animate-fadein !block;
+}
+nav.nav--closing #main-site-nav-wrapper {
+  @apply animate-fadeout !block;
+}
+nav.nav--closed #main-site-nav-wrapper {
+  @apply opacity-0 hidden;
+}
+
 nav.nav--open #menu-icon > #middle {
   opacity: 0;
 }

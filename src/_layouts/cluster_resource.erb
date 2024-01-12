@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<% cluster        = data %>
+<% other_clusters = PostHelpers.other_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
+<% ctas           = site.collections.ctas.resources %>
+
+<%= partial "cluster/header", locals: { cluster: cluster } %>
+<main class="max-w-[1260px] text-off-white grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] mx-auto my-[150px] p-[20px] md:p-0">
+  <% ctas.each do |cta| %>
+    <%= render Cards::CallToAction.new(post: cta) %>
+  <% end %>
+</main>
+<%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+  <% other_clusters.each do |cluster| %>
+    <%= render Poster::Cluster.new(cluster: cluster) %>
+  <% end %>
+<% end %>
+<%= partial "shared/tell-your-story" %>
