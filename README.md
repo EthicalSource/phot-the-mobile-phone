@@ -63,7 +63,7 @@ bin/bridgetown console
 > Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
 
 ## Content Management System
-Blog posts, team members, case studies, events, and job posts are all website resources that are driven through an integration with [DecapCMS](https://decapcms.org/docs/intro/).
+Blog posts, team members, case studies, events, and job posts are all website resources that are driven through an integration with [NetlifyCMS](https://v1.netlifycms.org/).
 
 ### Local Development
 In order to access the admin portal while developing locally simply
