@@ -1,7 +1,8 @@
 import { Controller } from '@hotwired/stimulus';
 
 export default class extends Controller {
-  static classes = [ 'open', 'close' ]
+  static classes = [ 'open', 'closed', 'closing' ]
+  static targets  = [ 'menu' ]
 
   updateState(e) {
     e.preventDefault();
@@ -16,17 +17,26 @@ export default class extends Controller {
     return [...this.element.classList].includes(this.openClass)
   }
 
-  closeElement() {
-    this.element.classList.remove(this.openClass)
-    this.element.classList.add(this.closeClass)
-    this.detachCloseEventListeners()
+  openElement() {
+    this.element.classList.add(this.openClass)
+    this.element.classList.remove(this.closedClass)
 
+    this.attachCloseEventsListeners()
   }
 
-  openElement() {
-    this.element.classList.remove(this.closeClass)
-    this.element.classList.add(this.openClass)
-    this.attachCloseEventsListeners()
+  closeElement() {
+    this.element.classList.remove(this.openClass)
+    this.element.classList.add(this.closingClass)
+    this.waitThenApplyClosedClass()
+
+    this.detachCloseEventListeners()
+  }
+
+  waitThenApplyClosedClass() {
+    setTimeout(()=>{
+      this.element.classList.add(this.closedClass)
+      this.element.classList.remove(this.closingClass)
+    }, 750)
   }
 
   attachCloseEventsListeners() {

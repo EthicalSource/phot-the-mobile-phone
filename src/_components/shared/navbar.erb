@@ -1,7 +1,8 @@
 <nav data-controller="open-close"
   data-open-close-open-class="nav--open"
-  data-open-close-close-class="nav--close"
-  class="px-16 py-8 group bg-solid-black relative">
+  data-open-close-closed-class="nav--closed"
+  data-open-close-closing-class="nav--closing"
+  class="nav--closed px-16 py-8 group bg-solid-black relative">
 
   <div class="flex justify-between items-center w-full">
     <%= partial "nav/logo" %>
@@ -14,12 +15,9 @@
     </div>
   </div>
 
-  <div class="w-screen h-screen bg-very-black z-20 text-white
-    hidden fixed left-0 right-0 px-16 py-12 mt-4 gap-y-10 gap-x-6
-    overflow-scroll overscroll-contain
-    group-[.nav--open]:block group-[.nav--open]:animate-fadein
-    group-[.nav--close]:animate-fadeout
-    ">
+  <div id="main-site-nav-wrapper" class="w-screen h-screen bg-very-black z-20 text-white
+    fixed left-0 right-0 px-16 py-12 mt-4 gap-y-10 gap-x-6
+    overflow-scroll overscroll-contain hidden">
     <%= partial "nav/clusters", locals: { clusters: clusters } %>
     <div class="max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20">
       <%= partial "nav/pages", locals: { pages: pages_in_nav } %>

@@ -28,8 +28,8 @@ module.exports = {
           "100%": { opacity: "1" },
         },
         fadeout: {
-          "100%":   { opacity: "1" },
-          "0%": { opacity: "0" },
+          "100%":{ opacity: "1" },
+          "0%":  { opacity: "0" },
         },
       },
       screens: {
