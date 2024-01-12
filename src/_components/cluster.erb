@@ -1,4 +1,4 @@
-<ul class="cluster-grid">  
+<ul class="cluster-grid">
   <li><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
   <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>

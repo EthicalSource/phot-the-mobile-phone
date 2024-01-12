@@ -114,7 +114,8 @@
       & > li:nth-child(1) { /* Highlight */
         grid-column: 1 / -1;
       }
-      & > li:nth-child(3), & > li:nth-child(6) { /* Events */
+
+      & > li:nth-child(3), & > li:nth-child(6) {
         margin-top: 160px;
       }
 
