@@ -220,7 +220,7 @@ collections:
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
 
   - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
-    label: "CTAs"                      # Used in the UI
+    label: "Resources"                      # Used in the UI
     label_singular: "Call To Action"   # Used in the UI
     folder: "src/_ctas"                # The path to the folder where the documents are stored
     create: true                       # Allow users to create new documents in this collection
