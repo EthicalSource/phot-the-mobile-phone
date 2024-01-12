@@ -57,7 +57,7 @@
         top: 0;
         left: 0;
         transform:
-          translateX(calc(var(--cluster-image-size)*-0.15))
+          translateX(calc(var(--cluster-image-size)*-0.1))
           translateY(calc(var(--cluster-image-size)*1))
           rotate(270deg);
         transform-origin: left top;
