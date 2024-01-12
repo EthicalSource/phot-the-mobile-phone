@@ -158,6 +158,9 @@ body.page main {
 a:hover {
   text-decoration: underline;
 }
+a > *:hover {
+  text-decoration: none;
+}
 
 .page-md-style {
   h2 { @apply md:text-2xl lg:text-4xl font-semibold mb-6 text-white }
