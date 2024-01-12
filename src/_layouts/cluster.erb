@@ -11,7 +11,7 @@ layout: default
 
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
-<main class="max-w-[1260px] text-off-white grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] mx-auto my-[150px] p-[20px] md:p-0">
+<main>
   <% # Draw the first 4 cards %>
   <% events.slice!(0,4).each do |event| %>
     <%= render Cards::Event.new(post: event) %>

@@ -7,7 +7,7 @@ layout: default
 <% ctas           = site.collections.ctas.resources %>
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
-<main class="max-w-[1260px] text-off-white grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] mx-auto my-[150px] p-[20px] md:p-0">
+<main>
   <% ctas.each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>
