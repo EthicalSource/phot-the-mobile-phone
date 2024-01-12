@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: beflagrant/Peoples-History-of-Tech
   branch: main
   base_url: https://decap-oauth-phot-2588ca599b04.herokuapp.com/
   auth_endpoint: auth
