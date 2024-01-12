@@ -2,28 +2,16 @@
   <section class="tell-your-story relative bg-medium-black text-white w-full flex justify-center items-center">
     <div class="flex flex-col items-center mt-[200px] mb-[200px] sm:mt-[140px] mb-[140px]">
       <h2 class="heading-xxxl text-center mb-[80px]">Tell Your Story</h2>
-      <%= render Shared::Button.new(text: "Particpate here", href: "#", type: :tertiary)%>
+      <%= render Shared::Button.new(text: "Particpate here", href: "/participate", type: :tertiary)%>
     </div>
   </section>
   <div class="ticker-wrap font-body text-solid-black h-[40px] bg-lime-green -rotate-1 -translate-y-2">
     <div class="ticker heading-xs-alt py-2">
       <ul>
-        <li>JIM REMSIK</li>
-        <li class="ticker-bullet">*</li>
-        <li>SAVANCE X</li>
-        <li class="ticker-bullet">*</li>
-        <li>SHERRI JOHNSON</li>
-        <li class="ticker-bullet">*</li>
-        <li>GEMMA J</li>
-        <li class="ticker-bullet">*</li>
-        <li>REUBEN JOHNSON</li>
-        <li class="ticker-bullet">*</li>
-        <li>SARA WATSON</li>
-        <li class="ticker-bullet">*</li>
-        <li>EMILY BEST</li>
-        <li class="ticker-bullet">*</li>
-        <li>JOHN DOE</li>
-        <li class="ticker-bullet">*</li>
+        <% site.collections.contributors.resources.each do |contributor| %>
+          <li class="uppercase"><%= contributor.data.name %></li>
+          <li class="ticker-bullet">*</li>
+        <% end %>
       </ul>
     </div>
   </div>

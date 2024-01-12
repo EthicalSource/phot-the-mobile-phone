@@ -186,14 +186,6 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
-      - label: "Tags"
-        name: "tags"
-        widget: "relation"
-        collection: "tags"
-        search_fields: [ "name" ]
-        value_field: "name"
-        multiple: true
-        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
@@ -243,14 +235,6 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
-      - label: "Tags"
-        name: "tags"
-        widget: "relation"
-        collection: "tags"
-        search_fields: [ "name" ]
-        value_field: "name"
-        multiple: true
-        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
@@ -315,14 +299,6 @@ collections:
         value_field: "title"
         multiple: true
         required: false
-      - label: "Tags"
-        name: "tags"
-        widget: "relation"
-        collection: "tags"
-        search_fields: [ "name" ]
-        value_field: "name"
-        multiple: true
-        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
@@ -422,15 +398,10 @@ collections:
       - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
 
-  - name: "tags"
-    label: "Tags"
+  - name: "contributors"
+    label: "Contributors"
     slug: "{{name}}"
-    folder: "src/_tags"
+    folder: "src/_contributors"
     create: true
     fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - label: "Type"
-        name: "tag_type"
-        widget: "select"
-        options: ["collection", "decade"]
-        required: true
+        - { label: "Name", name: "name", widget: "string" }

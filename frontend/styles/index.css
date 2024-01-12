@@ -155,10 +155,6 @@ body.page main {
   }
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .page-md-style {
   h2 { @apply md:text-2xl lg:text-4xl font-semibold mb-6 text-white }
   h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
@@ -181,6 +177,7 @@ a:hover {
 }
 .ticker-wrap {
   overflow: hidden;
+  margin-top: -10px;
   height: 100%;
 }
 .ticker-wrap .ticker {
@@ -207,6 +204,10 @@ a:hover {
 .ticker .ticker-bullet {
   line-height: 100%;
   align-self: flex-end;
+
+  &:last-of-type {
+    display: none;
+  }
 }
 
 .ticker-bullet {
