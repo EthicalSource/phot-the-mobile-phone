@@ -111,9 +111,3 @@ collections:
     relations:
       belongs_to:
         - cluster
-
-  tags:
-    permalink: /:collection/:slug.*
-    output: false
-    sort_by: ["tag_type", "date"]
-    sort_direction: descending
