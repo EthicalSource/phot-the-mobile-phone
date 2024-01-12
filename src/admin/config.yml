@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-local_backend: true # Allow local DecapCMS
+local_backend: true # Allow local NetlifyCMS
 
 publish_mode: editorial_workflow
 media_folder: "src/images/uploads"
