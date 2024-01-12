@@ -27,7 +27,7 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin: 0 80px;
+    margin: 80px 0;
 
     h2 {
       @apply heading-md text-dark-grey text-center w-full md:w-1/2;
