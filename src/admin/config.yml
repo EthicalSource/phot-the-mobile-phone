@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+  base_url: https://decap-oauth-c6e7bf5b14ea.herokuapp.com/
+  auth_endpoint: auth
 
 local_backend: true # Allow local CMS
 
