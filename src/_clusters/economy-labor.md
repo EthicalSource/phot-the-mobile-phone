@@ -2,6 +2,7 @@
 title: ECONOMY & LABOR
 feature: true
 highlight: Tech disrupts economies and changes the nature of work.
+carousel_description: Tech disrupts economies and changes the nature of work.
 intro: Tech disrupts economies and changes the nature of work.
 hero_image:
   src: /images/uploads/History-of-the-Mobile-Phone_Homepage_ECONOMY & LABOR.jpg
