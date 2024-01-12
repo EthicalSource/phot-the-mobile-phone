@@ -83,6 +83,11 @@ collections:
       belongs_to:
         - cluster
 
+  contributors:
+    output: false
+    sort_by: date
+    sort_direction: ascending
+
   events:
     permalink: /:collection/:slug.*
     output: true

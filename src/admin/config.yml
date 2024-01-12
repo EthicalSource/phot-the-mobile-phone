@@ -422,15 +422,23 @@ collections:
       - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
 
-  - name: "tags"
-    label: "Tags"
+  - name: "contributors"
+    label: "Contributors"
     slug: "{{name}}"
-    folder: "src/_tags"
+    folder: "src/_contributors"
     create: true
     fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - label: "Type"
-        name: "tag_type"
-        widget: "select"
-        options: ["collection", "decade"]
-        required: true
+        - { label: "Name", name: "name", widget: "string" }
+
+  # - name: "tags"
+  #   label: "Tags"
+  #   slug: "{{name}}"
+  #   folder: "src/_tags"
+  #   create: true
+  #   fields:
+  #     - { label: "Name", name: "name", widget: "string" }
+  #     - label: "Type"
+  #       name: "tag_type"
+  #       widget: "select"
+  #       options: ["collection", "decade"]
+  #       required: true
