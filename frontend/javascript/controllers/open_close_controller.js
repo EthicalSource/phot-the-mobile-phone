@@ -34,8 +34,8 @@ export default class extends Controller {
 
   waitThenApplyClosedClass() {
     setTimeout(()=>{
-      this.element.classList.remove(this.closingClass)
       this.element.classList.add(this.closedClass)
+      this.element.classList.remove(this.closingClass)
     }, 750)
   }
 

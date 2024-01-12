@@ -5,7 +5,7 @@ nav.nav--closing #main-site-nav-wrapper {
   @apply animate-fadeout !block;
 }
 nav.nav--closed #main-site-nav-wrapper {
-  @apply hidden;
+  @apply opacity-0 hidden;
 }
 
 nav.nav--open #menu-icon > #middle {
