@@ -7,7 +7,7 @@
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li class="hidden md:block"></li>
-  <li><%= partial "landing/tell-your-story", locals: { prompt: @prompts.first } %></li>
+  <li><%= render Shared::Prompt.new(prompt: @prompts.first) %></li>
   <li><%= render Shared::Entry.new(entry: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
 </ul>
 
