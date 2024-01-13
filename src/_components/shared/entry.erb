@@ -5,9 +5,9 @@
   <article class="w-full md:min-w-[200px] <%= @classname %> mt-[26px] md:mt-[50px] flex flex-col">
     <header>
       <a href="<%= url_for(@entry) %>">
-        <h3 class="heading-sm text-medium-black mb-[26px]">
+        <h2 class="heading-sm text-medium-black mb-[26px]">
           <%= @entry.data.title %>
-        </h3>
+        </h2>
       </a>
       <p class="meta text-dark-grey mb-[20px]"><time><%= @entry.data.start_date&.year %></time></p>
     </header>
