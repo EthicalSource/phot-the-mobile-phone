@@ -222,3 +222,9 @@ body.page main {
   &::before { content: open-quote }
   &::after { content: close-quote }
 }
+
+footer {
+  a:hover {
+    text-decoration: underline;
+  }
+}
