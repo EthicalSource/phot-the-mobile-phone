@@ -13,8 +13,7 @@ photo_credit:
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
-  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_MOVEMENTS &
-    RESISTANCE.jpg
+  src: /images/uploads/history-of-the-mobile-phone_collection-header_movements-_-resistance_hdfxid.png
   alt: Movements & Resistance
 nav_image:
   alt: Movements & Resistance
