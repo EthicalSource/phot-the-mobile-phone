@@ -18,7 +18,7 @@ module.exports = {
         'medium-grey': '#A3A2A2',
         'off-white': '#F2F2F2',
         'lime-green': '#2EF853',
-        'fuchsia': '#F20DAF',
+        'fuchsia': '#DD0A9F',
         'blue': '#08C9f4',
         'white': '#FFFFFF',
       },
