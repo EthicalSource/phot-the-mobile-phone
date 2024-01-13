@@ -93,6 +93,7 @@ body.page main {
   }
   img {
     @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
+    @apply object-cover object-top;
     @media (max-width: 400px) {
       width: 100%;
     }
