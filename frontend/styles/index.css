@@ -132,16 +132,14 @@ body.page main {
     h2 {
       @apply heading-sm text-lime-green mb-5;
     }
-    a:not(.button) {
-      display: block;
-      margin-top: auto;
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
     }
-    a.button {
-      margin-bottom: auto;
-
-      &:hover {
-        @apply text-lime-green border-lime-green;
-      }
+    a:hover {
+      @apply text-lime-green border-lime-green;
     }
   }
   &.swiper-slide {
