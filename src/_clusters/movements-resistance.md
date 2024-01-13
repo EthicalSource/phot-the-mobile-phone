@@ -9,7 +9,7 @@ intro: Technology is a dual-edged entity, serving not only as a tool
   reflecting its pivotal role in societal change and group movements.
 photo_credit:
   link_text: Boston globe via Getty Images
-  link_href: google.com
+  link_href: ""
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
