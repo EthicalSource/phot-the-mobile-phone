@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        fadein: "fadein .75s ease-in",
-        fadeout: "fadeout .75s ease-in",
+        fadein: "fadein .25s ease-in",
+        fadeout: "fadeout .25s ease-in",
       },
       colors: {
         'solid-black': '#000000',
