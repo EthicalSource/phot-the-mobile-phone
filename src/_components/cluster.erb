@@ -2,7 +2,7 @@
   <li><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
   <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li><%= partial "landing/journal-entry", locals: { journal: @journals.pop, cluster: @cluster } %></li>
+  <li><%= render Shared::Journal.new(journal: @journals.pop, cluster: @cluster)%></li>
   <li class="hidden md:block"></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
