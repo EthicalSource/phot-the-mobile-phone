@@ -7,7 +7,7 @@ intro: The assumption of perpetual connectivity is often misguided, as
   consistent and universal access to such connections is not a guaranteed aspect
   of our increasingly digital world, but rather a fluctuating resource.
 hero_image:
-  src: /images/uploads/History-of-the-Mobile-Phone_Homepage_CONNECTION & ACCESS.jpg
+  src: /images/uploads/history-of-the-mobile-phone_collection-header_connection-_-access_fhhyyg.png
   alt: Connection and Access
 nav_image:
   src: /images/uploads/connection-and-access_nav_thumb_80x80.jpg
