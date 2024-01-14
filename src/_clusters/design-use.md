@@ -5,7 +5,7 @@ explore: true
 highlight: The design of tech shapes and influences our use, and vice versa.
 carousel_description: The design of technology not only shapes our usage but is
   also influenced by how we interact with it.
-primary_nav_description: This should be 40 characters or less of sentence case.
+primary_nav_description: The design of tech shapes and influences our use, and vice versa.
 intro: The design of technology profoundly shapes and influences our patterns of
   use, while our interactions and needs, in turn, guide and inform its continual
   evolution, creating a dynamic interplay between user and device.
