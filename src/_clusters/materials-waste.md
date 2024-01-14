@@ -1,6 +1,7 @@
 ---
 title: Materials & Waste
 feature: true
+explore: true
 highlight: Human transformation of metals and sand has environmental impacts.
 carousel_description: The human process of transforming metals and sand into
   products has significant environmental impacts.

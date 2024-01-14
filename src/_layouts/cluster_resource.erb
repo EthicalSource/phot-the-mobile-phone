@@ -3,7 +3,7 @@ layout: default
 ---
 
 <% cluster        = data %>
-<% other_clusters = PostHelpers.other_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
+<% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
 <% ctas           = site.collections.ctas.resources %>
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>

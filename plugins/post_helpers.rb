@@ -38,11 +38,12 @@ module PostHelpers
     end.take(count)
   end
 
-  def self.other_collections(posts:, value:, count: 11)
+  def self.explorable_collections(posts:, value:, count: 11)
     return [] if value.nil?
 
     posts.reject do |collection|
-      Bridgetown::Utils.slugify(collection.data.title) == Bridgetown::Utils.slugify(value)
+      collection.data.explore == false ||
+        Bridgetown::Utils.slugify(collection.data.title) == Bridgetown::Utils.slugify(value)
     end.take(count)
   end
 
