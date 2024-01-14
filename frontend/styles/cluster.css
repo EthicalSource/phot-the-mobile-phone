@@ -44,7 +44,7 @@
       margin-bottom: 26px;
     }
     p {
-      @apply text-medium-grey;
+      @apply body text-medium-grey;
     }
   }
   header aside {
