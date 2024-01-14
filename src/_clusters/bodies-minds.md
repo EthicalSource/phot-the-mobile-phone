@@ -9,7 +9,8 @@ intro: Pocket computers, as highly personal devices, are intimately integrated
   seamless connection with our digital world, reflecting our preferences and
   habits.
 illustrations_credit:
-  link_href: TTWW
+  link_href: ""
+  illustration_text: TTWW
 hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_bodies-minds-600.png
   alt: Alt
