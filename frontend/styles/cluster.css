@@ -5,6 +5,7 @@
     @apply bg-[url("/images/shared/History-of-the-Mobile-Phone_Collection-Header-Bg_810x1080.jpg")];
     @apply lg:bg-[url("/images/shared/History-of-the-Mobile-Phone_Collection-Header-Bg_1920x1080.jpg")];
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
+    @apply w-screen h-screen items-center justify-center relative;
 
     width: 100vw;
     height: 100vh;
@@ -33,7 +34,7 @@
     @apply xl:grid-cols-3;
   }
   header article {
-    @apply w-full md:w-1/2 md:ml-5 md:mt-5;
+    @apply w-full md:w-1/2 md:ml-5 -mt-[35px] md:-mt-[50px];
 
     h1 {
       @apply heading-xxl;
@@ -48,7 +49,7 @@
     }
   }
   header aside {
-    @apply w-full md:w-1/2;
+    @apply w-full md:w-1/2 -mt-[35px] md:-mt-[50px];
 
     .hero-image {
       @apply rotate-3 !important;
