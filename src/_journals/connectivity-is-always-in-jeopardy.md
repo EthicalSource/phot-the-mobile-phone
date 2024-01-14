@@ -1,8 +1,8 @@
 ---
 layout: entry
 title: Connectivity is always in jeopardy
-highlight: “Connectivity is always in jeopardy...It is not something to be
-  assumed at any point.”
+highlight: Connectivity is always in jeopardy...It is not something to be
+  assumed at any point.
 location: Bay Area, California
 clusters: CONNECTION & ACCESS
 related_events:

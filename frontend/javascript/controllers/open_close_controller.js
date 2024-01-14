@@ -37,7 +37,7 @@ export default class extends Controller {
     setTimeout(()=>{
       this.element.classList.add(this.closedClass)
       this.element.classList.remove(this.closingClass)
-    }, 750)
+    }, 250)
   }
 
   attachCloseEventsListeners() {

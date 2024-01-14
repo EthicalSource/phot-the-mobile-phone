@@ -42,7 +42,7 @@ defaults:
       collection: clusters
     values:
       layout: "cluster"
-      body_classes: "bg-very-black text-off-white"
+      body_classes: "bg-gradient text-off-white"
   - scope:
       collection: ctas
     values:

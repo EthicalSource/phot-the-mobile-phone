@@ -10,6 +10,7 @@
 
   nav {
     @apply text-fuchsia order-last self-start md:self-end md:order-first heading-xxs flex gap-x-5;
+    font-weight: normal !important;
     margin-right: 1rem !important;
 
     button:not(.swiper-button-disabled):hover {
