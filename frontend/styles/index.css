@@ -235,7 +235,9 @@ header > .explore {
 
   span {
     @apply body text-white;
+    display: inline-block;
     font-weight: 500;
+    height: 30px;
   }
   .line-down {
     @apply mx-auto bg-white;
