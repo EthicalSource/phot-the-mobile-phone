@@ -6,7 +6,7 @@
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
 
     display: flex;
-    height: calc(100vh - var(--nav-height));
+    height: 100vh;
     position: relative;
     width: 100%;
     

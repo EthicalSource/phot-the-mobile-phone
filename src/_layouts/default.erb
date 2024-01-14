@@ -6,7 +6,6 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body class="<%= data.layout %> <%= data.page_class %> <%= resource.data.body_classes %>">
-    <%= render Shared::Navbar.new(site: site, resource: resource) %>
 
     <%= yield %>
 
