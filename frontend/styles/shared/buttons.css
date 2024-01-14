@@ -1,27 +1,38 @@
 .button {
+  @apply body text-center w-fit;
   @apply animate_color;
+  border-width: 1.5px;
+  border-radius: 7px;
+  display: block;
+  font-weight: normal;
+  letter-spacing: .01em;
+  text-transform: uppercase;
+
+  &:hover {
+    @apply animate_opacity;
+    opacity: 70%;
+  }
+
+  &:hover, &:active {
+    border-width: 2.5px;
+  }
 }
 .button.primary {
-  @apply bg-lime-green text-black rounded-sm px-[15px] py-3 hover:underline active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center uppercase;
-
-  &:hover {
-    opacity: 70%;
-    @apply animate_opacity;
-  }
+  @apply bg-lime-green text-black;
+  @apply hover:underline active:no-underline;
+  @apply min-h-[50px] min-w-[190px];
+  font-weight: 500;
+  padding: 12px 15px;
 }
 .button.secondary {
-  @apply text-medium-grey border border-medium-grey rounded-sm px-[15px] py-3 hover:text-lime-green hover:border-lime-green hover:underline active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center uppercase;
-
-  &:hover {
-    opacity: 70%;
-    @apply animate_opacity;
-  }
+  @apply text-medium-grey border-medium-grey;
+  @apply hover:text-lime-green hover:border-lime-green hover:underline active:no-underline min-h-[50px] min-w-[190px];
+  padding: 12px 15px;
 }
 .button.tertiary {
-  @apply text-lime-green border border-lime-green rounded-sm px-5 hover:underline active:no-underline block min-h-[50px] min-w-[190px] w-fit text-center py-3 uppercase;
-
-  &:hover {
-    opacity: 70%;
-    @apply animate_opacity;
-  }
+  @apply text-lime-green border-lime-green;
+  @apply hover:underline active:no-underline;
+  @apply min-h-[50px] min-w-[190px];
+  font-size: 24px;
+  padding: 12px 25px;
 }
