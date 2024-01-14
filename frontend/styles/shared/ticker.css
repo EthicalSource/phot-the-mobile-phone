@@ -13,7 +13,7 @@
   margin-top: -10px;
 
   li {
-    @apply leading-[55px] md:leading-[60px];
+    @apply leading-[60px];
   }
 }
 .ticker-wrap .ticker {
