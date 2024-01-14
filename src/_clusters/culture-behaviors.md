@@ -10,7 +10,7 @@ intro: From the simplicity of emojis to the cultural resonance of memes, we
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
-  src: /images/uploads/phones-header_header-culture-behaviors.png
+  src: /images/uploads/history-of-the-mobile-phone_collection-header_culture-behaviors-600.png
   alt: Culture & Behaviors
 nav_image:
   src: /images/uploads/culture-and-behaviors_nav_thumb_80x80.jpg
