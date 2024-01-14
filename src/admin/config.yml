@@ -19,7 +19,11 @@ collections:
         name: "title"
         widget: "string"
         hint: "Art Direction: All categories contain two words separated by an &amp; character"
-      - { label: "Feature?", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured Collections appear on the homepage"
+        widget: "boolean"
+        default: false
       - label: "Highlight"
         name: "highlight"
         widget: "string"
@@ -280,6 +284,7 @@ collections:
         name: "highlight"
         widget: "string"
         pattern: ['.*{0,85}', "Must be 85 characters or less"]
+        hint: Do not use quotes. They will be added stylistically as designed.
       - label: "Location"
         name: "location"
         widget: string
@@ -399,9 +404,12 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
 
   - name: "contributors"
-    label: "Contributors"
+    label: "Ticker Names"
     slug: "{{name}}"
     folder: "src/_contributors"
     create: true
     fields:
-        - { label: "Name", name: "name", widget: "string" }
+        - label: "Name"
+          name: "name"
+          widget: "string"
+          hint: Names included here will appear in the ticker on the footer

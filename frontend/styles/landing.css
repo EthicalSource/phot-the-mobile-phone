@@ -6,7 +6,7 @@
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
 
     display: flex;
-    height: calc(100vh - var(--nav-height));
+    height: 100vh;
     position: relative;
     width: 100%;
     
@@ -64,8 +64,8 @@
         z-index: 2;
 
         &.glow {
-          stroke-width: 6px;
-          -webkit-text-stroke-width: 6px;
+          stroke-width: 12px;
+          -webkit-text-stroke-width: 12px;
           -webkit-text-stroke-color: #fff;
           -webkit-text-fill-color: #1a1a1a;
           z-index: 1;

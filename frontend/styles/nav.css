@@ -1,3 +1,10 @@
+body.no--scroll {
+  overflow: hidden;
+}
+nav.nav--open {
+  @apply bg-solid-black;
+  overflow: hidden;
+}
 nav.nav--open #main-site-nav-wrapper {
   @apply animate-fadein !block;
 }
