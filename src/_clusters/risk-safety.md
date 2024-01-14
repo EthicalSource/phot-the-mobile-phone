@@ -1,6 +1,7 @@
 ---
 title: Risk & Safety
 feature: true
+explore: true
 highlight: Tech can simultaneously expose and protect our vulnerabilities.
 carousel_description: Technology has the dual ability to both reveal and
   safeguard our vulnerabilities.
