@@ -1,5 +1,5 @@
 ---
-title: BODIES & MINDS
+title: Bodies & Minds
 feature: true
 highlight: Pocket computers are intimate tech.
 carousel_description: Pocket computers, being highly personal and closely-held
