@@ -23,7 +23,7 @@
     @apply w-full md:w-1/2 md:ml-5 md:mt-5;
 
     h1 {
-      @apply heading-lg;
+      @apply heading-xxl;
       margin-bottom: 26px;
     }
     h2 {
