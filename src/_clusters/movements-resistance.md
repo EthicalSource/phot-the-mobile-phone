@@ -5,6 +5,7 @@ explore: true
 highlight: Tech is both a tool and a target for collective action.
 carousel_description: Tech acts simultaneously as an instrument and a focus in
   the realm of group initiatives and actions.
+primary_nav_description: Tech is both a tool and a target for collective action.
 intro: Technology is a dual-edged entity, serving not only as a tool
   facilitating collective action but also as a target for such actions,
   reflecting its pivotal role in societal change and group movements.
