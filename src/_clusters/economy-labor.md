@@ -4,6 +4,7 @@ feature: true
 explore: true
 highlight: Tech disrupts economies and changes the nature of work.
 carousel_description: Tech disrupts economies and changes the nature of work.
+primary_nav_description: This should be 40 characters or less of sentence case.
 intro: Tech disrupts economies and changes the nature of work.
 illustrations_credit:
   illustration_text: TTWW

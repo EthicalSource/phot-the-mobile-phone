@@ -5,6 +5,7 @@ explore: false
 highlight: A participatory history of tech needs your voice!
 carousel_description: Your voice is essential to creating a comprehensive,
   participatory history of technology!
+primary_nav_description: This should be 40 characters or less of sentence case.
 intro: To craft a fully inclusive and participatory history of technology, we
   need your unique voice and perspective to enrich and complete the narrative.
 illustrations_credit:
