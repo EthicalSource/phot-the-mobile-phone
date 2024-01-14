@@ -56,7 +56,7 @@
     }
   }
   .card {
-    @apply bg-black;
+    @apply bg-very-black;
     @apply lg:odd:justify-self-end lg:even:justify-self-start;
     @apply xl:odd:justify-self-center xl:even:justify-self-center;
 
