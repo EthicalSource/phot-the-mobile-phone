@@ -5,7 +5,7 @@ explore: true
 highlight: From emojis to memes, we connect and make meaning with tech.
 carousel_description: Through emojis and memes, we establish connections and
   create significant meanings using technology.
-primary_nav_description: This should be 40 characters or less of sentence case.
+primary_nav_description: From emojis to memes, we connect and make meaning with tech.
 intro: From the simplicity of emojis to the cultural resonance of memes, we
   build connections and craft meaningful expressions through the use of
   technology, bridging gaps and enhancing communication in our digital age.
