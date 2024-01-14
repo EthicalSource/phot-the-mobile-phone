@@ -220,3 +220,7 @@ body.page main {
   &::before { content: open-quote }
   &::after { content: close-quote }
 }
+.bg-gradient {
+  background: rgb(25,25,25);
+  background: linear-gradient(315deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 63%, rgba(38,38,38,1) 100%); 
+}
