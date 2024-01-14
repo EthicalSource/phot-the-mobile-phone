@@ -11,10 +11,6 @@
   &:hover {
     @apply animate_opacity;
   }
-
-  &:hover, &:active {
-    border-width: 2.5px;
-  }
 }
 .button.primary {
   @apply bg-lime-green text-black;
@@ -30,10 +26,11 @@
   padding: 12px 15px;
 }
 .button.tertiary {
-  @apply text-lime-green hover:text-lime-green/100;
+  @apply text-lime-green;
   @apply border-lime-green hover:border-lime-green/70;
+  @apply bg-transparent hover:bg-lime-green/[0.12];
   @apply hover:underline active:no-underline;
-  @apply min-h-[50px] min-w-[190px];
+  @apply min-h-[50px] md:min-h-[60px] min-w-[220px] md:min-w-[350px];
   font-size: 24px;
   padding: 12px 25px;
 }
