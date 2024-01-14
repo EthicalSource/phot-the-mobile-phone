@@ -19,7 +19,11 @@ collections:
         name: "title"
         widget: "string"
         hint: "Art Direction: All categories contain two words separated by an &amp; character"
-      - { label: "Feature?", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured Collections appear on the homepage"
+        widget: "boolean"
+        default: false
       - label: "Highlight"
         name: "highlight"
         widget: "string"
