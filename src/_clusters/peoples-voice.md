@@ -1,5 +1,5 @@
 ---
-title: PEOPLE'S STORIES
+title: People's Stories
 feature: false
 highlight: A participatory history of tech needs your voice!
 carousel_description: Your voice is essential to creating a comprehensive,
