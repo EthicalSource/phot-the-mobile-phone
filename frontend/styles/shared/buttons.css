@@ -23,6 +23,7 @@
   @apply min-h-[50px] min-w-[190px];
   font-weight: 500;
   padding: 12px 15px;
+  border: none;
 }
 .button.secondary {
   @apply text-medium-grey border-medium-grey;
