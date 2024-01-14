@@ -28,7 +28,7 @@ collections:
         name: "explore"
         hint: "Explorable Collections appear in the carousel"
         widget: "boolean"
-        default: true
+        default: false
       - label: "Highlight"
         name: "highlight"
         widget: "string"
