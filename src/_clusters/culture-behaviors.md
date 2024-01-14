@@ -1,5 +1,5 @@
 ---
-title: CULTURE & BEHAVIORS
+title: Culture & Behaviors
 feature: true
 highlight: From emojis to memes, we connect and make meaning with tech.
 carousel_description: Through emojis and memes, we establish connections and
