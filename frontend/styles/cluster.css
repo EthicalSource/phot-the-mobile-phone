@@ -7,6 +7,7 @@
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
 
     width: 100vw;
+    min-height: 100vh;
     height: 100%;
 
     a {
