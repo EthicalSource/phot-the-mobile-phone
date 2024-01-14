@@ -8,6 +8,7 @@
     @apply w-screen h-screen items-center justify-center relative;
 
     width: 100vw;
+    min-height: 100vh;
     height: 100%;
 
     a {
