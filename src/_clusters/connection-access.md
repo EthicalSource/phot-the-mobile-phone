@@ -1,5 +1,5 @@
 ---
-title: CONNECTION & ACCESS
+title: Connection & Access
 feature: true
 highlight: Connectivity is never a given.
 carousel_description: Assuming constant connectivity is a mistake; it's not always guaranteed.
