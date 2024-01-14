@@ -17,7 +17,8 @@
   }
 }
 .ticker-wrap .ticker {
-  @apply heading-xs-alt;
+  @apply body;
+
   display: flex;
   gap: 8px;
   height: 100%;
@@ -38,8 +39,8 @@
   .ticker-bullet {
     @apply leading-[40px] md:leading-[50px];
     align-self: flex-end;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     &:last-of-type {
       display: none;
