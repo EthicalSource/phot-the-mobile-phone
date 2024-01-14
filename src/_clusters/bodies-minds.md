@@ -1,6 +1,7 @@
 ---
 title: Bodies & Minds
-feature: true
+feature: false
+explore: false
 highlight: Pocket computers are intimate tech.
 carousel_description: Pocket computers, being highly personal and closely-held
   technology, establish a deep connection.
