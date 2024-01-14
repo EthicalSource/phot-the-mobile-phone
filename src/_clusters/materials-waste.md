@@ -1,5 +1,5 @@
 ---
-title: MATERIALS & WASTE
+title: Materials & Waste
 feature: true
 highlight: Human transformation of metals and sand has environmental impacts.
 carousel_description: The human process of transforming metals and sand into
