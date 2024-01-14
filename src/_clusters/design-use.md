@@ -1,5 +1,5 @@
 ---
-title: DESIGN & USE
+title: Design & Use
 feature: true
 highlight: The design of tech shapes and influences our use, and vice versa.
 carousel_description: The design of technology not only shapes our usage but is
