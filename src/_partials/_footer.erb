@@ -2,7 +2,7 @@
   <div class="footer-content flex flex-col items-center">
     <img class="bg-black h-[50px] mb-[40px]" src="/images/shared/phone-icon.svg">
     <p class="mb-[30px] body text-medium-grey">© 2023 CC BY-NC 4.0</p>
-    <ul class="flex gap-[20px] mb-[30px] w-full justify-center base text-white">
+    <ul class="flex flex-wrap gap-[20px] mb-[30px] w-full justify-center base text-white">
       <% PageHelpers.pages_in_footer(pages: collections.pages.resources).each do |page| %>
         <li>
           <%= link_to page.data.nav_label, page.relative_url %>
