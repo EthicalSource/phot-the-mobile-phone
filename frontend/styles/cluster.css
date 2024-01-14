@@ -7,7 +7,7 @@
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
 
     width: 100vw;
-    height: calc(100vh - var(--nav-height));
+    height: 100vh;
 
     a {
       margin-right: 5px;

@@ -2,7 +2,7 @@
 layout: default
 ---
 <% event = resource %>
-
+<%= render Shared::Navbar.new(site: site, resource: resource) %>
 <main class="px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[150px]">
   <%= partial 'post/headline' %>
   <%= partial 'entry/card' %>
