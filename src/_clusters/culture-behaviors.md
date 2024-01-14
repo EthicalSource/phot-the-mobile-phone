@@ -2,14 +2,13 @@
 title: Culture & Behaviors
 feature: true
 explore: true
-highlight: From emojis to memes, we connect and make meaning with tech.
-primary_nav_description: Testing the CMS editing capacity.45678901234
-carousel_description: Through emojis and memes,  we establish connections and
-  create significant meanings using technology.
-primary_nav_description: From emojis to memes, we connect and make meaning with tech.
-intro: From the simplicity of emojis to the cultural resonance of memes, we
-  build connections and craft meaningful expressions through the use of
-  technology, bridging gaps and enhancing communication in our digital age.
+highlight: Emojis to memes, connecting meaning with tech.
+carousel_description: From emojis to memes, we connect and make meaning with tech.
+intro: New phone, who dis? From emojis to memes, our devices and platforms are
+  changing how we connect with each other. How do our relationships and cultural
+  norms evolve and transform alongside technology? How do we push back?
+photo_credit:
+  link_text: ""
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
