@@ -1,6 +1,6 @@
 ---
 layout: cluster_resource
-title: RESOURCES
+title: Resources
 feature: false
 highlight: Take action and imagine better tech futures.
 carousel_description: Engage proactively to envision and shape improved technological futures.
