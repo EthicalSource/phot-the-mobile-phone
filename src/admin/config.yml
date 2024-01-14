@@ -280,6 +280,7 @@ collections:
         name: "highlight"
         widget: "string"
         pattern: ['.*{0,85}', "Must be 85 characters or less"]
+        hint: Do not use quotes. They will be added stylistically as designed.
       - label: "Location"
         name: "location"
         widget: string
