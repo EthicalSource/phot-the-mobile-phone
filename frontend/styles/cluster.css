@@ -13,19 +13,6 @@
       margin-right: 5px;
     }
   }
-  header > .explore {
-    @apply absolute bottom-0 w-full text-center;
-
-    span {
-      @apply body text-off-white;
-    }
-    .line-down {
-      @apply mx-auto bg-off-white;
-      bottom: 0;
-      width: 1px;
-      height: 25px;
-    }
-  }
   main {
     @apply max-w-[1260px] mx-auto my-[150px] p-[20px];
     @apply grid grid-cols-1 justify-items-center gap-y-[30px];

@@ -230,3 +230,17 @@ footer {
   background: rgb(25,25,25);
   background: linear-gradient(315deg, rgba(38,38,38,1), rgba(25,25,25,1) 63%, rgba(25,25,25,1) 0% 100%);
 }
+header > .explore {
+  @apply absolute bottom-0 w-full text-center;
+
+  span {
+    @apply body text-white;
+    font-weight: 500;
+  }
+  .line-down {
+    @apply mx-auto bg-white;
+    bottom: 0;
+    width: 1px;
+    height: 45px;
+  }
+}
