@@ -24,6 +24,11 @@ collections:
         hint: "Featured Collections appear on the homepage"
         widget: "boolean"
         default: false
+      - label: "Explorable?"
+        name: "explore"
+        hint: "Explorable Collections appear in the carousel"
+        widget: "boolean"
+        default: false
       - label: "Highlight"
         name: "highlight"
         widget: "string"

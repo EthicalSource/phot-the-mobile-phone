@@ -1,6 +1,7 @@
 ---
 title: Movements & Resistance
 feature: true
+explore: true
 highlight: Tech is both a tool and a target for collective action.
 carousel_description: Tech acts simultaneously as an instrument and a focus in
   the realm of group initiatives and actions.

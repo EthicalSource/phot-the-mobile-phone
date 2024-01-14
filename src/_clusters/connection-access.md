@@ -1,6 +1,7 @@
 ---
 title: Connection & Access
 feature: true
+explore: true
 highlight: Connectivity is never a given.
 carousel_description: Assuming constant connectivity is a mistake; it's not always guaranteed.
 intro: The assumption of perpetual connectivity is often misguided, as
