@@ -9,7 +9,7 @@ intro: To craft a fully inclusive and participatory history of technology, we
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
-  src: /images/uploads/history-of-the-mobile-phone_collection-header_people-s-voice-600.png
+  src: /images/uploads/history-of-the-mobile-phone_collection-header_peoples-stories-600.png
   alt: People's Stories
 nav_image:
   alt: People's Stories
