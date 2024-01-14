@@ -4,7 +4,7 @@ feature: true
 explore: true
 highlight: From emojis to memes, we connect and make meaning with tech.
 primary_nav_description: Testing the CMS editing capacity.45678901234
-carousel_description: Through emojis and memes, we establish connections and
+carousel_description: Through emojis and memes,  we establish connections and
   create significant meanings using technology.
 primary_nav_description: From emojis to memes, we connect and make meaning with tech.
 intro: From the simplicity of emojis to the cultural resonance of memes, we
