@@ -10,7 +10,6 @@
 
   &:hover {
     @apply animate_opacity;
-    opacity: 70%;
   }
 
   &:hover, &:active {
@@ -27,11 +26,12 @@
 }
 .button.secondary {
   @apply text-medium-grey border-medium-grey;
-  @apply hover:text-lime-green hover:border-lime-green hover:underline active:no-underline min-h-[50px] min-w-[190px];
+  @apply hover:text-lime-green/100 hover:border-lime-green/70 hover:underline active:no-underline min-h-[50px] min-w-[190px];
   padding: 12px 15px;
 }
 .button.tertiary {
-  @apply text-lime-green border-lime-green;
+  @apply text-lime-green hover:text-lime-green/100;
+  @apply border-lime-green hover:border-lime-green/70;
   @apply hover:underline active:no-underline;
   @apply min-h-[50px] min-w-[190px];
   font-size: 24px;
