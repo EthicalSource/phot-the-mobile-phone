@@ -8,40 +8,51 @@
 }
 .ticker-wrap {
   overflow: hidden;
+  @apply body text-solid-black bg-lime-green;
+  @apply h-[55px] md:h-[60px] -rotate-1 -translate-y-2;
   margin-top: -10px;
-  height: 50px;
+
+  li {
+    @apply leading-[55px] md:leading-[60px];
+  }
 }
 .ticker-wrap .ticker {
+  @apply heading-xs-alt;
   display: flex;
   gap: 8px;
-  height: 50px;
+  height: 100%;
+
   transform: translate3d(25%, 0, 0);
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   white-space: nowrap;
   animation-name: ticker;
-  animation-duration: 30s;
-}
+  animation-duration: 10s;
+  @media (min-width: 769px) {
+    animation-duration: 20s;
+  }
+  @media (min-width: 1025px) {
+    animation-duration: 30s;
+  }
 
-.ticker-wrap .ticker:hover {
-  animation-play-state: paused;
-}
+  .ticker-bullet {
+    @apply leading-[40px] md:leading-[50px];
+    align-self: flex-end;
+    padding-left: 8px;
+    padding-right: 8px;
 
-.ticker ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
+    &:last-of-type {
+      display: none;
+    }
+  }
 
-.ticker .ticker-bullet {
-  line-height: 100%;
-  height: 50px;
-  align-self: flex-end;
-  padding-left: 8px;
-  padding-right: 8px;
-  vertical-align: middle;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 
-  &:last-of-type {
-    display: none;
+  &:hover {
+    animation-play-state: paused;
   }
 }
