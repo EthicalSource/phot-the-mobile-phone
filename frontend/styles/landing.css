@@ -37,10 +37,9 @@
     }
   }
   article.highlight {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin: 80px 0;
+    @apply flex flex-col-reverse items-center;
+    @apply w-[73%] lg:w-[55%] max-w-[860px] mx-auto mt-[120px] mb-[64px];
+
 
     h2 {
       @apply heading-md text-dark-grey text-center w-full;
