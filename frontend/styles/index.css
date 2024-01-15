@@ -29,7 +29,6 @@
   --cluster-image-size-val: 25vw;
   --cluster-image-size-max: 454px;
 
-  /* TODO: Use this in event component */
   --event-image-square-size:
     clamp(
       var(--event-image-square-min),
