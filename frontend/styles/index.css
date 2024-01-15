@@ -165,7 +165,6 @@ body.page main {
   ul { @apply list-disc pl-6 marker:text-lime-green }
 }
 
-.invert { filter: invert(100%); }
 .quote-content {
   quotes: "“" "”";
   &::before { content: open-quote }
