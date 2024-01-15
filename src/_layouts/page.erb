@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<% explore_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: nil) %>
 <%= render Shared::Navbar.new(site: site, resource: resource) %>
 <main class="px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[150px]">
   <%= partial 'post/headline' %>
@@ -8,3 +9,8 @@ layout: default
     <%= content %>
   </div>
 </main>
+<%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+  <% explore_clusters.each do |explorable_cluster| %>
+    <%= render Poster::Cluster.new(cluster: explorable_cluster) %>
+  <% end %>
+<% end %>
