@@ -109,7 +109,7 @@ body.page main {
     @apply heading-xs mb-[20px];
   }
   &.event {
-    h2 { @apply text-white;}
+    h2 { @apply text-white font-medium tracking-tight;}
   }
   &.cta {
     h2 { @apply text-blue;}
@@ -119,6 +119,7 @@ body.page main {
 
     h2 {
       @apply heading-sm text-fuchsia mb-5;
+      @apply tracking-tight font-extrabold;
       margin-top: auto;
       quotes: "“" "”";
       &::before { content: open-quote }
@@ -132,6 +133,7 @@ body.page main {
   &.prompt {
     h2 {
       @apply heading-sm text-lime-green mb-5;
+      @apply tracking-tight font-extrabold;
     }
     article {
       display: flex;

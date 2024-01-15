@@ -51,7 +51,7 @@
       height: var(--cluster-image-size);
 
       .cluster-title {
-        @apply heading-lg uppercase text-medium-black;
+        @apply heading-lg uppercase text-medium-black tracking-tight;
 
         position: absolute;
         top: 0;

@@ -7,7 +7,7 @@
           class: "flex gap-6 items-center group/link" do %>
           <div class="block min-w-[80px] h-[80px] w-[80px] bg-center bg-no-repeat bg-auto" style="background-image: url(<%= relative_url cluster.data.nav_image&.src %>)"></div>
           <div>
-            <span class="block font-semibold text-xl mb-2 group-hover/link:underline group-hover/link:underline-offset-2 capitalize"><%= cluster.data.title %></span>
+            <span class="block font-medium tracking-tight text-xl mb-2 group-hover/link:underline group-hover/link:underline-offset-2 capitalize"><%= cluster.data.title %></span>
             <span class="text-lg text-medium-grey"><%= cluster.data.primary_nav_description %></span>
           </div>
         <% end %>
