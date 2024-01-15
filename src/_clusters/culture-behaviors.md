@@ -9,7 +9,7 @@ intro: New phone, who dis? From emojis to memes, our devices and platforms are
   changing how we connect with each other. How do our relationships and cultural
   norms evolve and transform alongside technology? How do we push back?
 photo_credit:
-  link_text: ""
+  link_text: Mika Baumeister via Unsplash
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
