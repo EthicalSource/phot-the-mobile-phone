@@ -36,20 +36,20 @@
 }
 .heading-xxl {
   @apply font-semibold capitalize tracking-tight;
-  --font-size-min: 20px;
+  --font-size-min: 44px;
   --font-size-val: 5.25vw;
   --font-size-max: 90px;
 
-  --line-height-min: 20px;
+  --line-height-min: 48px;
   --line-height-val: 5.5vw;
   --line-height-max: 94px;
 }
 .heading-xl {
-  --font-size-min: 20px;
+  --font-size-min: 36px;
   --font-size-val: 4.2vw;
   --font-size-max: 72px;
 
-  --line-height-min: 20px;
+  --line-height-min: 40px;
   --line-height-val: 4.55vw;
   --line-height-max: 78px;
 }
@@ -59,7 +59,7 @@
   --font-size-val: 4.25vw;
   --font-size-max: 56px;
 
-  --line-height-min: 36px;
+  --line-height-min: 30px;
   --line-height-val: 4vw;
   --line-height-max: 50px;
 }
