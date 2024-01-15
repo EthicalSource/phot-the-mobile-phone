@@ -13,8 +13,13 @@ collections:
     label: "General Content"
     folder: "src/_general_content"
     slug: "content"
+    identifier: "name"
     create: true
     fields:
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        hint: "The for the page link within the CMS"
       - label: "Home Page Intro"
         name: "homepage_intro"
         hint: "Text on homepage just below the header"
