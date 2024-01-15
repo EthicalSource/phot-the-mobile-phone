@@ -9,7 +9,7 @@
     height: 100vh;
     position: relative;
     width: 100%;
-    
+
     @media (max-width: 1024px) {
       h1 {
         font-size: 50px;
@@ -46,9 +46,7 @@
       @apply heading-md text-dark-grey text-center w-full md:w-1/2;
     }
     img {
-      width: 65px;
-      height: 65px;
-      margin-bottom: 30px;
+      @apply w-[65px] h-[65px] mb-[14px];
     }
   }
   .cluster-heading {
