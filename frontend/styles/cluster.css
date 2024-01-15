@@ -32,7 +32,12 @@
       margin-bottom: 26px;
     }
     p {
-      @apply meta md:body text-medium-grey;
+      @apply meta text-medium-grey;
+    }
+    @media (min-width: 769px) {
+      p {
+        @apply body;
+      }
     }
   }
   header aside {
