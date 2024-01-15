@@ -96,6 +96,9 @@ collections:
     sort_by: date
     sort_direction: descending
 
+  general_content:
+    output: false
+
   journals:
     permalink: /:collection/:slug.*
     output: true
