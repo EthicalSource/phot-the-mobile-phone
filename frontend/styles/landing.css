@@ -23,6 +23,19 @@
     }
   }
 
+  .introduction {
+    @apply w-[80%] md:w-[62] lg:max-w-[960px];
+    @apply flex flex-col;
+    @apply mx-auto mt-[95px] mb-[10px];
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
   article.highlight {
     display: flex;
     flex-direction: column-reverse;
