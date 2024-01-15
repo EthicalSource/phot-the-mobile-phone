@@ -3,12 +3,14 @@ title: Risk & Safety
 feature: true
 explore: true
 highlight: Tech can simultaneously expose and protect our vulnerabilities.
+primary_nav_description: Tech can expose and protect.
 carousel_description: Technology has the dual ability to both reveal and
   safeguard our vulnerabilities.
-primary_nav_description: Tech can simultaneously expose and protect our vulnerabilities.
 intro: Technology possesses the paradoxical capability of simultaneously
   exposing our vulnerabilities to the world while also offering means to protect
   and secure them, highlighting its complex role in our lives.
+photo_credit:
+  link_text: skaman306/Moment via Getty Images
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
