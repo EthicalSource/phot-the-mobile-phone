@@ -155,7 +155,7 @@ body.page main {
 }
 
 .page-md-style {
-  h2 { @apply md:text-2xl lg:text-4xl font-semibold mb-6 text-white }
+  h2 { @apply md:text-2xl lg:text-4xl font-semibold mt-[44px] mb-6 text-white }
   h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
   h4 { @apply md:text-lg  lg:text-xl  font-semibold mb-6 text-white }
   p  { @apply text-[17px] leading-relaxed mb-6 text-medium-grey }
