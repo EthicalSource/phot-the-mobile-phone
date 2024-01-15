@@ -25,7 +25,7 @@
   line-height: clamp(var(--line-height-min), var(--line-height-val), var(--line-height-max));
 }
 .heading-xxxl {
-  @apply font-bold capitalize tracking-[-0.04em];
+  @apply font-bold capitalize tracking-[-0.02em];
   --font-size-min: 72px;
   --font-size-val: 10.45vw;
   --font-size-max: 180px;
