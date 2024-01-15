@@ -177,6 +177,9 @@ body.page main {
   background: rgb(25,25,25);
   background: linear-gradient(315deg, rgba(38,38,38,1), rgba(25,25,25,1) 63%, rgba(25,25,25,1) 0% 100%);
 }
+.bg-gradient-story {
+  background: linear-gradient(to bottom, #000000 0%, #101012 100%);
+}
 footer {
   a:hover {
     text-decoration: underline;
