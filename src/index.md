@@ -8,7 +8,7 @@ body_classes: ""
 <%= partial "landing/header" %>
 <main class="min-w-[260px] max-w-[1550px] mx-auto mt-[40px]">
   <div class="introduction">
-    <%= markdownify general_content.homepage_intro %>
+    <%= markdownify general_content&.homepage_intro %>
   </div>
   <% PostHelpers.featured_collections(posts: clusters).each do |cluster| %>
     <%= render Cluster.new(site: site, cluster: cluster) %>
