@@ -19,12 +19,27 @@ collections:
         name: "title"
         widget: "string"
         hint: "Art Direction: All categories contain two words separated by an &amp; character"
-      - { label: "Feature?", name: "feature", hint: "Featured Collections appear on the homepage", widget: "boolean"}
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured Collections appear on the homepage"
+        widget: "boolean"
+        default: false
+      - label: "Explorable?"
+        name: "explore"
+        hint: "Explorable Collections appear in the carousel"
+        widget: "boolean"
+        default: false
       - label: "Highlight"
         name: "highlight"
         widget: "string"
         hint: 85 characters max
         pattern: ['.*{0,85}', "Must be 85 characters or less"]
+        required: true
+      - label: "Primary Navigation Description"
+        name: "primary_nav_description"
+        widget: "string"
+        hint: Use normal sentence case. 40 characters max
+        pattern: ['.*{0,40}', "Must be 40 characters or less"]
         required: true
       - label: "Carousel Description"
         name: "carousel_description"
@@ -280,6 +295,7 @@ collections:
         name: "highlight"
         widget: "string"
         pattern: ['.*{0,85}', "Must be 85 characters or less"]
+        hint: Do not use quotes. They will be added stylistically as designed.
       - label: "Location"
         name: "location"
         widget: string
@@ -399,9 +415,12 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
 
   - name: "contributors"
-    label: "Contributors"
+    label: "Ticker Names"
     slug: "{{name}}"
     folder: "src/_contributors"
     create: true
     fields:
-        - { label: "Name", name: "name", widget: "string" }
+        - label: "Name"
+          name: "name"
+          widget: "string"
+          hint: Names included here will appear in the ticker on the footer

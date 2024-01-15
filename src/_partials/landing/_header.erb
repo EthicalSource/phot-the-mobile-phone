@@ -1,11 +1,14 @@
-<header class="hero">
-  <div class="max-w-[1550px] mx-auto">
-    <h1 class="md:heading-xxl text-left px-5 max-w-[1090px]">
-      A <span class="lowercase">collective <span class="text-fuchsia">storytelling project</span> where <span class="italic">you</span> are the storytellers.</span>
-    </h1>
+<header class="hero flex flex-col">
+  <%= render Shared::Navbar.new(site: site, resource: resource) %>
+  <div class="flex items-center h-full">
+    <div class="max-w-[1550px] mx-auto">
+      <h1 class="md:heading-xxl text-left px-5 max-w-[1090px]">
+        A <span class="lowercase">collective <span class="text-fuchsia">storytelling project</span> where <span class="italic">you</span> are the storytellers.</span>
+      </h1>
+    </div>
   </div>
-  <div class="absolute bottom-0 w-full text-center">
-    <span class="body text-off-white">Explore</span>
-    <div class="bottom-0 mx-auto w-[1px] h-[25px] bg-off-white"></div>
+  <div class="explore">
+    <span>Explore</span>
+    <div class="line-down"></div>
   </div>
 </header>

@@ -5,12 +5,14 @@
       <%= render Shared::Button.new(text: "Participate here", href: "/participate", type: :tertiary)%>
     </div>
   </section>
-  <div class="ticker-wrap font-body text-solid-black h-[40px] bg-lime-green -rotate-1 -translate-y-2">
-    <div class="ticker heading-xs-alt py-2">
+  <div class="ticker-wrap">
+    <div class="ticker">
       <ul>
-        <% site.collections.contributors.resources.each do |contributor| %>
-          <li class="uppercase"><%= contributor.data.name %></li>
-          <li class="ticker-bullet">*</li>
+        <% 4.times do %>
+          <% site.collections.contributors.resources.each do |contributor| %>
+            <li class="uppercase"><%= contributor.data.name %></li>
+            <li class="ticker-bullet">*</li>
+          <% end %>
         <% end %>
       </ul>
     </div>

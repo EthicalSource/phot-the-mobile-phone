@@ -20,13 +20,14 @@ export default class extends Controller {
   openElement() {
     this.element.classList.add(this.openClass)
     this.element.classList.remove(this.closedClass)
-
+    document.body.classList.add('no--scroll')
     this.attachCloseEventsListeners()
   }
 
   closeElement() {
     this.element.classList.remove(this.openClass)
     this.element.classList.add(this.closingClass)
+    document.body.classList.remove('no--scroll')
     this.waitThenApplyClosedClass()
 
     this.detachCloseEventListeners()
@@ -36,7 +37,7 @@ export default class extends Controller {
     setTimeout(()=>{
       this.element.classList.add(this.closedClass)
       this.element.classList.remove(this.closingClass)
-    }, 750)
+    }, 250)
   }
 
   attachCloseEventsListeners() {

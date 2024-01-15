@@ -6,7 +6,7 @@
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
 
     display: flex;
-    height: calc(100vh - var(--nav-height));
+    height: 100vh;
     position: relative;
     width: 100%;
     
@@ -57,15 +57,15 @@
         top: 0;
         left: 0;
         transform:
-          translateX(calc(var(--cluster-image-size)*-0.1))
-          translateY(calc(var(--cluster-image-size)*1))
+          translateX(calc(var(--cluster-image-size)*-0.18))
+          translateY(calc(var(--cluster-image-size)*1.05))
           rotate(270deg);
         transform-origin: left top;
         z-index: 2;
 
         &.glow {
-          stroke-width: 6px;
-          -webkit-text-stroke-width: 6px;
+          stroke-width: 12px;
+          -webkit-text-stroke-width: 12px;
           -webkit-text-stroke-color: #fff;
           -webkit-text-fill-color: #1a1a1a;
           z-index: 1;

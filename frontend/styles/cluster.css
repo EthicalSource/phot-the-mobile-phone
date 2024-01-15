@@ -7,23 +7,10 @@
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
 
     width: 100vw;
-    height: calc(100vh - var(--nav-height));
+    height: 100vh;
 
     a {
       margin-right: 5px;
-    }
-  }
-  header > .explore {
-    @apply absolute bottom-0 w-full text-center;
-
-    span {
-      @apply body text-off-white;
-    }
-    .line-down {
-      @apply mx-auto bg-off-white;
-      bottom: 0;
-      width: 1px;
-      height: 25px;
     }
   }
   main {
@@ -55,7 +42,7 @@
     }
   }
   .card {
-    @apply bg-black;
+    @apply bg-very-black;
     @apply lg:odd:justify-self-end lg:even:justify-self-start;
     @apply xl:odd:justify-self-center xl:even:justify-self-center;
 

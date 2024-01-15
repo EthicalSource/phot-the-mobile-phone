@@ -1,6 +1,7 @@
 <footer class="footer bg-solid-black text-white w-full pt-[60px]">
   <div class="footer-content flex flex-col items-center">
-    <img class="bg-black h-[50px] mb-[40px]" src="/images/shared/phone-icon.svg">
+    <img class="bg-black h-[50px] mb-[40px]" src="/images/shared/phone-icon.svg"
+    alt="" aria-hidden="true">
     <p class="mb-[30px] body text-medium-grey">© 2023 CC BY-NC 4.0</p>
     <ul class="flex flex-wrap gap-[20px] mb-[30px] w-full justify-center base text-white">
       <% PageHelpers.pages_in_footer(pages: collections.pages.resources).each do |page| %>
@@ -13,26 +14,35 @@
     </ul>
     <div class="flex justify-center mb-[30px] gap-6">
       <span>
-        <img src="/images/shared/the-tech-we-want_footer-logo-white.png">
+        <a href="https://omidyar.com/the-tech-we-want/" target="blank">
+          <img src="/images/shared/the-tech-we-want_footer-logo-white.png"
+          alt="The Tech We Want">
+        </a>
       </span>
       <span>
-        <img class="invert" src="/images/shared/by-nc-sa.svg">
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">
+          <img class="invert" src="/images/shared/by-nc-sa.svg"
+          alt="Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International">
+        </a>
       </span>
     </div>
     <ul class="flex justify-center mb-[60px] h-[40px] gap-6">
       <li>
         <a href="https://www.instagram.com/peopleshistoryoftech" target="blank">
-          <img class=" h-[20px] p-30p" src="/images/shared/instagram.svg">
+          <img class=" h-[20px] p-30p" src="/images/shared/instagram.svg"
+          alt="peopleshistoryoftech on instagram">
         </a>
       </li>
       <li>
         <a href="https://www.tiktok.com/@peoplestech" target="blank">
-          <img class="h-[20px]" src="/images/shared/tik-tok.svg">
+          <img class="h-[20px]" src="/images/shared/tik-tok.svg"
+          alt="peoplestech on TikTok">
         </a>
       </li>
       <li>
         <a href="https://open.spotify.com/playlist/6OFgXxZhGNhGZE7TYA3JUH?si=df9ff3df7bd64a33&nd=1&dlsi=04312e2a6b73485f" target="blank">
-          <img class="h-[20px]" src="/images/shared/spotify.svg">
+          <img class="h-[20px]" src="/images/shared/spotify.svg"
+          alt="A People's History of Tech: Mobile Phone Playlist on Spotify">
         </a>
       </li>
     </ul>

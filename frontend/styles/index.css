@@ -5,6 +5,7 @@
 @import "./shared/buttons.css";
 @import "./shared/carousel.css";
 @import "./shared/guide.css";
+@import "./shared/ticker.css";
 @import "./shared/transitions/general.css";
 @import "./shared/transitions/fadein.css";
 @import "./shared/transitions/fadeout.css";
@@ -132,16 +133,14 @@ body.page main {
     h2 {
       @apply heading-sm text-lime-green mb-5;
     }
-    a:not(.button) {
-      display: block;
-      margin-top: auto;
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
     }
-    a.button {
-      margin-bottom: auto;
-
-      &:hover {
-        @apply text-lime-green border-lime-green;
-      }
+    a:hover {
+      @apply text-lime-green border-lime-green;
     }
   }
   &.swiper-slide {
@@ -166,65 +165,34 @@ body.page main {
   ul { @apply list-disc pl-6 marker:text-lime-green }
 }
 
-/* Ticker section */
-
-@keyframes ticker {
-  0% {
-    transform: translate3d(25%, 0, 0);
-  }
-  100% {
-    transform: translate3d(-25%, 0, 0);
-  }
-}
-.ticker-wrap {
-  overflow: hidden;
-  margin-top: -10px;
-  height: 100%;
-}
-.ticker-wrap .ticker {
-  display: flex;
-  gap: 8px;
-  transform: translate3d(25%, 0, 0);
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  white-space: nowrap;
-  animation-name: ticker;
-  animation-duration: 30s;
-}
-
-.ticker-wrap .ticker:hover {
-  animation-play-state: paused;
-}
-
-.ticker ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.ticker .ticker-bullet {
-  line-height: 100%;
-  align-self: flex-end;
-
-  &:last-of-type {
-    display: none;
-  }
-}
-
-.ticker-bullet {
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
 .invert { filter: invert(100%); }
 .quote-content {
   quotes: "“" "”";
   &::before { content: open-quote }
   &::after { content: close-quote }
 }
-
+.bg-gradient {
+  background: rgb(25,25,25);
+  background: linear-gradient(315deg, rgba(38,38,38,1), rgba(25,25,25,1) 63%, rgba(25,25,25,1) 0% 100%);
+}
 footer {
   a:hover {
     text-decoration: underline;
+  }
+}
+header > .explore {
+  @apply absolute bottom-0 w-full text-center;
+
+  span {
+    @apply body text-white;
+    display: inline-block;
+    font-weight: 500;
+    height: 30px;
+  }
+  .line-down {
+    @apply mx-auto bg-white;
+    bottom: 0;
+    width: 1px;
+    height: 45px;
   }
 }
