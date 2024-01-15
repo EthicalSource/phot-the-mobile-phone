@@ -2,8 +2,9 @@ body.no--scroll {
   overflow: hidden;
 }
 nav #main-site-nav-wrapper {
-  @apply w-screen h-screen bg-very-black z-20 text-white;
-  @apply fixed left-0 right-0 px-16 py-12 mt-4 gap-y-10 gap-x-6;
+  @apply w-screen h-screen bg-very-black text-white;
+  @apply z-20 fixed left-0 right-0;
+  @apply mx-[25px] md:mx-0 px-16 py-12 mt-4 gap-y-10 gap-x-6;
   @apply overflow-scroll overscroll-contain hidden;
 }
 nav #main-site-nav-inner {
