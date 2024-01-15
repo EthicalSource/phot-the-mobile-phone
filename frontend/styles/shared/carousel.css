@@ -1,6 +1,30 @@
+:root {
+  --carousel-padding-left:
+      clamp(
+      var(--carousel-padding-left-min),
+      var(--carousel-padding-left-val),
+      var(--carousel-padding-left-max)
+    );
+  --carousel-padding-left-min: 30px;
+  --carousel-padding-left-val: calc(1vw * var(--carousel-padding-multiplier));
+  --carousel-padding-left-max: 330px;
+
+  --carousel-padding-multiplier: 0.1;
+  @media (min-width: 400px) {
+    --carousel-padding-multiplier: 8;
+  }
+  @media (min-width: 800px) {
+    --carousel-padding-multiplier: 15;
+  }
+  @media (min-width: 1280px) {
+    --carousel-padding-multiplier: 10;
+  }
+}
+
 [data-controller="carousel"] {
   @apply bg-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black;
-  @apply !pl-[30px] md:!pl-[330px];
+  padding-left: var(--carousel-padding-left) !important;
+
   h1 { @apply heading-xs mb-[30px] md:-mb-[25px]; }
 }
 
