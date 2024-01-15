@@ -13,7 +13,7 @@ collections:
     label: "General Content"
     folder: "src/_general_content"
     slug: "content"
-    create: false
+    create: true
     fields:
       - label: "Home Page Intro"
         name: "homepage_intro"
