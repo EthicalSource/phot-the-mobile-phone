@@ -2,13 +2,14 @@
 title: Connection & Access
 feature: true
 explore: true
-order: 6
 highlight: Connectivity is never a given.
-carousel_description: Assuming constant connectivity is a mistake; it's not always guaranteed.
 primary_nav_description: Connectivity is never a given.
+carousel_description: Assuming constant connectivity is a mistake; it's not always guaranteed.
 intro: The assumption of perpetual connectivity is often misguided, as
   consistent and universal access to such connections is not a guaranteed aspect
   of our increasingly digital world, but rather a fluctuating resource.
+photo_credit:
+  link_text: Nyunt Win/EPA-EFE via Shutterstock
 illustrations_credit:
   link_href: ""
   illustration_text: TTWW
