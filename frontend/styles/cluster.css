@@ -27,7 +27,7 @@
       margin-bottom: 26px;
     }
     h2 {
-      @apply heading-sm-alt text-white tracking-tight;
+      @apply heading-sm-alt text-white tracking-widest;
       margin-bottom: 26px;
     }
     p {
