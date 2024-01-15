@@ -9,6 +9,22 @@ media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
 
 collections:
+  - name: "general_content"
+    label: "General Content"
+    folder: "src/_general_content"
+    slug: "content"
+    identifier: "name"
+    create: false
+    fields:
+      - label: "Home Page Intro"
+        name: "homepage_intro"
+        hint: "Text on homepage just below the header"
+        widget: "markdown"
+        required: true
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        hint: "The for the page link within the CMS"
   - name: "clusters" # Collections is a reserved word
     label: "Collections"
     folder: "src/_clusters"

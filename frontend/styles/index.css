@@ -29,7 +29,6 @@
   --cluster-image-size-val: 25vw;
   --cluster-image-size-max: 454px;
 
-  /* TODO: Use this in event component */
   --event-image-square-size:
     clamp(
       var(--event-image-square-min),
@@ -167,7 +166,6 @@ body.page main {
   ul { @apply list-disc pl-6 marker:text-lime-green }
 }
 
-.invert { filter: invert(100%); }
 .quote-content {
   quotes: "“" "”";
   &::before { content: open-quote }
