@@ -8,7 +8,7 @@
 }
 .ticker-wrap {
   overflow: hidden;
-  @apply body text-solid-black bg-lime-green;
+  @apply text-solid-black bg-lime-green;
   @apply h-[55px] md:h-[60px] -rotate-1 -translate-y-2;
   margin-top: -10px;
 
@@ -17,7 +17,7 @@
   }
 }
 .ticker-wrap .ticker {
-  @apply body;
+  @apply text-[17px] md:text-[24px];
 
   display: flex;
   gap: 8px;
