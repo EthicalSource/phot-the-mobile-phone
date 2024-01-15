@@ -1,7 +1,12 @@
 ---
 homepage_intro: >-
-  Join us in building a living artifact, sharing the human impact of technology,
-  and harnessing our joint power for the future of tech citizenship.
+  ## Test H2
+
+
+  Join us in building a living artifact, sharing the human impact of technology, and harnessing our joint power for the future of tech citizenship.
+
+
+  ### Test H3
 
 
   Our journey begins with the mobile phone, a pocket-sized marvel that has transformed our relationship with time, space, and each other. How did we get here? 
