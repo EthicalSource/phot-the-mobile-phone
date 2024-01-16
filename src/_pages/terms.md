@@ -2,7 +2,7 @@
 layout: page
 permalink: /:slug.*
 in_footer: true
-in_nav: true
+in_nav: false
 title: Terms
 nav_label: Terms
 slug: terms
