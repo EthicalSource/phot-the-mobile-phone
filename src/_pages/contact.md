@@ -6,7 +6,7 @@ in_nav: true
 title: Contact
 nav_label: Contact
 slug: contact
-order: 10
+order: 9
 media:
   thumbnail: ""
   alt: ""
