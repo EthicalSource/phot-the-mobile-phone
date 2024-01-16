@@ -6,6 +6,6 @@ in_nav: true
 title: Terms
 nav_label: Terms
 slug: terms
-order: 3
+order: 4
 ---
 Lorem ipsum
