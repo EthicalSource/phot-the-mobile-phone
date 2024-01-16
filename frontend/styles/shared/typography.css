@@ -127,10 +127,7 @@
   --font-size-min: 17px;
   --font-size-val: 1vw;
   --font-size-max: 17px;
-
-  --line-height-min: 20px;
-  --line-height-val: 1.6vw;
-  --line-height-max: 26px;
+  line-height: 26px;
 }
 .base {
   --font-size-min: 16px;
