@@ -4,10 +4,10 @@
       <header>
         <h2><%= @cta.title %></h2>
         <span class="subhead text-medium-grey mb-[20px]">Take Action</span>
-        <img src="<%= relative_url @cta.media&.thumbnail %>"
-           alt="<%= @cta.media&.alt %>" />
+        <img src="/images/shared/cluster-title-resource.jpg"
+           alt="" />
       </header>
-      <p><%= markdownify @content %></p>
+      <p><%= @content %></p>
     </article>
   <% end %>
 </div>
