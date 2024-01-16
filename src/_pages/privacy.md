@@ -1,10 +1,11 @@
 ---
 layout: page
+permalink: /:slug.*
+in_footer: true
+in_nav: false
 title: Privacy
 nav_label: Privacy
 slug: privacy
-permalink: /:slug.*
-in_footer: true
-in_nav: true
-order: 5
+order: 4
 ---
+Lorem ipsum

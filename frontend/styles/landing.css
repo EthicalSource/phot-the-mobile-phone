@@ -26,7 +26,7 @@
   .introduction {
     @apply w-[80%] lg:w-[62%] lg:max-w-[960px];
     @apply flex flex-col body;
-    @apply mx-auto mt-[95px] mb-[10px];
+    @apply mx-auto mt-[75px] md:mt-[95px] -mb-[10px];
 
     p { @apply mb-6; }
     a {

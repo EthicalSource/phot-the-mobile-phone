@@ -26,8 +26,8 @@
   padding-left: var(--carousel-padding-left) !important;
 
   h1 {
-    @apply heading-xs ml-[15%] mb-[30px] md:-mb-[25px];
-    @apply text-medium-black font-medium tracking-tight;
+    @apply heading-xs mb-[30px] md:-mb-[25px];
+    @apply text-medium-black font-medium tracking-widest;
   }
 }
 
