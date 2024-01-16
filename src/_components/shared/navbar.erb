@@ -7,8 +7,9 @@
   <div class="flex justify-between items-center w-full">
     <%= partial "nav/logo" %>
     <div class="flex items-center gap-6">
-      <%= link_to "#", class: "flex", data: { action: "click->open-close#updateState" } do %>
-        <span class="inline-block mr-1 hidden group-[.nav--open]:block">Close Menu</span>
+      <%= link_to "#", class: "flex items-center", data: { action: "click->open-close#updateState" } do %>
+        <span class="inline-block mr-1 hidden group-[.nav--open]:block">Close</span>
+        <span class="inline-block mr-1">Menu</span>
         <%= svg "images/shared/menu-icon.svg", class: "z-30 fill-white" %>
       <% end %>
       <%= link_to "Participate", "/participate", class: "button primary !hidden lg:!block !w-[146px] !min-w-[146px]" %>
