@@ -2,9 +2,8 @@
 layout: default
 ---
 <% event = resource %>
-<%= render Shared::Navbar.new(site: site, resource: resource) %>
+<%= partial 'post/headline' %>
 <main>
-  <%= partial 'post/headline' %>
   <%= partial 'entry/card' %>
 </main>
 <%= partial 'post/related', locals: { resource: event } %>
