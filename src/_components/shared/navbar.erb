@@ -15,11 +15,9 @@
     </div>
   </div>
 
-  <div id="main-site-nav-wrapper" class="w-screen h-screen bg-very-black z-20 text-white
-    fixed left-0 right-0 px-16 py-12 mt-4 gap-y-10 gap-x-6
-    overflow-scroll overscroll-contain hidden">
+  <div id="main-site-nav-wrapper">
     <%= partial "nav/clusters", locals: { clusters: clusters } %>
-    <div class="max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20">
+    <div id="main-site-nav-inner">
       <%= partial "nav/pages", locals: { pages: pages_in_nav } %>
       <%= partial "nav/social_links" %>
     </div>
