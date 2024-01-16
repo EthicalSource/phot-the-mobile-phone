@@ -16,14 +16,19 @@ body.no--scroll {
 nav #main-site-nav-wrapper {
   @apply w-screen h-screen bg-very-black text-white;
   @apply z-20 fixed left-0 right-0;
-  @apply px-[25px] md:px-[70px] py-12 mt-4 gap-y-10 gap-x-6;
+  @apply px-[25px] md:px-[70px] py-12 gap-y-10 gap-x-6;
   @apply overflow-scroll overscroll-contain hidden;
+  top: calc(var(--nav-height) - 10px);
 }
 nav #main-site-nav-inner {
   @apply max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20;
 }
 nav.nav--open {
   @apply bg-solid-black;
+  overflow: hidden;
+}
+nav.nav--closed,
+nav.nav--closing {
   overflow: hidden;
 }
 nav.nav--open #main-site-nav-wrapper {
