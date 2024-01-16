@@ -390,6 +390,11 @@ collections:
         name: "slug"
         widget: "string"
         hint: "ex:'about', will make this page avaiable at '/about'"
+      - label: "Order"
+        name: "order"
+        widget: "number"
+        value_type: int
+        hint: Used to order page links in the footer. Smallest to largest.
       - label: "Media"
         name: "media"
         widget: "object"

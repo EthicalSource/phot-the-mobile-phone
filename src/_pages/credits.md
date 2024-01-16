@@ -3,6 +3,7 @@ layout: page
 permalink: /:slug.*
 in_footer: true
 in_nav: true
+order: 3
 title: Credits
 nav_label: Credits
 slug: /credits

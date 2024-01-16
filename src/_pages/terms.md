@@ -6,4 +6,5 @@ slug: terms
 permalink: /:slug.*
 in_footer: true
 in_nav: true
+order: 6
 ---
