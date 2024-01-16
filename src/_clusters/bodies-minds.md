@@ -1,7 +1,7 @@
 ---
 title: BODIES & MINDS
 feature: true
-highlight: Pocket computers are intimate tech.
+highlight: THIS IS A TEST
 carousel_description: Pocket computers, being highly personal and closely-held
   technology, establish a deep connection.
 intro: Pocket computers, as highly personal devices, are intimately integrated
