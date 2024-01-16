@@ -1,11 +1,13 @@
 ---
+primary_nav_description: Take action for better tech futures.
+photo_credit:
+  link_text: Mehaniq via Shutterstock
 layout: cluster_resource
 title: Resources
 feature: false
 explore: true
 highlight: Take action and imagine better tech futures.
 carousel_description: Engage proactively to envision and shape improved technological futures.
-primary_nav_description: Take action and imagine better tech futures.
 intro: Actively participate and use your imagination to shape better
   technological futures, inspiring innovation and positive change in the world
   of tech.

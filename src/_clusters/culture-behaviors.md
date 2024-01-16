@@ -3,6 +3,7 @@ title: Culture & Behaviors
 feature: true
 explore: true
 highlight: Emojis to memes, connecting meaning with tech.
+primary_nav_description: Tech can connect and make meaning.
 carousel_description: From emojis to memes, we connect and make meaning with tech.
 intro: New phone, who dis? From emojis to memes, our devices and platforms are
   changing how we connect with each other. How do our relationships and cultural
