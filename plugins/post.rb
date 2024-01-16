@@ -7,7 +7,7 @@ module PostResourceExtension
       # however, Sanitize does not handle HTML entities
       # https://github.com/rgrove/sanitize/issues/193
       if content.length > length
-        sanitize_content(content)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + ' ...'
+        sanitize_content(content)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
       else
         sanitize_content(content)
       end
@@ -15,7 +15,7 @@ module PostResourceExtension
 
     def highlight_summary(length: 85)
       if data.highlight.length > length
-        sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + ' ...'
+        sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
       else
         sanitize_content(data.highlight)
       end
