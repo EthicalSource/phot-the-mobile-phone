@@ -133,6 +133,9 @@
       @apply max-w-[500px];
     }
 
+    ul > li .wrapper.event p {
+      @apply max-w-[350px];
+    }
     .cluster-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
