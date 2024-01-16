@@ -112,7 +112,7 @@
   ul > li .wrapper {
     @apply w-full md:min-w-[500px];
     @apply flex flex-col-reverse md:flex-row;
-    @apply justify-start md:gap-[50px] sm:items-end px-5;
+    @apply justify-start md:gap-[50px] sm:items-end;
 
     header {
       display: flex;
