@@ -35,7 +35,7 @@ nav.nav--closing {
 }
 nav.nav--open #main-site-nav-wrapper {
   @apply animate-fadein !block;
-  @apply bg-solid-black/[.98];
+  background-color: #050505;
 }
 nav.nav--closing #main-site-nav-wrapper {
   @apply animate-fadeout !block;
