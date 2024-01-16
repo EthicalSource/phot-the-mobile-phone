@@ -181,10 +181,6 @@ footer {
     text-decoration: underline;
   }
 }
-.bg-gradient {
-  background: rgb(25,25,25);
-  background: linear-gradient(315deg, rgba(38,38,38,1), rgba(25,25,25,1) 63%, rgba(25,25,25,1) 0% 100%);
-}
 header > .explore {
   @apply absolute bottom-0 w-full text-center;
 
