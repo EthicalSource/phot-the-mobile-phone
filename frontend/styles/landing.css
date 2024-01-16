@@ -105,7 +105,6 @@
   }
   .cluster-link {
     @apply p-1 px-4 border border-solid-black w-fit lowercase self-end md:self-start;
-    margin-top: 25px;
     display: block
   }
 
