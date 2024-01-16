@@ -122,6 +122,10 @@
   @media (max-width: 1024px) {
     ul > li .wrapper {
       @apply mx-auto max-w-[500px];
+
+      &.event {
+        margin-bottom: 120px;
+      }
     }
   }
   @media (min-width: 1024px) {
