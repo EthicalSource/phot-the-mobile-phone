@@ -25,7 +25,8 @@
   line-height: clamp(var(--line-height-min), var(--line-height-val), var(--line-height-max));
 }
 .heading-xxxl {
-  @apply font-bold capitalize tracking-[-0.02em];
+  @apply capitalize tracking-[-0.02em];
+  font-weight: 700;
   --font-size-min: 72px;
   --font-size-val: 10.45vw;
   --font-size-max: 180px;
@@ -35,7 +36,8 @@
   --line-height-max: 170px;
 }
 .heading-xxl {
-  @apply font-semibold capitalize tracking-tight;
+  @apply capitalize tracking-tight;
+  font-weight: 800;
   --font-size-min: 44px;
   --font-size-val: 5.25vw;
   --font-size-max: 90px;
@@ -54,7 +56,8 @@
   --line-height-max: 78px;
 }
 .heading-lg {
-  @apply font-bold uppercase;
+  @apply uppercase;
+  font-weight: 800;
   --font-size-min: 36px;
   --font-size-val: 4.25vw;
   --font-size-max: 56px;
@@ -73,7 +76,7 @@
   --line-height-max: 46px;
 }
 .heading-sm {
-  font-weight: bold;
+  font-weight: 800;
   letter-spacing: 0.1em;
   --font-size-min: 36px;
   --font-size-val: 2.25vw;
@@ -93,7 +96,7 @@
   --line-height-max: 40px;
 }
 .heading-xs {
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.1em;
   --font-size-min: 24px;
   --font-size-val: 1.4vw;
@@ -113,7 +116,7 @@
   --line-height-max: 28px;
 }
 .heading-xxs {
-  font-weight: 600;
+  font-weight: 700;
   text-transform: capitalize;
   --font-size-min: 20px;
   --font-size-val: 1.25vw;
@@ -142,6 +145,7 @@
   --line-height-max: 24px;
 }
 .meta {
+  font-weight: 600;
   text-transform: lowercase;
   --font-size-min: 16px;
   --font-size-val: 2vw;
