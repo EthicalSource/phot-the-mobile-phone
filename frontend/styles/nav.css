@@ -21,7 +21,9 @@ nav #main-site-nav-wrapper {
   top: calc(var(--nav-height) - 10px);
 }
 nav #main-site-nav-inner {
-  @apply max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20;
+  @apply grid grid-cols-1 lg:grid-cols-2;
+  @apply gap-y-6 gap-x-[200px];
+  @apply mb-[50px] md:mb-[100px];
 }
 nav.nav--open {
   @apply bg-solid-black;
