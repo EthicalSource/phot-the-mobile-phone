@@ -50,7 +50,7 @@
     }
   }
   .cluster-heading {
-    @apply h-fit md:min-w-[320px] md:max-w-[725px] justify-center mb-[80px] md:mb-[200px];
+    @apply h-fit justify-center mb-[80px] lg:mb-[200px];
     display: flex;
     width: 100%;
 
