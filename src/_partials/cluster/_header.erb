@@ -12,7 +12,7 @@
         <%= render Shared::Credit.new(label: 'Illustration', credit: cluster.illustrations_credit&.illustration_text, href: '')%>
       </p>
     </article>
-    <aside>
+    <aside class="hidden md:block">
       <div class="hero-image" style="background-image: url(<%= relative_url cluster.hero_image&.src %>)"></div>
     </aside>
   </div>

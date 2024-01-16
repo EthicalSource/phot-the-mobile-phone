@@ -1,7 +1,7 @@
 .cluster_resource,
 .cluster {
   > header {
-    @apply bg-solid-black text-white flex justify-around gap-0 px-5 md:px-0;
+    @apply bg-solid-black text-white flex justify-around gap-0;
     @apply bg-[url("/images/shared/History-of-the-Mobile-Phone_Collection-Header-Bg_810x1080.jpg")];
     @apply lg:bg-[url("/images/shared/History-of-the-Mobile-Phone_Collection-Header-Bg_1920x1080.jpg")];
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
@@ -16,8 +16,7 @@
     }
   }
   main {
-    @apply max-w-[1260px] mx-auto my-[150px];
-    @apply mb-[100px] md:mb-[200px];
+    @apply max-w-[1550px] mx-auto my-[150px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
     @apply lg:grid-cols-2;
     @apply xl:grid-cols-3;
