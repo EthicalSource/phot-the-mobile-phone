@@ -1,0 +1,22 @@
+<div class="wrapper resource">
+  <div class="hidden md:block">
+    <%= render Resource::Thumbnail.new %>
+  </div>
+  <article class="w-full md:min-w-[200px] <%= @classname %> mt-[26px] md:mt-[50px] flex flex-col">
+    <header>
+      <a href="<%= url_for(@entry) %>">
+        <h2 class="heading-sm text-blue mb-[26px]">
+          <%= @entry.data.title %>
+        </h2>
+      </a>
+      <p class="meta text-dark-grey mb-[20px] capitalize">Take Action</p>
+    </header>
+    <p class="base mb-[25px]">
+      <%= @entry.content_summary %>
+    </p>
+    <div class="block md:hidden flex justify-end">
+      <%= render Resource::Thumbnail.new %>
+    </div>
+    <%= render Resource::ClusterLink.new %>
+  </article>
+</div>
