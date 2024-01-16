@@ -199,3 +199,9 @@ header > .explore {
     height: 45px;
   }
 }
+
+a:active, a:focus-visible {
+  outline-width: 2px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
