@@ -1,7 +1,7 @@
 require 'pry'
 class Cards::Journal < Bridgetown::Component
   def initialize(post:)
-    @highlight = post.content_summary(length: 110)
+    @highlight = post.highlight_summary(length: 110)
     @journal = post.data
     @link = post.relative_url
     @byline = source
