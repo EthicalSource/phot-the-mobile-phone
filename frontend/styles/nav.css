@@ -1,3 +1,15 @@
+:root {
+  --nav-height: 70px;
+}
+@media (min-width: 769px) {
+  :root {
+    --nav-height: 110px;
+  }
+}
+
+nav[data-controller="open-close"] {
+  height: var(--nav-height);
+}
 body.no--scroll {
   overflow: hidden;
 }
