@@ -17,6 +17,7 @@
   }
   main {
     @apply max-w-[1260px] mx-auto my-[150px];
+    @apply mb-[100px] md:mb-[200px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
     @apply lg:grid-cols-2;
     @apply xl:grid-cols-3;
@@ -33,7 +34,7 @@
       margin-bottom: 26px;
     }
     p {
-      @apply meta text-medium-grey;
+      @apply meta-normal text-medium-grey;
     }
     @media (min-width: 769px) {
       p {
@@ -58,16 +59,6 @@
         @apply md:-mt-[75px];
       }
     }
-  }
-  .poster {
-    @apply w-[300px];
-
-    .cover {
-      @apply bg-cover bg-center h-[430px] w-[300px] mb-[30px];
-      border-radius: 5% 5% 5% 0;
-    }
-    h2 { @apply heading-xxs text-medium-black mb-[26px] }
-    p { @apply text-base text-dark-grey }
   }
 }
 

@@ -1,4 +1,4 @@
-<div class="my-[100px] md:my-[90px] wrapper">
+<div class="my-[60px] wrapper">
   <div class="flex justify-end items-center">
     <div class="flex flex-col justify-center">
       <a href="<%= url_for(@journal)%>">
@@ -7,7 +7,7 @@
         </h3>
       </a>
       <p class="text-left md:text-center mb-[26px]">
-        <%= @journal.data.source%>, <%= @journal.data.location%>
+        - <%= @journal.data.source%>, <%= @journal.data.location%>
       </p>
       <p class="text-left md:text-center">
         <a href="/collections/peoples-stories" class="p-1 px-4 border border-solid-black mt-[25px] w-fit lowercase">

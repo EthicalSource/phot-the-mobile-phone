@@ -1,6 +1,6 @@
-<nav class="w-full basis-1/2 mb-6">
-  <h2 class="heading-xs pb-6 mb-8 border-b border-b-grey-medium">Learn More</h2>
-  <ul>
+<nav class="max-w-[530px] mb-10">
+  <h2 class="heading-xs pb-4 2xl:pb-6 mb-8 border-b border-b-grey-medium">Learn More</h2>
+  <ul class="grid grid-cols-1 gap-y-6 w-full gap-x-[200px]">
     <% pages.each do |page| %>
       <li>
         <%= link_to page.data.nav_label,
@@ -9,6 +9,6 @@
         %>
       </li>
     <% end %>
-    <%= link_to "PARTICIPATE", "/participate", class: "button primary md:!w-[146px] md:!min-w-[146px]" %>
+    <%= link_to "PARTICIPATE", "/participate", class: "button primary !w-[146px] !min-w-[146px]" %>
   </ul>
 </nav>

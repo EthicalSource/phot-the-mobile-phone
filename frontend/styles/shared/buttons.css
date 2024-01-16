@@ -32,5 +32,5 @@
   @apply hover:underline active:no-underline;
   @apply min-h-[50px] md:min-h-[60px] min-w-[220px] md:min-w-[350px];
   @apply px-[25px] py-[17px] md:py-[15px];
-  font-size: 24px;
+  @apply md:text-[24px];
 }

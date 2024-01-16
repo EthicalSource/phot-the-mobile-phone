@@ -2,24 +2,23 @@
   data-open-close-open-class="nav--open"
   data-open-close-closed-class="nav--closed"
   data-open-close-closing-class="nav--closing"
-  class="nav--closed px-16 py-8 group relative w-full">
+  class="nav--closed px-16 py-4 group relative w-full flex items-center">
 
   <div class="flex justify-between items-center w-full">
     <%= partial "nav/logo" %>
     <div class="flex items-center gap-6">
-      <%= link_to "#", class: "flex", data: { action: "click->open-close#updateState" } do %>
-        <span class="inline-block mr-1 hidden group-[.nav--open]:block">Close Menu</span>
+      <%= link_to "#", class: "flex items-center", data: { action: "click->open-close#updateState" } do %>
+        <span class="inline-block mr-1 hidden group-[.nav--open]:block">Close</span>
+        <span class="inline-block mr-1">Menu</span>
         <%= svg "images/shared/menu-icon.svg", class: "z-30 fill-white" %>
       <% end %>
-      <%= link_to "Participate", "/participate", class: "button primary !hidden lg:!block md:!w-[146px] md:!min-w-[146px]" %>
+      <%= link_to "Participate", "/participate", class: "button primary !hidden lg:!block !w-[146px] !min-w-[146px]" %>
     </div>
   </div>
 
-  <div id="main-site-nav-wrapper" class="w-screen h-screen bg-very-black z-20 text-white
-    fixed left-0 right-0 px-16 py-12 mt-4 gap-y-10 gap-x-6
-    overflow-scroll overscroll-contain hidden">
+  <div id="main-site-nav-wrapper">
     <%= partial "nav/clusters", locals: { clusters: clusters } %>
-    <div class="max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20">
+    <div id="main-site-nav-inner">
       <%= partial "nav/pages", locals: { pages: pages_in_nav } %>
       <%= partial "nav/social_links" %>
     </div>

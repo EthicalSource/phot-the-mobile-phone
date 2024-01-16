@@ -1,12 +1,42 @@
+:root {
+  --nav-height: 70px;
+}
+@media (min-width: 769px) {
+  :root {
+    --nav-height: 110px;
+  }
+}
+
+nav[data-controller="open-close"] {
+  height: var(--nav-height);
+}
 body.no--scroll {
   overflow: hidden;
+}
+nav #main-site-nav-wrapper {
+  @apply w-screen h-screen bg-very-black text-white;
+  @apply z-20 fixed left-0 right-0;
+  @apply px-[25px] md:px-[70px] py-12 gap-y-10 gap-x-6;
+  @apply overflow-scroll overscroll-contain hidden;
+  top: calc(var(--nav-height) - 10px);
+}
+nav #main-site-nav-inner {
+  @apply grid grid-cols-1 lg:grid-cols-2;
+  @apply gap-y-6 gap-x-[200px];
+  @apply mb-[50px] md:mb-[100px] mx-auto;
+  max-width: 1260px;
 }
 nav.nav--open {
   @apply bg-solid-black;
   overflow: hidden;
 }
+nav.nav--closed,
+nav.nav--closing {
+  overflow: hidden;
+}
 nav.nav--open #main-site-nav-wrapper {
   @apply animate-fadein !block;
+  background-color: #050505;
 }
 nav.nav--closing #main-site-nav-wrapper {
   @apply animate-fadeout !block;

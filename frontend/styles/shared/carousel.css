@@ -26,8 +26,8 @@
   padding-left: var(--carousel-padding-left) !important;
 
   h1 {
-    @apply heading-xs ml-[15%] mb-[30px] md:-mb-[25px];
-    @apply text-medium-black font-medium tracking-tight;
+    @apply heading-xs mb-[30px] md:-mb-[25px];
+    @apply text-medium-black font-medium tracking-widest;
   }
 }
 
@@ -74,6 +74,16 @@
         vertical-align: sub;
       }
     }
+  }
+  .poster {
+    @apply w-[300px];
+
+    .cover {
+      @apply bg-cover bg-center h-[430px] w-[300px] mb-[30px];
+      border-radius: 5% 5% 5% 0;
+    }
+    h2 { @apply heading-xxs text-medium-black mb-[26px] }
+    p { @apply text-base text-dark-grey }
   }
 }
 .swiper {
