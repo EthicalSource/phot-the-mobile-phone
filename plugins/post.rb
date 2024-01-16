@@ -17,7 +17,7 @@ module PostResourceExtension
       if data.highlight.length > length
         sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + ' ...'
       else
-        sanitize_content(content)
+        sanitize_content(data.highlight)
       end
 
 
