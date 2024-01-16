@@ -1,4 +1,4 @@
-<div class="wrapper event">
+<div class="wrapper resource">
   <div class="hidden md:block">
     <%= render Resource::Thumbnail.new %>
   </div>
@@ -9,7 +9,7 @@
           <%= @entry.data.title %>
         </h2>
       </a>
-      <p class="meta text-dark-grey mb-[20px]"><time><%= @entry.data.start_date&.year %></time></p>
+      <p class="meta text-dark-grey mb-[20px] capitalize">Take Action</p>
     </header>
     <p class="base mb-[25px]">
       <%= @entry.content_summary %>
