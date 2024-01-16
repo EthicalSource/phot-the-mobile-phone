@@ -6,11 +6,21 @@ module PostResourceExtension
       # We sanitize the content here in order to remove the HTML so things render plainly
       # however, Sanitize does not handle HTML entities
       # https://github.com/rgrove/sanitize/issues/193
-      sanitize_content(content)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ')
+      if content.length > length
+        sanitize_content(content)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + ' ...'
+      else
+        sanitize_content(content)
+      end
     end
 
     def highlight_summary(length: 85)
-      sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ')
+      if data.highlight.length > length
+        sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + ' ...'
+      else
+        sanitize_content(data.highlight)
+      end
+
+
     end
 
     def sanitize_content(content_body)
