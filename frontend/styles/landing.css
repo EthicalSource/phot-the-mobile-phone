@@ -1,3 +1,7 @@
+:root {
+  --cluster-image-adjustment: 0.09;
+}
+
 .default {
   & > header {
     @apply text-white bg-solid-black items-center;
@@ -15,11 +19,15 @@
         font-size: 50px;
         line-height: 50px;
         font-weight: bold;
+        margin-top: -35px;
       }
     }
 
     @media (min-width: 1025px) {
-      h1 { @apply heading-xxl; }
+      h1 {
+        @apply heading-xxl;
+        margin-top: -55px;
+      }
     }
   }
 
@@ -61,6 +69,9 @@
       width: var(--cluster-image-size);
       height: var(--cluster-image-size);
 
+      .wrapper-for-centering {
+        margin-left: calc(var(--cluster-image-size) * var(--cluster-image-adjustment));
+      }
       .cluster-title {
         @apply heading-lg uppercase text-medium-black tracking-tight;
 
@@ -68,7 +79,7 @@
         top: 0;
         left: 0;
         transform:
-          translateX(calc(var(--cluster-image-size)*-0.18))
+          translateX(calc(var(--cluster-image-size) * calc(var(--cluster-image-adjustment) * -1)))
           translateY(calc(var(--cluster-image-size)*1.05))
           rotate(270deg);
         transform-origin: left top;
