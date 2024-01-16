@@ -6,9 +6,9 @@ class Shared::Navbar < Bridgetown::Component
   end
 
   def clusters
-    site.collections.
+    PostHelpers.explorable_collections(posts:site.collections.
       clusters.
-      resources
+      resources, value: nil)
   end
 
   def pages_in_nav

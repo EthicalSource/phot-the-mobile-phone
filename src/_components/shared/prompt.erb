@@ -1,6 +1,6 @@
 <div class="wrapper participate my-[100px]">
   <article>
-    <h1 class="heading-sm mb-[26px]"><%= @prompt.data.question %></h1>
+    <h1 class="heading-sm mb-[26px] font-extrabold tracking-widest"><%= @prompt.data.question %></h1>
     <%= render Shared::Button.new(text: "Tell your story", href: url_for(@prompt)) %>
   </article>
 </div>

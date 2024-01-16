@@ -70,7 +70,7 @@ body.cta main,
 body.entry main,
 body.journal main,
 body.page main {
-  @apply px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[150px];
+  @apply px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[22px];
 }
 
 .card {
@@ -108,7 +108,7 @@ body.page main {
     @apply heading-xs mb-[20px];
   }
   &.event {
-    h2 { @apply text-white;}
+    h2 { @apply text-white font-medium tracking-widest;}
   }
   &.cta {
     h2 { @apply text-blue;}
@@ -118,6 +118,7 @@ body.page main {
 
     h2 {
       @apply heading-sm text-fuchsia mb-5;
+      @apply tracking-widest font-extrabold;
       margin-top: auto;
       quotes: "“" "”";
       &::before { content: open-quote }
@@ -131,6 +132,7 @@ body.page main {
   &.prompt {
     h2 {
       @apply heading-sm text-lime-green mb-5;
+      @apply tracking-widest font-extrabold;
     }
     article {
       display: flex;
@@ -196,4 +198,15 @@ header > .explore {
     width: 1px;
     height: 45px;
   }
+}
+
+a:active,
+a:focus-visible,
+a:focus,
+button:active,
+button:focus,
+button:focus-visible {
+  outline-width: 2px;
+  outline-style: dotted;
+  outline-color: #2ef853;
 }

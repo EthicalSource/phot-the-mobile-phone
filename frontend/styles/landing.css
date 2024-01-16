@@ -1,6 +1,6 @@
 .default {
   & > header {
-    @apply text-white items-center;
+    @apply text-white bg-solid-black items-center;
     @apply bg-[url("/images/shared/History-of-the-Mobile-Phone_Homepage_Header-Bg-mobile.jpg")];
     @apply lg:bg-[url("/images/shared/History-of-the-Mobile-Phone_Homepage_Header-Bg-fullscreen.jpg")];
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
@@ -9,7 +9,7 @@
     height: 100vh;
     position: relative;
     width: 100%;
-    
+
     @media (max-width: 1024px) {
       h1 {
         font-size: 50px;
@@ -24,10 +24,11 @@
   }
 
   .introduction {
-    @apply w-[80%] md:w-[62] lg:max-w-[960px];
-    @apply flex flex-col;
+    @apply w-[80%] lg:w-[62%] lg:max-w-[960px];
+    @apply flex flex-col body;
     @apply mx-auto mt-[95px] mb-[10px];
 
+    p { @apply mb-6; }
     a {
       text-decoration: underline;
 
@@ -37,18 +38,15 @@
     }
   }
   article.highlight {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    margin: 80px 0;
+    @apply flex flex-col-reverse items-center;
+    @apply w-[73%] lg:w-[55%] max-w-[860px] mx-auto mt-[120px] mb-[64px];
+
 
     h2 {
-      @apply heading-md text-dark-grey text-center w-full md:w-1/2;
+      @apply heading-md text-dark-grey text-center w-full;
     }
     img {
-      width: 65px;
-      height: 65px;
-      margin-bottom: 30px;
+      @apply w-[65px] h-[65px] mb-[14px];
     }
   }
   .cluster-heading {
@@ -64,7 +62,7 @@
       height: var(--cluster-image-size);
 
       .cluster-title {
-        @apply heading-lg uppercase text-medium-black;
+        @apply heading-lg uppercase text-medium-black tracking-tight;
 
         position: absolute;
         top: 0;
