@@ -33,7 +33,7 @@
       margin-bottom: 26px;
     }
     p {
-      @apply meta text-medium-grey;
+      @apply meta-normal text-medium-grey;
     }
     @media (min-width: 769px) {
       p {

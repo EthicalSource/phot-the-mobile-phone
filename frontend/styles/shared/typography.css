@@ -151,3 +151,12 @@
   --line-height-val: 1.25vw;
   --line-height-max: 20px;
 }
+.meta-normal {
+  --font-size-min: 16px;
+  --font-size-val: 2vw;
+  --font-size-max: 16px;
+
+  --line-height-min: 20px;
+  --line-height-val: 1.25vw;
+  --line-height-max: 20px;
+}
