@@ -200,9 +200,12 @@ header > .explore {
   }
 }
 
-*:active,
-*:focus-visible,
-*:focus {
+a:active,
+a:focus-visible,
+a:focus,
+button:active,
+button:focus,
+button:focus-visible {
   outline-width: 2px;
   outline-style: dotted;
   outline-color: #2ef853;
