@@ -79,7 +79,7 @@ body.cta main,
 body.entry main,
 body.journal main,
 body.page main {
-  @apply max-w-[960px] mx-auto mt-[40px] md:mt-[150px];
+  @apply max-w-[960px] mx-auto mt-[40px] md:mt-[22px] mb-[100px] md:mb-[200px];
 }
 
 .card {
