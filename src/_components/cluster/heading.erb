@@ -3,7 +3,9 @@
     <article>
       <h2 class="cluster-title break-on-amp"><%= @title %></h2>
       <div class="cluster-title break-on-amp glow" aria-hidden="true"><%= @title %></div>
-      <div class="hero-image" style="background-image: url(<%= relative_url @cluster.data.cluster_homepage_image.src %>)"></div>
+      <div class="wrapper-for-centering">
+        <div class="hero-image" style="background-image: url(<%= relative_url @cluster.data.cluster_homepage_image.src %>)"></div>
+      </div>
     </article>
   </a>
 </div>
