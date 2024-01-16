@@ -2,7 +2,7 @@
   <div class="flex justify-end items-center">
     <div class="flex flex-col justify-center">
       <a href="<%= url_for(@journal)%>">
-          <h3 class="quote-content heading-sm text-fuchsia text-left font-extrabold md:text-center mb-[20px] tracking-widest">
+          <h3 class="quote-content heading-sm text-fuchsia text-left font-extrabold md:text-center mb-[20px] tracking-[0.01em]">
           <%= @journal.highlight_summary(length: 110) %>
         </h3>
       </a>
