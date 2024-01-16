@@ -14,7 +14,7 @@
     <p class="base mb-[21px]">
       <%= @entry.content_summary %>
     </p>
-    <div class="block md:hidden flex justify-end">
+    <div class="block md:hidden flex justify-end mb-[16px]">
       <%= render Event::Thumbnail.new(event: @entry) %>
     </div>
     <%= render Event::ClusterLink.new(event: @entry, cluster: @cluster) %>
