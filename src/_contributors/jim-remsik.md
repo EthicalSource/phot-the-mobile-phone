@@ -1,3 +1,3 @@
 ---
-name: Jim Remsik
+name: Jim Remsik Jr
 ---
