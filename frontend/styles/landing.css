@@ -119,19 +119,19 @@
       flex-direction: column-reverse;
     }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1549px) {
     ul > li .wrapper {
       @apply mx-auto max-w-[500px];
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 1550px) {
     ul > li .wrapper.participate {
       @apply max-w-[500px];
     }
 
     .cluster-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 725px);
       gap: 10px;
 
       & > li:nth-child(1) { /* Highlight */
