@@ -25,7 +25,10 @@
   @apply bg-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[140px] text-medium-black;
   padding-left: var(--carousel-padding-left) !important;
 
-  h1 { @apply heading-xs mb-[30px] md:-mb-[25px]; }
+  h1 {
+    @apply heading-xs ml-[15%] mb-[30px] md:-mb-[25px];
+    @apply text-medium-black font-medium tracking-tight;
+  }
 }
 
 .carousel {
