@@ -197,6 +197,9 @@
       .source-location {
         text-align: center;
       }
+      & .wrapper {
+        flex-wrap: wrap;
+      }
       & .wrapper.participate {
         width: 50%;
         max-width: 500px;
