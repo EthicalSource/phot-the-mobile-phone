@@ -3,10 +3,8 @@
   <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li><%= render Shared::Journal.new(journal: @journals.pop, cluster: @cluster)%></li>
-  <li class="hidden md:block"></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
   <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li class="hidden md:block"></li>
   <li><%= render Shared::Prompt.new(prompt: @prompts.first) %></li>
   <li><%= render Shared::Resource.new(entry: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
 </ul>

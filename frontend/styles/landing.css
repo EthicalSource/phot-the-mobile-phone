@@ -146,6 +146,9 @@
       .thumbnail-desktop {
         display: none;
       }
+      & .wrapper.participate article {
+        @apply flex flex-col items-end text-right;
+      }
       &:nth-child(even) {
         @apply items-start;
         /* @apply bg-fuchsia; */
