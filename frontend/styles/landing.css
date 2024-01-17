@@ -122,7 +122,7 @@
     display: grid;
 
     @media (min-width: 1025px) {
-      column-gap: calc((100 / 884) * 100%);
+      column-gap: calc((100 / 884) * 25%);
       grid-template-columns: repeat(2,50%);
       grid-template-rows: auto;
 
