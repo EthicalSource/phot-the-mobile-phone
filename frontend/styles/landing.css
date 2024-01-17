@@ -124,7 +124,7 @@
   }
   .cluster-link {
     @apply p-1 px-4 border border-solid-black w-fit lowercase;
-    display: block
+    display: block;
     &:hover {
       @apply underline decoration-medium-black;
     }

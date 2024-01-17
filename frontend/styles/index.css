@@ -125,7 +125,7 @@ body.page main {
     h2 {
       @apply text-white font-medium tracking-[0.01em];
       &:hover {
-        @apply underline decoration-white
+        @apply underline decoration-white;
       }
     }
   }
