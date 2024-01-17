@@ -117,7 +117,8 @@ footer {
   }
 }
 header > .explore {
-  @apply absolute bottom-0 w-full text-center;
+  @apply absolute bottom-0 text-center;
+  width: calc(100vw - 70px);
 
   span {
     @apply body text-white;
