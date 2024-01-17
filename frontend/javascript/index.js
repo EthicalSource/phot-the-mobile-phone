@@ -1,4 +1,5 @@
 import "$styles/index.css"
+import "./adjustFontSize"
 import "./ensureTwoLineCategoryTitles"
 import { Application } from "@hotwired/stimulus"
 
