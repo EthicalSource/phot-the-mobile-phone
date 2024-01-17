@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Infinite scroll invented
+title: Infinite scroll invented.
 location: United States
 start_date:
   year: 2006
@@ -10,6 +10,7 @@ media:
   link: https://www.behance.net/gallery/69016527/Free-iPhone-Long-Scroll-Fabric-Mockup
   alt: Mock up of Shakespeare infinite scrolling on an iPhone. The fabric of the
     text extends beyond the screen in a pile of fabric.
+  thumbnail: /images/uploads/infinite-scroll-invented-entry.jpg
 source: OpEx Learning
 source_link: https://opexlearning.com/resources/aza-raskin-on-google-search-results/441/
 ---
