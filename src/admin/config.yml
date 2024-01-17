@@ -47,7 +47,7 @@ collections:
         default: false
       - label: "Order"
         name: "order"
-        hint: "Order in with collection will appear on the homepage"
+        hint: "Order that the collection will appear on the homepage"
         widget: "number"
         value_type: "int"
         min: 1
