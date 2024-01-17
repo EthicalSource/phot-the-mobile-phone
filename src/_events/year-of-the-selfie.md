@@ -6,6 +6,7 @@ start_date:
   year: 2013
 clusters: Culture & Behaviors
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: "@LanceUlanoff/Twitter"
   link: https://www.businessinsider.com/ellens-star-studded-oscar-selfie-2014-3
   alt: Photo of the making of the 2014 Oscar Selfie featuring Ellen Degeneres,

@@ -8,6 +8,7 @@ start_date:
   day: 6
 clusters: Economy & Labor
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Sayyid Abdul Azim/AP
   link: https://www.vox.com/future-perfect/21420357/kenya-mobile-banking-unbanked-cellphone-money
   alt: Customers make money transfers at an M-Pesa stall in Nairobi, Kenya, in 2011.

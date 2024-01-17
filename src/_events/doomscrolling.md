@@ -6,6 +6,7 @@ start_date:
   year: 2020
   month: 3
 media:
+  thumbnail: /images/shared/default-entry.jpg
   alt: Animated gif of cartoon hands scrolling through a cellphone on fire.
   thumbnail: /images/uploads/doomscrolling-idea2.gif
   credit: EMMA KUMER/Reader's Digest

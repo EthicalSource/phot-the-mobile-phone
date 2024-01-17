@@ -6,6 +6,7 @@ start_date:
   year: 2022
 clusters: Design & Use
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Scott Rossi/The New York Times
   link: https://www.nytimes.com/2022/12/15/style/teens-social-media.html
   alt: "Luddite teens hold their vintage flip phones in a circle. "

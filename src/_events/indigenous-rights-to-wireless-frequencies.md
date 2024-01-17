@@ -6,6 +6,7 @@ start_date:
   year: 2020
 clusters: Connection & Access
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Darrah Blackwater for KSUT
   link: https://www.ksut.org/news/2020-07-09/an-opportunity-to-close-indian-countrys-digital-divide-is-expiring
   alt: Spectrum sovereignty advocate Darrah Blackwater works to install broadband

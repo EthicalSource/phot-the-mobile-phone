@@ -6,6 +6,7 @@ start_date:
   year: 2018
 clusters: Risk & Safety
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Milwaukee Independent
   link: https://www.milwaukeeindependent.com/articles/siri-shortcut-helps-black-drivers-safely-record-encounters-police-traffic-stops/
   alt: Screenshot of the iOS Siri interface showing the shortcut voice command

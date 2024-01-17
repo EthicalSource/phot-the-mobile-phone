@@ -6,6 +6,7 @@ start_date:
   year: 2007
 clusters: Culture & Behaviors
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: The Law Dictionary
   link: https://thelawdictionary.org/article/punishment-for-cyberbullying/
   alt: Photo of a young person hanging their head, holding a mobile phone, swarmed

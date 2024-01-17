@@ -8,6 +8,7 @@ start_date:
   day: 21
 clusters: Materials & Waste
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Chesnot/Getty Images
   link: https://hypebeast.com/2020/11/apple-batterygate-lawsuit-113-million-usd-fine
   alt: Image of a person holding their iPhone plugged in to charge with the

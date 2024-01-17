@@ -8,6 +8,7 @@ start_date:
   day: 14
 clusters: Risk & Safety
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Michele Ursi/Shutterstock
   link: https://newsroom.unsw.edu.au/news/science-tech/unlocking-secret-private-messaging-apps
   alt: Signal app, a cross-platform encrypted messaging service developed by the

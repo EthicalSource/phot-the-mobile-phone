@@ -6,6 +6,7 @@ start_date:
   year: 2020
 clusters: Materials & Waste
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Junior Kahhah/AFP via Getty Images
   link: https://www.npr.org/sections/goatsandsoda/2023/02/01/1152893248/red-cobalt-congo-drc-mining-siddharth-kara
   alt: An artisanal miner holds a cobalt stone at the Shabara artisanal mine in

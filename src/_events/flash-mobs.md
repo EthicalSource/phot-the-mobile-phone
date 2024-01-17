@@ -8,6 +8,7 @@ start_date:
   day: 17
 clusters: Bodies & Minds
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Mike Epstein, Harpers
   link: https://harpers.org/archive/2006/03/my-crowd/
   alt: Capture of the Macy's 'love rug' flash mob, with organizers and many

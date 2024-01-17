@@ -6,6 +6,7 @@ start_date:
   year: 2019
 clusters: Risk & Safety
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Doug Barrett/Bloomberg
   link: https://www.bloomberg.com/news/articles/2022-05-11/us-ban-on-china-tech-failed-to-stop-use-of-hauwei-zte-hardware
   alt: Worker shows Huawei Technologies equipment is still in place at United

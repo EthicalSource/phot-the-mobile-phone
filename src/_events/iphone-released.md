@@ -8,6 +8,7 @@ start_date:
   day: 29
 clusters: Design & Use
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Apple Hello
   link: https://www.youtube.com/watch?v=mmiWTKZzBLY
   alt: "Apple’s first iPhone ad features a supercut from TV shows and movies

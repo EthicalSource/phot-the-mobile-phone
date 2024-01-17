@@ -6,6 +6,7 @@ start_date:
   year: 2018
 clusters: Movements & Resistance
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Erik McGregor/Pacific Press/VICE
   link: https://www.vice.com/en/article/9kegq8/activists-explain-how-palantirs-tech-is-used-in-ice-raids
   alt: Image of protesters in New York holding signs that say "No Tech for ICE."

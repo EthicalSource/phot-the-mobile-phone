@@ -6,6 +6,7 @@ start_date:
   year: 2013
 clusters: Movements & Resistance
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Olivier Douliery/AFP/Getty Images
   link: https://www.cnn.com/2021/02/01/us/black-lives-matter-movement-nobel-peace-prize-trnd/index.html
   alt: Protesters deploy a "Black Lives Matter" banner near the White House during

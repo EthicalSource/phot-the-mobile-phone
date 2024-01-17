@@ -6,6 +6,7 @@ start_date:
   year: 2008
 clusters: Economy & Labor
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Lea Suzuki/San Francisco Chronicle via AP
   link: https://www.hrw.org/news/2022/10/17/gig-workers-think-they-work-themselves-they-dont
   alt: Members rally during a California Gig Workers Union demonstration on

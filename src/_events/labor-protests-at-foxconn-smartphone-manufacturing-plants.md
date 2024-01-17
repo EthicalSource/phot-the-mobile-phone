@@ -7,6 +7,7 @@ start_date:
   month: 10
 clusters: Economy & Labor
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: Bobby Yip, Reuters
   link: https://www.theguardian.com/technology/2012/oct/05/foxconn-apple-iphone-china-strike
   alt: Image of female chinese workers on the FoxConn assembly line.

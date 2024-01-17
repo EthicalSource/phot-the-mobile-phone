@@ -8,6 +8,7 @@ start_date:
   day: 9
 clusters: Materials & Waste
 media:
+  thumbnail: /images/shared/default-entry.jpg
   credit: "The Circuit: Tracking Down America’s Electronic Waste, PBS"
   link: https://www.pbs.org/video/kcts-9-documentaries-circuit/
   alt: Video depicting an investigation tracks e-waste from the United States—and
