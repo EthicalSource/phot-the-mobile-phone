@@ -144,3 +144,6 @@ button:focus-visible {
   outline-style: dotted;
   outline-color: #2ef853;
 }
+.link:hover {
+  text-decoration: underline;
+}
