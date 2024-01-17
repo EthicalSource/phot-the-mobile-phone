@@ -2,7 +2,7 @@
 title: Culture & Behaviors
 feature: true
 explore: true
-order: 1
+order: 2
 highlight: From emojis to memes, we connect and make meaning with tech.
 primary_nav_description: Tech can connect and make meaning.
 carousel_description: From emojis to memes, we connect and make meaning with tech.
