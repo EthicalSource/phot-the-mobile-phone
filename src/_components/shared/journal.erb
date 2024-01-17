@@ -1,4 +1,4 @@
-<div class="my-[60px] wrapper">
+<div class="my-[60px] wrapper journal">
   <div class="flex justify-end items-center">
     <div class="flex flex-col justify-center">
       <a href="<%= url_for(@journal)%>">
@@ -6,7 +6,7 @@
           <%= @journal.highlight_summary(length: 110) %>
         </h3>
       </a>
-      <p class="text-left md:text-center mb-[26px]">
+      <p class="source-location mb-[16px]">
         - <%= @journal.data.source%>, <%= @journal.data.location%>
       </p>
       <p class="text-left md:text-center">
