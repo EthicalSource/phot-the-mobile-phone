@@ -8,11 +8,7 @@ function adjustFontSize() {
 
       container.style.fontSize = fontSize + 'px';
 
-      // Decrease font size until the text fits
-      // console.log("scrollHeight", container.scrollHeight, "x", "offsetHeight", container.offsetHeight)
-      // console.log("scrollWidth", container.scrollWidth, "x", "offsetWidth", container.offsetWidth)
-      console.log(fontSize)
-      while (container.scrollHeight > container.offsetHeight || container.scrollWidth > container.offsetWidth) {
+      while (container.scrollWidth > container.offsetWidth) { //container.scrollHeight > container.offsetHeight || 
           fontSize--;
           container.style.fontSize = fontSize + 'px';
 
