@@ -32,6 +32,14 @@
     }
   }
 
+  .entry-link:hover {
+    @apply underline decoration-medium-black;
+  }
+
+  .journal-link:hover {
+    @apply underline decoration-fuchsia;
+  }
+
   .introduction {
     @apply w-[80%] lg:w-[62%] lg:max-w-[960px];
     @apply flex flex-col body;
@@ -116,7 +124,10 @@
   }
   .cluster-link {
     @apply p-1 px-4 border border-solid-black w-fit lowercase;
-    display: block
+    display: block;
+    &:hover {
+      @apply underline decoration-medium-black;
+    }
   }
   ul.cluster-grid {
     display: grid;
