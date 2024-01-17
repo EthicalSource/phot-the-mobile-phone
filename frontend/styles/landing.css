@@ -159,6 +159,7 @@
   ul > li.home {
     @apply w-full;
 
+
     @media (max-width: 1024px) {
       .thumbnail-desktop {
         display: none;
@@ -166,6 +167,10 @@
 
       & .wrapper {
         @apply mt-[100px];
+      }
+
+      &:nth-child(3) .wrapper {
+        @apply mt-0;
       }
 
       .source-location {
