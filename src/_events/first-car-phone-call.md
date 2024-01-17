@@ -12,6 +12,7 @@ media:
   credit: Bettmann, Getty Images
   alt: An engineer demonstrates a car phone five months before the historic first
     call on a competing company’s commercial mobile telephone service in 1946.
+  thumbnail: /images/uploads/first-car-phone-call-entry.jpg
 source: Smithsonian
 source_link: https://www.smithsonianmag.com/innovation/first-mobile-phone-call-was-made-75-years-ago-180978003/
 ---
