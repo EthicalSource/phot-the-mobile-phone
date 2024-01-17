@@ -2,7 +2,7 @@
   <div class="block thumbnail-desktop">
     <%= render Event::Thumbnail.new(event: @entry) %>
   </div>
-  <article class="w-full md:min-w-[200px] <%= @classname %> mt-[26px] md:mt-[50px] flex flex-col">
+  <article class="w-full md:min-w-[200px] <%= @classname %> flex flex-col">
     <header>
       <a class="entry-link" href="<%= url_for(@entry) %>">
         <h2 class="heading-sm text-medium-black mb-[26px] tracking-[0.01em] prevent-overflow">

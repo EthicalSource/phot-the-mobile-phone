@@ -1,6 +1,6 @@
 :root {
   --cluster-image-adjustment: 0.09;
-  --fence-width-desktop: 884px; 
+  --fence-width-desktop: 884px;
   --width-desktop: 1024px;
 }
 .default {
@@ -159,10 +159,20 @@
   ul > li.home {
     @apply w-full;
 
+
     @media (max-width: 1024px) {
       .thumbnail-desktop {
         display: none;
       }
+
+      & .wrapper {
+        @apply mt-[100px];
+      }
+
+      &:nth-child(3) .wrapper {
+        @apply mt-0;
+      }
+
       .source-location {
         text-align: left;
       }
@@ -222,8 +232,22 @@
         margin-left: 53%;
       }
       & .wrapper.journal {
-        width: 50%;
-        max-width: 500px;
+        @apply w-[47%];
+
+        & .quote-wrapper  {
+          @apply mx-auto max-w-[500px];
+          h3 {
+            @apply text-center;
+          }
+        }
+      }
+
+      & .wrapper.participate,
+      & .wrapper.journal {
+        @apply my-[60px];
+      }
+      & .wrapper.event article {
+        @apply mt-[50px];
       }
     }
 
@@ -258,7 +282,7 @@
 @media (min-width: 1691px) {
 
     main.container {
-      max-width: 1550px;
+      max-width: 1690px;
     }
     .default ul.cluster-grid {
       column-gap: calc((100 / 1550) * 100%);
