@@ -1,6 +1,6 @@
 <div class="card prompt swiper-slide">
   <article>
-    <h2>
+    <h2 class="prevent-overflow">
       <%= @prompt.question %>
     </h2>
     <%= render Shared::Button.new(text: "Tell Your Story", href: @link, type: :secondary) %>
