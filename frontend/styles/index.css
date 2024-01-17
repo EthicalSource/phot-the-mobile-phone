@@ -164,7 +164,7 @@ body.page main {
 }
 
 .cta main article,
-.event main article,
+.entry main article,
 .page-md-style {
   h2 { @apply md:text-2xl lg:text-4xl font-semibold mt-[44px] mb-6 text-white }
   h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
