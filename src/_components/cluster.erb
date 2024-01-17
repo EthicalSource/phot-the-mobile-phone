@@ -1,12 +1,12 @@
 <ul class="cluster-grid">
-  <li><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
-  <li><%= render Cluster::Heading.new(cluster: @cluster) %></li>
-  <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li><%= render Shared::Journal.new(journal: @journals.pop, cluster: @cluster)%></li>
-  <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li class="prompt"><%= render Shared::Prompt.new(prompt: @prompts.first) %></li>
-  <li><%= render Shared::Resource.new(entry: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
+  <li class="home"><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
+  <li class="home"><%= render Cluster::Heading.new(cluster: @cluster) %></li>
+  <li class="home"><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
+  <li class="home"><%= render Shared::Journal.new(journal: @journals.pop, cluster: @cluster)%></li>
+  <li class="home"><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
+  <li class="home"><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
+  <li class="home prompt"><%= render Shared::Prompt.new(prompt: @prompts.first) %></li>
+  <li class="home"><%= render Shared::Resource.new(entry: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
 </ul>
 
 

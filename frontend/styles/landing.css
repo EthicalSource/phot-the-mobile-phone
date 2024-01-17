@@ -156,7 +156,7 @@
       }
     }
   }
-  ul > li {
+  ul > li.home {
     @apply w-full;
 
     @media (max-width: 1024px) {
