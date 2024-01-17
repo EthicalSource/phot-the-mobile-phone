@@ -12,6 +12,7 @@ media:
   link: https://www.wsj.com/articles/pokemon-go-surged-by-building-community-1469419260
   alt: A densely packed crowd of young people look at their phones to capture
     Pokémon in a hotspot in the UK.
+  thumbnail: /images/uploads/pokemon-go-entry.jpg
 source: New York Times
 source_link: https://www.nytimes.com/2016/07/12/technology/pokemon-go-brings-augmented-reality-to-a-mass-audience.html
 ---
