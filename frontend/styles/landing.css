@@ -227,9 +227,16 @@
         margin-left: 53%;
       }
       & .wrapper.journal {
-        width: 50%;
-        max-width: 500px;
+        @apply w-[47%];
+
+        & .quote-wrapper  {
+          @apply mx-auto max-w-[500px];
+          h3 {
+            @apply text-center;
+          }
+        }
       }
+
       & .wrapper.participate,
       & .wrapper.journal {
         @apply my-[60px];
@@ -270,7 +277,7 @@
 @media (min-width: 1691px) {
 
     main.container {
-      max-width: 1550px;
+      max-width: 1690px;
     }
     .default ul.cluster-grid {
       column-gap: calc((100 / 1550) * 100%);
