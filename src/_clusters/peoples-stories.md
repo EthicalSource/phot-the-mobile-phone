@@ -1,4 +1,5 @@
 ---
+layout: cluster_peoples
 title: People's Stories
 feature: false
 explore: true

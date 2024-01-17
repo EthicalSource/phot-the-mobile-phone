@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<% cluster        = data %>
+<% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
+<% journals       = site.collections.journals.resources %>
+
+<%= partial "cluster/header", locals: { cluster: cluster } %>
+<main>
+  <% journals.each do |journal| %>
+    <%= render Cards::Journal.new(post: journal) %>
+  <% end %>
+</main>
+<%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+  <% other_clusters.each do |cluster| %>
+    <%= render Poster::Cluster.new(cluster: cluster) %>
+  <% end %>
+<% end %>
+<%= partial "shared/tell-your-story" %>
