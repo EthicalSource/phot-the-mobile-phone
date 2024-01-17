@@ -1,19 +1,19 @@
-<header class="flex flex-col relative">
+<header class="flex flex-col">
   <%= render Shared::Navbar.new(site: site, resource: resource) %>
-  <div class="max-w-[1260px] flex gap-[50px] m-auto flex-wrap md:flex-nowrap">
+  <div class="max-w-[1550px] flex flex-col-reverse items-center lg:flex-row lg:grow mx-auto gap-[70px] mb-[120px]">
     <article>
       <h1><%= cluster.title %></h1>
       <h2><%= cluster.highlight %></h2>
       <p>
         <%= cluster.intro %>
       </p>
-      <p class="mt-[30px]">
+      <p>
         <%= render Shared::Credit.new(label: 'Photo', credit: cluster.photo_credit&.link_text, href: cluster.photo_credit&.link_href)%>
         <%= render Shared::Credit.new(label: 'Illustration', credit: cluster.illustrations_credit&.illustration_text, href: '')%>
       </p>
     </article>
-    <aside class="hidden md:block">
-      <div class="hero-image" style="background-image: url(<%= relative_url cluster.hero_image&.src %>)"></div>
+    <aside>
+      <div class="hero-image " style="background-image: url(<%= relative_url cluster.hero_image&.src %>)"></div>
     </aside>
   </div>
   <div class="explore">

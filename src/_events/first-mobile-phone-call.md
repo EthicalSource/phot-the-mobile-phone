@@ -12,6 +12,7 @@ media:
   link: https://whyy.org/segments/father-of-cell-phone-reflects-on-making-first-call-and-history-50-years-ago/
   alt: Martin Cooper makes a historic call on on 6th Avenue in New York City,
     April 3, 1973.
+  thumbnail: /images/uploads/first-mobile-phone-call-entry.jpg
 source: The Atlantic
 source_link: https://www.theatlantic.com/technology/archive/2013/04/the-first-mobile-phone-call-was-made-40-years-ago-today/274611/
 ---

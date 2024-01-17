@@ -1,11 +1,11 @@
 .cluster_resource,
 .cluster {
   > header {
-    @apply bg-solid-black text-white flex justify-around gap-0;
+    @apply bg-solid-black text-white flex gap-[40px];
     @apply bg-[url("/images/shared/History-of-the-Mobile-Phone_Collection-Header-Bg_810x1080.jpg")];
     @apply lg:bg-[url("/images/shared/History-of-the-Mobile-Phone_Collection-Header-Bg_1920x1080.jpg")];
     @apply bg-origin-border bg-no-repeat bg-bottom bg-cover;
-    @apply w-screen h-screen items-center justify-center relative;
+    @apply w-screen h-screen relative;
 
     width: 100vw;
     min-height: 100vh;
@@ -14,23 +14,33 @@
     a {
       margin-right: 5px;
     }
+
+    article { @apply !w-full lg:!w-1/2 lg:pl-[40px] }
   }
   main {
-    @apply max-w-[1550px] mx-auto my-[150px];
+    @apply max-w-[1550px] mx-auto my-[150px] !px-0;
     @apply grid grid-cols-1 justify-items-center gap-[30px];
-    @apply lg:grid-cols-2;
-    @apply xl:grid-cols-3;
+
+    @media (min-width: 810px) {
+      & {
+        @apply grid-cols-2 !gap-[30px];
+      }
+    }
+    @media (min-width: 1260px) {
+      & {
+        @apply grid-cols-3 !gap-[30px] max-w-[1260px];
+      }
+    }
   }
   header article {
     @apply w-full md:w-1/2 md:ml-5 -mt-[35px] md:-mt-[50px];
+    @apply flex flex-col gap-[30px];
 
     h1 {
       @apply heading-xxl;
-      margin-bottom: 26px;
     }
     h2 {
-      @apply heading-sm-alt text-white tracking-[0.01em];
-      margin-bottom: 26px;
+      @apply heading-sm-alt text-white tracking-widest;
     }
     p {
       @apply meta-normal text-medium-grey;
@@ -42,9 +52,10 @@
     }
   }
   header aside {
-    @apply w-full md:w-1/2 -mt-[35px] md:-mt-[50px];
+    @apply w-full md:w-1/2 relative;
 
     .hero-image {
+      @apply w-[76.38888888888889%];
       @apply rotate-3 !important;
     }
   }
@@ -62,7 +73,7 @@
 }
 
 .hero-image {
-  @apply bg-cover bg-center mx-auto;
+  @apply bg-cover bg-center mx-auto lg:mr-0;
   width: var(--cluster-image-size);
   height: var(--cluster-image-size);
 }

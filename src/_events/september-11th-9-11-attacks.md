@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: September 11th (9/11) attacks
+title: September 11th (9/11) attacks.
 location: New York, NY; Washington, DC
 start_date:
   year: 2001
@@ -13,6 +13,7 @@ media:
   alt: "Memorials: Mobile phones and other communication devices found in the
     rubble from the September 11 attacks in 2011 on the World Trade Center are
     displayed as part of a new exhibit in Washington D.C."
+  thumbnail: /images/uploads/911-entry.jpg
 source: Wikipedia
 source_link: https://en.wikipedia.org/wiki/Communication_during_the_September_11_attacks
 ---

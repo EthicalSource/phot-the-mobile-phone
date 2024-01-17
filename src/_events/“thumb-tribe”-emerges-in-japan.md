@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: “Thumb tribe” emerges in Japan
+title: “Thumb tribe” emerges in Japan.
 location: Japan
 start_date:
   year: 2001
@@ -9,6 +9,7 @@ media:
   credit: Adrian Tomine, The New Yorker
   link: https://www.newyorker.com/magazine/2008/12/22/i-love-novels
   alt: Illustration depicts woman reading a novel on her flip phone.
+  thumbnail: /images/uploads/thumb-tribe-entry.jpg
 source: New York Times
 source_link: https://www.nytimes.com/2002/04/30/world/youth-let-their-thumbs-do-the-talking-in-japan.html
 ---

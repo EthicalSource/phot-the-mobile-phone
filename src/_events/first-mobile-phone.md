@@ -16,11 +16,11 @@ outbound_links: >+
   <h1> Offender </h1>
 
 date: 2023-12-20T20:58:56.926Z
-title: First Mobile Phone
+title: First mobile phone
 location: Chicago, USA
-clusters: CONNECTION & ACCESS
 tags:
   - 1970s
+clusters: CONNECTION & ACCESS
 source: The Atlantic
 source_link: https://www.theatlantic.com/technology/archive/2013/04/the-first-mobile-phone-call-was-made-40-years-ago-today/274611/
 ---

@@ -9,6 +9,7 @@ media:
   credit: IEEE
   link: https://www.dixa.com/blog/lgbtq-tech-innovator-lynn-conway/
   alt: Lynn Conway holding a copy of her VLSI publication.
+  thumbnail: /images/uploads/trans-engineer-entry.jpg
 source: University of Michigan
 source_link: https://eecs.engin.umich.edu/stories/thank-lynn-conway-for-your-cell-phone
 ---

@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: BART blocks mobile networks to prevent protests
+title: BART blocks mobile networks to prevent protests.
 location: San Francisco, CA
 start_date:
   year: 2011
@@ -12,6 +12,7 @@ media:
   link: https://www.wired.com/2011/08/subway-internet-shuttering/
   alt: Photo of crowds of people at a BART station, including protesters grasping
     the roof of the train car, being pulled down by people in safety vests.
+  thumbnail: /images/uploads/bart-entry.jpg
 source: NPR
 source_link: https://www.npr.org/2011/08/16/139656641/cell-service-shutdown-raises-free-speech-questions
 ---

@@ -82,7 +82,12 @@
       @apply bg-cover bg-center h-[430px] w-[300px] mb-[30px];
       border-radius: 5% 5% 5% 0;
     }
-    h2 { @apply heading-xxs text-medium-black mb-[26px] }
+    h2 {
+      @apply heading-xxs text-medium-black mb-[26px];
+      &:hover {
+        @apply underline decoration-medium-black;
+      }
+    }
     p { @apply text-base text-dark-grey }
   }
 }
