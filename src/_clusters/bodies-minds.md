@@ -11,7 +11,7 @@ intro: Pocket computers, as highly personal devices, are intimately integrated
   seamless connection with our digital world, reflecting our preferences and
   habits.
 photo_credit:
-  link_text: Getty Images via Unsplash
+  link_text: ""
 illustrations_credit:
   link_href: ""
   illustration_text: TTWW
