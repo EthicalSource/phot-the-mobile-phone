@@ -12,7 +12,7 @@
       <p class="meta text-dark-grey mb-[20px] capitalize">Take Action</p>
     </header>
     <p class="base mb-[11px] md:mb-[21px]">
-      <%= @entry.content_summary %>
+      <%= @entry.content_summary(length: 350) %>
     </p>
     <div class="block md:hidden flex justify-end mb-[16px]">
       <%= render Resource::Thumbnail.new %>
