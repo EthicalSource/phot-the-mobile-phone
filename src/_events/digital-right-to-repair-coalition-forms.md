@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Digital Right to Repair Coalition forms
+title: Digital Right to Repair Coalition forms.
 location: United States, European Union,
 start_date:
   year: 2013
@@ -10,6 +10,7 @@ media:
   credit: Lakshmi Prasad S/Getty Images
   link: https://www.pcmag.com/news/right-to-repair-these-phone-brands-are-easiest-and-hardest-to-fix
   alt: Person wearing gloves removes a cracked screen from a phone.
+  thumbnail: /images/uploads/digital-right-to-repair-entry.jpg
 source: Repair.org
 source_link: https://www.repair.org/history
 ---
