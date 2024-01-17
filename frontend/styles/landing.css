@@ -120,44 +120,74 @@
   }
   ul.cluster-grid {
     display: grid;
+
+    @media (min-width: 1025px) {
+      column-gap: calc((100 / 884) * 100%);
+      grid-template-columns: repeat(2,50%);
+      grid-template-rows: auto;
+
+      ul > li .wrapper {
+        @apply flex flex-row-reverse;
+      }
+
+      & > li:nth-child(1) { /* Highlight */
+        grid-column: 1 / -1;
+      }
+
+      & > li:nth-child(3), & > li:nth-child(6) { /* Entries with top margin*/
+        /* margin-top: 160px; */
+      }
+    }
   }
   ul > li {
     @apply w-full;
-    &:nth-child(even) {
-      @apply items-start;
-      /* @apply bg-fuchsia; */
-      header, p, a {
-        text-align: left;
-      }
 
-      .cluster-link {
-        @apply self-start;
+    @media (max-width: 1024px) {
+      .thumbnail-desktop {
+        display: none;
       }
-      & .wrapper {
+      &:nth-child(even) {
         @apply items-start;
+        /* @apply bg-fuchsia; */
+        header, p, a {
+          text-align: left;
+        }
+
+        .cluster-link {
+          @apply self-start;
+          order: 1; /* 1 = last */
+        }
+        & .wrapper {
+          @apply items-start;
+        }
+      }
+      &:nth-child(odd) {
+        @apply items-end;
+        /* @apply bg-blue; */
+        header, p, a {
+          text-align: right;
+        }
+
+        .cluster-link {
+          @apply self-end;
+        }
+        .thumbnail {
+          justify-content: end;
+        }
+        & .wrapper {
+          @apply items-end ;
+        }
       }
     }
-    &:nth-child(odd) {
-      @apply items-end;
-      /* @apply bg-blue; */
-      header, p, a {
-        text-align: right;
-      }
-
-      .cluster-link {
-        @apply self-end;
-      }
+    @media (min-width: 1025px) {
       .thumbnail {
-        justify-content: end;
-      }
-      & .wrapper {
-        @apply items-end ;
+        display: none;
       }
     }
 
     & .wrapper {
       @apply w-full;
-      @apply flex flex-col-reverse;
+      @apply flex;
       gap: clamp(26px, 3.5vw, 50px);
     }
     header {
