@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Cell phone subscriptions surpass human population
+title: Cell phone subscriptions surpass human population.
 location: Global
 start_date:
   year: 2015
@@ -10,6 +10,7 @@ media:
   link: https://www.statista.com/chart/4022/mobile-subscriptions-and-world-population/#:~:text=Today%2C%20mobile%20phones%20are%20ubiquitous,overtook%20the%20latter%20in%202016.
   alt: Graph depicting the rate of mobile phone subscriptions surpassing the
     global population.
+  thumbnail: /images/uploads/cell-phone-subscriptios-entry.jpg
 source: ITU
 source_link: https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2014-e.pdf
 ---
