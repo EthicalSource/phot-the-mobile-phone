@@ -1,7 +1,7 @@
 <div class="my-[60px] wrapper">
   <div class="flex justify-end items-center">
     <div class="flex flex-col justify-center">
-      <a href="<%= url_for(@journal)%>">
+      <a class="journal-link" href="<%= url_for(@journal)%>">
           <h3 class="quote-content heading-sm text-fuchsia text-left font-extrabold md:text-center mb-[10px] tracking-widest">
           <%= @journal.highlight_summary(length: 110) %>
         </h3>
