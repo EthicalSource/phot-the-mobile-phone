@@ -2,6 +2,7 @@
 title: Decades
 feature: false
 explore: false
+order: 10
 highlight: Our relationship to technology has changed a lot over time.
 carousel_description: Explore the chronological timeline of a people's history of tech.
 intro: Storytelling doesn't have to follow a linear timeline. But here's a walk

@@ -2,6 +2,7 @@
 title: Connection & Access
 feature: true
 explore: true
+order: 6
 highlight: Connectivity is never a given.
 carousel_description: Assuming constant connectivity is a mistake; it's not always guaranteed.
 primary_nav_description: Connectivity is never a given.

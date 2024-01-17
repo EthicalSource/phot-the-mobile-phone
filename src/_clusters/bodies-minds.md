@@ -2,6 +2,7 @@
 title: Bodies & Minds
 feature: true
 explore: true
+order: 2
 highlight: Pocket computers are intimate tech.
 primary_nav_description: Pocket computers are intimate tech.
 carousel_description: Pocket computers, being highly personal and closely-held

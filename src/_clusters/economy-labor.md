@@ -2,6 +2,7 @@
 title: Economy & Labor
 feature: true
 explore: true
+order: 5
 highlight: Tech disrupts economies and changes the nature of work.
 primary_nav_description: Tech disrupts economies.
 carousel_description: Tech disrupts economies and changes the nature of work.
