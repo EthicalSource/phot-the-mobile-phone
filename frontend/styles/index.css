@@ -122,7 +122,8 @@ body.page main {
     @apply heading-xs mb-[20px];
   }
   &.event {
-    h2 { @apply text-white font-medium tracking-[0.01em];}
+    h2 {
+      @apply text-white font-medium tracking-[0.01em];
       &:hover {
         @apply underline decoration-white
       }
