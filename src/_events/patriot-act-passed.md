@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Patriot Act passed
+title: Patriot Act passed.
 location: United States
 start_date:
   year: 2001
@@ -12,6 +12,7 @@ media:
   link: https://theweek.com/cartoons/558393/political-cartoon-patriot-act
   alt: Political cartoon featuring Uncle Sam weighing the benefits of privacy and
     security.
+  thumbnail: /images/uploads/patriot-act-passed-entry.jpg
 source: Center for Democracy and Technology
 source_link: https://cdt.org/insights/reflecting-on-20-years-of-the-patriot-act-u-s-surveillance-authorities-must-still-change/
 ---
