@@ -2,5 +2,9 @@
 layout: default
 ---
 <% prompt = resource %>
-<%= render Shared::Navbar.new(site: site, resource: resource) %>
-<%= render Prompt::TypeForm.new(prompt.data.typeform_id) %>
+<header>
+  <%= render Shared::Navbar.new(site: site, resource: resource) %>
+</header>
+<main class="mt-[40px] md:mt-[150px]">
+  <%= render Prompt::TypeForm.new(prompt.data.typeform_id) %>
+</main>

@@ -16,19 +16,27 @@ body.no--scroll {
 nav #main-site-nav-wrapper {
   @apply w-screen h-screen bg-very-black text-white;
   @apply z-20 fixed left-0 right-0;
-  @apply px-[25px] md:px-[70px] py-12 mt-4 gap-y-10 gap-x-6;
+  @apply px-[25px] md:px-[70px] py-12 gap-y-10 gap-x-6;
   @apply overflow-scroll overscroll-contain hidden;
+  top: calc(var(--nav-height) - 10px);
 }
 nav #main-site-nav-inner {
-  @apply max-w-[960px] mx-auto flex flex-col lg:flex-row justify-center gap-6 lg:gap-20;
+  @apply grid grid-cols-1 lg:grid-cols-2;
+  @apply gap-y-6 gap-x-[200px];
+  @apply mb-[50px] md:mb-[100px] mx-auto;
+  max-width: 1260px;
 }
 nav.nav--open {
   @apply bg-solid-black;
   overflow: hidden;
 }
+nav.nav--closed,
+nav.nav--closing {
+  overflow: hidden;
+}
 nav.nav--open #main-site-nav-wrapper {
   @apply animate-fadein !block;
-  @apply bg-solid-black/[98];
+  background-color: #050505;
 }
 nav.nav--closing #main-site-nav-wrapper {
   @apply animate-fadeout !block;

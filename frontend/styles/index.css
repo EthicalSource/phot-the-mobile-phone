@@ -41,7 +41,17 @@
 }
 body {
   @apply fade-in;
+
+  > header {
+    @apply px-[30px] lg:px-[70px];
+    img[src=""] { display: none; }
+  }
+  main {
+    @apply px-[30px] lg:px-[70px]
+  }
 }
+
+
 .outbound {
   aside {
     flex: flex-col;
@@ -68,11 +78,12 @@ body {
   }
 }
 
+
 body.cta main,
 body.entry main,
 body.journal main,
 body.page main {
-  @apply px-6 md:px-16 lg:px-24 max-w-[960px] mx-auto mt-[40px] md:mt-[22px] mb-[100px] md:mb-[200px];
+  @apply max-w-[960px] mx-auto mt-[40px] md:mt-[22px] mb-[100px] md:mb-[200px];
 }
 
 .card {
@@ -111,8 +122,7 @@ body.page main {
     @apply heading-xs mb-[20px];
   }
   &.event {
-    h2 { @apply text-white font-medium tracking-widest;
-
+    h2 { @apply text-white font-medium tracking-[0.01em];}
       &:hover {
         @apply underline decoration-white
       }
@@ -126,11 +136,8 @@ body.page main {
 
     h2 {
       @apply heading-sm text-fuchsia mb-5;
-      @apply tracking-widest font-extrabold;
+      @apply tracking-[0.01em] font-extrabold;
       margin-top: auto;
-      quotes: "“" "”";
-      &::before { content: open-quote }
-      &::after { content: close-quote }
     }
     p {
       @apply base text-off-white;
@@ -140,7 +147,7 @@ body.page main {
   &.prompt {
     h2 {
       @apply heading-sm text-lime-green mb-5;
-      @apply tracking-widest font-extrabold;
+      @apply tracking-[0.01em] font-extrabold;
     }
     article {
       display: flex;
@@ -169,6 +176,8 @@ body.page main {
   @apply underline decoration-white;
 }
 
+.cta main article,
+.entry main article,
 .page-md-style {
   h2 { @apply md:text-2xl lg:text-4xl font-semibold mt-[44px] mb-6 text-white }
   h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
@@ -179,11 +188,6 @@ body.page main {
   ul { @apply list-disc pl-6 marker:text-lime-green }
 }
 
-.quote-content {
-  quotes: "“" "”";
-  &::before { content: open-quote }
-  &::after { content: close-quote }
-}
 .bg-gradient {
   background: rgb(25,25,25);
   background: linear-gradient(315deg, rgba(38,38,38,1), rgba(25,25,25,1) 63%, rgba(25,25,25,1) 0% 100%);
