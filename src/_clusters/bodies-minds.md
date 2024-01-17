@@ -3,13 +3,15 @@ title: Bodies & Minds
 feature: true
 explore: true
 highlight: Pocket computers are intimate tech.
+primary_nav_description: Pocket computers are intimate tech.
 carousel_description: Pocket computers, being highly personal and closely-held
   technology, establish a deep connection.
-primary_nav_description: Pocket computers are intimate tech.
 intro: Pocket computers, as highly personal devices, are intimately integrated
   into our daily lives. They represent not just technology, but a deep, almost
   seamless connection with our digital world, reflecting our preferences and
   habits.
+photo_credit:
+  link_text: Getty Images via Unsplash
 illustrations_credit:
   link_href: ""
   illustration_text: TTWW

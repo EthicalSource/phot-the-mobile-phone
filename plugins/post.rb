@@ -14,13 +14,15 @@ module PostResourceExtension
     end
 
     def highlight_summary(length: 85)
+      left_smart_quote = "\u201C"
+      right_smart_quote = "\u201D"
+
       if data.highlight.length > length
-        sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
+        content = sanitize_content(data.highlight)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
       else
-        sanitize_content(data.highlight)
+        content = sanitize_content(data.highlight)
       end
-
-
+      "#{left_smart_quote}#{content}#{right_smart_quote}"
     end
 
     def sanitize_content(content_body)

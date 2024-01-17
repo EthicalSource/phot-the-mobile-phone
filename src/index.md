@@ -6,7 +6,7 @@ body_classes: ""
 <% general_content = collections.general_content.resources.first&.data %>
 
 <%= partial "landing/header" %>
-<main class="min-w-[260px] max-w-[1550px] mx-auto mt-[40px] mb-[100px] md:mb-[200px]">
+<main class="container min-w-[260px] max-w-[1550px] mx-auto mt-[40px] mb-[100px] md:mb-[200px]">
   <div class="introduction">
     <%= markdownify general_content&.homepage_intro %>
   </div>
