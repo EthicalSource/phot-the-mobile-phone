@@ -190,6 +190,11 @@
         }
       }
     }
+    @media (min-width: 1336px) {
+      & .wrapper {
+        flex-wrap: unset !important;
+      }
+    }
     @media (min-width: 1025px) {
       .thumbnail {
         display: none;
