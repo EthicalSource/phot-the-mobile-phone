@@ -43,7 +43,8 @@ body {
   @apply fade-in;
 
   > header {
-    @apply px-[30px] lg:px-[70px]
+    @apply px-[30px] lg:px-[70px];
+    img[src=""] { display: none; }
   }
   main {
     @apply px-[30px] lg:px-[70px]
