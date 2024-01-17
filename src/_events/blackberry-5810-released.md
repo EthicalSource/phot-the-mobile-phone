@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: BlackBerry 5810 released
+title: BlackBerry 5810 released.
 location: Canada
 start_date:
   year: 2002
@@ -12,6 +12,7 @@ media:
   link: https://www.cnet.com/pictures/a-decade-or-so-of-blackberry-smartphones-pictures/2/
   alt: "Image of a BlackBerry 5810 with the application screen options including
     calendars, email, and phone calls. "
+  thumbnail: /images/uploads/blackberry-5810-released-entry.jpg
 source: BizTech
 source_link: https://biztechmagazine.com/article/2016/11/blackberry-5810-kickstarted-mobile-work-era
 ---
