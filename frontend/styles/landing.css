@@ -1,7 +1,8 @@
 :root {
   --cluster-image-adjustment: 0.09;
+  --fence-width-desktop: 884px; 
+  --width-desktop: 1024px;
 }
-
 .default {
   & > header {
     @apply text-white bg-solid-black items-center;
@@ -95,7 +96,6 @@
       }
     }
   }
-
   figure {
     .event-image {
       @apply bg-cover bg-center mt-[10px];
@@ -115,53 +115,54 @@
     }
   }
   .cluster-link {
-    @apply p-1 px-4 border border-solid-black w-fit lowercase self-end md:self-start;
+    @apply p-1 px-4 border border-solid-black w-fit lowercase;
     display: block
   }
+  ul.cluster-grid {
+    display: grid;
+  }
+  ul > li {
+    @apply w-full;
+    &:nth-child(even) {
+      @apply items-start;
+      /* @apply bg-fuchsia; */
+      header, p, a {
+        text-align: left;
+      }
 
-  ul > li .wrapper {
-    @apply w-full md:min-w-[500px];
-    @apply flex flex-col-reverse md:flex-row;
-    @apply justify-start md:gap-[50px] sm:items-end;
+      .cluster-link {
+        @apply self-start;
+      }
+      & .wrapper {
+        @apply items-start;
+      }
+    }
+    &:nth-child(odd) {
+      @apply items-end;
+      /* @apply bg-blue; */
+      header, p, a {
+        text-align: right;
+      }
 
+      .cluster-link {
+        @apply self-end;
+      }
+      .thumbnail {
+        justify-content: end;
+      }
+      & .wrapper {
+        @apply items-end ;
+      }
+    }
+
+    & .wrapper {
+      @apply w-full;
+      @apply flex flex-col-reverse;
+      gap: clamp(26px, 3.5vw, 50px);
+    }
     header {
       display: flex;
       flex-direction: column-reverse;
-    }
-  }
-  @media (max-width: 1549px) {
-    ul > li .wrapper {
-      @apply mx-auto max-w-[500px];
-
-      &.event {
-        margin-bottom: 120px;
-      }
-    }
-  }
-  @media (min-width: 1550px) {
-    ul > li .wrapper.participate {
-      @apply max-w-[500px];
-    }
-
-    ul > li .wrapper.event p {
-      @apply max-w-[350px];
-    }
-    .cluster-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 725px);
-      gap: 10px;
-
-      & > li:nth-child(1) { /* Highlight */
-        grid-column: 1 / -1;
-      }
-
-      & > li:nth-child(3), & > li:nth-child(6) {
-        margin-top: 160px;
-      }
-
-      &:last-of-type {
-        @apply mb-[120px] md:mb-[200px];
-      }
     }
   }
 }

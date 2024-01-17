@@ -14,7 +14,7 @@
     <p class="base mb-[11px] md:mb-[21px]">
       <%= @entry.content_summary %>
     </p>
-    <div class="block md:hidden flex justify-end mb-[16px]">
+    <div class="block md:hidden flex mb-[16px] thumbnail">
       <%= render Resource::Thumbnail.new %>
     </div>
     <%= render Resource::ClusterLink.new %>
