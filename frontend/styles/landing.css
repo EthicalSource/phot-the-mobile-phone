@@ -140,7 +140,7 @@
         grid-column: 1 / -1;
       }
 
-      & > li:nth-child(3), & > li:nth-child(6) { /* Entries with top margin*/
+      & > li:nth-child(3), & > li:nth-child(5) { /* Entries with top margin*/
         margin-top: calc((220 / 884) * 100%);
       }
     }
@@ -160,7 +160,7 @@
       }
       &:nth-child(even) {
         @apply items-start;
-        /* @apply bg-fuchsia; */
+
         header, p, a {
           text-align: left;
         }
@@ -175,7 +175,6 @@
       }
       &:nth-child(odd) {
         @apply items-end;
-        /* @apply bg-blue; */
         header, p, a {
           text-align: right;
         }
