@@ -1,8 +1,10 @@
 /* If you need to add @import statements, do so up here */
+
 @import "./cluster.css";
 @import "./landing.css";
 @import "./nav.css";
 @import "./shared/buttons.css";
+@import "./shared/cards.css";
 @import "./shared/carousel.css";
 @import "./shared/guide.css";
 @import "./shared/ticker.css";
@@ -84,93 +86,6 @@ body.entry main,
 body.journal main,
 body.page main {
   @apply max-w-[960px] mx-auto mt-[40px] md:mt-[22px] mb-[100px] md:mb-[200px];
-}
-
-.card {
-  @apply w-[400px] min-w-[400px] h-[512px] min-h-[512px] bg-very-black text-base text-off-white;
-
-  article {
-    @apply w-[300px] h-[412px] md:max-h-[412px] m-[50px] flex flex-col;
-    text-overflow: ellipsis;
-
-    header {
-      @apply flex flex-col-reverse w-[300px] bg-inherit
-    }
-
-    @media (max-width: 768px) {
-      width: 100% !important;
-      margin: 0;
-      height: 100% !important;
-      padding: 32px;
-    }
-
-  }
-  img {
-    @apply mb-[20px] w-[300px] h-fit max-w-[300px] max-h-[175px];
-    @apply object-cover object-top;
-    @media (max-width: 400px) {
-      width: 100%;
-    }
-  }
-  time {
-    @apply text-medium-grey mb-[20px];
-  }
-  p {
-    @apply w-full overflow-hidden;
-  }
-  h2 {
-    @apply heading-xs mb-[20px];
-  }
-  &.event {
-    h2 {
-      @apply text-white font-medium tracking-[0.01em];
-      &:hover {
-        @apply underline decoration-white;
-      }
-    }
-  }
-  &.cta {
-    h2 { @apply text-blue;}
-  }
-  &.journal {
-    @apply text-center;
-
-    h2 {
-      @apply heading-sm text-fuchsia mb-5;
-      @apply tracking-[0.01em] font-extrabold;
-      margin-top: auto;
-    }
-    p {
-      @apply base text-off-white;
-      margin-bottom: auto;
-    }
-  }
-  &.prompt {
-    h2 {
-      @apply heading-sm text-lime-green mb-5;
-      @apply tracking-[0.01em] font-extrabold;
-    }
-    article {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      height: 100%;
-    }
-    a:hover {
-      @apply text-lime-green border-lime-green;
-    }
-  }
-  &.swiper-slide {
-    @apply w-[280px] !important;
-    @apply h-[320px] !important;
-    @apply md:w-[400px] !important;
-    @apply md:h-[512px] !important;
-
-  }
-  @media (max-width: 400px) {
-    width: 100% !important;
-    min-width: 100% !important;
-  }
 }
 
 .media-credit:hover {
