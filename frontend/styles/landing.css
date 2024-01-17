@@ -230,6 +230,13 @@
         width: 50%;
         max-width: 500px;
       }
+      & .wrapper.participate,
+      & .wrapper.journal {
+        @apply my-[60px];
+      }
+      & .wrapper.event article {
+        @apply mt-[50px];
+      }
     }
 
     & .wrapper {
