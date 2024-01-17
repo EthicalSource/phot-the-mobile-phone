@@ -7,6 +7,6 @@ homepage_intro: >-
   Our journey begins with the mobile phone, a pocket-sized marvel that has transformed our relationship with time, space, and each other. How did we get here? 
 
 
-  We've seeded the timeline with key events and critical voices. Explore themes and [personal histories](/collections/peoples-stories), [add your story](/participate), and [discover actionable steps](collections/resources) to ensure technology serves us all
+  We've seeded the timeline with key events and critical voices. Explore themes and [personal histories](/collections/peoples-stories), [add your story](/participate), and [discover actionable steps](collections/resources) to ensure technology serves us all.
 name: Homepage Intro Copy
 ---
