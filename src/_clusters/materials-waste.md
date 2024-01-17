@@ -2,6 +2,7 @@
 title: Materials & Waste
 feature: true
 explore: true
+order: 8
 highlight: Human transformation of metals and sand has environmental impacts.
 primary_nav_description: Tech has environmental impacts.
 carousel_description: The human process of transforming metals and sand into

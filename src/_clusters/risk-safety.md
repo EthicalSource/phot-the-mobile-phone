@@ -2,6 +2,7 @@
 title: Risk & Safety
 feature: true
 explore: true
+order: 4
 highlight: Tech can simultaneously expose and protect our vulnerabilities.
 primary_nav_description: Tech can expose and protect.
 carousel_description: Technology has the dual ability to both reveal and

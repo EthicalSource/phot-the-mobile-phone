@@ -3,6 +3,7 @@ layout: cluster_peoples
 title: People's Stories
 feature: false
 explore: true
+order: 10
 highlight: A participatory history of tech needs your voice!
 primary_nav_description: The living artifact of your stories.
 carousel_description: Your voice is essential to creating a comprehensive,

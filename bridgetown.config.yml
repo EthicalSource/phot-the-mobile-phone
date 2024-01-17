@@ -72,6 +72,8 @@ collections:
   clusters:
     permalink: /collections/:slug.*
     output: true
+    sort_by: order
+    sort_direction: ascending
     relations:
       has_many:
         - journals

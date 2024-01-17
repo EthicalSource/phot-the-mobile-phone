@@ -45,6 +45,14 @@ collections:
         hint: "Explorable Collections appear in the carousel"
         widget: "boolean"
         default: false
+      - label: "Order"
+        name: "order"
+        hint: "Order in with collection will appear on the homepage"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        step: 1
+        default: 10
       - label: "Highlight"
         name: "highlight"
         widget: "string"
