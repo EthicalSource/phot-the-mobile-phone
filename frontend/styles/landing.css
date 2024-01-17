@@ -122,8 +122,8 @@
     display: grid;
 
     @media (min-width: 1025px) {
-      column-gap: calc((100 / 884) * 25%);
-      grid-template-columns: repeat(2,50%);
+      column-gap: calc((100 / 884) * 50%);
+      grid-template-columns: repeat(2,minmax(50%,725px));
       grid-template-rows: auto;
 
       ul > li .wrapper {
@@ -135,7 +135,7 @@
       }
 
       & > li:nth-child(3), & > li:nth-child(6) { /* Entries with top margin*/
-        /* margin-top: 160px; */
+        margin-top: calc((220 / 884) * 100%);
       }
     }
   }
