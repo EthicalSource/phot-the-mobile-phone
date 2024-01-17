@@ -21,6 +21,9 @@
     @apply max-w-[1550px] mx-auto my-[150px] !px-0;
     @apply grid grid-cols-1 justify-items-center gap-[30px];
 
+    @media (min-width: 768px) {
+      padding: 0 25px;
+    }
     @media (min-width: 810px) {
       & {
         @apply grid-cols-2 !gap-[30px];
