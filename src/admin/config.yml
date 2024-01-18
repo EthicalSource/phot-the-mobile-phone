@@ -12,19 +12,20 @@ collections:
   - name: "general_content"
     label: "General Content"
     folder: "src/_general_content"
-    slug: "content"
-    identifier: "name"
+    slug: "{{name}}"
+    identifier_field: "cms_label"
     create: false
     fields:
-      - label: "Home Page Intro"
-        name: "homepage_intro"
-        hint: "Text on homepage just below the header"
-        widget: "markdown"
-        required: true
+      - label: "CMS Index label"
+        name: "cms_label"
+        widget: "hidden"
       - label: "Name"
         name: "name"
-        widget: "string"
-        hint: "The for the page link within the CMS"
+        widget: "hidden"
+      - label: "Copy for this section of site content"
+        name: "body"
+        widget: "markdown"
+        required: true
   - name: "clusters" # Collections is a reserved word
     label: "Collections"
     folder: "src/_clusters"
