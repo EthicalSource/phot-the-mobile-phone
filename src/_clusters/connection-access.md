@@ -18,7 +18,7 @@ hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_connection-access-600.png
   alt: Connection and Access
 nav_image:
-  src: /images/uploads/connection-and-access_nav_thumb_80x80.jpg
+  src: /images/uploads/connection-and-access_nav_thumb_80x80-op.jpg
   alt: Connection and Access
 cluster_homepage_image:
   src: /images/uploads/history-of-the-mobile-phone_homepage_connection-access-750.jpg
