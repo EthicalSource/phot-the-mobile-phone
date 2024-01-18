@@ -11,7 +11,7 @@ nav[data-controller="open-close"] {
   height: var(--nav-height);
 }
 body.no--scroll {
-  @apply bg-very-black text-white;
+  @apply bg-solid-black text-white;
   overflow: hidden;
 }
 nav #main-site-nav-wrapper {
