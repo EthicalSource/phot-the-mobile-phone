@@ -9,7 +9,8 @@ media:
   thumbnail: /images/shared/default-entry.jpg
   credit: The Law Dictionary
   link: https://thelawdictionary.org/article/punishment-for-cyberbullying/
-  alt: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
+  alt: Photo of a young person hanging their head, holding a mobile phone, swarmed
+    by harassing text messages.
 source: stopbullying.gov
 source_link: https://www.stopbullying.gov/cyberbullying/what-is-it
 ---
