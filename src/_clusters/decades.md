@@ -1,4 +1,5 @@
 ---
+layout: cluster_decade
 title: Decades
 feature: false
 explore: false

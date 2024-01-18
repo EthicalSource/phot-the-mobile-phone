@@ -287,6 +287,14 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
@@ -341,6 +349,14 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
       - label: "Collection"
         name: "clusters"
         widget: "relation"

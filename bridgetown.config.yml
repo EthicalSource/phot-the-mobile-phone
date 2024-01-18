@@ -85,3 +85,12 @@ collections:
     relations:
       belongs_to:
         - cluster
+
+  tags:
+    permalink: /collections/:slug.*
+    output: true
+    relations:
+      belongs_to:
+        - journal
+        - event
+        - cta
