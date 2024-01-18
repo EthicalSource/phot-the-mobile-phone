@@ -494,11 +494,12 @@ collections:
     files:
       - label: "SEO"
         name: "seo"
-        file: "src/_data/site_metadata.yml"
+        file: "src/_defaults.yml"
         fields:
           - label: "Site default open graph image"
             name: "image"
             widget: "image"
+            hint: "Should be 1200px by 630px. Default OG image, and will be used for any page that doesn't have a otherwise specified OG image"
           - label: "Site default seo title"
             name: "title"
             widget: "string"
