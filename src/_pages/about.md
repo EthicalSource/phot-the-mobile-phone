@@ -50,7 +50,7 @@ We believe rewriting for a more inclusive history of tech that focuses on people
 
 ### How will my submission be used?
 
-By submitting you agree for your contributions to fall under the Creative Commons CC BY-NC 4.0 license. Submissions are moderated by a small group of volunteers before they appear publicly on the site. This to ensure no hate speech, spam, or breaches of anonymity are added to the site.
+By submitting you agree for your contributions to fall under the Creative Commons [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license. Submissions are moderated by a small group of volunteers before they appear publicly on the site. This to ensure no hate speech, spam, or breaches of anonymity are added to the site.
 
 ### How do I make a correction or suggestion?
 
@@ -58,15 +58,16 @@ Submissions are moderated by a small group of volunteers before they appear publ
 
 ## LICENSING
 
-This is an Open Culture Project and is licensed under the Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)(Attribution-NonCommercial-ShareAlike 4.0) International License. This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator.
+This is an Open Culture Project and is licensed under the Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (Attribution-NonCommercial-ShareAlike 4.0) International License. This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator.
 
-CC BY-NC-SA includes the following elements:
+#### CC BY-NC-SA includes the following elements:
 
-BY: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-NC: You may not use the material for commercial purposes.
-SA: ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+**BY:** You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
-Software is licensed under The Hippocratic License (HL3-FULL); created by the Organization for Ethical Source in partnership with Corporate Accountability Lab.
-[![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
+**NC:** You may not use the material for commercial purposes.
+
+**SA:** ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Software is licensed under The Hippocratic License (HL3-FULL); created by the Organization for Ethical Source in partnership with Corporate Accountability Lab. [![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
 
 #### [Credits](/credits)
