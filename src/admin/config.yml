@@ -295,6 +295,7 @@ collections:
           - label: "Image"
             name: "thumbnail"
             widget: "image"
+            default: /images/shared/default-entry.jpg
             required: false
           - label: "Alt Text"
             name: "alt"
@@ -364,6 +365,7 @@ collections:
           - label: "Image"
             name: "thumbnail"
             widget: "image"
+            default: /images/shared/default-entry.jpg
             required: false
           - label: "Alt Text"
             name: "alt"
