@@ -488,3 +488,20 @@ collections:
           name: "name"
           widget: "string"
           hint: Names included here will appear in the ticker on the footer
+
+  - name: "global_configs"
+    label: "Global Site Configs"
+    files:
+      - label: "SEO"
+        name: "seo"
+        file: "src/_data/site_metadata.yml"
+        fields:
+          - label: "Site default open graph image"
+            name: "image"
+            widget: "image"
+          - label: "Site default seo title"
+            name: "title"
+            widget: "string"
+          - label: "Site default seo description"
+            name: "description"
+            widget: "markdown"
