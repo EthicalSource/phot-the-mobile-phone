@@ -20,7 +20,7 @@ hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_bodies-minds-600.png
   alt: Bodies & Minds
 nav_image:
-  src: /images/uploads/bodies-and-minds_nav_thumb_80x80.jpg
+  src: /images/uploads/bodies-and-minds_nav_thumb_80x80-op.jpg
   alt: Bodies & Minds
 cluster_homepage_image:
   src: /images/uploads/history-of-the-mobile-phone_homepage_bodies-minds-750.jpg
