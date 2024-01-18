@@ -74,4 +74,4 @@ Software is licensed under [The Hippocratic License](https://firstdonoharm.dev/v
 
 ## Credits
 
-#### [Meet the visionaries, innovators, and creatives shaping our project!](/credits)
+[Meet the visionaries, innovators, and creatives shaping our project!](/credits)
