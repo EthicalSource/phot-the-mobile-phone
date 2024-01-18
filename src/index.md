@@ -3,12 +3,13 @@ body_classes: ""
 ---
 <% events = collections.events.resources %>
 <% clusters = collections.clusters.resources %>
-<% general_content = collections.general_content.resources.first&.data %>
+<% homeapge_intro = collections.general_content.resources
+                  .detect { |gc| gc.data.name == "homepage_intro" } %>
 
 <%= partial "landing/header" %>
 <main class="container min-w-[260px] max-w-[1690px] mx-auto mt-[40px] mb-[100px] md:mb-[200px]">
   <div class="introduction">
-    <%= markdownify general_content&.homepage_intro %>
+    <%= markdownify homeapge_intro.content %>
   </div>
   <% PostHelpers.featured_collections(posts: clusters).each do |cluster| %>
     <%= render Cluster.new(site: site, cluster: cluster) %>
