@@ -246,6 +246,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -300,6 +301,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -370,6 +372,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -437,6 +440,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
