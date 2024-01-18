@@ -1,3 +1,9 @@
+<% social_icons = collections.social_links.resources
+                    .filter { |sl| sl.data.icon_in_footer  } %>
+<% subscribe_link = collections.social_links.resources
+                    .detect { |sl| sl.data.subscribe_link  }  %>
+
+
 <footer class="footer bg-solid-black text-white w-full pt-[38px] px-[30px]">
   <div class="footer-content flex flex-col items-center">
     <img class="w-[50px] h-[50px] mb-[40px]" src="/images/shared/APHOT_white_transparent.svg"
@@ -9,7 +15,10 @@
           <%= link_to page.data.nav_label, page.relative_url %>
         </li>
       <% end %>
-      <li><a href="https://peoplestech.substack.com/">Subscribe</a></li>
+      <li>
+        <%= link_to "Subscribe",
+          subscribe_link.data.href %>
+      </li>
     </ul>
     <ul class="flex flex-end justify-center mb-[28px] md:mb-[33px] gap-[30px]">
       <li>
@@ -27,24 +36,16 @@
       </li>
     </ul>
     <ul class="flex justify-center mb-[43px] h-[40px] gap-x-[29px]">
-      <li>
-        <a href="https://www.instagram.com/peopleshistoryoftech" target="blank">
-          <img class=" h-[20px] p-30p" src="/images/shared/instagram.svg"
-          alt="peopleshistoryoftech on instagram">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.tiktok.com/@peoplestech" target="blank">
-          <img class="h-[20px]" src="/images/shared/tik-tok.svg"
-          alt="peoplestech on TikTok">
-        </a>
-      </li>
-      <li>
-        <a href="https://open.spotify.com/playlist/6OFgXxZhGNhGZE7TYA3JUH?si=df9ff3df7bd64a33&nd=1&dlsi=04312e2a6b73485f" target="blank">
-          <img class="h-[20px]" src="/images/shared/spotify.svg"
-          alt="A People's History of Tech: Mobile Phone Playlist on Spotify">
-        </a>
-      </li>
+      <% social_icons.each do |social_icon| %>
+        <li>
+          <%= link_to social_icon.data.href do %>
+            <img src=<%= relative_url social_icon.data.media.src %>
+                 alt=<%= social_icon.data.media.alt %>
+                 class="h-[20px]"
+                 target="_blank" />
+          <% end %>
+        </li>
+      <% end %>
     </ul>
   </div>
 </footer>
