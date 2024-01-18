@@ -7,6 +7,10 @@ title: Credits
 nav_label: Credits
 slug: /credits
 order: 5
+media:
+  thumbnail: /images/uploads/credits_peoples-history-of-tech.jpg
+  alt: An in-person installation of A People's History of Tech in action. Paper
+    notes pinned to a visual timeline.
 ---
 A People’s History of Tech is a project supported by [The Tech We Want](https://omidyar.com/the-tech-we-want/) and was incubated by the Omidyar Network’s Digital Luminary Fellows.
 
