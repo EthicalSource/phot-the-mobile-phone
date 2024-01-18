@@ -488,6 +488,7 @@ collections:
               name: "src"
               widget: "image"
               hint: "The logo to display in the site footer"
+              required: false
             - label: "Logo alt aext"
               name: "alt"
               widget: "string"
