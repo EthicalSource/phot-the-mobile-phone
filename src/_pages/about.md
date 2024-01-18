@@ -56,7 +56,7 @@ By submitting you agree for your contributions to fall under the Creative Common
 
 Submissions are moderated by a small group of volunteers before they appear publicly on the site. This to ensure no hate speech, spam, or breaches of anonymity are added to the site. If you see anything you feel should be corrected, or removed, or would like something you posted to be deleted, please contact us at [hello@peoplestech.com](mailto:hello@peoplestech.com).
 
-## LICENSING
+## Licensing
 
 This is an Open Culture Project and is licensed under the Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (Attribution-NonCommercial-ShareAlike 4.0) International License. This license enables reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator.
 
@@ -68,6 +68,10 @@ This is an Open Culture Project and is licensed under the Creative Commons [CC B
 
 **SA:** ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-Software is licensed under The Hippocratic License (HL3-FULL); created by the Organization for Ethical Source in partnership with Corporate Accountability Lab. [![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
+Software is licensed under [The Hippocratic License](https://firstdonoharm.dev/version/3/0/full.html) (HL3-FULL); created by the Organization for Ethical Source in partnership with Corporate Accountability Lab.
 
-#### [Credits](/credits)
+[![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
+
+## Credits
+
+#### [Meet the visionaries, innovators, and creatives shaping our project!](/credits)
