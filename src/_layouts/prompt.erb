@@ -1,10 +1,18 @@
 ---
 layout: default
 ---
-<% prompt = resource %>
+
+<% prompt           = resource %>
+<% explore_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: nil) %>
+
 <header>
   <%= render Shared::Navbar.new(site: site, resource: resource) %>
 </header>
-<main class="mt-[40px] md:mt-[150px]">
+<main class="mt-[40px] md:mt-[150px] my-[40px]">
   <%= render Prompt::TypeForm.new(prompt.data.typeform_id) %>
 </main>
+<%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+  <% explore_clusters.each do |explorable_cluster| %>
+    <%= render Poster::Cluster.new(cluster: explorable_cluster) %>
+  <% end %>
+<% end %>
