@@ -1,3 +1,3 @@
 ---
-name: Coraline Ada Ehmke
+name: Eli Pariser
 ---

@@ -3,7 +3,7 @@
   --fence-width-desktop: 884px;
   --width-desktop: 1024px;
 }
-.default {
+.default:not(.no--scroll) {
   & > header {
     @apply text-white bg-solid-black items-center;
     @apply bg-[url("/images/shared/History-of-the-Mobile-Phone_Homepage_Header-Bg-mobile.jpg")];

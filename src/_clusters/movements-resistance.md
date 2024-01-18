@@ -20,7 +20,7 @@ hero_image:
   alt: Movements & Resistance
 nav_image:
   alt: Movements & Resistance
-  src: /images/uploads/movements-and-resistance_nav_thumb_80x80.jpg
+  src: /images/uploads/movements-and-resistance_nav_thumb_80x80-op.jpg
 cluster_homepage_image:
   alt: Movements & Resistance
   src: /images/uploads/history-of-the-mobile-phone_homepage_movements-resistance-750.jpg

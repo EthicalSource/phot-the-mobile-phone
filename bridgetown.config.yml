@@ -35,39 +35,6 @@ svg:
 # pagination:
 #   enabled: true
 
-defaults:
-  - values:
-      layout: "default"
-  - scope:
-      collection: clusters
-    values:
-      layout: "cluster"
-      body_classes: "bg-gradient text-off-white"
-  - scope:
-      collection: ctas
-    values:
-      class_name: Cta
-      body_classes: "bg-black text-off-white"
-  - scope:
-      collection: events
-    values:
-      class_name: Event
-      body_classes: "bg-black text-off-white"
-  - scope:
-      collection: journals
-    values:
-      class_name: Journal
-      body_classes: "bg-black text-off-white"
-  - scope:
-      collection: pages
-    values:
-      body_classes: "bg-black text-off-white"
-  - scope:
-      collection: prompts
-    values:
-      layout: prompt
-      body_classes: "bg-black text-off-white"
-
 collections:
   clusters:
     permalink: /collections/:slug.*

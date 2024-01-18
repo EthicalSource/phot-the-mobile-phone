@@ -12,19 +12,21 @@ collections:
   - name: "general_content"
     label: "General Content"
     folder: "src/_general_content"
-    slug: "content"
-    identifier: "name"
+    slug: "{{name}}"
+    identifier_field: "cms_label"
     create: false
     fields:
-      - label: "Home Page Intro"
-        name: "homepage_intro"
-        hint: "Text on homepage just below the header"
-        widget: "markdown"
-        required: true
+      - label: "CMS Index label"
+        name: "cms_label"
+        widget: "hidden"
       - label: "Name"
         name: "name"
-        widget: "string"
-        hint: "The for the page link within the CMS"
+        widget: "hidden"
+      - label: "Copy for this section of site content"
+        name: "body"
+        widget: "markdown"
+        required: true
+
   - name: "clusters" # Collections is a reserved word
     label: "Collections"
     folder: "src/_clusters"
@@ -135,6 +137,12 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+      - label: "SEO image"
+        name: "image"
+        widget: "image"
+        required: false
+
+
   - name: "events" # Used in routes, e.g., /admin/collections/events
     label: "Events" # Used in the UI
     folder: "src/_events" # The path to the folder where the documents are stored
@@ -238,6 +246,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -258,6 +267,10 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+      - label: "SEO image"
+        name: "image"
+        widget: "image"
+        required: false
 
   - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
     label: "Resources"                      # Used in the UI
@@ -283,10 +296,12 @@ collections:
           - label: "Image"
             name: "thumbnail"
             widget: "image"
+            default: /images/shared/default-entry.jpg
             required: false
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -307,6 +322,10 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+      - label: "SEO image"
+        name: "image"
+        widget: "image"
+        required: false
 
   - name: "journals"
     label: "Journal"
@@ -348,10 +367,12 @@ collections:
           - label: "Image"
             name: "thumbnail"
             widget: "image"
+            default: /images/shared/default-entry.jpg
             required: false
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -372,6 +393,10 @@ collections:
         required: false
         pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Outbound links", name: "outbound_links", widget: "markdown", required: false }
+      - label: "SEO image"
+        name: "image"
+        widget: "image"
+        required: false
 
   - name: "pages"                          # Used in routes, e.g., /admin/collections/events
     label: "Pages"                         # Used in the UI
@@ -415,6 +440,7 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            default: "Decorative placeholder image: Grayscale logo for A People's History of Tech on a light grey colored background."
             required: false
           - label: "Credit"
             name: "credit"
@@ -426,6 +452,10 @@ collections:
             required: false
             pattern: ['https?\:\/\/.*\.[a-zA-Z0-9]{2,}', "Must be a valid URL"]
       - { label: "Body", name: "body", widget: "markdown" }
+      - label: "SEO image"
+        name: "image"
+        widget: "image"
+        required: false
 
   - name: "prompts"
     label: "Prompts"
@@ -443,6 +473,10 @@ collections:
       - { label: "Question", name: "question", widget: "string" }
       - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
+      - label: "SEO image"
+        name: "image"
+        widget: "image"
+        required: false
 
   - name: "contributors"
     label: "Ticker Names"

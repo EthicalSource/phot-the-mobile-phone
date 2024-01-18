@@ -19,7 +19,7 @@ hero_image:
   alt: Resources
 nav_image:
   alt: Resources
-  src: /images/uploads/resources_nav_thumb_80x80.jpg
+  src: /images/uploads/resources_nav_thumb_80x80-op.jpg
 cluster_homepage_image:
   alt: Resources
   src: /images/uploads/history-of-the-mobile-phone_homepage_resources-750.jpg
