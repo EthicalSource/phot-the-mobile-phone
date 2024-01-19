@@ -1,0 +1,4 @@
+<h2 class="prevent-overflow">
+  <%= @post.data.question %>
+</h2>
+<%= render Shared::Button.new(text: "Tell Your Story", href: @post.relative_url, type: :secondary) %>
