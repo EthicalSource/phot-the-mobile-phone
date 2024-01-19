@@ -4,6 +4,9 @@ title: Where you at?
 highlight: Received a text from someone I had accidentally continued to share my
   location with... Creepy.
 location: San Francisco, CA
+tags:
+  - 2020s
+year: 2022
 clusters: Risk & Safety
 media:
   credit: A People's History of Tech

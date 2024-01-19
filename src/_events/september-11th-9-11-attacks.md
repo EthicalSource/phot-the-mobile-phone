@@ -2,6 +2,8 @@
 layout: entry
 title: September 11th (9/11) attacks.
 location: New York, NY; Washington, DC
+tags:
+  - 2000s
 start_date:
   year: 2001
   month: 9

@@ -2,6 +2,8 @@
 layout: entry
 title: First car phone call
 location: St. Louis, MO
+tags:
+  - 1940s
 start_date:
   year: 1946
   month: 6

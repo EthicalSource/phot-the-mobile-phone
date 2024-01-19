@@ -2,6 +2,8 @@
 layout: entry
 title: Rise of cyberbullying
 location: Global
+tags:
+  - 2000s
 start_date:
   year: 2007
 clusters: Culture & Behaviors

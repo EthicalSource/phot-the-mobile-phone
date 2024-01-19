@@ -2,6 +2,8 @@
 layout: entry
 title: Cell phone subscriptions surpass human population.
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2015
 clusters: Culture & Behaviors

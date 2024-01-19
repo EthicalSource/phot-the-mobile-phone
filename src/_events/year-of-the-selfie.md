@@ -2,6 +2,8 @@
 layout: entry
 title: Year of the selfie
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2013
 clusters: Culture & Behaviors

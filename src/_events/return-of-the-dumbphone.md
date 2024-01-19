@@ -2,6 +2,8 @@
 layout: entry
 title: Return of the dumbphone
 location: United States
+tags:
+  - 2020s
 start_date:
   year: 2022
 clusters: Design & Use

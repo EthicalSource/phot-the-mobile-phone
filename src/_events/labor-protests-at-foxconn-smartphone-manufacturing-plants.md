@@ -2,6 +2,8 @@
 layout: entry
 title: Labor protests at FoxConn smartphone manufacturing plants
 location: China
+tags:
+  - 2010s
 start_date:
   year: 2012
   month: 10

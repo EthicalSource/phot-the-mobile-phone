@@ -2,6 +2,8 @@
 layout: entry
 title: Patriot Act passed.
 location: United States
+tags:
+  - 2000s
 start_date:
   year: 2001
   month: 10
