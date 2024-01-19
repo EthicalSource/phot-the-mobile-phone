@@ -162,12 +162,15 @@
 }
 @media screen and (max-width: 480px) {
     body.cluster.revised-cluster-styles main.revised-cluster-grid .card.event article {
-        max-width: calc(100% - 30px);
+        max-width: calc(100% - 0px);
+    }
+    body.cluster.revised-cluster-styles main.revised-cluster-grid .card.cta article {
+        max-width: calc(100% - 0px);
     }
     body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal article {
-        max-width: calc(100% - 30px);
+        max-width: calc(100% - 0px);
     }
     body.cluster.revised-cluster-styles main.revised-cluster-grid .card.prompt article {
-        max-width: calc(100% - 30px);
+        max-width: calc(100% - 0px);
     }
 }
