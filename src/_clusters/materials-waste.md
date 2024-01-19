@@ -5,11 +5,10 @@ explore: true
 order: 8
 highlight: Human transformation of metals and sand has environmental impacts.
 primary_nav_description: Tech has environmental impacts.
-carousel_description: The human process of transforming metals and sand into
-  products has significant environmental impacts.
-intro: Human activities involving the transformation of metals and sand into
-  various products have profound environmental impacts, affecting ecosystems and
-  contributing to changes in the natural balance of our planet.
+carousel_description: Human transformation of metals and sand has environmental impacts.
+intro: It's easy to forget that phones run on materials from the earth. Combine
+  exploitative rare earth mining with requiring you to replace devices every two
+  years, tech has massive environmental impacts.
 photo_credit:
   link_text: Muntaka Chasant via Shutterstock
 illustrations_credit:
