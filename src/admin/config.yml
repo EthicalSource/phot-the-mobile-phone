@@ -141,6 +141,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
 
   - name: "events" # Used in routes, e.g., /admin/collections/events
@@ -271,6 +275,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
   - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
     label: "Resources"                      # Used in the UI
@@ -325,6 +333,10 @@ collections:
       - label: "SEO image"
         name: "image"
         widget: "image"
+        required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
         required: false
 
   - name: "journals"
@@ -397,6 +409,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
   - name: "pages"                          # Used in routes, e.g., /admin/collections/events
     label: "Pages"                         # Used in the UI
@@ -455,6 +471,10 @@ collections:
       - label: "SEO image"
         name: "image"
         widget: "image"
+        required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
         required: false
 
   - name: "prompts"
