@@ -1,12 +1,18 @@
 <section data-controller="carousel">
-  <h1><%= @header_text %></h1>
-  <div class="swiper carousel !flex">
-    <nav>
+  <div class="!flex flex-row">
+    <h1><%= @header_text %></h1>
+    <nav class="hidden md:flex">
       <button data-carousel-target="prev">Prev</button>
       <button data-carousel-target="next">Next</button>
     </nav>
+  </div>
+  <div class="swiper carousel !flex">
     <div class="swiper-wrapper">
       <%= content %>
     </div>
   </div>
+  <nav class="flex md:hidden mt-[16px] mobile">
+    <button data-carousel-target="prev">Prev</button>
+    <button data-carousel-target="next">Next</button>
+  </nav>
 </section>

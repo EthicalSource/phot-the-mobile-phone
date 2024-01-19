@@ -23,6 +23,8 @@ export default class extends Controller {
                 prevEl: this.prevTarget,
             },
         });
+        document.querySelector('.mobile > [data-carousel-target="prev"]').addEventListener('click', () => this.swiper.slidePrev());
+        document.querySelector('.mobile > [data-carousel-target="next"]').addEventListener('click', () => this.swiper.slideNext());
     }
 
     disconnect() {
