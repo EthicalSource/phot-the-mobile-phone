@@ -41,7 +41,7 @@
       text-underline-offset: 4px;
       text-decoration-thickness: 2px;
     }
-    @media (max-width: 809px) {
+    @media (max-width: 1023px) {
       &.tabletAndAbove {
         display: none;
       }
@@ -50,7 +50,7 @@
         margin-top: 1rem;
       }
     }
-    @media (min-width: 810px) {
+    @media (min-width: 1024px) {
       &.tabletAndAbove {
         display: flex;
         justify-content: flex-end;
