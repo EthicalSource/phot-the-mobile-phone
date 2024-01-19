@@ -2,6 +2,8 @@
 layout: entry
 title: "\"Hey Siri, I'm getting pulled over\""
 location: United States
+tags:
+  - 2010s
 start_date:
   year: 2018
 clusters: Risk & Safety

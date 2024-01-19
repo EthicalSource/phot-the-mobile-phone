@@ -2,6 +2,8 @@
 layout: entry
 title: M-Pesa enables mobile payment economy in Kenya
 location: Kenya
+tags:
+  - 2000s
 start_date:
   year: 2007
   month: 3

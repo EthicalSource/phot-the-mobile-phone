@@ -2,6 +2,8 @@
 layout: entry
 title: Flash mobs
 location: Global
+tags:
+  - 2000s
 start_date:
   year: 2003
   month: 6

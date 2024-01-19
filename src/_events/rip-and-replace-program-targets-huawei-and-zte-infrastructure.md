@@ -2,6 +2,8 @@
 layout: entry
 title: '"Rip and replace" program targets Huawei and ZTE infrastructure'
 location: United States, China
+tags:
+  - 2010s
 start_date:
   year: 2019
 clusters: Risk & Safety

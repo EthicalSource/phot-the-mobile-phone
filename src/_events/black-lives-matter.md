@@ -2,6 +2,8 @@
 layout: entry
 title: Black Lives Matter
 location: United States
+tags:
+  - 2010s
 start_date:
   year: 2013
 clusters: Movements & Resistance

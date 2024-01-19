@@ -2,6 +2,8 @@
 layout: entry
 title: Cobalt mining and conflict in the Congo
 location: Democratic Republic of Congo
+tags:
+  - 2020s
 start_date:
   year: 2020
 clusters: Materials & Waste

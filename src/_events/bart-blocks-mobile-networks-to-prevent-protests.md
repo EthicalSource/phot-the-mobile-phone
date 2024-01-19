@@ -2,6 +2,8 @@
 layout: entry
 title: BART blocks mobile networks to prevent protests.
 location: San Francisco, CA
+tags:
+  - 2010s
 start_date:
   year: 2011
   month: 8

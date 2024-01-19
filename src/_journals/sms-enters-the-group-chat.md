@@ -3,6 +3,9 @@ layout: entry
 title: SMS enters the group chat
 highlight: I am partially deaf...people could tell me things discreetly over SMS.
 location: Birmingham, UK
+tags:
+  - 1990s
+year: 1999
 clusters: Bodies & Minds
 related_events: []
 source: Natalya Dell

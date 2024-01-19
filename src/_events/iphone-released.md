@@ -2,6 +2,8 @@
 layout: entry
 title: iPhone released
 location: United States
+tags:
+  - 2000s
 start_date:
   year: 2007
   month: 6

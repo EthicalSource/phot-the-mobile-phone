@@ -3,6 +3,9 @@ layout: entry
 title: On the ground in Tahrir Square
 highlight: Just having a phone in Egypt at that time [was] a privilege.
 location: Cairo, Egypt
+tags:
+  - 2010s
+year: 2011
 clusters: Movements & Resistance
 related_events:
   - Arab Spring

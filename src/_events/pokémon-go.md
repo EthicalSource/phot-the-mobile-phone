@@ -2,6 +2,8 @@
 layout: entry
 title: Pokémon Go
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2016
   month: 7

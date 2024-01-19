@@ -2,6 +2,8 @@
 layout: entry
 title: Rise of the gig economy
 location: Global
+tags:
+  - 2000s
 start_date:
   year: 2008
 clusters: Economy & Labor

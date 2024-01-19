@@ -2,6 +2,8 @@
 layout: entry
 title: “Thumb tribe” emerges in Japan.
 location: Japan
+tags:
+  - 2000s
 start_date:
   year: 2001
 clusters: Bodies & Minds

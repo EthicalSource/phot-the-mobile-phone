@@ -2,6 +2,8 @@
 layout: entry
 title: Trans engineer democratizes chip design
 location: Palo Alto, CA
+tags:
+  - 1970s
 start_date:
   year: 1978
 clusters: Design & Use
