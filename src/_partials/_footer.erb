@@ -39,8 +39,8 @@
       <% social_icons.each do |social_icon| %>
         <li>
           <%= link_to social_icon.data.href do %>
-            <img src=<%= relative_url social_icon.data.media.src %>
-                 alt=<%= social_icon.data.media.alt %>
+            <img src="<%= relative_url social_icon.data.media.src %>"
+                 alt="<%= social_icon.data.media.alt %>"
                  class="h-[20px]"
                  target="_blank" />
           <% end %>
