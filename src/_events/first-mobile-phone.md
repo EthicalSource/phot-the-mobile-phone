@@ -20,7 +20,7 @@ title: First mobile phone
 location: Chicago, USA
 tags:
   - 1970s
-clusters: CONNECTION & ACCESS
+clusters: Connection & Access
 source: The Atlantic
 source_link: https://www.theatlantic.com/technology/archive/2013/04/the-first-mobile-phone-call-was-made-40-years-ago-today/274611/
 ---

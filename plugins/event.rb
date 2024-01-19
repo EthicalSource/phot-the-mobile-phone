@@ -1,20 +1,17 @@
 class Event < Bridgetown::Model::Base
   def resources_to_explore
-    [ related_events,
-      journal_resource,
-      random_events,
-      cta_resource
-    ].flatten
-     .compact
+    other_events.
+      insert(2,journal_resource).
+      insert(4,prompt_resource).
+      insert(5,cta_resource).
+      compact
   end
 
   private
 
   def other_events
-    site_collections.
-      events.
-      resources.
-      reject { |event| event.data.title == title }
+    posts = site_collections.events.resources
+    PostHelpers.events_by_collection(posts: posts, value: clusters, count: 30)
   end
 
   def related_events
@@ -23,10 +20,11 @@ class Event < Bridgetown::Model::Base
       sample(2)
   end
 
-  def random_events
-    other_events.
-      reject { |event| event.data.clusters == clusters }.
-      sample(2)
+  def prompt_resource
+    site_collections.
+      prompts.
+      resources.
+      find { |prompt| prompt.data.clusters.downcase == clusters.downcase }
   end
 
   def journal_resource

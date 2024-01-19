@@ -13,6 +13,8 @@ class Cards::ExploreMore::Base < Bridgetown::Component
       Cards::ExploreMore::Event.new(@post)
     when "Journal"
       Cards::ExploreMore::Journal.new(@post)
+    when "Prompt"
+      Cards::ExploreMore::Prompt.new(@post)
     end
   end
 end
