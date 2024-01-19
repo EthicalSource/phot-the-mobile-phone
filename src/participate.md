@@ -1,5 +1,6 @@
 ---
 layout: default
+body_classes: "bg-black text-off-white"
 ---
 <% explore_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: nil) %>
 

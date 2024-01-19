@@ -8,7 +8,7 @@ layout: default
 <header>
   <%= render Shared::Navbar.new(site: site, resource: resource) %>
 </header>
-<main class="mt-[40px] md:mt-[150px] my-[40px]">
+<main class="px-[30px] lg:px-[70px] my-[40px]">
   <%= render Prompt::TypeForm.new(prompt.data.typeform_id) %>
 </main>
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
