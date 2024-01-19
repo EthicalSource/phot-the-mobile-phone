@@ -2,22 +2,23 @@
 layout: entry
 title: iPhone released
 location: United States
-tags:
-  - 2000s
 start_date:
   year: 2007
   month: 6
   day: 29
-clusters: Design & Use
 media:
-  thumbnail: /images/shared/default-entry.jpg
-  credit: Apple Hello
-  link: https://www.youtube.com/watch?v=mmiWTKZzBLY
+  thumbnail: /images/uploads/iphone-released-entry.jpg
+  credit: Apple Hello / Gigazine
+  link: https://gigazine.net/gsc_news/en/20070227_iphone_hello/
   alt: "Apple’s first iPhone ad features a supercut from TV shows and movies
     saying, “Hello,” like Dustin Hoffman, Marilyn Monroe, and Will Ferrell.
     “Hello” first ran on February 25, 2007, during the Oscars. "
+tags:
+  - 2000s
+clusters: Design & Use
 source: Wikipedia
 source_link: https://en.wikipedia.org/wiki/IPhone
+image: /images/uploads/iphone-released-open-graph.jpg
 ---
 The release of the iPhone in 2007 revolutionized the smartphone industry, setting a new standard for mobile devices and changing how we interact with technology. The design broke with prevailing PDA and smartphone standards by eliminating buttons and stylus interfaces for a finger-friendly multi-touch screen. The iPhone largely appealed to the general public, as opposed to the business market that other smartphones had catered to prior. Apple stores had lines around the block for consumer launches around the globe.
 
