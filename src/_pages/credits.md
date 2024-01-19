@@ -21,3 +21,7 @@ Digital experience design and build by [Fly Media Productions](https://flymediap
 Accessibility support provided by [Small Technology Foundation](https://small-tech.org/). Illustrations by [Becky Russell](https://www.instagram.com/bexdidit).
 
 Special thank you to Tech We Want Luminary Fellows [Coraline Ada Ehmke](https://where.coraline.codes/), Eli Pariser, Jasmine Sun, and Xiaowei Wang.
+
+Additional design support from Chelsey Petty-Dale. Teaser video edit by Kris Boustedt.
+
+And thank you! Contributors to our collective history of tech and future collaborators on building the tech we want.
