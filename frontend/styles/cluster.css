@@ -117,7 +117,7 @@
         max-height: 100%;
         width: calc(100% - 100px);
         max-width: calc(100% - 100px);
-        margin: 0 auto;
+        margin: auto auto;
     }
     main.revised-cluster-grid .card article header {
         width: 100%;
@@ -164,6 +164,7 @@
   }
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal article {
       max-width: calc(100% - 0px);
+      height: 100%;
       padding: 32px;
       width: 100%;
   }
