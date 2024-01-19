@@ -9,7 +9,7 @@ layout: default
 <% prompts        = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title, count: 1) %>
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
-<main>
+<main class="revised-cluster-grid">
   <% journals.take(7).each do |journal| %>
     <%= render Cards::Journal.new(post: journal) %>
   <% end %>
