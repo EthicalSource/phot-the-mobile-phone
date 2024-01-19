@@ -116,9 +116,10 @@ footer {
     text-decoration: underline;
   }
 }
+
 header > .explore {
-  @apply absolute bottom-0 text-center;
-  width: calc(100vw - 70px);
+  @apply absolute bottom-0 left-0 right-0 text-center;
+  @apply flex flex-col items-center;
 
   span {
     @apply body text-white;

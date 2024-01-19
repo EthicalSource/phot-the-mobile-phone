@@ -19,7 +19,7 @@ hero_image:
   alt: Design & Use
 nav_image:
   alt: Design & Use
-  src: /images/uploads/design-and-use_nav_thumb_80x80.jpg
+  src: /images/uploads/design-and-use_nav_thumb_80x80-op.jpg
 cluster_homepage_image:
   alt: Design & Use
   src: /images/uploads/history-of-the-mobile-phone_homepage_design-use-750.jpg

@@ -19,7 +19,7 @@ hero_image:
   alt: Materials & Waste
 nav_image:
   alt: Materials & Waste
-  src: /images/uploads/materials-and-waste_nav_thumb_80x80.jpg
+  src: /images/uploads/materials-and-waste_nav_thumb_80x80-op.jpg
 cluster_homepage_image:
   alt: Materials & Waste
   src: /images/uploads/history-of-the-mobile-phone_homepage_materials-waste-750.jpg

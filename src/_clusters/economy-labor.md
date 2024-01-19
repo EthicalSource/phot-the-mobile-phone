@@ -16,7 +16,7 @@ hero_image:
   alt: Economy & Labor
 nav_image:
   alt: Economy & Labor
-  src: /images/uploads/economy-and-labor_nav_thumb_80x80.jpg
+  src: /images/uploads/economy-and-labor_nav_thumb_80x80-op.jpg
 cluster_homepage_image:
   alt: Economy & Labor
   src: /images/uploads/history-of-the-mobile-phone_homepage_economy-labor-750.jpg

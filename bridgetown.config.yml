@@ -94,3 +94,7 @@ collections:
         - journals
         - events
         - ctas
+  social_links:
+    output: false
+    sort_by: date
+    sort_direction: ascending
