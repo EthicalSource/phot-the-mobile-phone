@@ -1,3 +1,4 @@
+require 'cgi'
 require 'sanitize'
 
 module PostResourceExtension
@@ -26,7 +27,7 @@ module PostResourceExtension
     end
 
     def sanitize_content(content_body)
-      Sanitize.fragment(content_body)
+      CGI.unescapeHTML(Sanitize.fragment(content_body))
     end
   end
 end
