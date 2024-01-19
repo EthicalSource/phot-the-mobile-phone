@@ -1,9 +1,8 @@
-require 'pry'
 class Journal < Bridgetown::Model::Base
   def resources_to_explore
     other_journals.
-      insert(2,prompt_resource).
-      insert(4,cta_resource).
+      push(prompt_resource).
+      push(cta_resource).
       compact
   end
 
