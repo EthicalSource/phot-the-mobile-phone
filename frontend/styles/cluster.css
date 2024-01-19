@@ -35,7 +35,7 @@
     }
   }
   header article {
-    @apply w-full md:w-1/2 md:ml-5 -mt-[35px] md:-mt-[50px];
+    @apply w-full md:w-1/2 md:ml-5;
     @apply flex flex-col gap-[30px];
 
     h1 {
@@ -62,20 +62,90 @@
     }
   }
   .card {
-    @apply bg-very-black;
+    @apply bg-very-black max-w-[750px];
     @apply lg:odd:justify-self-end lg:even:justify-self-start;
     @apply xl:odd:justify-self-center xl:even:justify-self-center;
 
-    @media (min-width: 1280px) {
+    @media (min-width: 1260px) {
       &:nth-child(3n+2) {
         @apply md:-mt-[75px];
       }
     }
-  }
-}
 
-.hero-image {
-  @apply bg-cover bg-center mx-auto lg:mr-0;
-  width: var(--cluster-image-size);
-  height: var(--cluster-image-size);
+    header figure.media {
+      overflow: hidden;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    header figure.media img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      object-fit: unset;
+      object-fit: contain;
+    }
+    header figure.media figcaption.visually-hidden {
+      visibility: hidden;
+      height: 0;
+    }
+  }
+
+  .hero-image {
+    @apply bg-cover bg-center mx-auto lg:mr-0;
+    width: var(--cluster-image-size);
+    height: var(--cluster-image-size);
+  }
+
+  @media screen and (max-width: 809px) {
+    main.revised-cluster-grid {
+        max-width: 809px;
+        grid-template-columns: 100%;
+    }
+    main.revised-cluster-grid .card {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    main.revised-cluster-grid .card a {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+    main.revised-cluster-grid .card article {
+        height: auto;
+        max-height: 100%;
+        width: calc(100% - 100px);
+        max-width: calc(100% - 100px);
+        margin: 0 auto;
+    }
+    main.revised-cluster-grid .card article header {
+        width: 100%;
+    }
+    main.revised-cluster-grid .card header figure.media img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        max-height: 379px;
+        object-fit: cover;
+    }
+  }
+
+
+  @media screen and (min-width: 809px) {
+    main.revised-cluster-grid .card article header {
+        width: 100%;
+    }
+    main.revised-cluster-grid .card header figure.media {
+        width: 100%;
+        max-width: 100%;
+    }
+    main.revised-cluster-grid .card header figure.media img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        max-height: 175px;
+        object-fit: cover;
+    }
+  }
 }
