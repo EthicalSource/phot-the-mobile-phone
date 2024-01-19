@@ -1,16 +1,12 @@
 class Cta < Bridgetown::Model::Base
   def resources_to_explore
-    five_random_ctas.
-      push(journal_resource).
+    other_ctas.
+      insert(2,journal_resource).
+      insert(4,prompt_resource).
       compact
   end
 
   private
-
-  def five_random_ctas
-    other_ctas.
-      sample(5)
-  end
 
   def other_ctas
     site_collections.
@@ -26,11 +22,11 @@ class Cta < Bridgetown::Model::Base
       find { |journal| journal.data.clusters == clusters }
   end
 
-  def event_resource
+  def prompt_resource
     site_collections.
-      events.
+      prompts.
       resources.
-      find { |event| event.data.clusters == clusters }
+      find { |prompt| prompt.data.clusters.downcase == clusters.downcase }
   end
 
   def site_collections
