@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "#TechWontBuildIt and #NoTechForICE"
+title: "Tech Wont Build It and #NoTechForICE"
 location: Global
 start_date:
   year: 2018
