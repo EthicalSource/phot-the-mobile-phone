@@ -62,7 +62,7 @@
     }
   }
   .card {
-    @apply bg-very-black max-w-[750px];
+    @apply bg-very-black max-w-[750px] flex;
     @apply lg:odd:justify-self-end lg:even:justify-self-start;
     @apply xl:odd:justify-self-center xl:even:justify-self-center;
 
