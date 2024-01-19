@@ -368,6 +368,10 @@ collections:
         value_field: "name"
         multiple: true
         min: 1
+      - label: "Year"
+        name: "year"
+        widget: "number"
+        value_type: int
       - label: "Collection"
         name: "clusters"
         widget: "relation"
