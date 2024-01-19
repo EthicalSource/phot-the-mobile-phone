@@ -1,35 +1,60 @@
 require 'pry'
 module PostHelpers
-  def self.prompts_by_collection(posts:, value:, count: 1)
+  def self.prompts_by_collection(posts:, value:, prefer_featured: false, count: 1)
     return [] if value.nil?
 
-    posts.select do |prompt|
-      Bridgetown::Utils.slugify(prompt.data.clusters) == Bridgetown::Utils.slugify(value)
+    select_posts = posts.select do |item|
+      Array(item.data.clusters).map(&:downcase).
+        intersection(Array(value).map(&:downcase)).any?
     end
+    featured_posts = if prefer_featured
+      select_posts.select { |post| post.data.feature == true }
+    end
+    [featured_posts, select_posts].flatten.compact.take(count)
   end
 
-  def self.events_by_collection(posts:, value:, count: 5)
+  def self.events_by_collection(posts:, value:, prefer_featured: false, count: 5)
     return [] if value.nil?
 
-    posts.select do |event|
-      Bridgetown::Utils.slugify(event.data.clusters) == Bridgetown::Utils.slugify(value)
-    end.sort_by { |post| post.data.start_date.year.to_int }
+    select_posts = posts.select do |item|
+      Array(item.data.clusters).map(&:downcase).
+        intersection(Array(value).map(&:downcase)).any?
+    end
+
+    featured_posts = if prefer_featured
+      select_posts.select { |post| post.data.feature == true }
+    else
+      []
+    end.sort_by! { |post| post.data.start_date.year.to_int }
+
+    select_posts.sort_by! { |post| post.data.start_date.year.to_int }
+
+    [featured_posts, select_posts].flatten.compact
   end
 
-  def self.ctas_by_collection(posts:, value:, count: 1)
+  def self.ctas_by_collection(posts:, value:, prefer_featured: false, count: 1)
     return [] if value.nil?
 
-    posts.select do |cta|
-      Bridgetown::Utils.slugify(cta.data.clusters) == Bridgetown::Utils.slugify(value)
-    end.take(count)
+    select_posts = posts.select do |item|
+      Array(item.data.clusters).map(&:downcase).
+        intersection(Array(value).map(&:downcase)).any?
+    end
+    featured_posts = if prefer_featured
+      select_posts.select { |post| post.data.feature == true }
+    end
+    [featured_posts, select_posts].flatten.compact.take(count)
   end
 
-  def self.journals_by_collection(posts:, value:, count: 1)
+  def self.journals_by_collection(posts:, value:, prefer_featured: false, count: 1)
     return [] if value.nil?
-
-    posts.select do |journal|
-      Bridgetown::Utils.slugify(journal.data.clusters) == Bridgetown::Utils.slugify(value)
-    end.take(count)
+    select_posts = posts.select do |item|
+      Array(item.data.clusters).map(&:downcase).
+        intersection(Array(value).map(&:downcase)).any?
+    end
+    featured_posts = if prefer_featured
+      select_posts.select { |post| post.data.feature == true }
+    end
+    [featured_posts, select_posts].flatten.compact.take(count)
   end
 
   def self.featured_collections(posts:, count: 11)
