@@ -13,7 +13,7 @@ module PostHelpers
 
     posts.select do |event|
       Bridgetown::Utils.slugify(event.data.clusters) == Bridgetown::Utils.slugify(value)
-    end
+    end.sort_by { |post| post.data.start_date.year.to_int }
   end
 
   def self.ctas_by_collection(posts:, value:, count: 1)
