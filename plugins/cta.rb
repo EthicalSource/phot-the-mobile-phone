@@ -19,18 +19,16 @@ class Cta < Bridgetown::Model::Base
     site_collections.
       journals.
       resources.
-      find { |journal| 
-              Array(journal.data.clusters).flatten.
-              map(&:downcase).include?(clusters.downcase) }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def prompt_resource
     site_collections.
       prompts.
       resources.
-      find { |prompt| 
-              Array(prompt.data.clusters).flatten.
-              map(&:downcase).include?(clusters.downcase) }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections

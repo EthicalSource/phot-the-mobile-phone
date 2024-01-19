@@ -12,24 +12,24 @@ class Journal < Bridgetown::Model::Base
     site_collections.
       ctas.
       resources.
-      find { |cta| Array(cta.data.clusters).flatten.
-              map(&:downcase).include?(clusters.downcase) }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def prompt_resource
     site_collections.
       prompts.
       resources.
-      find { |prompt| Array(prompt.data.clusters).flatten.
-              map(&:downcase).include?(clusters.downcase) }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def other_journals
     site_collections.
       journals.
       resources.
-      reject { |journal| Array(journal.data.clusters).flatten.
-                map(&:downcase).include?(clusters.downcase) }
+      reject { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections
