@@ -1,5 +1,7 @@
 ---
+layout: cluster_decade
 title: Decades
+published: false
 feature: false
 explore: false
 order: 10

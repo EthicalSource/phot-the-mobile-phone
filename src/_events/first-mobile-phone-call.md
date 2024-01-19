@@ -2,6 +2,8 @@
 layout: entry
 title: First mobile phone call
 location: New York, NY
+tags:
+  - 1970s
 start_date:
   year: 1973
   month: 4

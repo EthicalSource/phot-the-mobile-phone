@@ -159,6 +159,14 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either City, State; Country; or Global"
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
       - label: "Start Date"
         name: "start_date"
         widget: "object"
@@ -296,6 +304,14 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
@@ -356,6 +372,18 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+      - label: "Tags"
+        name: "tags"
+        widget: "relation"
+        collection: "tags"
+        search_fields: [ "name" ]
+        value_field: "name"
+        multiple: true
+        min: 1
+      - label: "Year"
+        name: "year"
+        widget: "number"
+        value_type: int
       - label: "Collection"
         name: "clusters"
         widget: "relation"
@@ -504,6 +532,18 @@ collections:
           name: "name"
           widget: "string"
           hint: Names included here will appear in the ticker on the footer
+  - name: "tags"
+    label: "Tags"
+    slug: "{{name}}"
+    folder: "src/_tags" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - { label: "Name", name: "name", widget: "string" }
+      - label: "Type"
+        name: "tag_type"
+        widget: "select"
+        options: ["collection", "decade"]
+        required: true
 
   - name: "global_configs"
     label: "Global Site Configs"

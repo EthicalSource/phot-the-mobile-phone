@@ -3,6 +3,9 @@ layout: entry
 title: Jailbreaking the iPhone
 highlight: Making apps for my phone, engaging with the jailbreaking community.
 location: San Francisco, CA
+tags:
+  - 2000s
+year: 2007
 clusters: Design & Use
 media:
   credit: A People's History of Tech

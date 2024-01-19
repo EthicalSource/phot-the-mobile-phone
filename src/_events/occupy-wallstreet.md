@@ -10,7 +10,9 @@ end_date:
   year: 2011
   month: 11
   day: 15
-clusters: MOVEMENTS & RESISTANCE
+clusters:
+  - MOVEMENTS & RESISTANCE
+  - BODIES & MINDS
 tags:
   - 2010s
 media:

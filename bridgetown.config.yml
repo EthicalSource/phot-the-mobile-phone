@@ -86,6 +86,16 @@ collections:
       belongs_to:
         - cluster
 
+  tags:
+    permalink: /collections/:slug.*
+    output: true
+    relations:
+      has_many:
+        - journals
+        - events
+        - ctas
+        - prompts
+
   social_links:
     output: false
     sort_by: date

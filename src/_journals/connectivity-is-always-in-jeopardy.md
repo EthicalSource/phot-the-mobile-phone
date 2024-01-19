@@ -4,6 +4,9 @@ title: Connectivity is always in jeopardy
 highlight: Connectivity is always in jeopardy...It is not something to be
   assumed at any point.
 location: Bay Area, California
+tags:
+  - 2010s
+year: 2012
 clusters: Connection & Access
 related_events:
   - Arab Spring

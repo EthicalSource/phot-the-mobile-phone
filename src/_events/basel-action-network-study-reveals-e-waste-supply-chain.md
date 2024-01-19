@@ -2,6 +2,8 @@
 layout: entry
 title: Basel Action Network study reveals e-waste supply chain
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2016
   month: 5

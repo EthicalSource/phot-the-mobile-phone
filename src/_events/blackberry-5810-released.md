@@ -2,6 +2,8 @@
 layout: entry
 title: BlackBerry 5810 released.
 location: Canada
+tags:
+  - 2000s
 start_date:
   year: 2002
   month: 3

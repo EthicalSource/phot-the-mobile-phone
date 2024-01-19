@@ -2,6 +2,8 @@
 layout: entry
 title: Infinite scroll invented.
 location: United States
+tags:
+  - 2000s
 start_date:
   year: 2006
 clusters: Economy & Labor

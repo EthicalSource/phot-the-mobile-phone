@@ -2,6 +2,8 @@
 layout: entry
 title: "Tech Wont Build It and #NoTechForICE"
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2018
 clusters: Movements & Resistance

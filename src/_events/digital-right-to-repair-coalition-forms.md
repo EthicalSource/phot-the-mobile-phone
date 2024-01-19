@@ -2,6 +2,8 @@
 layout: entry
 title: Digital Right to Repair Coalition forms.
 location: United States, European Union,
+tags:
+  - 2010s
 start_date:
   year: 2013
   month: 7

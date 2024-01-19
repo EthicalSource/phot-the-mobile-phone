@@ -2,6 +2,8 @@
 layout: entry
 title: Indigenous rights to wireless frequencies
 location: United States, New Zealand, Canada
+tags:
+  - 2020s
 start_date:
   year: 2020
 clusters: Connection & Access
