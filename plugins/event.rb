@@ -16,29 +16,34 @@ class Event < Bridgetown::Model::Base
 
   def related_events
     other_events.
-      select { |event| event.data.clusters == clusters }.
-      sample(2)
+      select { |event| Array(event.data.clusters).map(&:downcase).
+                include? Array(clusters).map(&:downcase) }.
+                sample(2)
   end
 
   def prompt_resource
     site_collections.
       prompts.
       resources.
-      find { |prompt| prompt.data.clusters.downcase == clusters.downcase }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
+
   end
 
   def journal_resource
     site_collections.
       journals.
       resources.
-      find { |journal| journal.data.clusters == clusters }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def cta_resource
     site_collections.
       ctas.
       resources.
-      find { |cta| cta.data.clusters == clusters }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections

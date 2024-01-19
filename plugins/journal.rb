@@ -12,21 +12,24 @@ class Journal < Bridgetown::Model::Base
     site_collections.
       ctas.
       resources.
-      find { |cta| cta.data.clusters.downcase == clusters.downcase }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def prompt_resource
     site_collections.
       prompts.
       resources.
-      find { |prompt| prompt.data.clusters.downcase == clusters.downcase }
+      find { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def other_journals
     site_collections.
       journals.
       resources.
-      reject { |journal| journal.data.title.downcase == title.downcase }
+      reject { |item| Array(item.data.clusters).map(&:downcase)
+              .include?(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections
