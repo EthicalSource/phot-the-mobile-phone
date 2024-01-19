@@ -23,7 +23,7 @@
     @apply max-w-[1550px] mx-auto my-[80px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
 
-    @media (min-width: 860px) {
+    @media (min-width: 850px) {
       & {
         @apply grid-cols-2;
       }
@@ -97,7 +97,7 @@
     height: var(--cluster-image-size);
   }
 
-  @media screen and (max-width: 809px) {
+  @media screen and (max-width: 849px) {
     main.revised-cluster-grid {
         max-width: 809px;
         grid-template-columns: 100%;
@@ -132,7 +132,7 @@
   }
 
 
-  @media screen and (min-width: 809px) {
+  @media screen and (min-width: 849px) {
     main.revised-cluster-grid .card article header {
         width: 100%;
     }
@@ -148,15 +148,14 @@
         object-fit: cover;
     }
   }
-
 }
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 849px) {
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal {
       width: 100%;
       max-width: 100%;
   }
 }
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 849px) {
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.event article {
       max-width: calc(100% - 0px);
       padding: 32px;
@@ -164,7 +163,6 @@
   }
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal article {
       max-width: calc(100% - 0px);
-      height: 100%;
       padding: 32px;
       width: 100%;
   }
@@ -178,7 +176,7 @@
       padding: 32px;
       width: 100%;
   }
-.cluster main.revised-cluster-grid .card header figure.media img {
+  .cluster main.revised-cluster-grid .card header figure.media img {
       max-height: unset;
   }
 }
