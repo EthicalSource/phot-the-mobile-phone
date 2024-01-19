@@ -515,7 +515,7 @@ collections:
           - label: "Site default open graph image"
             name: "image"
             widget: "image"
-            hint: "Should be 1200px by 630px. Default OG image, and will be used for any page that doesn't have a otherwise specified OG image"
+            hint: "Should be 1200px by 630px. The default OG image that will be used for any page that doesn't have an otherwise specified image"
           - label: "Site default seo title"
             name: "title"
             widget: "string"
