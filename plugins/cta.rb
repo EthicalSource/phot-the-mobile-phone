@@ -20,7 +20,7 @@ class Cta < Bridgetown::Model::Base
       journals.
       resources.
       find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+              .intersection(Array(clusters).map(&:downcase)) }
   end
 
   def prompt_resource
@@ -28,7 +28,7 @@ class Cta < Bridgetown::Model::Base
       prompts.
       resources.
       find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+              .intersection(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections

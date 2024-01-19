@@ -13,7 +13,7 @@ class Journal < Bridgetown::Model::Base
       ctas.
       resources.
       find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+              .intersection(Array(clusters).map(&:downcase)) }
   end
 
   def prompt_resource
@@ -21,7 +21,7 @@ class Journal < Bridgetown::Model::Base
       prompts.
       resources.
       find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+              .intersection(Array(clusters).map(&:downcase)) }
   end
 
   def other_journals
@@ -29,7 +29,7 @@ class Journal < Bridgetown::Model::Base
       journals.
       resources.
       reject { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+              .intersection(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections

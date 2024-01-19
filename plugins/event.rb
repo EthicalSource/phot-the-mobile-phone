@@ -17,7 +17,7 @@ class Event < Bridgetown::Model::Base
   def related_events
     other_events.
       select { |event| Array(event.data.clusters).map(&:downcase).
-                include? Array(clusters).map(&:downcase) }.
+                intersection( Array(clusters).map(&:downcase)) }.
                 sample(2)
   end
 
@@ -25,8 +25,8 @@ class Event < Bridgetown::Model::Base
     site_collections.
       prompts.
       resources.
-      find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+      find { |item| Array(item.data.clusters).map(&:downcase).
+              intersection(Array(clusters).map(&:downcase)) }
 
   end
 
@@ -34,16 +34,17 @@ class Event < Bridgetown::Model::Base
     site_collections.
       journals.
       resources.
-      find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+      find { |item| Array(item.data.clusters).map(&:downcase).
+              intersection(Array(clusters).map(&:downcase)) }
   end
 
   def cta_resource
+    binding.pry
     site_collections.
       ctas.
       resources.
       find { |item| Array(item.data.clusters).map(&:downcase)
-              .include?(Array(clusters).map(&:downcase)) }
+              .intersection(Array(clusters).map(&:downcase)) }
   end
 
   def site_collections
