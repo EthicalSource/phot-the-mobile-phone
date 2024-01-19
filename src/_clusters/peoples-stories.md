@@ -8,10 +8,10 @@ feature: false
 explore: true
 order: 10
 highlight: A participatory history of tech needs your voice!
-carousel_description: Your voice is essential to creating a comprehensive,
-  participatory history of technology!
-intro: To craft a fully inclusive and participatory history of technology, we
-  need your unique voice and perspective to enrich and complete the narrative.
+carousel_description: Explore the living artifact of your stories and experiences.
+intro: We are more than just users or consumers or data points. People build
+  technology, and people feel its effects every day. Explore your stories in A
+  People's History of Tech.
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
