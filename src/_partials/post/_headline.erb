@@ -1,5 +1,5 @@
 <header>
   <%= render Shared::Navbar.new(site: site, resource: resource) %>
-  <h1 class="heading-xl w-full text-center mb-[40px] md:mb-[50px] mt-[150px]"><%= data.title%></h1>
+  <h1 class="heading-xl w-full text-center mb-[40px] md:mb-[50px] mt-[22px]"><%= data.title%></h1>
   <img src="<%= relative_url data.media&.thumbnail %>" alt="<%= data.media&.alt%>" class="mb-[50px] md:mb-[60px] max-w-[240px] max-h-[240px] md:max-w-full md:max-h-[450px] mx-auto" />
 </header>
