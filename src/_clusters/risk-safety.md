@@ -5,11 +5,10 @@ explore: true
 order: 4
 highlight: Tech can simultaneously expose and protect our vulnerabilities.
 primary_nav_description: Tech can expose and protect.
-carousel_description: Technology has the dual ability to both reveal and
-  safeguard our vulnerabilities.
-intro: Technology possesses the paradoxical capability of simultaneously
-  exposing our vulnerabilities to the world while also offering means to protect
-  and secure them, highlighting its complex role in our lives.
+carousel_description: Tech can simultaneously expose and protect our vulnerabilities.
+intro: Phones are location tracking tools of the surveillance economy, but they
+  can also help secure communications. We expose our vulnerabilities in the name
+  of connection.
 photo_credit:
   link_text: skaman306/Moment via Getty Images
 illustrations_credit:
