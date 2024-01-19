@@ -4,11 +4,12 @@ layout: default
 <% explore_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: nil) %>
 
 <%= partial 'post/headline' %>
-<main>
-  <div class="page-md-style">
+<main class="general-content-page-tpl">
+  <div class="general-content-page-tpl__inner-content-fence page-md-style">
     <%= content %>
   </div>
 </main>
+
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
   <% explore_clusters.each do |explorable_cluster| %>
     <%= render Poster::Cluster.new(cluster: explorable_cluster) %>

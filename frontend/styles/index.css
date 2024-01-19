@@ -156,3 +156,46 @@ button:focus-visible {
 .link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 809px) {
+  main.general-content-page-tpl {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: calc((960/1024)*100%);
+  }
+  .general-content-page-tpl__inner-content-fence {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 810px) {
+  main.general-content-page-tpl {
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: calc((960/1024)*100%);
+  }
+  .general-content-page-tpl__inner-content-fence {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main.general-content-page-tpl {
+    padding-left: 70px;
+    padding-right: 70px;
+    max-width: calc((960/1024)*100%);
+  }
+  .general-content-page-tpl__inner-content-fence {
+      max-width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+@media screen and (min-width: 1366px) {
+  main.general-content-page-tpl {
+    max-width: 1100px;
+  }
+  .general-content-page-tpl__inner-content-fence { }
+}
