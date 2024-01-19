@@ -23,7 +23,7 @@
     @apply max-w-[1550px] mx-auto my-[80px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
 
-    @media (min-width: 850px) {
+    @media (min-width: 860px) {
       & {
         @apply grid-cols-2;
       }
