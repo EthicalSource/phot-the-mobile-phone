@@ -1,0 +1,20 @@
+{
+  "short_name": "APHOT",
+  "name": "A People's History of Tech",
+  "icons": [
+      {
+          "src": "/images/shared/touch-icon-192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+      },
+      {
+          "src": "/images/shared/touch-icon-512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+      }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "background_color": "#000000"
+}
