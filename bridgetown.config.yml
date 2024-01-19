@@ -94,6 +94,8 @@ collections:
         - journals
         - events
         - ctas
+        - prompts
+
   social_links:
     output: false
     sort_by: date
