@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Apple slows down older phones in 'batterygate'
+title: Apple slows down older phones in 'batterygate'.
 location: Global
 start_date:
   year: 2017
