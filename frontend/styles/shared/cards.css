@@ -89,6 +89,9 @@
     @apply md:w-[400px] !important;
     @apply md:h-[512px] !important;
 
+    h2:hover {
+      @apply underline;
+    }
   }
   @media (max-width: 400px) {
     width: 100% !important;
