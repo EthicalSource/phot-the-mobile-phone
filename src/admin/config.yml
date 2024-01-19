@@ -97,13 +97,14 @@ collections:
           - label: 'Link'
             name: 'link_href'
             widget: 'string'
-      - label: "Hero Image"
+      - label: "Collection Page Header"
         name: "hero_image"
         widget: "object"
         fields:
           - label: "Image"
             name: "src"
             widget: "image"
+            hint: "Required image dimensions 650px x 379px"
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -117,13 +118,14 @@ collections:
           - label: "Alt Text"
             name: "alt"
             widget: "string"
-      - label: "Collection Image on Homepage"
+      - label: "Homepage collection image"
         name: "cluster_homepage_image"
         widget: "object"
         fields:
           - label: "Image"
             name: "src"
             widget: "image"
+            hint: "Required image dimensions 325px x 325px"
           - label: "Alt Text"
             name: "alt"
             widget: "string"
