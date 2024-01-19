@@ -14,4 +14,4 @@ media:
 source: ITU
 source_link: https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2014-e.pdf
 ---
-By & 2015 there were more cell phones in use than people on Earth according to United Nations International Telecommunication Union Statistics. And by 2022, there were more than 8.58 billion mobile subscriptions in use worldwide, compared to a global population of 7.95 billion.
+By 2015 there were more cell phones in use than people on Earth according to United Nations International Telecommunication Union Statistics. And by 2022, there were more than 8.58 billion mobile subscriptions in use worldwide, compared to a global population of 7.95 billion.
