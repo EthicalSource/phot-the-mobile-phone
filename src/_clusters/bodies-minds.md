@@ -5,8 +5,7 @@ explore: true
 order: 2
 highlight: Pocket computers are intimate tech.
 primary_nav_description: Pocket computers are intimate tech.
-carousel_description: Pocket computers, being highly personal and closely-held
-  technology, establish a deep connection.
+carousel_description: Pocket computers are intimate tech.
 intro: Mobile phones are quite possibly the most intimate physical relationship
   we’ve ever had with technology. We carry them our pockets. We take them to bed
   with us. They capture our attention. How does tech make us feel?
