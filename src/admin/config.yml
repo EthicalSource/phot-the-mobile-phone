@@ -473,10 +473,6 @@ collections:
       - { label: "Question", name: "question", widget: "string" }
       - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
-      - label: "SEO image"
-        name: "image"
-        widget: "image"
-        required: false
 
   - name: "contributors"
     label: "Ticker Names"
