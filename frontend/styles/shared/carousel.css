@@ -27,7 +27,7 @@
 
   h1 {
     @apply heading-xs mb-[30px] md:-mb-[25px];
-    @apply text-medium-black font-medium tracking-widest;
+    @apply text-medium-black font-semibold tracking-[.01em];
   }
 }
 
