@@ -91,6 +91,13 @@ body.page main {
 .media-credit:hover {
   @apply underline decoration-white;
 }
+.cta header,
+.entry header {
+  img[src="/images/shared/default-entry.jpg"],
+  img[src="/images/uploads/default-entry.jpg"] {
+    display: none;
+  }
+}
 
 .cta main article,
 .entry main article,
