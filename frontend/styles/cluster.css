@@ -42,7 +42,7 @@
       @apply heading-xxl;
     }
     h2 {
-      @apply heading-sm-alt text-white tracking-widest;
+      @apply heading-sm-alt text-white tracking-[.01em];
     }
     p {
       @apply meta-normal text-medium-grey;
