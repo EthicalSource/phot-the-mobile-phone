@@ -5,9 +5,25 @@ layout: default
 <% cluster        = data %>
 <% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
 <% ctas           = site.collections.ctas.resources %>
+<% journals  = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
+<% prompts   = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title).take(1) %>
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
 <main>
+  <% ctas.each do |cta| %>
+    <%= render Cards::CallToAction.new(post: cta) %>
+  <% end %>
+
+  <% # Draw the journal card %>
+  <% journals.each do |journal| %>
+    <%= render Cards::Journal.new(post: journal) %>
+  <% end %>
+  <% # Draw the prompt card %>
+  <% prompts.each do |prompt| %>
+    <%= render Cards::Prompt.new(post: prompt) %>
+  <% end %>
+
+  <% # Draw the take action card %>
   <% ctas.each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>
