@@ -5,7 +5,7 @@ explore: true
 order: 6
 highlight: Connectivity is never a given.
 primary_nav_description: Connectivity is never a given.
-carousel_description: Tech disrupts economies and changes the nature of work.
+carousel_description: Connectivity is never a given.
 intro: We're always on, but connectivity is never a given. Towers, wires, and
   signals are fragile and subject to many forces of power.
 photo_credit:
