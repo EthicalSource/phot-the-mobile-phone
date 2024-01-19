@@ -11,6 +11,7 @@ intro: Mobile phones are quite possibly the most intimate physical relationship
   with us. They capture our attention. How does tech make us feel?
 photo_credit:
   link_text: Getty Images via Unsplash
+  link_href: https://flymediaproductions.com
 illustrations_credit:
   link_href: ""
   illustration_text: TTWW
