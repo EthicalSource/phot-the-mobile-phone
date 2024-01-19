@@ -2,19 +2,20 @@
 layout: entry
 title: Indigenous rights to wireless frequencies
 location: United States, New Zealand, Canada
-tags:
-  - 2020s
 start_date:
   year: 2020
-clusters: Connection & Access
 media:
-  thumbnail: /images/shared/default-entry.jpg
+  thumbnail: /images/uploads/indigenous-rights-entry.jpg
   credit: Darrah Blackwater for KSUT
   link: https://www.ksut.org/news/2020-07-09/an-opportunity-to-close-indian-countrys-digital-divide-is-expiring
   alt: Spectrum sovereignty advocate Darrah Blackwater works to install broadband
     equipment for Native communities during the pandemic.
+tags:
+  - 2020s
+clusters: Connection & Access
 source: PBS
 source_link: https://www.rmpbs.org/blogs/native-lens/advocating-for-indigenous-internet-and-spectrum-sovereignty/
+image: /images/uploads/indigenous-rights-open-graph.jpg
 ---
 "Spectrum sovereignty" advocates for Indigenous peoples' rights to control wireless communication frequencies on their lands. This concept challenges traditional spectrum auctions, the process where governments sell rights to transmit signals over specific bands of the electromagnetic spectrum to different technologies like radio, wifi, etc. Spectrum sovereignty proposes that Indigenous communities manage and benefit from these digital resources, ensuring their cultural and digital autonomy.
 
