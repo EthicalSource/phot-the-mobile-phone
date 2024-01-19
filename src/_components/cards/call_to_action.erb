@@ -4,8 +4,7 @@
       <header>
         <h2 class="link"><%= @cta.title %></h2>
         <span class="subhead text-medium-grey mb-[20px]">Take Action</span>
-        <img src="/images/shared/cluster-title-resource.jpg"
-           alt="" />
+        <img src="<%= relative_url @cta.media&.thumbnail %>" alt="<%= @cta.media&.alt %>" />
       </header>
       <p><%= @content %></p>
     </article>
