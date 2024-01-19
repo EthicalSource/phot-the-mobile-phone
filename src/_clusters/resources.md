@@ -8,10 +8,9 @@ feature: false
 explore: true
 order: 10
 highlight: Take action and imagine better tech futures.
-carousel_description: Engage proactively to envision and shape improved technological futures.
-intro: Actively participate and use your imagination to shape better
-  technological futures, inspiring innovation and positive change in the world
-  of tech.
+carousel_description: Take action and imagine better tech futures.
+intro: We're gathering a more inclusive history of technology. Now let's imagine
+  better tech futures. Take action with these collected resources.
 illustrations_credit:
   illustration_text: TTWW
 hero_image:
