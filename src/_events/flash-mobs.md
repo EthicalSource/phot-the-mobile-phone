@@ -7,7 +7,7 @@ start_date:
   month: 6
   day: 17
 media:
-  thumbnail: /images/uploads/flash-mob-entry.jpg
+  thumbnail: ""
   credit: Mike Epstein, Harpers
   link: https://harpers.org/archive/2006/03/my-crowd/
   alt: Capture of the Macy's 'love rug' flash mob, with organizers and many
