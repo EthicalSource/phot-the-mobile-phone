@@ -1,7 +1,6 @@
 ---
 body_classes: ""
 ---
-<% events = collections.events.resources %>
 <% clusters = collections.clusters.resources %>
 <% homeapge_intro = collections.general_content.resources
                   .detect { |gc| gc.data.name == "homepage_intro" } %>

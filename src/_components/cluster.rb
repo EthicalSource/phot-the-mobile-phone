@@ -18,21 +18,21 @@ class Cluster < Bridgetown::Component
 
   def filter_events
     posts = @site.collections.events.resources
-    PostHelpers.events_by_collection(posts: posts, value: collection)
+    PostHelpers.events_by_collection(posts: posts, prefer_featured: true, value: collection)
   end
 
   def filter_journals
     posts = @site.collections.journals.resources
-    PostHelpers.journals_by_collection(posts: posts, value: collection)
+    PostHelpers.journals_by_collection(posts: posts, prefer_featured: true, value: collection)
   end
 
   def filter_prompts
     posts = @site.collections.prompts.resources
-    PostHelpers.prompts_by_collection(posts: posts, value: collection)
+    PostHelpers.prompts_by_collection(posts: posts, prefer_featured: true, value: collection)
   end
   
   def filter_ctas
     posts = @site.collections.ctas.resources
-    PostHelpers.ctas_by_collection(posts: posts, value: collection)
+    PostHelpers.ctas_by_collection(posts: posts, prefer_featured: true, value: collection)
   end
 end

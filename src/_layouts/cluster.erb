@@ -4,9 +4,9 @@ layout: default
 
 <% cluster = data %>
 <% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
-<% events    = PostHelpers.events_by_collection(posts: collections.events.resources, value: cluster.title) %>
+<% events    = PostHelpers.events_by_collection(posts: collections.events.resources, prefer_featured: true, value: cluster.title) %>
 <% ctas      = PostHelpers.ctas_by_collection(posts: collections.ctas.resources, value: cluster.title, count: 1) %>
-<% journals  = PostHelpers.journals_by_collection(posts: collections.journals.resources, value: cluster.title) %>
+<% journals  = PostHelpers.journals_by_collection(posts: collections.journals.resources, prefer_featured: true, value: cluster.title) %>
 <% prompts   = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title) %>
 
 

@@ -154,6 +154,11 @@ collections:
     slug: "{{title}}" # Filename template, e.g., title-YYYY-MM-DD.md
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "entry" }
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured events appear on the homepage"
+        widget: "boolean"
+        default: false
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Location"
         name: "location"
@@ -296,6 +301,11 @@ collections:
     slug: "{{title}}"                  # Filename template, e.g., title-YYYY-MM-DD.md
     fields:                            # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "cta" }
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured resources appear on the homepage"
+        widget: "boolean"
+        default: false
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Collection"
         name: "clusters"
@@ -362,6 +372,11 @@ collections:
     slug: "{{title}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "entry" }
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured journals appear on the homepage"
+        widget: "boolean"
+        default: false
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Highlight"
         name: "highlight"
@@ -518,6 +533,11 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
+      - label: "Feature?"
+        name: "feature"
+        hint: "Featured prompts appear on the homepage"
+        widget: "boolean"
+        default: false
       - { label: "Question", name: "question", widget: "string" }
       - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
