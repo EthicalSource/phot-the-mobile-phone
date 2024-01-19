@@ -70,13 +70,14 @@
   }
   &.prompt {
     h2 {
-      @apply heading-sm text-lime-green mb-5;
+      @apply heading-sm text-lime-green;
       @apply tracking-[0.01em] font-extrabold;
+      margin-bottom: 36px;
     }
     article {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       height: 100%;
     }
     a:hover {
