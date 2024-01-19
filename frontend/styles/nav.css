@@ -24,7 +24,7 @@ nav #main-site-nav-wrapper {
 nav #main-site-nav-inner {
   @apply grid grid-cols-1 lg:grid-cols-2;
   @apply gap-y-6 gap-x-[200px];
-  @apply mb-[50px] md:mb-[100px] mx-auto;
+  @apply pt-[35px] mb-[50px] md:mb-[100px] mx-auto;
   max-width: 1260px;
 }
 nav.nav--open {

@@ -19,7 +19,7 @@
     article { @apply !w-full lg:!w-1/2 lg:pl-[40px] }
   }
   main {
-    @apply max-w-[1550px] mx-auto my-[150px];
+    @apply max-w-[1550px] mx-auto my-[80px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
 
     @media (min-width: 810px) {
@@ -29,7 +29,7 @@
     }
     @media (min-width: 1260px) {
       & {
-        @apply grid-cols-3 !gap-[30px] max-w-[1260px] !px-0;
+        @apply grid-cols-3 !gap-[30px] max-w-[1260px] !px-0  mt-[175px];
       }
     }
   }
