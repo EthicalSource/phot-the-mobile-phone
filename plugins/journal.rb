@@ -1,10 +1,10 @@
 require 'pry'
 class Journal < Bridgetown::Model::Base
   def resources_to_explore
-    output = other_journals
-    output = output.insert(2,prompt_resource) if prompt_resource
-    output = output.insert(4,cta_resource) if cta_resource
-    output.compact
+    other_journals.
+      insert(2,prompt_resource).
+      insert(4,cta_resource).
+      compact
   end
 
   private
