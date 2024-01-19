@@ -9,6 +9,18 @@
 
 nav[data-controller="open-close"] {
   height: var(--nav-height);
+
+  .logo {
+    margin-right: 26px;
+    width: 37px;
+    height: 50px;
+  }
+  @media (max-width: 768px) {
+    & .logo {
+      width: 29px;
+      height: 40px;
+    }
+  }
 }
 body.no--scroll {
   @apply bg-solid-black text-white;
