@@ -141,6 +141,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
 
   - name: "events" # Used in routes, e.g., /admin/collections/events
@@ -271,6 +275,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
   - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
     label: "Resources"                      # Used in the UI
@@ -325,6 +333,10 @@ collections:
       - label: "SEO image"
         name: "image"
         widget: "image"
+        required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
         required: false
 
   - name: "journals"
@@ -397,6 +409,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
   - name: "pages"                          # Used in routes, e.g., /admin/collections/events
     label: "Pages"                         # Used in the UI
@@ -456,6 +472,10 @@ collections:
         name: "image"
         widget: "image"
         required: false
+      - label: "SEO description"
+        name: "description"
+        widget: "markdown"
+        required: false
 
   - name: "prompts"
     label: "Prompts"
@@ -473,10 +493,6 @@ collections:
       - { label: "Question", name: "question", widget: "string" }
       - { label: "TypeForm ID", name: "typeform_id", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "prompt" }
-      - label: "SEO image"
-        name: "image"
-        widget: "image"
-        required: false
 
   - name: "contributors"
     label: "Ticker Names"
@@ -488,6 +504,24 @@ collections:
           name: "name"
           widget: "string"
           hint: Names included here will appear in the ticker on the footer
+
+  - name: "global_configs"
+    label: "Global Site Configs"
+    files:
+      - label: "SEO"
+        name: "seo"
+        file: "src/_defaults.yml"
+        fields:
+          - label: "Site default open graph image"
+            name: "image"
+            widget: "image"
+            hint: "Should be 1200px by 630px. The default OG image that will be used for any page that doesn't have an otherwise specified image"
+          - label: "Site default seo title"
+            name: "title"
+            widget: "string"
+          - label: "Site default seo description"
+            name: "description"
+            widget: "markdown"
 
   - name: "social_links"
     label: "Social Media Links"
