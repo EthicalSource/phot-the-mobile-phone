@@ -522,3 +522,42 @@ collections:
           - label: "Site default seo description"
             name: "description"
             widget: "markdown"
+
+  - name: "social_links"
+    label: "Social Media Links"
+    label_singular: "Social Media Account"
+    slug: "{{name}}"
+    folder: "src/_social_links"
+    create: true
+    fields:
+        - label: "Name"
+          name: "name"
+          widget: "string"
+          hint: "The name will be used within the primary nav (eg: Substack)"
+        - label: "Account url"
+          name: "href"
+          widget: "string"
+          hint: "URL the social media link should direct to"
+        - label: "Icon present in footer?"
+          name: "icon_in_footer"
+          widget: "boolean"
+          default: false
+        - label: "Use as 'Subscribe' link?"
+          name: "subscribe_link"
+          widget: "boolean"
+          default: false
+          hint: "Indicates that this social media account should be tied to the Footer 'Subscribe' link. Only one social media account should be flagged as the subscribe link"
+        - label: "Media"
+          name: "media"
+          widget: "object"
+          required: false
+          fields:
+            - label: "Social media logo"
+              name: "src"
+              widget: "image"
+              hint: "The logo to display in the site footer"
+              required: false
+            - label: "Logo alt aext"
+              name: "alt"
+              widget: "string"
+              required: false

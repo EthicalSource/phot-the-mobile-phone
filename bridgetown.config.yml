@@ -85,3 +85,8 @@ collections:
     relations:
       belongs_to:
         - cluster
+
+  social_links:
+    output: false
+    sort_by: date
+    sort_direction: ascending

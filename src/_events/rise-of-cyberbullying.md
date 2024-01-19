@@ -9,7 +9,8 @@ media:
   thumbnail: /images/shared/default-entry.jpg
   credit: The Law Dictionary
   link: https://thelawdictionary.org/article/punishment-for-cyberbullying/
-  alt: ""
+  alt: Photo of a young person hanging their head, holding a mobile phone, swarmed
+    by harassing text messages.
 source: stopbullying.gov
 source_link: https://www.stopbullying.gov/cyberbullying/what-is-it
 ---
