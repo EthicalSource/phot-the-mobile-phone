@@ -40,6 +40,23 @@
       text-underline-offset: 4px;
       text-decoration-thickness: 2px;
     }
+    @media (max-width: 809px) {
+      nav.tabletAndAbove {
+        display: hidden;
+      }
+      nav.mobile {
+        display: flex;
+      }
+    }
+    @media (max-width: 810px) {
+      nav.tabletAndAbove {
+        display: flex;
+      }
+      nav.mobile {
+        display: hidden;
+        margin-top: 16px;
+      }
+    }
 
     [data-carousel-target="prev"] {
       &::before {

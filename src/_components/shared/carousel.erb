@@ -1,7 +1,7 @@
 <section data-controller="carousel">
   <div class="!flex flex-row">
     <h1><%= @header_text %></h1>
-    <nav class="hidden md:flex">
+    <nav class="tabletAndAbove">
       <button data-carousel-target="prev">Prev</button>
       <button data-carousel-target="next">Next</button>
     </nav>
@@ -11,7 +11,7 @@
       <%= content %>
     </div>
   </div>
-  <nav class="flex md:hidden mt-[16px] mobile">
+  <nav class="mobile">
     <button data-carousel-target="prev">Prev</button>
     <button data-carousel-target="next">Next</button>
   </nav>
