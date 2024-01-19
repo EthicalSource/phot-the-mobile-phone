@@ -13,11 +13,11 @@ layout: default
   <% journals.take(7).each do |journal| %>
     <%= render Cards::Journal.new(post: journal) %>
   <% end %>
-  <% ctas.flatten.each do |cta| %>
-    <%= render Cards::CallToAction.new(post: cta) %>
-  <% end %>
   <% prompts.flatten.each do |prompt| %>
     <%= render Cards::Prompt.new(post: prompt) %>
+  <% end %>
+  <% ctas.flatten.each do |cta| %>
+    <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>
 </main>
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
