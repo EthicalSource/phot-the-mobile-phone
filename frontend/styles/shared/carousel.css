@@ -29,45 +29,45 @@
     @apply heading-xs mb-[30px] md:mb-[25px] md:pl-[15px] w-fit;
     @apply text-medium-black font-semibold tracking-[.01em];
   }
-}
 
-nav {
-  @apply text-fuchsia flex grow self-start md:justify-end heading-xxs gap-x-5;
-  font-weight: normal !important;
-  margin-right: 2rem !important;
+  nav {
+    @apply text-fuchsia flex grow self-start md:justify-end heading-xxs gap-x-5;
+    font-weight: normal !important;
+    margin-right: 2rem !important;
 
-  button:not(.swiper-button-disabled):hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-decoration-thickness: 2px;
-  }
-
-  [data-carousel-target="prev"] {
-    &::before {
-      content: "";
-      background-color: currentColor;
-      display: inline-block;
-      mask: url('/images/shared/arrow_back_icon.svg') no-repeat 50% 50%;
-      mask-size: contain;
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      margin-right: 4px;
-      vertical-align: sub;
+    button:not(.swiper-button-disabled):hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-thickness: 2px;
     }
-  }
-  [data-carousel-target="next"] {
-    &::after {
-      content: "";
-      background-color: currentColor;
-      display: inline-block;
-      mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
-      mask-size: contain;
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      margin-left: 4px;
-      vertical-align: sub;
+
+    [data-carousel-target="prev"] {
+      &::before {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_back_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+        vertical-align: sub;
+      }
+    }
+    [data-carousel-target="next"] {
+      &::after {
+        content: "";
+        background-color: currentColor;
+        display: inline-block;
+        mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
+        mask-size: contain;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: 4px;
+        vertical-align: sub;
+      }
     }
   }
 }
