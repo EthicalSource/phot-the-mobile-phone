@@ -31,7 +31,7 @@
   }
 
   nav {
-    @apply text-fuchsia flex grow self-start md:justify-end heading-xxs gap-x-5;
+    @apply text-fuchsia grow self-start md:justify-end heading-xxs gap-x-5;
     font-weight: normal !important;
     margin-right: 2rem !important;
 
