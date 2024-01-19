@@ -5,11 +5,11 @@
   <article class="w-full md:min-w-[200px] <%= @classname %> mt-[26px] md:mt-[50px] flex flex-col">
     <header>
       <a href="<%= url_for(@entry) %>">
-        <h2 class="heading-sm text-blue mb-[26px] link tracking-[.01em]">
+        <h2 class="heading-sm text-[#06819c] mb-[26px] link tracking-[.01em]">
           <%= @entry.data.title %>
         </h2>
       </a>
-      <p class="meta text-dark-grey mb-[20px] capitalize">Take Action</p>
+      <p class="meta text-dark-grey mb-[20px] capitalize font-normal">Take Action</p>
     </header>
     <p class="base mb-[11px] md:mb-[21px]">
       <%= @entry.content_summary(length: 350) %>
