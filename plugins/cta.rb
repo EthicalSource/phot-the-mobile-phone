@@ -1,8 +1,8 @@
 class Cta < Bridgetown::Model::Base
   def resources_to_explore
     other_ctas.
-      insert(2,journal_resource).
-      insert(4,prompt_resource).
+      push(prompt_resource).
+      push(cta_resource).
       compact
   end
 
