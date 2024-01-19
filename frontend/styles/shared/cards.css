@@ -53,15 +53,34 @@
     }
   }
   &.cta {
-    h2 { @apply text-blue;}
+    h2 {
+      @apply text-blue;
+      &:hover {
+        @apply underline decoration-blue
+      }
+      &:focus, &:active, &:focus-visible {
+        outline-width: 0.09375rem;
+        border-radius: 1px;
+        outline-style: dotted;
+        outline-color: #2ef853;
+      }
+    }
   }
   &.journal {
     @apply text-center;
-
     h2 {
       @apply heading-sm text-fuchsia mb-5;
       @apply tracking-[0.01em] font-extrabold;
       margin-top: auto;
+      &:hover {
+        @apply underline decoration-fuchsia;
+      }
+      &:focus, &:active, &:focus-visible {
+        outline-width: 0.09375rem;
+        border-radius: 1px;
+        outline-style: dotted;
+        outline-color: #2ef853;
+      }
     }
     p {
       @apply base text-off-white;
