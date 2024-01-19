@@ -12,7 +12,7 @@ outbound_links: "[Learn more about Indigenous rights to
   y-five-bold-calls-to-action/)"
 tags:
   - 2010s
-clusters: Connection & Access
+clusters: People's Stories
 source: Internet Society and Indigenous Connectivity Institute
 source_link: https://www.internetsociety.org/blog/2022/12/indigenous-connectivity-five-bold-calls-to-action/
 ---
