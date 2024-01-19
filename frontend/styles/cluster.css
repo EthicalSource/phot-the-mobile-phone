@@ -23,19 +23,19 @@
     @apply max-w-[1550px] mx-auto my-[80px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
 
-    @media (min-width: 810px) {
+    @media (min-width: 850px) {
       & {
-        @apply grid-cols-2 !gap-[30px];
+        @apply grid-cols-2;
       }
     }
-    @media (min-width: 1260px) {
+    @media (min-width: 1366px) {
       & {
         @apply grid-cols-3 !gap-[30px] max-w-[1260px] !px-0  mt-[175px];
       }
     }
   }
   header article {
-    @apply w-full md:w-1/2 md:ml-5 -mt-[35px] md:-mt-[50px];
+    @apply w-full md:w-1/2 md:ml-5;
     @apply flex flex-col gap-[30px];
 
     h1 {
@@ -62,20 +62,129 @@
     }
   }
   .card {
-    @apply bg-very-black;
+    @apply bg-very-black max-w-[750px] flex;
     @apply lg:odd:justify-self-end lg:even:justify-self-start;
     @apply xl:odd:justify-self-center xl:even:justify-self-center;
 
-    @media (min-width: 1280px) {
+    @media (min-width: 1366px) {
       &:nth-child(3n+2) {
         @apply md:-mt-[75px];
       }
     }
+
+    header figure.media {
+      overflow: hidden;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    header figure.media img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+      object-fit: unset;
+      object-fit: contain;
+    }
+    header figure.media figcaption.visually-hidden {
+      visibility: hidden;
+      height: 0;
+    }
+  }
+
+  .hero-image {
+    @apply bg-cover bg-center mx-auto lg:mr-0;
+    width: var(--cluster-image-size);
+    height: var(--cluster-image-size);
+  }
+
+  @media screen and (max-width: 849px) {
+    main.revised-cluster-grid {
+        max-width: 809px;
+        grid-template-columns: 100%;
+    }
+    main.revised-cluster-grid .card {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+    main.revised-cluster-grid .card a {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+    main.revised-cluster-grid .card article {
+        height: auto;
+        max-height: 100%;
+        width: calc(100% - 100px);
+        max-width: calc(100% - 100px);
+        margin: auto auto;
+    }
+    main.revised-cluster-grid .card article header {
+        width: 100%;
+    }
+    main.revised-cluster-grid .card header figure.media img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        max-height: 379px;
+        object-fit: cover;
+    }
+  }
+
+
+  @media screen and (min-width: 849px) {
+    main.revised-cluster-grid .card article header {
+        width: 100%;
+    }
+    main.revised-cluster-grid .card header figure.media {
+        width: 100%;
+        max-width: 100%;
+    }
+    main.revised-cluster-grid .card header figure.media img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        max-height: 175px;
+        object-fit: cover;
+    }
+  }
+}
+@media screen and (max-width: 849px) {
+  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal {
+      width: 100%;
+      max-width: 100%;
+  }
+}
+@media screen and (max-width: 849px) {
+  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.event article {
+      max-width: calc(100% - 0px);
+      padding: 32px;
+      width: 100%;
+  }
+  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal article {
+      max-width: calc(100% - 0px);
+      padding: 32px;
+      width: 100%;
+      height: 100%;
+  }
+  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.prompt article {
+      max-width: calc(100% - 0px);
+      padding: 32px;
+      width: 100%;
+  }
+  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.cta article {
+      max-width: calc(100% - 0px);
+      padding: 32px;
+      width: 100%;
+  }
+  .cluster main.revised-cluster-grid .card header figure.media img {
+      max-height: unset;
   }
 }
 
-.hero-image {
-  @apply bg-cover bg-center mx-auto lg:mr-0;
-  width: var(--cluster-image-size);
-  height: var(--cluster-image-size);
+@media screen and (min-width: 1260px) and (max-width: 1300px) {
+  .cluster_peoples main, .cluster_resource main, .cluster main {
+      /* max-width: 1260px; */
+      max-width: calc((1260/1300)* 100%);
+  }
 }

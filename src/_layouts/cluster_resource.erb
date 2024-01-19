@@ -9,7 +9,7 @@ layout: default
 <% prompts   = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title).take(1) %>
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
-<main>
+<main class="revised-cluster-grid">
   <% ctas.each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>

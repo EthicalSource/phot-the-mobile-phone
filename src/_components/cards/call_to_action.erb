@@ -4,7 +4,13 @@
       <header>
         <h2 class="link"><%= @cta.title %></h2>
         <span class="subhead text-medium-grey mb-[20px]">Take Action</span>
-        <img src="<%= relative_url @cta.media&.thumbnail %>" alt="<%= @cta.media&.alt %>" />
+        <figure class="media">
+          <img src="<%= relative_url @cta.media&.thumbnail %>"
+               alt="<%= @cta.media&.alt %>" />
+          <figcaption class="visually-hidden">
+            <%= @cta.media&.alt %>
+          </figcaption>
+        </figure>
       </header>
       <p><%= @content %></p>
     </article>

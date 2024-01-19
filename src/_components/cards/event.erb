@@ -4,7 +4,13 @@
       <header>
         <h2><%= @event.title %></h2>
         <time><%= @event.start_date&.year %></time>
-        <img src="<%= relative_url @event.media&.thumbnail %>" alt="<%= @event.media&.alt %>" />
+        <figure class="media">
+          <img src="<%= relative_url @event.media&.thumbnail %>"
+            alt="<%= @event.media&.alt %>" />
+          <figcaption class="visually-hidden">
+            <%= @event.media&.alt %>
+          </figcaption>
+        </figure>
       </header>
       <p><%= @content %></p>
     </article>
