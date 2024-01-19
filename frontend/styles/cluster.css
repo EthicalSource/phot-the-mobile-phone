@@ -150,7 +150,6 @@
   }
 
 }
-
 @media screen and (max-width: 809px) {
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal {
       width: 100%;
@@ -161,17 +160,24 @@
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.event article {
       max-width: calc(100% - 0px);
       padding: 32px;
+      width: 100%;
   }
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal article {
       max-width: calc(100% - 0px);
       padding: 32px;
+      width: 100%;
   }
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.prompt article {
       max-width: calc(100% - 0px);
       padding: 32px;
+      width: 100%;
   }
   body.cluster.revised-cluster-styles main.revised-cluster-grid .card.cta article {
       max-width: calc(100% - 0px);
       padding: 32px;
+      width: 100%;
+  }
+.cluster main.revised-cluster-grid .card header figure.media img {
+      max-height: unset;
   }
 }
