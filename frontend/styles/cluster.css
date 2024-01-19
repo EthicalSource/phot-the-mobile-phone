@@ -181,3 +181,10 @@
       max-height: unset;
   }
 }
+
+@media screen and (min-width: 1260px) and (max-width: 1300px) {
+  .cluster_peoples main, .cluster_resource main, .cluster main {
+      /* max-width: 1260px; */
+      max-width: calc((1260/1300)* 100%);
+  }
+}
