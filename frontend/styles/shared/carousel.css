@@ -123,3 +123,26 @@
 .swiper-button-disabled {
   @apply text-dark-grey
 }
+
+
+@media screen and (max-width: 768px) {
+  body.cta,
+  body.entry {
+    & .carousel .card.cta article header,
+    & .carousel .card.event article header {
+      width: 100% !important;
+      max-width: 100% !important;
+
+      & img {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .card.swiper-slide.journal.explore {
+    width: 350px !important;
+    max-width: 100% !important;
+  }
+}
