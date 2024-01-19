@@ -26,12 +26,13 @@
   padding-left: var(--carousel-padding-left) !important;
 
   h1 {
-    @apply heading-xs mb-[30px] md:mb-[25px] md:pl-[15px] w-fit;
+    @apply heading-xs mb-[30px] md:mb-[15px] md:pl-[15px] w-fit;
     @apply text-medium-black font-semibold tracking-[.01em];
   }
 
   nav {
-    @apply text-fuchsia grow self-start md:justify-end heading-xxs gap-x-5;
+    @apply text-fuchsia heading-xxs gap-x-5;
+    flex-grow: 1;
     font-weight: normal !important;
     margin-right: 2rem !important;
 
@@ -41,20 +42,22 @@
       text-decoration-thickness: 2px;
     }
     @media (max-width: 809px) {
-      nav.tabletAndAbove {
-        display: hidden;
+      &.tabletAndAbove {
+        display: none;
       }
-      nav.mobile {
+      &.mobile {
         display: flex;
+        margin-top: 1rem;
       }
     }
-    @media (max-width: 810px) {
-      nav.tabletAndAbove {
+    @media (min-width: 810px) {
+      &.tabletAndAbove {
         display: flex;
+        justify-content: flex-end;
+        margin-top: -1rem;
       }
-      nav.mobile {
-        display: hidden;
-        margin-top: 16px;
+      &.mobile {
+        display: none;
       }
     }
 
