@@ -5,10 +5,9 @@ explore: true
 order: 6
 highlight: Connectivity is never a given.
 primary_nav_description: Connectivity is never a given.
-carousel_description: Assuming constant connectivity is a mistake; it's not always guaranteed.
-intro: The assumption of perpetual connectivity is often misguided, as
-  consistent and universal access to such connections is not a guaranteed aspect
-  of our increasingly digital world, but rather a fluctuating resource.
+carousel_description: Tech disrupts economies and changes the nature of work.
+intro: We're always on, but connectivity is never a given. Towers, wires, and
+  signals are fragile and subject to many forces of power.
 photo_credit:
   link_text: Nyunt Win/EPA-EFE via Shutterstock
 illustrations_credit:
