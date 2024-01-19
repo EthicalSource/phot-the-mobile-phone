@@ -23,9 +23,9 @@
     @apply max-w-[1550px] mx-auto my-[80px];
     @apply grid grid-cols-1 justify-items-center gap-[30px];
 
-    @media (min-width: 810px) {
+    @media (min-width: 850px) {
       & {
-        @apply grid-cols-2 !gap-[30px];
+        @apply grid-cols-2;
       }
     }
     @media (min-width: 1260px) {
