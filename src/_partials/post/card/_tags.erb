@@ -1,0 +1,10 @@
+<% if data.tags.any? %>
+  <div class="flex flex-wrap gap-2 mt-16">
+    <div class="base text-off-white border border-medium-grey rounded-sm px-1 uppercase block text-center">Tags</div>
+    <% data.tags.each do |tag| %>
+      <a href='<%= "/collections/#{tag}" %>' class="meta text-medium-black bg-lime-green rounded-sm px-2 py-[2px] align-middle block text-center">
+        <%= tag %>
+      </a>
+    <% end %>
+  </div>
+<% end %>

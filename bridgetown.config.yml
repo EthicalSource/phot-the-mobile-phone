@@ -90,7 +90,7 @@ collections:
     permalink: /collections/:slug.*
     output: true
     relations:
-      belongs_to:
-        - journal
-        - event
-        - cta
+      has_many:
+        - journals
+        - events
+        - ctas

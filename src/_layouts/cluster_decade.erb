@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<% cluster        = data %>
+
+<% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
+<% events    = resource.relations.events %>
+<% journals  = resource.relations.journals %>
+<% ctas      = resource.relations.ctas %>
+
+<%= partial "cluster/header", locals: { cluster: cluster }  %>
+<main>
+  <% # Draw two more event cards %>
+  <% events.slice(0,2).each do |event| %>
+    <%= render Cards::Event.new(post: event) %>
+  <% end %>
+
+  <% # Draw the journal card %>
+  <% journals.each do |journal| %>
+    <%= render Cards::Journal.new(post: journal) %>
+  <% end %>
+
+  <% # Draw the take action card %>
+  <% ctas.each do |cta| %>
+    <%= render Cards::CallToAction.new(post: cta) %>
+  <% end %>
+
+</main>
+
+<%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
+  <% other_clusters.each do |cluster| %>
+    <%= render Poster::Cluster.new(cluster: cluster) %>
+  <% end %>
+<% end %>
+<%= partial "shared/tell-your-story" %>

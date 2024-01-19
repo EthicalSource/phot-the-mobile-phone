@@ -1,5 +1,6 @@
 .cluster_peoples,
 .cluster_resource,
+.cluster_decade,
 .cluster {
   > header {
     @apply bg-solid-black text-white flex gap-[40px];
