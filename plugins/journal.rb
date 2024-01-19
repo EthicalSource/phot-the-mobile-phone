@@ -1,14 +1,23 @@
+require 'pry'
 class Journal < Bridgetown::Model::Base
   def resources_to_explore
-    six_random_journals.
+    five_random_journals.
+      push(cta_resource).
       compact
   end
 
   private
 
-  def six_random_journals
+  def five_random_journals
     other_journals.
-      sample(6)
+      sample(5)
+  end
+
+  def cta_resource
+    site_collections.
+      ctas.
+      resources.
+      find { |cta| cta.data.clusters == clusters }
   end
 
   def other_journals

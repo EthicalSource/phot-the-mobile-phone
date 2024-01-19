@@ -5,11 +5,19 @@ layout: default
 <% cluster        = data %>
 <% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
 <% journals       = site.collections.journals.resources %>
+<% ctas           = PostHelpers.ctas_by_collection(posts: collections.ctas.resources, value: cluster.title, count: 1) %>
+<% prompts        = PostHelpers.prompts_by_collection(posts: collections.prompts.resources, value: cluster.title, count: 1) %>
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
 <main>
-  <% journals.each do |journal| %>
+  <% journals.take(7).each do |journal| %>
     <%= render Cards::Journal.new(post: journal) %>
+  <% end %>
+  <% ctas.flatten.each do |cta| %>
+    <%= render Cards::CallToAction.new(post: cta) %>
+  <% end %>
+  <% prompts.flatten.each do |prompt| %>
+    <%= render Cards::Prompt.new(post: prompt) %>
   <% end %>
 </main>
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>

@@ -1,16 +1,15 @@
 class Cta < Bridgetown::Model::Base
   def resources_to_explore
-    four_random_ctas.
-      insert(2, journal_resource).
-      push(event_resource).
+    five_random_ctas.
+      push(journal_resource).
       compact
   end
 
   private
 
-  def four_random_ctas
+  def five_random_ctas
     other_ctas.
-      sample(4)
+      sample(5)
   end
 
   def other_ctas
