@@ -9,6 +9,9 @@ slug: resources
 order: 10
 media:
   alt: ""
+image: /images/uploads/resources-open-graph.jpg
+description: We're gathering a more inclusive history of technology. Now let's
+  imagine better tech futures. Take action with these collected resources.
 ---
 [](https://www.theverge.com/23637672/grayscale-iphone-android-pixel-samsung-galaxy-how-to)Find your grayscale settings: [Make your phone more boring.](https://www.theverge.com/23637672/grayscale-iphone-android-pixel-samsung-galaxy-how-to)
 
