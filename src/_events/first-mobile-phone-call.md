@@ -1,5 +1,6 @@
 ---
 layout: entry
+feature: true
 title: First mobile phone call
 location: New York, NY
 tags:
