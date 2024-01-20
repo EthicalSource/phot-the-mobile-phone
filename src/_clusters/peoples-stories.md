@@ -25,5 +25,5 @@ cluster_homepage_image:
   src: ""
 explore_image:
   alt: People's Stories
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_PEOPLES-VOICE.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_peoples-voice-300.jpg
 ---
