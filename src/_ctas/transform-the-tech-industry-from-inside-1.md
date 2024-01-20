@@ -1,10 +1,10 @@
 ---
 layout: cta
-feature: true
+feature: false
 title: Transform the tech industry from inside.
 clusters: Decades
 tags:
-  - Resources
+  - 2020s
 media:
   thumbnail: /images/uploads/transform-tech-entry.jpg
   alt: Photo of a hand holding the 2021 yearbook, which is a collection of the
