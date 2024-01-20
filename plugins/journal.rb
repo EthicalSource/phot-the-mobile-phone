@@ -28,8 +28,7 @@ class Journal < Bridgetown::Model::Base
     site_collections.
       journals.
       resources.
-      reject { |item| Array(item.data.clusters).map(&:downcase)
-              .intersection(Array(clusters).map(&:downcase)) }
+      reject { |item| item.data.title == title }
   end
 
   def site_collections
