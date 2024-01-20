@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   alt: Risk & Safety
   src: /images/uploads/history-of-the-mobile-phone_carousel_risk-safety-300.jpg
+image: /images/uploads/risk-safety-open-graph.jpg
+description: Tech can simultaneously expose and protect our vulnerabilities.
 ---
