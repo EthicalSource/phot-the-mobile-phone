@@ -1,5 +1,6 @@
 ---
 layout: entry
+feature: true
 title: Trans engineer democratizes chip design
 location: Palo Alto, CA
 tags:
