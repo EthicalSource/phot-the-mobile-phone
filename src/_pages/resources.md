@@ -9,6 +9,7 @@ slug: resources
 order: 2
 media:
   alt: ""
+  thumbnail: /images/uploads/history-of-the-mobile-phone_collection-header_resources-600.png
 image: /images/uploads/resources-open-graph.jpg
 description: We're gathering a more inclusive history of technology. Now let's
   imagine better tech futures. Take action with these collected resources.
