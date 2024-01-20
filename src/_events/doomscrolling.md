@@ -10,7 +10,7 @@ start_date:
   year: 2020
 clusters: Bodies & Minds
 media:
-  thumbnail: /images/uploads/doomscrolling-idea2.gif
+  thumbnail: /images/uploads/doomscrolling-idea-450x450-8.gif
   credit: EMMA KUMER/Reader's Digest
   link: https://www.rd.com/article/doomscrolling/
   alt: Animated gif of cartoon hands scrolling through a cellphone on fire.
