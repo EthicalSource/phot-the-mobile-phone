@@ -17,7 +17,7 @@ class Cluster < Bridgetown::Component
   end
 
   def filter_events
-    posts = @site.collections.events.resources.sort_by { |p| p.data.start_date&.year }
+    posts = @site.collections.events.resources
     PostHelpers.events_by_collection(posts: posts, value: collection)
   end
 
