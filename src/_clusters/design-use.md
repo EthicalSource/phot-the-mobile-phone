@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   alt: Design & Use
   src: /images/uploads/history-of-the-mobile-phone_carousel_design-use-300.jpg
+image: /images/uploads/design-use-open-graph.jpg
+description: The design of tech shapes and influences our use, and vice versa.
 ---
