@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   alt: Resources
   src: /images/uploads/history-of-the-mobile-phone_carousel_resources-300.jpg
+image: /images/uploads/resources-open-graph.jpg
+description: Take action and imagine better tech futures.
 ---
