@@ -8,4 +8,4 @@ nav_label: Terms
 slug: terms
 order: 3
 ---
-Lorem ipsum
+On the way... thanks for your patience.
