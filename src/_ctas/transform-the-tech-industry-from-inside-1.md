@@ -1,6 +1,6 @@
 ---
 layout: cta
-feature: true
+feature: false
 title: Transform the tech industry from inside.
 clusters: Decades
 tags:
