@@ -27,4 +27,6 @@ cluster_homepage_image:
 explore_image:
   src: /images/uploads/history-of-the-mobile-phone_carousel_bodies-minds-300.jpg
   alt: Bodies & Minds
+image: /images/uploads/bodies-minds-open-graph.jpg
+description: Pocket computers are intimate tech.
 ---
