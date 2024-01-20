@@ -39,7 +39,6 @@ class Event < Bridgetown::Model::Base
   end
 
   def cta_resource
-    binding.pry
     site_collections.
       ctas.
       resources.
