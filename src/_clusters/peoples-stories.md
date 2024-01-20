@@ -26,4 +26,6 @@ cluster_homepage_image:
 explore_image:
   alt: People's Stories
   src: /images/uploads/history-of-the-mobile-phone_carousel_peoples-voice-300.jpg
+image: /images/uploads/peoples-stories-open-graph.jpg
+description: Explore the living artifact of your stories and experiences.
 ---
