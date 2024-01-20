@@ -2,11 +2,11 @@
 layout: page
 permalink: /:slug.*
 in_footer: false
-in_nav: false
+in_nav: true
 title: Resources
 nav_label: Resources
 slug: resources
-order: 10
+order: 2
 media:
   alt: ""
 image: /images/uploads/resources-open-graph.jpg
