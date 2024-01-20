@@ -1,6 +1,7 @@
 ---
 layout: entry
-title: Patriot Act passed.
+feature: true
+title: Patriot Act passed
 location: United States
 tags:
   - 2000s
