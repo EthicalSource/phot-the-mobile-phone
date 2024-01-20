@@ -19,12 +19,12 @@ hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_bodies-minds-600.png
   alt: Bodies & Minds
 nav_image:
-  src: /images/uploads/bodies-and-minds_nav_thumb_80x80-op.jpg
+  src: /images/uploads/bodies-and-minds_nav_thumb_80x80.jpg
   alt: Bodies & Minds
 cluster_homepage_image:
   src: /images/uploads/history-of-the-mobile-phone_homepage_bodies-minds-750.jpg
   alt: Bodies & Minds
 explore_image:
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_BODIES & MINDS.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_bodies-minds-300.jpg
   alt: Bodies & Minds
 ---
