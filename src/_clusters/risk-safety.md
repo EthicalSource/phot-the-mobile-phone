@@ -18,11 +18,11 @@ hero_image:
   alt: Risk & Safety
 nav_image:
   alt: Risk & Safety
-  src: /images/uploads/risk-and-safety_nav_thumb_80x80-op.jpg
+  src: /images/uploads/risk-and-safety_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: Risk & Safety
   src: /images/uploads/history-of-the-mobile-phone_homepage_risk-safety-750.jpg
 explore_image:
   alt: Risk & Safety
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_RISK & SAFETY.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_risk-safety-300.jpg
 ---
