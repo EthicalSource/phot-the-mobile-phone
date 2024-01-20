@@ -19,7 +19,7 @@ hero_image:
   alt: People's Stories
 nav_image:
   alt: People's Stories
-  src: /images/uploads/peoples-stories_nav_thumb_80x80-op.jpg
+  src: /images/uploads/peoples-voice_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: ""
   src: ""
