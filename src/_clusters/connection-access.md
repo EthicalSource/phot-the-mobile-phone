@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   src: /images/uploads/history-of-the-mobile-phone_carousel_connection-access-300.jpg
   alt: Connection and Access
+image: /images/uploads/connection-access-open-graph.jpg
+description: Connectivity is never a given.
 ---
