@@ -4,7 +4,7 @@ photo_credit:
 layout: cluster_decade
 intro: Storytelling doesn't have to follow a linear timeline. But here's a walk
   through the history of the mobile phone in chronological order.
-published: false
+published: true
 title: Decades
 feature: false
 explore: false
