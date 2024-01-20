@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   alt: Culture & Behaviors
   src: /images/uploads/history-of-the-mobile-phone_carousel_cultures-behaviors-300.jpg
+image: /images/uploads/culture-behaviors-open-graph.jpg
+description: From emojis to memes, we connect and make meaning with tech.
 ---
