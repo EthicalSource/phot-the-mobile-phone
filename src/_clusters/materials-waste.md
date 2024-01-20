@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   alt: Materials & Waste
   src: /images/uploads/history-of-the-mobile-phone_carousel_materials-waste-300.jpg
+image: /images/uploads/materials-waste-open-graph.jpg
+description: Human transformation of metals and sand has environmental impacts.
 ---
