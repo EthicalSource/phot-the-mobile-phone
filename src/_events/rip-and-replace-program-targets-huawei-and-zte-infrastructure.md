@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: true
+feature: false
 title: '"Rip and replace" program targets Huawei and ZTE infrastructure'
 location: United States, China
 tags:
