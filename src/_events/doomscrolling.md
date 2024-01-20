@@ -1,4 +1,5 @@
 ---
+layout: entry
 feature: true
 title: Doomscrolling
 location: Global
