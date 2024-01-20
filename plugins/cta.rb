@@ -1,8 +1,8 @@
 class Cta < Bridgetown::Model::Base
   def resources_to_explore
     other_ctas.
+      push(journal_resource).
       push(prompt_resource).
-      push(cta_resource).
       compact
   end
 
@@ -19,8 +19,8 @@ class Cta < Bridgetown::Model::Base
     site_collections.
       journals.
       resources.
-      find { |item| Array(item.data.clusters).map(&:downcase)
-              .intersection(Array(clusters).map(&:downcase)) }
+      find { |item| Array(item.data.clusters).map(&:downcase).
+              intersection(Array(clusters).map(&:downcase)) }
   end
 
   def prompt_resource
