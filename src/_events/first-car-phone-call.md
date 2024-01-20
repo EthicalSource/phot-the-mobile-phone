@@ -1,5 +1,6 @@
 ---
 layout: entry
+feature: true
 title: First car phone call
 location: St. Louis, MO
 tags:
