@@ -91,12 +91,6 @@
     }
   }
 
-  .hero-image {
-    @apply bg-cover bg-center mx-auto lg:mr-0;
-    width: var(--cluster-image-size);
-    height: var(--cluster-image-size);
-  }
-
   @media screen and (max-width: 849px) {
     main.revised-cluster-grid {
         max-width: 809px;
@@ -187,4 +181,9 @@
       /* max-width: 1260px; */
       max-width: calc((1260/1300)* 100%);
   }
+}
+.hero-image {
+  @apply bg-cover bg-center mx-auto lg:mr-0;
+  width: var(--cluster-image-size);
+  height: var(--cluster-image-size);
 }
