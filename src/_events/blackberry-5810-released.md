@@ -1,5 +1,6 @@
 ---
 layout: entry
+feature: true
 title: BlackBerry 5810 released.
 location: Canada
 tags:
