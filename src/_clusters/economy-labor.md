@@ -25,4 +25,6 @@ cluster_homepage_image:
 explore_image:
   alt: Economy & Labor
   src: /images/uploads/history-of-the-mobile-phone_carousel_economy-labor-300.jpg
+image: /images/uploads/economy-labor-open-graph.jpg
+description: Tech disrupts economies and changes the nature of work.
 ---
