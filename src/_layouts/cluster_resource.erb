@@ -10,7 +10,7 @@ layout: default
 
 <%= partial "cluster/header", locals: { cluster: cluster } %>
 <main class="revised-cluster-grid">
-  <% ctas.slice!(0, 4).each do |cta| %>
+  <% ctas[0..3].each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>
 
@@ -24,7 +24,7 @@ layout: default
     <%= render Cards::Prompt.new(post: prompt) %>
   <% end %>
 
-  <% ctas.each do |cta| %>
+  <% ctas[4..].each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>
 </main>
