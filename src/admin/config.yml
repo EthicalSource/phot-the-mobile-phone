@@ -104,7 +104,6 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
-            hint: "Required image dimensions 650px x 379px"
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -125,7 +124,6 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
-            hint: "Required image dimensions 325px x 325px"
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -408,14 +406,6 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
-      - label: "Related Events"
-        name: "related_events"
-        widget: "relation"
-        collection: "events"
-        search_fields: [ "title" ]
-        value_field: "title"
-        multiple: true
-        required: false
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
