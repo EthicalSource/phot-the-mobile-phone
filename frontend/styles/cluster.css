@@ -144,16 +144,14 @@
   }
 }
 @media screen and (max-width: 849px) {
-  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal {
-      width: 100%;
-      max-width: 100%;
-  }
-}
-@media screen and (max-width: 849px) {
   body.cluster,
   body.cluster_decade,
   body.cluster_peoples,
   body.cluster_resource {
+    &.revised-cluster-styles main.revised-cluster-grid .card.journal {
+      width: 100%;
+      max-width: 100%;
+    }
     &.revised-cluster-styles main.revised-cluster-grid .card.event article {
       max-width: calc(100% - 0px);
       padding: 32px;
