@@ -54,7 +54,7 @@
   }
   &.cta {
     h2 {
-      @apply text-blue;
+      @apply text-blue tracking-[0.01em];
       &:hover {
         @apply underline decoration-blue
       }
