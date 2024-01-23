@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
+    "@netlify/plugin-sitemap": "^0.8.1",
     "swiper": "^11.0.5"
   }
 }

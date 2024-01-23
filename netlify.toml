@@ -1,0 +1,9 @@
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  baseUrl = "https://mobile.peoplestech.com"
+  buildDir = "/"
+  filePath = "output/sitemap.xml"
+  prettyURLs = true
+  trailingSlash = true
