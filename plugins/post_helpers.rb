@@ -13,6 +13,28 @@ module PostHelpers
     [featured_posts, select_posts].flatten.compact.take(count)
   end
 
+  def self.entries_by_decade(tag: nil, count: 1000)
+    # Refactor, compare to /plugins/cta.rb and other methods in this fail
+    if tag
+      journal = tag.relations.journals.take(1)
+      prompt = Bridgetown::Current.site.collections.prompts.resources.take(1)
+      cta = tag.relations.ctas.take(1)
+      output = tag.relations.events.sort_by! { |post|
+        post.data.start_date&.year&.to_int 
+      }.reverse!
+      output = output.insert(4, journal)
+      output = output.insert(7, prompt)
+      output = output.insert(8, cta)
+      output = output.flatten.compact
+    else
+      output = Bridgetown::Current.site.collections.events.resources.sort_by! { |post|
+        post.data.start_date&.year&.to_int 
+      }.reverse!
+    end
+    output
+  end
+
+
   def self.events_by_collection(posts:, value:, prefer_featured: false, count: 5)
     return [] if value.nil?
 

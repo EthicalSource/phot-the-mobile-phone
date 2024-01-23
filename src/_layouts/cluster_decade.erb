@@ -2,41 +2,17 @@
 layout: default
 ---
 <% cluster        = collections.clusters.resources_by_slug["decades"].data %>
-
+<% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
 <% decade = resource.data.slug %>
 <% tag = collections.tags.resources_by_slug[decade] %>
 
-<% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
-<% if tag&.data&.name&.match(/^\d{4}s$/) %>
-<% events    = tag.relations.events.sort_by {|post| post.data.start_date&.year}.reverse! %>
-<% journals  = tag.relations.journals.sort_by {|post| post.data.start_date&.year}.reverse! %>
-<% ctas      = tag.relations.ctas.sort_by {|post| post.data.start_date&.year}.reverse! %>
-<% prompts   = tag.relations.prompts.sort_by {|post| post.data.start_date&.year}.reverse! %>
-
-
+<% entries = PostHelpers.entries_by_decade(tag: tag) %>
 
 <%= partial "cluster/header", locals: { cluster: cluster }  %>
 <main class="revised-cluster-grid">
-  <% # Draw the first 4 cards %>
-  <% events.slice!(0,4).each do |event| %>
-    <%= render Cards::Event.new(post: event) %>
+  <% entries.each do |post| %>
+    <%= render Cards::ExploreMore::Base.new(post) %>
   <% end %>
-
-  <% # Draw the journal card %>
-  <% journals.slice(0,1).each do |journal| %>
-    <%= render Cards::Journal.new(post: journal) %>
-  <% end %>
-
-  <% # Draw the prompt card %>
-  <% prompts.each do |prompt| %>
-    <%= render Cards::Prompt.new(post: prompt) %>
-  <% end %>
-
-  <% # Draw the take action card %>
-  <% ctas.slice(0,1).each do |cta| %>
-    <%= render Cards::CallToAction.new(post: cta) %>
-  <% end %>
-<% end %>
 </main>
 
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
