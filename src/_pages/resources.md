@@ -28,4 +28,6 @@ description: We're gathering a more inclusive history of technology. Now let's
 
 [](https://themarkup.org/the-breakdown/2020/06/04/how-do-i-prepare-my-phone-for-a-protest)Take me to The Markup's protest prep tips: [Prepare your phone for a protest.](https://themarkup.org/the-breakdown/2020/06/04/how-do-i-prepare-my-phone-for-a-protest)
 
-Head to Consumer Report's guide to secure messaging apps: [Encrypt your messages](https://www.consumerreports.org/mobile-apps/how-to-pick-a-secure-messaging-app/)
+Head to Consumer Report's guide to secure messaging apps: [Encrypt your messages.](https://www.consumerreports.org/mobile-apps/how-to-pick-a-secure-messaging-app/)
+
+[Learn more!](/collections/resources)
