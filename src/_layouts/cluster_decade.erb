@@ -16,7 +16,7 @@ layout: default
 
 
 <%= partial "cluster/header", locals: { cluster: cluster }  %>
-<main>
+<main class="revised-cluster-grid">
   <% # Draw the first 4 cards %>
   <% events.slice!(0,4).each do |event| %>
     <%= render Cards::Event.new(post: event) %>
