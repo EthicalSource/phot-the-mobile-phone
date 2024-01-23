@@ -7,7 +7,7 @@ intro: Storytelling doesn't have to follow a linear timeline. But here's a walk
 published: true
 title: Decades
 feature: false
-explore: false
+explore: true
 order: 10
 highlight: Our relationship to technology has changed a lot over time.
 carousel_description: Explore the chronological timeline of a people's history of tech.
