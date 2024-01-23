@@ -18,11 +18,13 @@ hero_image:
   alt: Design & Use
 nav_image:
   alt: Design & Use
-  src: /images/uploads/design-and-use_nav_thumb_80x80-op.jpg
+  src: /images/uploads/design-and-use_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: Design & Use
   src: /images/uploads/history-of-the-mobile-phone_homepage_design-use-750.jpg
 explore_image:
   alt: Design & Use
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_DESIGN & USE.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_design-use-300.jpg
+image: /images/uploads/design-use-open-graph.jpg
+description: The design of tech shapes and influences our use, and vice versa.
 ---

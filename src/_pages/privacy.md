@@ -8,4 +8,4 @@ nav_label: Privacy
 slug: privacy
 order: 4
 ---
-Lorem ipsum
+On the way... thanks for your patience.

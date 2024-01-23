@@ -19,12 +19,13 @@ hero_image:
   alt: Movements & Resistance
 nav_image:
   alt: Movements & Resistance
-  src: /images/uploads/movements-and-resistance_nav_thumb_80x80-op.jpg
+  src: /images/uploads/movements-and-resistance_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: Movements & Resistance
   src: /images/uploads/history-of-the-mobile-phone_homepage_movements-resistance-750.jpg
 explore_image:
   alt: Movements & Resistance
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_MOVEMENTS &
-    RESISTANCE.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_movements-resistance-300.jpg
+image: /images/uploads/movements-resistance-open-graph.jpg
+description: Tech is both a tool and a target for collective action.
 ---

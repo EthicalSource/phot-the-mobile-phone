@@ -18,11 +18,13 @@ hero_image:
   alt: Materials & Waste
 nav_image:
   alt: Materials & Waste
-  src: /images/uploads/materials-and-waste_nav_thumb_80x80-op.jpg
+  src: /images/uploads/materials-and-waste_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: Materials & Waste
   src: /images/uploads/history-of-the-mobile-phone_homepage_materials-waste-750.jpg
 explore_image:
   alt: Materials & Waste
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_MATERIALS & WASTE.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_materials-waste-300.jpg
+image: /images/uploads/materials-waste-open-graph.jpg
+description: Human transformation of metals and sand has environmental impacts.
 ---

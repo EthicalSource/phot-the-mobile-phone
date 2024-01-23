@@ -19,11 +19,13 @@ hero_image:
   alt: People's Stories
 nav_image:
   alt: People's Stories
-  src: /images/uploads/peoples-stories_nav_thumb_80x80-op.jpg
+  src: /images/uploads/peoples-voice_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: ""
   src: ""
 explore_image:
   alt: People's Stories
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_PEOPLES-VOICE.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_peoples-voice-300.jpg
+image: /images/uploads/peoples-stories-open-graph.jpg
+description: Explore the living artifact of your stories and experiences.
 ---

@@ -27,9 +27,7 @@ module PostHelpers
       []
     end.sort_by! { |post| post.data.start_date.year.to_int }
 
-    select_posts.sort_by! { |post| post.data.start_date.year.to_int }
-
-    [featured_posts, select_posts].flatten.compact
+    [featured_posts, (select_posts - featured_posts)].flatten.compact.sort_by! { |post| post.data.start_date.year.to_int }
   end
 
   def self.ctas_by_collection(posts:, value:, prefer_featured: false, count: 1)

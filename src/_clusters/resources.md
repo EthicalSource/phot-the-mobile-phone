@@ -18,11 +18,13 @@ hero_image:
   alt: Resources
 nav_image:
   alt: Resources
-  src: /images/uploads/resources_nav_thumb_80x80-op.jpg
+  src: /images/uploads/resources_nav_thumb_80x80.jpg
 cluster_homepage_image:
   alt: Resources
   src: /images/uploads/history-of-the-mobile-phone_homepage_resources-750.jpg
 explore_image:
   alt: Resources
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_RESOURCES.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_resources-300.jpg
+image: /images/uploads/resources-open-graph.jpg
+description: Take action and imagine better tech futures.
 ---

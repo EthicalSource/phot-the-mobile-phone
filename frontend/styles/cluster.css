@@ -91,12 +91,6 @@
     }
   }
 
-  .hero-image {
-    @apply bg-cover bg-center mx-auto lg:mr-0;
-    width: var(--cluster-image-size);
-    height: var(--cluster-image-size);
-  }
-
   @media screen and (max-width: 849px) {
     main.revised-cluster-grid {
         max-width: 809px;
@@ -150,35 +144,38 @@
   }
 }
 @media screen and (max-width: 849px) {
-  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal {
+  body.cluster,
+  body.cluster_decade,
+  body.cluster_peoples,
+  body.cluster_resource {
+    &.revised-cluster-styles main.revised-cluster-grid .card.journal {
       width: 100%;
       max-width: 100%;
-  }
-}
-@media screen and (max-width: 849px) {
-  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.event article {
+    }
+    &.revised-cluster-styles main.revised-cluster-grid .card.event article {
       max-width: calc(100% - 0px);
       padding: 32px;
       width: 100%;
-  }
-  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.journal article {
+    }
+    &.revised-cluster-styles main.revised-cluster-grid .card.journal article {
       max-width: calc(100% - 0px);
       padding: 32px;
       width: 100%;
       height: 100%;
-  }
-  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.prompt article {
+    }
+    &.revised-cluster-styles main.revised-cluster-grid .card.prompt article {
       max-width: calc(100% - 0px);
       padding: 32px;
       width: 100%;
-  }
-  body.cluster.revised-cluster-styles main.revised-cluster-grid .card.cta article {
+    }
+    &.revised-cluster-styles main.revised-cluster-grid .card.cta article {
       max-width: calc(100% - 0px);
       padding: 32px;
       width: 100%;
-  }
-  .cluster main.revised-cluster-grid .card header figure.media img {
+    }
+    & main.revised-cluster-grid .card header figure.media img {
       max-height: unset;
+    }
   }
 }
 
@@ -187,4 +184,9 @@
       /* max-width: 1260px; */
       max-width: calc((1260/1300)* 100%);
   }
+}
+.hero-image {
+  @apply bg-cover bg-center mx-auto lg:mr-0;
+  width: var(--cluster-image-size);
+  height: var(--cluster-image-size);
 }

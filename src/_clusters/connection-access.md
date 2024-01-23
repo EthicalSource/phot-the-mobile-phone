@@ -17,12 +17,14 @@ hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_connection-access-600.png
   alt: Connection and Access
 nav_image:
-  src: /images/uploads/connection-and-access_nav_thumb_80x80-op.jpg
+  src: /images/uploads/connection-and-access_nav_thumb_80x80.jpg
   alt: Connection and Access
 cluster_homepage_image:
   src: /images/uploads/history-of-the-mobile-phone_homepage_connection-access-750.jpg
   alt: Connection and Access
 explore_image:
-  src: /images/uploads/History-of-the-Mobile-Phone_Carousel_CONNECTION & ACCESS.jpg
+  src: /images/uploads/history-of-the-mobile-phone_carousel_connection-access-300.jpg
   alt: Connection and Access
+image: /images/uploads/connection-access-open-graph.jpg
+description: Connectivity is never a given.
 ---

@@ -1,18 +1,22 @@
 ---
 layout: default
 ---
-<% cluster        = data %>
+<% cluster        = collections.clusters.resources_by_slug["decades"].data %>
+
+<% decade = resource.data.slug %>
+<% tag = collections.tags.resources_by_slug[decade] %>
 
 <% other_clusters = PostHelpers.explorable_collections(posts: collections.clusters.resources.each, value: cluster.title) %>
-<% events    = resource.relations.events.sort_by { |post| post.data.start_date.year.to_int }.reverse %>
-<% journals  = resource.relations.journals %>
-<% ctas      = resource.relations.ctas %>
-<% prompts   = site.collections.prompts.resources.sample(1) %>
+<% if tag&.data&.name&.match(/^\d{4}s$/) %>
+<% events    = tag.relations.events.sort_by {|post| post.data.start_date&.year}.reverse! %>
+<% journals  = tag.relations.journals.sort_by {|post| post.data.start_date&.year}.reverse! %>
+<% ctas      = tag.relations.ctas.sort_by {|post| post.data.start_date&.year}.reverse! %>
+<% prompts   = tag.relations.prompts.sort_by {|post| post.data.start_date&.year}.reverse! %>
 
 
 
 <%= partial "cluster/header", locals: { cluster: cluster }  %>
-<main>
+<main class="revised-cluster-grid">
   <% # Draw the first 4 cards %>
   <% events.slice!(0,4).each do |event| %>
     <%= render Cards::Event.new(post: event) %>
@@ -32,7 +36,7 @@ layout: default
   <% ctas.slice(0,1).each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
   <% end %>
-
+<% end %>
 </main>
 
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>

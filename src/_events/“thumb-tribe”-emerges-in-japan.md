@@ -1,5 +1,6 @@
 ---
 layout: entry
+feature: true
 title: “Thumb tribe” emerges in Japan.
 location: Japan
 tags:
