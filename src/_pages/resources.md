@@ -2,7 +2,7 @@
 layout: page
 permalink: /:slug.*
 in_footer: false
-in_nav: true
+in_nav: false
 title: Resources
 nav_label: Resources
 slug: resources
