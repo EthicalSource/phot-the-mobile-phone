@@ -1,4 +1,5 @@
 ---
+primary_nav_description: A chronological timeline of APHOT.
 photo_credit:
   link_text: NBC/NBCUniversal via Getty Images
 layout: cluster_decade
@@ -15,6 +16,9 @@ illustrations_credit:
   illustration_text: TTWW
 hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_decades-600.png
+  alt: Decades
+explore_image:
+  src: /images/uploads/history-of-the-mobile-phone_carousel_decades-300.jpg
   alt: Decades
 image: /images/uploads/decades-open-graph.jpg
 description: Explore the chronological timeline of a people's history of tech.
