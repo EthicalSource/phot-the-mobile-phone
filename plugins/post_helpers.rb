@@ -23,13 +23,12 @@ module PostHelpers
 
       output = relations.events.sort_by! { |post|
         post.data.start_date&.year&.to_int 
-      }.reverse!
-      
-      output = output.
+      }.reverse!.
         insert(4, journal).
         insert(7, prompt).
         insert(8, cta).
         flatten.compact
+
     else
       output = Bridgetown::Current.site.collections.events.resources.sort_by! { |post|
         post.data.start_date&.year&.to_int 
