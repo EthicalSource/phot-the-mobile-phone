@@ -4,4 +4,4 @@
   <img src="<%= relative_url @post.data.media&.thumbnail %>"
     alt="<%= @post.data.media&.alt %>" />
 </header>
-<p><%= @post.content_summary %></p>
+<p class="text-ellipsis line-clamp-3"><%= @post.content_summary %></p>
