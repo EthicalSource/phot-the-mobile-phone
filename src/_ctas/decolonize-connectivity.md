@@ -2,7 +2,7 @@
 layout: cta
 feature: true
 title: Decolonize connectivity.
-clusters: People's Stories
+clusters: Connection & Access
 tags:
   - 2010s
 media:
