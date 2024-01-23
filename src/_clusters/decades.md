@@ -17,6 +17,8 @@ illustrations_credit:
 hero_image:
   src: /images/uploads/history-of-the-mobile-phone_collection-header_decades-600.png
   alt: Decades
+nav_image:
+  src: /images/uploads/decades_nav_thumb_80x80.jpg
 explore_image:
   src: /images/uploads/history-of-the-mobile-phone_carousel_decades-300.jpg
   alt: Decades
