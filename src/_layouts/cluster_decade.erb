@@ -9,6 +9,7 @@ layout: default
 <% entries = PostHelpers.entries_by_decade(tag: tag) %>
 
 <%= partial "cluster/header", locals: { cluster: cluster }  %>
+
 <main class="revised-cluster-grid">
   <% entries.each do |post| %>
     <%= render Cards::ExploreMore::Base.new(post) %>

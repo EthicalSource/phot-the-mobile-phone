@@ -14,18 +14,22 @@ module PostHelpers
   end
 
   def self.entries_by_decade(tag: nil, count: 1000)
-    # Refactor, compare to /plugins/cta.rb and other methods in this fail
     if tag
-      journal = tag.relations.journals.take(1)
+      relations = tag.relations
+
+      journal = relations.journals.take(1)
       prompt = Bridgetown::Current.site.collections.prompts.resources.take(1)
-      cta = tag.relations.ctas.take(1)
-      output = tag.relations.events.sort_by! { |post|
+      cta = relations.ctas.take(1)
+
+      output = relations.events.sort_by! { |post|
         post.data.start_date&.year&.to_int 
       }.reverse!
-      output = output.insert(4, journal)
-      output = output.insert(7, prompt)
-      output = output.insert(8, cta)
-      output = output.flatten.compact
+      
+      output = output.
+        insert(4, journal).
+        insert(7, prompt).
+        insert(8, cta).
+        flatten.compact
     else
       output = Bridgetown::Current.site.collections.events.resources.sort_by! { |post|
         post.data.start_date&.year&.to_int 
