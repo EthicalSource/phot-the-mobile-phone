@@ -292,6 +292,28 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
+      - label: "Homepage Thumbnail"
+        name: "homepage_thumbnail"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+            hint: "Required image dimensions (750px x 750px)"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+      - label: "Cluster Thumbnail"
+        name: "cluster_thumbnail"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+            hint: "Required image dimensions (650px x 379px)"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
 
   - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
     label: "Resources"                      # Used in the UI
@@ -364,6 +386,28 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
+      - label: "Homepage Thumbnail"
+        name: "homepage_thumbnail"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+            hint: "Required image dimensions (750px x 750px)"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
+      - label: "Cluster Thumbnail"
+        name: "cluster_thumbnail"
+        widget: "object"
+        fields:
+          - label: "Image"
+            name: "src"
+            widget: "image"
+            hint: "Required image dimensions (650px x 379px)"
+          - label: "Alt Text"
+            name: "alt"
+            widget: "string"
 
   - name: "journals"
     label: "Journal"
