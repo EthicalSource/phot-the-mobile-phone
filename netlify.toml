@@ -13,3 +13,11 @@ package = "@netlify/plugin-sitemap"
     "**/500/**",
     "**/admin/**"
   ]
+  transform = '''
+  (entry) => {
+    if (entry.url === '/') {
+      return { ...entry, priority: 1.0 }
+    }
+    return entry
+  }
+  '''
