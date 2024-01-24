@@ -1,5 +1,7 @@
 ---
 body_classes: ""
+sitemap_priority: 1.0
+sitemap_change_frequency: weekly
 ---
 <% clusters = collections.clusters.resources %>
 <% homeapge_intro = collections.general_content.resources

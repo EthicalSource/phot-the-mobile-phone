@@ -40,3 +40,5 @@ gem 'bridgetown-seo-tag'
 gem "pry", "~> 0.14.2"
 
 gem "sanitize", "~> 6.1"
+
+gem "bridgetown-sitemap", "~> 2.0"

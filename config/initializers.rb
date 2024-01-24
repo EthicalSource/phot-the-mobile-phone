@@ -58,8 +58,13 @@ Bridgetown.configure do |config|
   # end
   #
 
+  config.defaults << {
+    "scope" => { "path" => "admin/**/**" },
+    "values" => { "sitemap" => false }
+  }
   # For more documentation on how to configure your site using this initializers file,
   # visit: https://edge.bridgetownrb.com/docs/configuration/initializers/
   init :"bridgetown-svg-inliner"
   init :"bridgetown-seo-tag"
+  init :"bridgetown-sitemap"
 end
