@@ -1,4 +1,4 @@
 ---
 layout: guide
-published: true
+published: false
 ---

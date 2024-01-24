@@ -4,3 +4,5 @@ title: A People's History of Tech
 description: >
   A collective storytelling project to build a more representative history that
   reflects the human impacts of technology.
+sitemap_priority: 0.8
+sitemap_change_frequency: weekly
