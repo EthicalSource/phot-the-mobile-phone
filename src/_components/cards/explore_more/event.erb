@@ -1,7 +1,7 @@
 <header>
   <h2><%= @post.data.title %></h2>
   <time><%= @post.data.start_date&.year %></time>
-  <img src="<%= relative_url @post.data.media&.thumbnail %>"
-    alt="<%= @post.data.media&.alt %>" />
+  <img src="<%= relative_url @post.data.cluster_thumbnail&.image %>"
+    alt="<%= @post.data.cluster_thumbnail&.alt %>" />
 </header>
 <p class="text-ellipsis line-clamp-3"><%= @post.content_summary(length: 350) %></p>
