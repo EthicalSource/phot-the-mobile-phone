@@ -7,7 +7,7 @@ package = "@netlify/plugin-sitemap"
   prettyURLs = true
   trailingSlash = true
   exclude = [
-    "404.html",
-    "500.html",
-    "admin/**"
+    "/404.html",
+    "/500.html",
+    "/admin/**"
   ]
