@@ -18,7 +18,7 @@ class Cluster < Bridgetown::Component
 
   def filter_events
     posts = @site.collections.events.resources
-    PostHelpers.events_by_collection(posts: posts, value: collection)
+    PostHelpers.events_by_collection(posts: posts, prefer_featured: true, value: collection)
   end
 
   def filter_journals
