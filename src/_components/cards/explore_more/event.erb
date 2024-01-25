@@ -1,7 +1,14 @@
+<% cluster_thumbnail = @post.data.cluster_thumbnail&.src %>
+<% if cluster_thumbnail && !cluster_thumbnail.blank? %>
+  <% image = cluster_thumbnail %>
+<% else %>
+  <% image = @post.data.media&.thumbnail %>
+<% end %>
+
 <header>
   <h2><%= @post.data.title %></h2>
   <time><%= @post.data.start_date&.year %></time>
-  <img src="<%= relative_url (@post.data.cluster_thumbnail&.src || @post.data.media&.thumbnail) %>"
+  <img src="<%= relative_url image %>"
     alt="<%= @post.data.cluster_thumbnail&.alt || @post.data.media&.alt %>" />
 </header>
 <p class="text-ellipsis line-clamp-3"><%= @post.summary_summary(length: 175) %></p>
