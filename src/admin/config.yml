@@ -162,7 +162,7 @@ collections:
       - label: "Summary"
         name: "summary"
         widget: "string"
-        pattern: ['.{0,350}', "Must be 350 characters or less"]
+        pattern: ['^.{0,350}$', "Must be 350 characters or less"]
         hint: Do not use quotes. They will be added stylistically as designed.
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Location"
@@ -336,7 +336,7 @@ collections:
       - label: "Summary"
         name: "summary"
         widget: "string"
-        pattern: ['.{0,350}', "Must be 350 characters or less"]
+        pattern: ['^.{0,350}$', "Must be 350 characters or less"]
         hint: Do not use quotes. They will be added stylistically as designed.
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Collection"
@@ -435,7 +435,7 @@ collections:
       - label: "Summary"
         name: "summary"
         widget: "string"
-        pattern: ['.{0,85}', "Must be 85 characters or less"]
+        pattern: ['^.{0,85}$', "Must be 85 characters or less"]
         hint: Do not use quotes. They will be added stylistically as designed.
       - label: "Location"
         name: "location"
