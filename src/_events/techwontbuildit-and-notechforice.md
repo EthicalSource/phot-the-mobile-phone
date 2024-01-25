@@ -2,19 +2,25 @@
 layout: entry
 title: "Tech Wont Build It and #NoTechForICE"
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2018
+clusters: Movements & Resistance
+summary: The tech worker labor movement rallied around these hashtags, which
+  signal a growing awareness and activism around the ethical use of technology,
+  especially in contexts that may harm vulnerable populations. Workers protested
+  against contracts with the Pentagon and Immigration authorities.
 media:
   thumbnail: /images/uploads/tech-wont-build-it-entry.jpg
   credit: Erik McGregor/Pacific Press/VICE
   link: https://www.vice.com/en/article/9kegq8/activists-explain-how-palantirs-tech-is-used-in-ice-raids
   alt: Image of protesters in New York holding signs that say "No Tech for ICE."
-tags:
-  - 2010s
-clusters: Movements & Resistance
 source: Logic Magazine
 source_link: https://logicmag.io/the-making-of-the-tech-worker-movement/full-text/
 image: /images/uploads/tech-wont-build-it-open-graph.jpg
+homepage_thumbnail:
+  src: /images/uploads/tech-wont-build-it.png
 ---
 The tech worker labor movement rallied around these hashtags, which signal a growing awareness and activism around the ethical use of technology, especially in contexts that may harm vulnerable populations. 
 
