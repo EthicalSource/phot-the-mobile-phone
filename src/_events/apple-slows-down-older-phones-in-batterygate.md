@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: true
+feature: false
 title: Apple slows down older phones in 'batterygate'
 location: Global
 tags:
