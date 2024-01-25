@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: false
+feature: true
 title: Rise of encrypted messaging apps
 location: Global
 tags:
