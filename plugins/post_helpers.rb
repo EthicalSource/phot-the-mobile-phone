@@ -44,7 +44,7 @@ module PostHelpers
     select_posts = posts.select do |item|
       Array(item.data.clusters).map(&:downcase).
         intersection(Array(value).map(&:downcase)).any?
-    end
+    end.sort_by! { |post| post.data.start_date.year.to_int }.reverse
 
     featured_posts = if prefer_featured
       select_posts.select { |post| post.data.feature == true }
@@ -52,7 +52,7 @@ module PostHelpers
       []
     end.sort_by! { |post| post.data.start_date.year.to_int }
 
-    [featured_posts, (select_posts - featured_posts)].flatten.compact.sort_by! { |post| post.data.start_date.year.to_int }
+    [featured_posts, (select_posts - featured_posts)].flatten.compact
   end
 
   def self.ctas_by_collection(posts:, value:, prefer_featured: false, count: 1)
