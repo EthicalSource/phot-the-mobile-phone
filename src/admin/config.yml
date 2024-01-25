@@ -104,6 +104,7 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
+            hint: Required image dimensions (600px x 600px)
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -114,6 +115,7 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
+            hint: Required image dimensions (80px x 80px)
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -124,6 +126,7 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
+            hint: Required image dimensions (750px x 750px)
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -134,6 +137,7 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
+            hint: Required image dimensions (300px x 400px)
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -141,6 +145,7 @@ collections:
         name: "image"
         widget: "image"
         required: false
+        hint: Required image dimensions (1200px x 630px)
       - label: "SEO description"
         name: "description"
         widget: "markdown"
@@ -159,11 +164,7 @@ collections:
         hint: "Featured events appear on the homepage"
         widget: "boolean"
         default: false
-      - label: "Summary"
-        name: "summary"
-        widget: "string"
-        pattern: ['^.{0,350}$', "Must be 350 characters or less"]
-        hint: Do not use quotes. They will be added stylistically as designed.
+        required: false
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Location"
         name: "location"
@@ -255,6 +256,11 @@ collections:
         search_fields: [ "title" ]
         value_field: "title"
         required: true
+      - label: "Summary"
+        name: "summary"
+        widget: "string"
+        pattern: ['^.{0,350}$', "Must be 350 characters or less"]
+        hint: 350 chars max.
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
@@ -265,6 +271,7 @@ collections:
             widget: "image"
             default: /images/shared/default-entry.jpg
             required: false
+            hint: Recommended max height 450px
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -293,31 +300,32 @@ collections:
         name: "image"
         widget: "image"
         required: false
+        hint: Required image dimensions (1200px x 630px)
       - label: "SEO description"
         name: "description"
         widget: "markdown"
         required: false
-      - label: "Homepage Thumbnail"
+      - label: "Homepage Entry Thumbnail"
         name: "homepage_thumbnail"
         widget: "object"
         fields:
           - label: "Image"
             name: "src"
             widget: "image"
-            hint: "Required image dimensions (750px x 750px)"
+            hint: "Required image dimensions (750px x 750px). Displays within homepage clusters."
             required: false
           - label: "Alt Text"
             name: "alt"
             widget: "string"
             required: false
-      - label: "Cluster Thumbnail"
+      - label: "Collection Entry Thumbnail"
         name: "cluster_thumbnail"
         widget: "object"
         fields:
           - label: "Image"
             name: "src"
             widget: "image"
-            hint: "Required image dimensions (650px x 379px)"
+            hint: "Required image dimensions (650px x 379px). Displays on collection landing pages."
             required: false
           - label: "Alt Text"
             name: "alt"
@@ -368,6 +376,7 @@ collections:
             widget: "image"
             default: /images/shared/default-entry.jpg
             required: false
+            hint: Recommended max height 450px
           - label: "Alt Text"
             name: "alt"
             widget: "string"
@@ -396,23 +405,11 @@ collections:
         name: "image"
         widget: "image"
         required: false
+        hint: Required image dimensions (1200px x 630px)
       - label: "SEO description"
         name: "description"
         widget: "markdown"
         required: false
-      - label: "Homepage Thumbnail"
-        name: "homepage_thumbnail"
-        widget: "object"
-        fields:
-          - label: "Image"
-            name: "src"
-            widget: "image"
-            hint: "Required image dimensions (750px x 750px)"
-            required: false
-          - label: "Alt Text"
-            name: "alt"
-            widget: "string"
-            required: false
       - label: "Cluster Thumbnail"
         name: "cluster_thumbnail"
         widget: "object"
@@ -569,6 +566,7 @@ collections:
         name: "image"
         widget: "image"
         required: false
+        hint: "Required image dimensions (1200px x 630px)"
       - label: "SEO description"
         name: "description"
         widget: "markdown"
