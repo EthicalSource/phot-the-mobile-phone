@@ -1,11 +1,19 @@
 ---
 layout: entry
+feature: true
 title: Rise of encrypted messaging apps
 location: Global
+tags:
+  - 2010s
 start_date:
   year: 2013
   month: 8
   day: 14
+clusters: Risk & Safety
+summary: In the wake of the Snowden revelations, encrypted messaging apps have
+  evolved from niche tools for privacy-conscious individuals to mainstream
+  platforms integral to everyday communication, driven by growing public
+  awareness of digital privacy and security.
 media:
   thumbnail: /images/uploads/encrypted-messaging-entry.jpg
   credit: Michele Ursi/Shutterstock
@@ -13,9 +21,6 @@ media:
   alt: Signal app, a cross-platform encrypted messaging service developed by the
     Signal Foundation and Messenger, displayed on a smartphone with Whatsapp and
     Telegram.
-tags:
-  - 2010s
-clusters: Risk & Safety
 source: New York Times
 source_link: https://www.nytimes.com/2021/01/13/technology/telegram-signal-apps-big-tech.html
 image: /images/uploads/encrypted-messaging-open-graph.jpg
