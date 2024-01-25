@@ -20,7 +20,7 @@ source: Logic Magazine
 source_link: https://logicmag.io/the-making-of-the-tech-worker-movement/full-text/
 image: /images/uploads/tech-wont-build-it-open-graph.jpg
 homepage_thumbnail:
-  src: /images/uploads/tech-wont-build-it.png
+  src: ""
 ---
 The tech worker labor movement rallied around these hashtags, which signal a growing awareness and activism around the ethical use of technology, especially in contexts that may harm vulnerable populations. 
 
