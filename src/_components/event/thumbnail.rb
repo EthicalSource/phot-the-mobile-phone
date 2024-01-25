@@ -1,16 +1,16 @@
 class Event::Thumbnail < Bridgetown::Component
   def initialize(event:)
     @event = event
-    @image = event.data.homepage_thumbnail&.src || event.data.media&.thumbnail
+    @image = image(event)
     @alt = event.data.homepage_thumbnail&.alt
   end
 
   def image(event)
-    if event.data.homepage_thumbnail&.src.nil? ||
-        event.data.homepage_thumbnail&.src.blank?
-      event.data.media&.thumbnail
-    else
+    photo = event.data.homepage_thumbnail
+    if photo && !photo.src&.blank?
       event.data.homepage_thumbnail&.src
+    else
+      event.data.media&.thumbnail
     end
   end
 end
