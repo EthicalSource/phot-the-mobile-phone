@@ -14,6 +14,18 @@ module PostResourceExtension
       end
     end
 
+    def summary_summary(length: 350)
+      if data.has_key?("summary")
+        if summary.length > length
+          sanitize_content(summary)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
+        else
+          sanitize_content(summary)
+        end
+      else
+        content_summary(length: length)
+      end
+    end
+
     def highlight_summary(length: 85)
       left_smart_quote = "\u201C"
       right_smart_quote = "\u201D"
