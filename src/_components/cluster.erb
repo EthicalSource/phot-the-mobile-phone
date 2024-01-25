@@ -1,12 +1,12 @@
 <ul class="cluster-grid">
   <li class="home"><%= render Cluster::Highlight.new(cluster: @cluster) %></li>
   <li class="home"><%= render Cluster::Heading.new(cluster: @cluster) %></li>
-  <li class="home"><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li class="home"><%= render Shared::Journal.new(journal: @journals.pop, cluster: @cluster)%></li>
-  <li class="home"><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
-  <li class="home"><%= render Shared::Entry.new(entry: @events.pop, cluster: @cluster) %></li>
+  <li class="home"><%= render Shared::Entry.new(entry: @events.shift, cluster: @cluster) %></li>
+  <li class="home"><%= render Shared::Journal.new(journal: @journals.shift, cluster: @cluster)%></li>
+  <li class="home"><%= render Shared::Entry.new(entry: @events.shift, cluster: @cluster) %></li>
+  <li class="home"><%= render Shared::Entry.new(entry: @events.shift, cluster: @cluster) %></li>
   <li class="home prompt"><%= render Shared::Prompt.new(prompt: @prompts.first) %></li>
-  <li class="home"><%= render Shared::Resource.new(entry: @ctas.pop, cluster: @cluster, meta: "Take Action") %></li>
+  <li class="home"><%= render Shared::Resource.new(entry: @ctas.shift, cluster: @cluster, meta: "Take Action") %></li>
 </ul>
 
 
