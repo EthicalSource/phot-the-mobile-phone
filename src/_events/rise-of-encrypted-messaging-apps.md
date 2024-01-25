@@ -5,7 +5,6 @@ title: Rise of encrypted messaging apps
 location: Global
 tags:
   - 2010s
-  - Risk & Safety
 start_date:
   year: 2013
   month: 8
