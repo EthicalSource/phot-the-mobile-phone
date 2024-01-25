@@ -305,9 +305,11 @@ collections:
             name: "src"
             widget: "image"
             hint: "Required image dimensions (750px x 750px)"
+            required: false
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            required: false
       - label: "Cluster Thumbnail"
         name: "cluster_thumbnail"
         widget: "object"
@@ -316,9 +318,11 @@ collections:
             name: "src"
             widget: "image"
             hint: "Required image dimensions (650px x 379px)"
+            required: false
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            required: false
 
   - name: "ctas"                       # Used in routes, e.g., /admin/collections/events
     label: "Resources"                      # Used in the UI
@@ -404,9 +408,11 @@ collections:
             name: "src"
             widget: "image"
             hint: "Required image dimensions (750px x 750px)"
+            required: false
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            required: false
       - label: "Cluster Thumbnail"
         name: "cluster_thumbnail"
         widget: "object"
@@ -414,10 +420,12 @@ collections:
           - label: "Image"
             name: "src"
             widget: "image"
+            required: false
             hint: "Required image dimensions (650px x 379px)"
           - label: "Alt Text"
             name: "alt"
             widget: "string"
+            required: false
 
   - name: "journals"
     label: "Journal"
