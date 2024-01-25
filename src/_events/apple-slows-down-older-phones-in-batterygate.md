@@ -1,20 +1,22 @@
 ---
 layout: entry
+feature: true
 title: Apple slows down older phones in 'batterygate'
 location: Global
+tags:
+  - 2010s
+  - 1900s
 start_date:
   year: 2017
   month: 12
   day: 21
+clusters: Materials & Waste
 media:
   thumbnail: /images/uploads/apple-slows-down-entry.jpg
   credit: Chesnot/Getty Images
   link: https://hypebeast.com/2020/11/apple-batterygate-lawsuit-113-million-usd-fine
   alt: Image of a person holding their iPhone plugged in to charge with the
     battery drain notification displayed on the phone.
-tags:
-  - 2010s
-clusters: Materials & Waste
 source: The Guardian
 source_link: https://www.theguardian.com/technology/2017/dec/21/apple-admits-slowing-older-iphones-because-of-flagging-batteries
 image: /images/uploads/apple-slows-down-open-graph.jpg
