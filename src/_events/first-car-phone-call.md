@@ -10,7 +10,10 @@ start_date:
   month: 6
   day: 17
 clusters: Culture & Behaviors
-summary: .
+summary: AT&T's Bell System introduces the Mobile Telephone Service was
+  introduced. The first MTS call was made in 1946 in St. Louis, Missouri. The
+  equipment weighed eighty pounds, filled much of a vehicle’s trunk and drew so
+  much power that it would cause the headlights to dim..
 media:
   link: https://www.smithsonianmag.com/innovation/first-mobile-phone-call-was-made-75-years-ago-180978003/
   credit: Bettmann, Getty Images
