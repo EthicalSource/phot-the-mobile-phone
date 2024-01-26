@@ -1,6 +1,9 @@
 ---
 layout: cta
 feature: true
+summary: For every million cell phones we recycle, 35 thousand pounds of copper,
+  772 pounds of silver, 75 pounds of gold and 33 pounds of palladium can be
+  recovered. Donate or recycle responsibly.
 title: Donate or recycle your old device.
 clusters: Materials & Waste
 tags:
