@@ -37,47 +37,52 @@ module PostHelpers
     output
   end
 
-
   def self.events_by_collection(posts:, value:, prefer_featured: false, count: 5)
     return [] if value.nil?
 
-    select_posts = posts.select do |item|
+    collection_posts = posts.select do |item|
       Array(item.data.clusters).map(&:downcase).
         intersection(Array(value).map(&:downcase)).any?
-    end.sort_by! { |post| post.data.start_date.year.to_int }.reverse
+    end.sort_by! { |post| post.data.start_date&.year&.to_int }.reverse
 
-    featured_posts = if prefer_featured
-      select_posts.select { |post| post.data.feature == true }
+    if prefer_featured
+      output = featured_posts(collection_posts).
+        sort_by! { |post| post.data.start_date&.year&.to_int }.reverse!
     else
-      []
-    end.sort_by! { |post| post.data.start_date.year.to_int }
-
-    [featured_posts, (select_posts - featured_posts)].flatten.compact
+      output = []
+    end
+    output << (collection_posts - output)
+    output.flatten.compact.take(count).sort_by! { |post| post.data.start_date&.year&.to_int }.reverse
   end
 
   def self.ctas_by_collection(posts:, value:, prefer_featured: false, count: 1)
     return [] if value.nil?
 
-    select_posts = posts.select do |item|
+    collection_posts = posts.select do |item|
       Array(item.data.clusters).map(&:downcase).
         intersection(Array(value).map(&:downcase)).any?
+    end.sort_by! { |post| post.data.start_date&.year&.to_int }.reverse
+
+    if prefer_featured
+      output = featured_posts(collection_posts).
+        sort_by! { |post| post.data.start_date&.year&.to_int }.reverse!
+    else
+      output = []
     end
-    featured_posts = if prefer_featured
-      select_posts.select { |post| post.data.feature == true }
-    end
-    [featured_posts, select_posts].flatten.compact.take(count)
+    output << (collection_posts - output)
+    output.flatten.compact.take(count).sort_by! { |post| post.data.start_date&.year&.to_int }.reverse
   end
 
   def self.journals_by_collection(posts:, value:, prefer_featured: false, count: 1)
     return [] if value.nil?
-    select_posts = posts.select do |item|
+    collection_posts = posts.select do |item|
       Array(item.data.clusters).map(&:downcase).
         intersection(Array(value).map(&:downcase)).any?
     end
-    featured_posts = if prefer_featured
-      select_posts.select { |post| post.data.feature == true }
-    end
-    [featured_posts, select_posts].flatten.compact.take(count)
+    output = prefer_featured ? featured_posts(collection_posts) : []
+    output << (collection_posts - output)
+
+    output.flatten.compact.take(count)
   end
 
   def self.featured_collections(posts:, count: 11)
@@ -96,6 +101,12 @@ module PostHelpers
   def self.suggested_by(posts:, facet:, value:, count: 2)
     return [] if value.nil?
     posts.select { |post| post.data.send(facet).map(&:downcase).include? value.downcase }.take count
+  end
+
+  private
+
+  def self.featured_posts(posts)
+    posts.select { |post| post.data.feature == true }
   end
 end
 
