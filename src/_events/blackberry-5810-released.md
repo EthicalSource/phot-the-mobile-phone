@@ -3,13 +3,17 @@ layout: entry
 feature: true
 title: BlackBerry 5810 released.
 location: Canada
+clusters: Design & Use
 tags:
   - 2000s
 start_date:
   year: 2002
   month: 3
   day: 3
-clusters: Design & Use
+summary: RIM unveiled the BlackBerry 5810 as its first smartphone. It was
+  marketed as a “breakthrough in wireless convergence that delivers email,
+  phone, SMS, browser, and organizer features in a single, sleek handheld that
+  is 'Always On, Always Connected®'."
 media:
   credit: CNET
   link: https://www.cnet.com/pictures/a-decade-or-so-of-blackberry-smartphones-pictures/2/
