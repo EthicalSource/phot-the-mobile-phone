@@ -2,13 +2,18 @@
 layout: entry
 title: September 11th (9/11) attacks.
 location: New York, NY; Washington, DC
+clusters: Connection & Access
 tags:
   - 2000s
 start_date:
   year: 2001
   month: 9
   day: 11
-clusters: Connection & Access
+summary: When terrorists attacked the World Trade Center and the Pentagon, cell
+  phones played a vital role. People trapped in the buildings, passengers on
+  hijacked planes, and worried relatives all used their phones desperately to
+  reach out. The high volume of calls even caused network overloads,
+  highlighting need for robust emergency communication systems.
 media:
   credit: AFP/Getty Images
   link: https://www.dailymail.co.uk/news/article-2032454/The-mobile-phones-kept-ringing--picked-Haunting-9-11-artefacts-FBI-terror-trials-public-show.html
