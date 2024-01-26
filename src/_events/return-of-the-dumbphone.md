@@ -2,16 +2,19 @@
 layout: entry
 title: Return of the dumbphone
 location: United States
+clusters: Design & Use
+tags:
+  - 2020s
 start_date:
   year: 2022
+summary: The "dumbphone" or feature phone is a simpler form of mobile phone, and
+  it's becoming popular again. A return to early 2000s technology, unlike
+  smartphones, dumbphones mainly support calls and texts.
 media:
   thumbnail: /images/uploads/return-of-dumbphone-entry.jpg
   credit: Scott Rossi/The New York Times
   link: https://www.nytimes.com/2022/12/15/style/teens-social-media.html
   alt: "Luddite teens hold their vintage flip phones in a circle. "
-tags:
-  - 2020s
-clusters: Design & Use
 source: New York Times
 source_link: https://www.nytimes.com/2022/12/15/style/teens-social-media.html
 image: /images/uploads/return-of-dumbphone-open-graph.jpg
