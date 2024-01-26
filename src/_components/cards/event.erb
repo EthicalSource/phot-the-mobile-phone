@@ -5,10 +5,10 @@
         <h2><%= @event.title %></h2>
         <time><%= @event.start_date&.year %></time>
         <figure class="media">
-          <img src="<%= relative_url @event.media&.thumbnail %>"
-            alt="<%= @event.media&.alt %>" />
+          <img src="<%= relative_url @image %>"
+            alt="<%= @alt %>" />
           <figcaption class="visually-hidden">
-            <%= @event.media&.alt %>
+            <%= @alt %>
           </figcaption>
         </figure>
       </header>
