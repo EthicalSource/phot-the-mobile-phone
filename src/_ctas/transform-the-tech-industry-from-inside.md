@@ -1,6 +1,11 @@
 ---
 layout: cta
 feature: true
+summary: Collective Action School has a grassroots theory of change. We believe
+  the people who make the tech industry run—its workers—have the power to not
+  only transform it, but to build and imagine new technologies. They welcome all
+  tech workers—whether you’re a project manager, warehouse worker, software
+  engineer, or ride share driver.
 title: Transform the tech industry from inside.
 clusters: Economy & Labor
 tags:
