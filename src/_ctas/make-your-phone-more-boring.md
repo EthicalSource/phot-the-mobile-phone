@@ -1,6 +1,8 @@
 ---
 layout: cta
 feature: true
+summary: Switching a smartphone to grayscale mode helped people reduce their
+  screen time by 18% in one study.
 title: Make your phone more boring.
 clusters: Culture & Behaviors
 tags:
