@@ -1,6 +1,8 @@
 ---
 layout: cta
 feature: true
+summary: Constantly staring down at your phone can wreck your posture, resulting
+  in some serious neck and back pain.
 title: Stretch out your 'text neck'.
 clusters: Bodies & Minds
 tags:
@@ -16,5 +18,7 @@ source_link: https://www.self.com/gallery/tech-neck-exercises
 outbound_links: "[Take a break and stretch it
   out](https://www.self.com/gallery/tech-neck-exercises)"
 image: /images/uploads/stretch-out-your-text-neck-open-graph.jpg
+cluster_thumbnail:
+  src: /images/uploads/screenshot-2024-01-25-at-10.32.14 pm.png
 ---
 Constantly staring down at your phone can wreck your posture, resulting in some serious neck and back pain.
