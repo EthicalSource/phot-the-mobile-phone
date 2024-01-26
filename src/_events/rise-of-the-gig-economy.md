@@ -2,9 +2,14 @@
 layout: entry
 title: Rise of the gig economy
 location: Global
+clusters: Economy & Labor
+tags:
+  - 2000s
 start_date:
   year: 2008
-clusters: Economy & Labor
+summary: Mobile apps enabled temporary, flexible jobs. The entire process, from
+  finding a job, accepting it, completing it, to getting paid, often takes place
+  through the mobile app.
 media:
   thumbnail: /images/uploads/gig-economy-entry.jpg
   alt: Members rally during a California Gig Workers Union demonstration on
