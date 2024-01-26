@@ -2,17 +2,22 @@
 layout: entry
 title: Labor protests at FoxConn smartphone manufacturing plants
 location: China
+clusters: Economy & Labor
+tags:
+  - 2010s
 start_date:
   year: 2012
   month: 10
+summary: FoxConn workers iPhone manufacturing facilities in Zhengzhou held
+  walkouts on three separate days to protest working conditions at the plant.
+  Foxconn is a large manufacturer that makes electronics parts for brands like
+  Apple. Protests have drawn attention to how gadgets are made and the people
+  who make them.
 media:
   thumbnail: /images/uploads/foxconn-labor-protests-entry.jpg
   credit: Bobby Yip, Reuters
   link: https://www.theguardian.com/technology/2012/oct/05/foxconn-apple-iphone-china-strike
   alt: Image of female chinese workers on the FoxConn assembly line.
-tags:
-  - 2010s
-clusters: Economy & Labor
 source: Collective Action in Tech
 source_link: https://data.collectiveaction.tech/?query=foxconn
 image: /images/uploads/foxconn-labor-protests-open-graph.jpg
