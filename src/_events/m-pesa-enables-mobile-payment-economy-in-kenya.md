@@ -2,18 +2,22 @@
 layout: entry
 title: M-Pesa enables mobile payment economy in Kenya
 location: Kenya
+clusters: Economy & Labor
+tags:
+  - 2000s
 start_date:
   year: 2007
   month: 3
   day: 6
+summary: M-Pesa is a virtual banking system that uses a SIM card to provide
+  transaction services. The system allows users to deposit, transfer, and
+  withdraw funds using their mobile phones, making banking accessible to
+  millions without traditional bank accounts.
 media:
   thumbnail: /images/uploads/m-pesa-entry.jpg
   credit: Sayyid Abdul Azim/AP
   link: https://www.vox.com/future-perfect/21420357/kenya-mobile-banking-unbanked-cellphone-money
   alt: Customers make money transfers at an M-Pesa stall in Nairobi, Kenya, in 2011.
-tags:
-  - 2000s
-clusters: Economy & Labor
 source: CNN
 source_link: https://www.cnn.com/2017/02/21/africa/mpesa-10th-anniversary/index.html
 image: /images/uploads/m-pesa-open-graph.jpg
