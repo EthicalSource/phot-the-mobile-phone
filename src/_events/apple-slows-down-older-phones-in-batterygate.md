@@ -3,13 +3,16 @@ layout: entry
 feature: false
 title: Apple slows down older phones in 'batterygate'
 location: Global
+clusters: Materials & Waste
 tags:
   - 2010s
 start_date:
   year: 2017
   month: 12
   day: 21
-clusters: Materials & Waste
+summary: "Apple acknowledges that they slow down older iPhones through software
+  updates. This acknowledgment reignites discussions about planned obsolescence,
+  product longevity, and their contributions to e-waste. "
 media:
   thumbnail: /images/uploads/apple-slows-down-entry.jpg
   credit: Chesnot/Getty Images
