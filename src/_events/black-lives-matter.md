@@ -2,8 +2,15 @@
 layout: entry
 title: Black Lives Matter
 location: United States
+clusters: Movements & Resistance
+tags:
+  - 2010s
 start_date:
   year: 2013
+summary: "The Black Lives Matter movement is a political action committee, a
+  social movement, a slogan, and a Twitter hashtag. Organizers use smartphones
+  to document police brutality and racial injustice, amplifying calls for
+  reform. "
 media:
   thumbnail: /images/uploads/black-lives-matter-entry.jpg
   credit: Olivier Douliery/AFP/Getty Images
@@ -11,9 +18,6 @@ media:
   alt: Protesters deploy a "Black Lives Matter" banner near the White House during
     a demonstration against racism and police brutality, in Washington, DC, on
     June 6, 2020.
-tags:
-  - 2010s
-clusters: Movements & Resistance
 source: Black Lives Matter
 source_link: https://blacklivesmatter.com/
 image: /images/uploads/black-lives-matter-open-graph.jpg
