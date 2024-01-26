@@ -2,11 +2,16 @@
 layout: entry
 title: Infinite scroll invented.
 location: United States
+clusters: Economy & Labor
 tags:
   - 2000s
 start_date:
   year: 2006
-clusters: Economy & Labor
+summary: "Infinite scroll is a design technique used where content continuously
+  loads as the user scrolls down the page or screen. Popular on social media
+  platforms like Instagram and Twitter, the introduction of infinite scroll in
+  mobile apps changed the way users consume content, encouraging continuous
+  scrolling and optimizing for engagement.  "
 media:
   credit: Behance
   link: https://www.behance.net/gallery/69016527/Free-iPhone-Long-Scroll-Fabric-Mockup
