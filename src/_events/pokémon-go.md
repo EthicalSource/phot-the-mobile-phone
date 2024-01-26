@@ -2,13 +2,17 @@
 layout: entry
 title: Pokémon Go
 location: Global
+clusters: Bodies & Minds
 tags:
   - 2010s
 start_date:
   year: 2016
   month: 7
   day: 6
-clusters: Bodies & Minds
+summary: "Pokémon Go's augmented reality mobile game brought virtual and
+  physical worlds together, showcasing the potential of mobile gaming and
+  location-based experiences. The game became an instant hit, with millions
+  downloading it within days. "
 media:
   credit: Wall Street Journal
   link: https://www.wsj.com/articles/pokemon-go-surged-by-building-community-1469419260
