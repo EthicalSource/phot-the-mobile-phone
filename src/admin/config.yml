@@ -170,6 +170,13 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either City, State; Country; or Global"
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
       - label: "Tags"
         name: "tags"
         widget: "relation"
@@ -249,13 +256,6 @@ collections:
             min: 1
             max: 31
             required: false
-      - label: "Collection"
-        name: "clusters"
-        widget: "relation"
-        collection: "clusters"
-        search_fields: [ "title" ]
-        value_field: "title"
-        required: true
       - label: "Summary"
         name: "summary"
         widget: "string"
@@ -446,6 +446,13 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+      - label: "Collection"
+        name: "clusters"
+        widget: "relation"
+        collection: "clusters"
+        search_fields: [ "title" ]
+        value_field: "title"
+        required: true
       - label: "Tags"
         name: "tags"
         widget: "relation"
@@ -458,13 +465,6 @@ collections:
         name: "year"
         widget: "number"
         value_type: int
-      - label: "Collection"
-        name: "clusters"
-        widget: "relation"
-        collection: "clusters"
-        search_fields: [ "title" ]
-        value_field: "title"
-        required: true
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
