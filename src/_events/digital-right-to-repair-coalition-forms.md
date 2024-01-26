@@ -2,12 +2,16 @@
 layout: entry
 title: Digital Right to Repair Coalition forms.
 location: United States, European Union,
+clusters: Materials & Waste
 tags:
   - 2010s
 start_date:
   year: 2013
   month: 7
-clusters: Materials & Waste
+summary: Advocates for the right to repair mobile devices are pushing for
+  legislation that would allow consumers to repair their devices independently.
+  The Right to Repair movement challenges the standard industry practice of
+  making phones difficult to fix, which often forces users to buy new devices
 media:
   credit: Lakshmi Prasad S/Getty Images
   link: https://www.pcmag.com/news/right-to-repair-these-phone-brands-are-easiest-and-hardest-to-fix
