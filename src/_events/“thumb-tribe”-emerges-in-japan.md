@@ -20,6 +20,9 @@ media:
 source: New York Times
 source_link: https://www.nytimes.com/2002/04/30/world/youth-let-their-thumbs-do-the-talking-in-japan.html
 image: /images/uploads/thumb-tribe-open-graph.jpg
+homepage_thumbnail:
+  alt: Illustration depicts woman reading a novel on her flip phone.
+  src: /images/uploads/thumb-tribe-home-thumb.jpg
 cluster_thumbnail:
   src: /images/uploads/thumb-tribe-coll-thumb.jpg
   alt: Illustration depicts woman reading a novel on her flip phone.
