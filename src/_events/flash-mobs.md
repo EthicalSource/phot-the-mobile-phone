@@ -2,19 +2,22 @@
 layout: entry
 title: Flash mobs
 location: Global
+clusters: Bodies & Minds
+tags:
+  - 2000s
 start_date:
   year: 2003
   month: 6
   day: 17
+summary: Popular in the mid-2000s, flash mobs are sudden gatherings of people,
+  often for entertainment or artistic purposes. Organizers usually told
+  participants when and where to meet through text messages or on social media.
 media:
   thumbnail: /images/uploads/flash-mob-entry.jpg
   credit: Mike Epstein, Harpers
   link: https://harpers.org/archive/2006/03/my-crowd/
   alt: Capture of the Macy's 'love rug' flash mob, with organizers and many
     participants examining the rug in question.
-tags:
-  - 2000s
-clusters: Bodies & Minds
 source: Elephant.art
 source_link: https://elephant.art/crowd-and-proud-the-history-of-the-flash-mob-20042022/
 image: /images/uploads/flash-mob-open-graph.jpg
