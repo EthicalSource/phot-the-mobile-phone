@@ -1,5 +1,8 @@
 ---
 layout: cta
+summary: Simple steps to take before hitting the streets from The Markup. From
+  downloading Signal, to locking down location tracking, hardening your
+  hardware, and more.
 media:
   thumbnail: /images/uploads/prepare-phone-for-protest-entry.jpg
   alt: Graphic of protesters using mobile phones and wearing masks with a red
