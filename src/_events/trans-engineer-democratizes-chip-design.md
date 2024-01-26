@@ -3,11 +3,16 @@ layout: entry
 feature: true
 title: Trans engineer democratizes chip design
 location: Palo Alto, CA
+clusters: Design & Use
 tags:
   - 1970s
 start_date:
   year: 1978
-clusters: Design & Use
+summary: Fired from IBM after disclosing her gender transition, Lynn Conway went
+  on to help democratize chip design at Xerox Palo Alto Research Center in the
+  “VLSI revolution.” Very Large-Scale Integration (VLSI) enabled the creation of
+  smaller, more powerful, and energy-efficient chips; enabling smaller modern
+  phones and gadgets.
 media:
   credit: IEEE
   link: https://www.dixa.com/blog/lgbtq-tech-innovator-lynn-conway/
