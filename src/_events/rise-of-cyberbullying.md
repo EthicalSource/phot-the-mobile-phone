@@ -2,11 +2,15 @@
 layout: entry
 title: Rise of cyberbullying
 location: Global
+clusters: Culture & Behaviors
 tags:
   - 2000s
 start_date:
   year: 2007
-clusters: Culture & Behaviors
+summary: "Cyberbullying has escalated as more people connect online, affecting
+  many, especially youths. Persistent, invasive, and often anonymous, this form
+  of harassment can occur through texts, apps, and social media, leading to
+  significant emotional distress for victims. "
 media:
   thumbnail: /images/uploads/rise-of-cyberbullying-entry.jpg
   credit: The Law Dictionary
