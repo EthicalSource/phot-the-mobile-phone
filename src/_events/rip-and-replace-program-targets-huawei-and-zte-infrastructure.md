@@ -23,7 +23,7 @@ source: New York Times
 source_link: https://www.nytimes.com/2023/05/09/technology/cellular-china-us-zte-huawei.html
 image: /images/uploads/rip-and-replace-open-graph.jpg
 cluster_thumbnail:
-  src: /images/uploads/4e48a84dcf2204c9.jpeg
+  src: ""
 ---
 Various countries, led by the U.S., express concerns about Huawei and ZTE's ties to the Chinese government, leading to bans or restrictions on the company's 5G tech and smartphones. Authorities claim that Chinese companies threaten national security because the use of their equipment in networks gives the Chinese government potential backdoor access for espionage, cyberattacks and intellectual property theft.
 
