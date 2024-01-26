@@ -1,6 +1,8 @@
 ---
 layout: cta
 feature: true
+summary: Looking to ditch your smartphone? Jose Briones helps you find the right
+  feature phone for your lifestyle.
 title: Find the dumbphone for you.
 clusters: Design & Use
 tags:
