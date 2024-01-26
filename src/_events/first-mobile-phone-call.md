@@ -3,13 +3,17 @@ layout: entry
 feature: true
 title: First mobile phone call
 location: New York, NY
+clusters: Connection & Access
 tags:
   - 1970s
 start_date:
   year: 1973
   month: 4
   day: 3
-clusters: Connection & Access
+summary: Did you know the first mobile phone call was a troll? In 1973, Martin
+  Cooper, an engineer at Motorola, used his prototype of the DynaTAC 8000x (the
+  "brick phone") to call his rival engineer at Bell Labs to tell him he was
+  making the first mobile phone call.
 media:
   credit: Martin Cooper
   link: https://whyy.org/segments/father-of-cell-phone-reflects-on-making-first-call-and-history-50-years-ago/
