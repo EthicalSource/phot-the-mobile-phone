@@ -2,13 +2,18 @@
 layout: entry
 title: BART blocks mobile networks to prevent protests.
 location: San Francisco, CA
+clusters: Connection & Access
 tags:
   - 2010s
 start_date:
   year: 2011
   month: 8
   day: 11
-clusters: Connection & Access
+summary: Authorities for Bay Area Rapid Transit (BART) blocked wireless signals
+  in San Francisco stations to prevent protests. Demonstrators had planned to
+  stop trains from running in response to a fatal shooting. BART officials
+  admitted to switching off the transit system's base stations, disabling the
+  underground wireless network.
 media:
   credit: Wired
   link: https://www.wired.com/2011/08/subway-internet-shuttering/
