@@ -1,6 +1,11 @@
 ---
 layout: cta
 feature: true
+summary: Consumer Reports guides you how to pick a secure messaging app to
+  encrypt your messages. Secure messaging apps such as WhatsApp and Signal are
+  designed to help by using encryption to make sure only the people sending and
+  receiving messages can read them. (All the people in the conversation need to
+  be using the same app.)
 title: Encrypt your messages.
 clusters: Risk & Safety
 tags:
