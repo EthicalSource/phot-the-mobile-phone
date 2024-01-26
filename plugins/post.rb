@@ -16,10 +16,10 @@ module PostResourceExtension
 
     def summary_summary(length: 350)
       if data.has_key?("summary")
-        if summary.length > length
-          sanitize_content(summary)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
+        if data.summary.length > length
+          sanitize_content(data.summary)[0, length].split[0...-1].join(' ').gsub(/&nbsp;/, ' ') + '...'
         else
-          sanitize_content(summary)
+          sanitize_content(data.summary)
         end
       else
         content_summary(length: length)
