@@ -4,6 +4,11 @@ start_date:
   year: 2010
   month: 12
   day: 17
+summary: "The Arab Spring was a series of protests and revolutions that started
+  in 2010 in the Arab world. It began in Tunisia and spread to countries like
+  Egypt, Libya, and Syria. People were unhappy with their governments and used
+  social media and mobile phones to organize demonstrations and disseminate
+  information. "
 media:
   thumbnail: /images/uploads/arab-spring.jpg
   alt: A boy leading chants in Bahrain in Peter Snowdon’s 2014 film “The
@@ -15,12 +20,12 @@ thumbnail: /images/uploads/arab-spring.jpg
 date: 2023-12-21T20:56:03.566Z
 title: Arab Spring
 location: Tunisia, Egypt, Libya, Yemen
+clusters: Movements & Resistance
+tags:
+  - 2010s
 end_date:
   month: 12
   year: 2012
-tags:
-  - 2010s
-clusters: Movements & Resistance
 source: Al Jazeera
 source_link: https://www.aljazeera.com/news/2021/1/14/arab-spring-ten-years-on
 ---
