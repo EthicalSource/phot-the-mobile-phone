@@ -24,5 +24,7 @@ outbound_links: "[Learn more about Indigenous rights to
 image: /images/uploads/decolonize-connectivity-open-graph.jpg
 cluster_thumbnail:
   src: /images/uploads/decolonize-connectivity-coll-thumb.jpg
+  alt: Poster of “Indian Spectrum for Sale” by Darrah Blackwater in collaboration
+    with Solange Aguilar.
 ---
 Digital inequity is the product of colonization. Urge policymakers to look at consultation processes, comment periods, and policy development through a decolonized lens, taking into consideration the capacity, cultural practices, voices, and perspectives of Indigenous peoples, from start to finish.
