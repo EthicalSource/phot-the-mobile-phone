@@ -14,7 +14,7 @@ summary: "Various countries, led by the U.S., express concerns about Huawei and
   mandates that American companies tear out telecom equipment made by the
   Chinese companies Huawei and ZTE. "
 media:
-  thumbnail: /images/uploads/rip-and-replace-entry.jpg
+  thumbnail: ""
   credit: Doug Barrett/Bloomberg
   link: https://www.bloomberg.com/news/articles/2022-05-11/us-ban-on-china-tech-failed-to-stop-use-of-hauwei-zte-hardware
   alt: Worker shows Huawei Technologies equipment is still in place at United
