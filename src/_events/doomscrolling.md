@@ -3,13 +3,17 @@ layout: entry
 feature: true
 title: Doomscrolling
 location: Global
+clusters: Bodies & Minds
 tags:
   - Bodies & Minds
   - 2020s
 start_date:
   month: 3
   year: 2020
-clusters: Bodies & Minds
+summary: '"Doomscrolling" refers to the behavior of continuously scrolling
+  through negative, distressing, or alarming news, even though the content may
+  amplify feelings of fear, anxiety, or despair. The term gained traction in
+  2020, particularly in the context of the COVID-19 pandemic.'
 media:
   thumbnail: /images/uploads/doomscrolling-idea-450x450-8.gif
   credit: EMMA KUMER/Reader's Digest
