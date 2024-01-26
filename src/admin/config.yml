@@ -410,7 +410,7 @@ collections:
         name: "description"
         widget: "markdown"
         required: false
-      - label: "Cluster Thumbnail"
+      - label: "Collection Entry Thumbnail"
         name: "cluster_thumbnail"
         widget: "object"
         fields:
