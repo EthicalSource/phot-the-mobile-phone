@@ -1,6 +1,6 @@
 class Cards::CallToAction < Bridgetown::Component
   def initialize(post:)
-    @content = post.summary_summary(length: 175)
+    @content = post.summary_summary(length: 125)
     @cta     = post.data
     @link    = post.relative_url
 
