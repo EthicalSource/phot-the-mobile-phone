@@ -1,7 +1,6 @@
 class Journal < Bridgetown::Model::Base
   def resources_to_explore
-    events.
-      insert(2,other_journals.first).
+    other_journals.
       insert(4,prompt_resource).
       insert(5,cta_resource).
       compact
@@ -17,11 +16,6 @@ class Journal < Bridgetown::Model::Base
               .intersection(Array(clusters).map(&:downcase)) }
   end
 
-  def events
-    posts = site_collections.events.resources
-    PostHelpers.events_by_collection(posts: posts, value: clusters, count: 2)
-  end
-
   def prompt_resource
     site_collections.
       prompts.
@@ -34,7 +28,7 @@ class Journal < Bridgetown::Model::Base
     site_collections.
       journals.
       resources.
-      reject { |item| item.data.title == title }
+      reject { |item| item.data.title == title }.take(3)
   end
 
   def site_collections

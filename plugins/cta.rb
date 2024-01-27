@@ -1,6 +1,6 @@
 class Cta < Bridgetown::Model::Base
   def resources_to_explore
-    events.
+    other_ctas.
       insert(2,journal_resource).
       insert(4,prompt_resource).
       insert(5,cta_resource).
@@ -13,12 +13,7 @@ class Cta < Bridgetown::Model::Base
     site_collections.
       ctas.
       resources.
-      reject { |cta| cta.data.title == title }
-  end
-
-  def events
-    posts = site_collections.events.resources
-    PostHelpers.events_by_collection(posts: posts, value: clusters, count: 2)
+      reject { |cta| cta.data.title == title }.take(2)
   end
 
   def cta_resource
