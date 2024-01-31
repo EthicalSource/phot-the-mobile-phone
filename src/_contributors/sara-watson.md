@@ -1,3 +1,3 @@
 ---
-name: Sara Watson
+name: Sara M. Watson
 ---
