@@ -1,20 +1,21 @@
 ---
 layout: entry
+feature: true
 title: On the ground in Tahrir Square
 highlight: Just having a phone in Egypt at that time [was] a privilege.
 location: Cairo, Egypt
+clusters: Movements & Resistance
 tags:
   - 2010s
-year: 2011
-clusters: Movements & Resistance
-related_events:
-  - Arab Spring
 media:
   credit: Peter Macdiarmid/Getty Images
   link: https://www.npr.org/2011/02/17/133841665/through-protests-one-man-helps-define-a-new-media
   alt: Photo of a shop in Cairo's Tahrir Square is spray-painted with the word
     "twitter" on Feb. 4, days after the Egyptian government blocked Internet
     access. Someone carries an Egyptian flag in front of the store.
+related_events:
+  - Arab Spring
+year: 2011
 source: Anonymous
 ---
 ### A People's History of Tech Interview
