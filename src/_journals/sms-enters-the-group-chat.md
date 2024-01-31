@@ -1,13 +1,15 @@
 ---
 layout: entry
+related_events: []
+feature: true
 title: SMS enters the group chat
 highlight: I am partially deaf...people could tell me things discreetly over SMS.
 location: Birmingham, UK
+clusters: Bodies & Minds
 tags:
   - 1990s
+  - People's Voice
 year: 1999
-clusters: Bodies & Minds
-related_events: []
 source: Natalya Dell
 ---
 ### Tell us about a time when a mobile phone made you feel powerful.
