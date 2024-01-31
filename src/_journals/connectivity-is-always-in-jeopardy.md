@@ -8,6 +8,7 @@ location: Bay Area, California
 clusters: Connection & Access
 tags:
   - 2010s
+  - People's Voice
 media:
   credit: Brendan Smialowski/AFP Getty Images
   link: https://www.usatoday.com/story/tech/columnist/2012/11/01/smartphones-storms-tips/1674461/
