@@ -1,13 +1,15 @@
 ---
 layout: entry
+feature: true
 title: Re-contracting our embrace of technologies
 highlight: My son's 9. There's some kids who already have phones in his class,
   some that don't.
 location: Brooklyn, NY
+clusters: Economy & Labor
 tags:
   - 2020s
+  - People's Voice
 year: 2023
-clusters: Economy & Labor
 source: Eli Pariser
 ---
 ### A People's History of Tech Interview
