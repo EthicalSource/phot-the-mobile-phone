@@ -1,12 +1,14 @@
 ---
 layout: entry
+feature: true
 title: Social pressures of the green text bubble
 highlight: In middle school (!) I felt pressured to get an iPhone (instead of an Android).
 location: San Francisco, CA
+clusters: Culture & Behaviors
 tags:
   - 2010s
+  - People's Voice
 year: 2012
-clusters: Culture & Behaviors
 media:
   alt: Scan of a handwritten participatory workshop contribution
   credit: A People's History of Tech
