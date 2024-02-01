@@ -29,6 +29,8 @@ You are the storytellers. This is a record of your experience. We’re building 
 
 Perhaps no technology has changed our lives more than the mobile phone. And while movies and television show us how the mobile phone has developed, even imagined how it might evolve in the future, we don't get the full story of the true political, social, and economic impacts of carrying a supercomputer in our pockets.
 
+![A crowd of participants gathers around a timeline banner covered in post-it notes of handwritten personal contributions to the timeline.](/images/uploads/dsc09127.jpg)
+
 ## FAQ
 
 ### Which people?
