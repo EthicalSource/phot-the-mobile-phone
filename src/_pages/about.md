@@ -53,9 +53,13 @@ We believe rewriting for a more inclusive history of tech that focuses on people
 
 By submitting you agree for your contributions to fall under the Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Submissions are moderated by a small group of volunteers before they appear publicly on the site. This to ensure no hate speech, spam, or breaches of anonymity are added to the site.
 
+### Where is my post?
+
+Submissions are moderated by a small group of volunteers before they appear publicly on the site. This to ensure no hate speech, spam, or breaches of anonymity are added to the site. We are doing our best to publish posts as quickly as we can!
+
 ### How do I make a correction or suggestion?
 
-Submissions are moderated by a small group of volunteers before they appear publicly on the site. This to ensure no hate speech, spam, or breaches of anonymity are added to the site. If you see anything you feel should be corrected, or removed, or would like something you posted to be deleted, please contact us at [hello@peoplestech.com](mailto:hello@peoplestech.com).
+If you see anything you feel should be corrected, or removed, or would like something you posted to be deleted, please contact us at [hello@peoplestech.com](mailto:hello@peoplestech.com).
 
 ## Licensing
 
