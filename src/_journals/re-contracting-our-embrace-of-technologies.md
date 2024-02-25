@@ -9,6 +9,7 @@ clusters: Economy & Labor
 tags:
   - 2020s
   - People's Voice
+  - Economy & Labor
 year: 2023
 source: Eli Pariser
 ---
