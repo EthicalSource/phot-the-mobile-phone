@@ -9,6 +9,7 @@ clusters: Bodies & Minds
 tags:
   - 1990s
   - People's Voice
+  - Design & Access
 year: 1999
 source: Natalya Dell
 ---
