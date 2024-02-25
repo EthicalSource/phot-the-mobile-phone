@@ -8,6 +8,7 @@ clusters: Design & Use
 tags:
   - 2000s
   - People's Voice
+  - Design & Access
 year: 2007
 media:
   credit: A People's History of Tech
