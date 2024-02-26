@@ -4,11 +4,12 @@ feature: false
 title: The kids 'don't have email'
 highlight: The kids 'don't have email'
 location: Unknown
-clusters: Culture & Behaviors
+clusters: People's Stories
 tags:
   - People's Voice
   - 2010s
   - Connection & Access
+  - Culture & Behaviors
 year: 2018
 media:
   thumbnail: /images/uploads/img_5155.jpeg
