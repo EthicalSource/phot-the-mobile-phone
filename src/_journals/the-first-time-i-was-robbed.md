@@ -9,6 +9,7 @@ tags:
   - 2010s
   - People's Voice
   - Materials & Waste
+  - Economy & Labor
 year: 2015
 media:
   thumbnail: /images/uploads/img_5162.jpeg
