@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: false
+feature: true
 title: Firsts and lasts
 highlight: My phone holds so many memories of first and lasts that hold so much
   importance to me
