@@ -1,14 +1,14 @@
 ---
 layout: entry
-feature: false
+feature: true
 title: First time I came out
 highlight: The first time I came out to someone was on a burner phone
 location: New York, NY
-clusters: People's Stories
+clusters: Risk & Safety
 tags:
   - 2000s
   - Bodies & Minds
-  - Risk & Safety
+  - People's Voice
 year: 2004
 media:
   thumbnail: /images/uploads/img_5191.jpeg
