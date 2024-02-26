@@ -7,6 +7,7 @@ location: Los Angeles, CA
 clusters: People's Stories
 tags:
   - Bodies & Minds
+  - 1990s
 year: 1997
 media:
   thumbnail: /images/uploads/img_5207.jpeg
