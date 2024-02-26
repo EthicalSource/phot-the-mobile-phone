@@ -9,6 +9,7 @@ tags:
   - 2000s
   - Culture & Behaviors
   - Bodies & Minds
+  - Risk & Safety
 year: 2007
 media:
   thumbnail: /images/uploads/img_5188.jpeg
