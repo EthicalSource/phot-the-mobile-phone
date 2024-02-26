@@ -3,10 +3,11 @@ feature: false
 title: Immediately smitten
 highlight: Texting became a critical part of how I created and nurtured a relationship.
 location: Anonymous
-clusters: Connection & Access
+clusters: People's Stories
 tags:
   - 2010s
   - People's Voice
+  - Connection & Access
 year: 2010
 media:
   link: https://www.phonescoop.com/articles/article.php?a=24&p=1384#gg=1673&gp=16760
