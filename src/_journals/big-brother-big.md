@@ -7,6 +7,7 @@ location: China
 clusters: People's Stories
 tags:
   - 2000s
+  - Culture & Behaviors
 year: 2003
 media:
   thumbnail: /images/uploads/img_5196.jpeg
