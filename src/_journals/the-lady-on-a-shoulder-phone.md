@@ -8,6 +8,7 @@ clusters: People's Stories
 tags:
   - 1990s
   - Connection & Access
+  - Economy & Labor
 year: 1992
 media:
   thumbnail: /images/uploads/bettina-dalton.jpeg
