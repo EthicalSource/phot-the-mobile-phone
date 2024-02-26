@@ -9,6 +9,7 @@ clusters: People's Stories
 tags:
   - Bodies & Minds
   - Culture & Behaviors
+  - 2010s
 year: 2013
 media:
   thumbnail: /images/uploads/img_5172.jpeg
