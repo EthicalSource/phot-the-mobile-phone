@@ -1,5 +1,5 @@
 ---
 name: People's Stories
-tag_type: cluster
+tag_type: collection
 published: false
 ---
