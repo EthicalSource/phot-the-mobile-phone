@@ -15,7 +15,6 @@ location: Cairo, Egypt
 clusters: Movements & Resistance
 tags:
   - 2010s
-  - People's Stories
 year: 2011
 source: Anonymous
 ---
