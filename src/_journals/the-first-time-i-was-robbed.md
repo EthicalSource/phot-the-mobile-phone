@@ -9,7 +9,6 @@ tags:
   - 2010s
   - Materials & Waste
   - Economy & Labor
-  - People's Stories
 year: 2015
 media:
   thumbnail: /images/uploads/img_5162.jpeg
