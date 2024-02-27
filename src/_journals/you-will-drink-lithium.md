@@ -6,8 +6,8 @@ highlight: "We noticed protest posters: 'You will drink lithium, you will eat co
 location: Atacama Desert, Chile
 clusters: Materials & Waste
 tags:
-  - People's Voice
   - Movements & Resistance
+  - People's Stories
 year: 2022
 media:
   thumbnail: /images/uploads/img_5147.jpeg
