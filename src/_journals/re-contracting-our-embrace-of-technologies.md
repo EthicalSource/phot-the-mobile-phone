@@ -8,8 +8,8 @@ location: Brooklyn, NY
 clusters: Economy & Labor
 tags:
   - 2020s
-  - People's Voice
   - Economy & Labor
+  - People's Stories
 year: 2023
 source: Eli Pariser
 ---
