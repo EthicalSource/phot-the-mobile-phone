@@ -6,10 +6,10 @@ highlight: The kids 'don't have email'
 location: Unknown
 clusters: People's Stories
 tags:
-  - People's Voice
   - 2010s
   - Connection & Access
   - Culture & Behaviors
+  - People's Stories
 year: 2018
 media:
   thumbnail: /images/uploads/img_5155.jpeg
