@@ -15,7 +15,6 @@ location: Bay Area, California
 clusters: Connection & Access
 tags:
   - 2010s
-  - People's Stories
 year: 2012
 source: Willow Idlewild
 ---
