@@ -1,6 +1,5 @@
 ---
-name: Design & Access
-tag_type: cluster
+name: Design & Use
+tag_type: collection
 published: false
-
 ---
