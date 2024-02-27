@@ -8,6 +8,7 @@ clusters: Culture & Behaviors
 tags:
   - 2010s
   - Connection & Access
+  - Design & Use
 year: 2012
 media:
   alt: Scan of a handwritten participatory workshop contribution
