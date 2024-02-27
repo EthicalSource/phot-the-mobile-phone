@@ -1,5 +1,12 @@
 ---
 layout: entry
+media:
+  credit: Brendan Smialowski/AFP Getty Images
+  link: https://www.usatoday.com/story/tech/columnist/2012/11/01/smartphones-storms-tips/1674461/
+  alt: People charge their cell phones outside a home that did not lose power in
+    Hoboken, NJ after hurricane Sandy.
+related_events:
+  - Arab Spring
 feature: true
 title: Connectivity is always in jeopardy
 highlight: Connectivity is always in jeopardy...It is not something to be
@@ -8,14 +15,7 @@ location: Bay Area, California
 clusters: Connection & Access
 tags:
   - 2010s
-  - People's Voice
-media:
-  credit: Brendan Smialowski/AFP Getty Images
-  link: https://www.usatoday.com/story/tech/columnist/2012/11/01/smartphones-storms-tips/1674461/
-  alt: People charge their cell phones outside a home that did not lose power in
-    Hoboken, NJ after hurricane Sandy.
-related_events:
-  - Arab Spring
+  - People's Stories
 year: 2012
 source: Willow Idlewild
 ---
