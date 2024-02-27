@@ -7,7 +7,7 @@ location: San Francisco, CA
 clusters: Design & Use
 tags:
   - 2000s
-  - People's Voice
+  - People's Stories
 year: 2007
 media:
   credit: A People's History of Tech
