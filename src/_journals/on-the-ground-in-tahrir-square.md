@@ -1,13 +1,5 @@
 ---
 layout: entry
-feature: true
-title: On the ground in Tahrir Square
-highlight: Just having a phone in Egypt at that time [was] a privilege.
-location: Cairo, Egypt
-clusters: Movements & Resistance
-tags:
-  - 2010s
-  - People's Voice
 media:
   credit: Peter Macdiarmid/Getty Images
   link: https://www.npr.org/2011/02/17/133841665/through-protests-one-man-helps-define-a-new-media
@@ -16,6 +8,14 @@ media:
     access. Someone carries an Egyptian flag in front of the store.
 related_events:
   - Arab Spring
+feature: true
+title: On the ground in Tahrir Square
+highlight: Just having a phone in Egypt at that time [was] a privilege.
+location: Cairo, Egypt
+clusters: Movements & Resistance
+tags:
+  - 2010s
+  - People's Stories
 year: 2011
 source: Anonymous
 ---
