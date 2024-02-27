@@ -8,8 +8,7 @@ location: Birmingham, UK
 clusters: Bodies & Minds
 tags:
   - 1990s
-  - People's Voice
-  - Design & Access
+  - People's Stories
 year: 1999
 source: Natalya Dell
 ---
