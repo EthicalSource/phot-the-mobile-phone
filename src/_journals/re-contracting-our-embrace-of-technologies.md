@@ -9,7 +9,6 @@ clusters: Economy & Labor
 tags:
   - 2020s
   - Economy & Labor
-  - People's Stories
 year: 2023
 source: Eli Pariser
 ---
