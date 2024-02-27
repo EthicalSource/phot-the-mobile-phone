@@ -1,6 +1,5 @@
 ---
-name: People's Voice
-tag_type: cluster
+name: People's Stories
+tag_type: collection
 published: false
-
 ---
