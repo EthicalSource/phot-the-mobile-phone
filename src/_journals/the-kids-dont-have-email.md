@@ -9,7 +9,6 @@ tags:
   - 2010s
   - Connection & Access
   - Culture & Behaviors
-  - People's Stories
 year: 2018
 media:
   thumbnail: /images/uploads/img_5155.jpeg
