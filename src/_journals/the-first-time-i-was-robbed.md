@@ -7,9 +7,9 @@ location: Guatemala
 clusters: People's Stories
 tags:
   - 2010s
-  - People's Voice
   - Materials & Waste
   - Economy & Labor
+  - People's Stories
 year: 2015
 media:
   thumbnail: /images/uploads/img_5162.jpeg
