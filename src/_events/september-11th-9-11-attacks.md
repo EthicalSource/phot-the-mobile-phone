@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: September 11th (9/11) attacks.
+title: September 11th (9/11) attacks
 location: New York, NY; Washington, DC
 clusters: Connection & Access
 tags:
