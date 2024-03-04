@@ -7,6 +7,8 @@ location: Atacama Desert, Chile
 clusters: Materials & Waste
 tags:
   - Movements & Resistance
+  - People's Stories
+  - 2020s
 year: 2022
 media:
   thumbnail: /images/uploads/img_5147.jpeg
