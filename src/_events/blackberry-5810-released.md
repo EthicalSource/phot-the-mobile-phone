@@ -1,7 +1,7 @@
 ---
 layout: entry
 feature: true
-title: BlackBerry 5810 released.
+title: BlackBerry 5810 released
 location: Canada
 clusters: Design & Use
 tags:
