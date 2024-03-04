@@ -1,12 +1,12 @@
 ---
 layout: entry
-title: Cell phone subscriptions surpass human population.
+title: Cell phone subscriptions surpass human population
 location: Global
+clusters: Culture & Behaviors
 tags:
   - 2010s
 start_date:
   year: 2015
-clusters: Culture & Behaviors
 summary: By 2015 there were more cell phones in use than people on Earth
   according to United Nations International Telecommunication Union Statistics.
   And by 2022, there were more than 8.58 billion mobile subscriptions in use
