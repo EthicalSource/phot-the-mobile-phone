@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: BART blocks mobile networks to prevent protests.
+title: BART blocks mobile networks to prevent protests
 location: San Francisco, CA
 clusters: Connection & Access
 tags:
