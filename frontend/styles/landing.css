@@ -290,3 +290,15 @@
       grid-template-rows: auto;
     }
   }
+
+ ul.cluster-grid > a:active,
+    a:focus-visible,
+    a:focus,
+    button:active,
+    button:focus,
+    button:focus-visible {
+    outline-width: 0.25rem;
+    border-radius: 1px;
+    outline-style: dotted;
+    outline-color: #029c1e;
+  }
