@@ -308,7 +308,10 @@
 .journal-cluster-link:focus,
 .resource-link:active,
 .resource-link:focus-visible,
-.resource-link:focus {
+.resource-link:focus,
+.tag-link:active,
+.tag-link:focus-visible,
+.tag-link:focus {
   outline-width: 0.1850rem;
   border-radius: 1px;
   outline-style: dotted;
