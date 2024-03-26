@@ -1,4 +1,6 @@
-<nav data-controller="open-close"
+<nav
+  id="nav-menu"
+  data-controller="open-close"
   data-open-close-open-class="nav--open"
   data-open-close-closed-class="nav--closed"
   data-open-close-closing-class="nav--closing"
@@ -8,8 +10,8 @@
     <%= partial "nav/logo" %>
     <div class="flex items-center gap-6">
       <%= link_to "#", class: "flex items-center", data: { action: "click->open-close#updateState" } do %>
-        <span class="inline-block mr-1 hidden group-[.nav--open]:block">Close</span>
-        <span class="inline-block mr-1 py-[10px]">Menu</span>
+        <button class="inline-block mr-1 hidden group-[.nav--open]:block" aria-expanded="true" aria-controls="nav-menu" aria-label="close">Close</button>
+        <button class="inline-block mr-1" aria-expanded="false" aria-controls="nav-menu" aria-label="open">Menu</button>
         <%= svg "images/shared/menu-icon.svg", class: "z-30 fill-white" %>
       <% end %>
       <%= link_to "Participate", "/participate", class: "button primary !hidden lg:!block !w-[146px] !min-w-[146px]" %>
