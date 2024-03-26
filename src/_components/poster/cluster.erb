@@ -2,7 +2,7 @@
   <%= link_to @link do %>
     <div class="content">
       <div class="cover" style="background-image: url(<%= relative_url @cluster.explore_image&.src %>)"></div>
-      <h2><%= @cluster.title %></h2>
+      <h3><%= @cluster.title %></h3>
       <p><%= @carousel_description %></p>
     </div>
   <% end %>
