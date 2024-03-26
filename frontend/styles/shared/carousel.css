@@ -143,14 +143,14 @@
   @apply text-dark-grey
 }
 
-.swiper-wrapper > .poster.swiper-slide a:active,
-a:focus-visible,
-a:focus {
+.carousel-link:active,
+.carousel-link:focus-visible,
+.carousel-link:focus {
   display: block;
-  outline-width: 0.18000rem;
+  outline-width: 0.2200rem;
   border-radius: 1px;
   outline-style: dotted;
-  outline-color: #20c03d;
+  outline-color: #19ac34;
 }
 
 @media screen and (max-width: 768px) {
