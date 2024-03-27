@@ -16,6 +16,14 @@
     @apply leading-[60px];
   }
 }
+@media (prefers-reduced-motion: reduce) {
+  .ticker-wrap .ticker {
+    animation: none;
+    transform: none;
+    animation-play-state: paused;
+  }
+}
+
 .ticker-wrap .ticker {
   @apply text-[17px] md:text-[24px];
 
