@@ -70,3 +70,31 @@ nav.nav--open #menu-icon > #top {
 nav #menu-icon path {
   transition: all .75s;
 }
+
+/* nav > a:active,
+a:focus-visible,
+a:focus,
+button:active,
+button:focus,
+button:focus-visible {
+  display: inline;
+  outline-width: 0.09375rem;
+  border-radius: 1px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+} */
+
+
+nav > div.menu-participate >
+  .nav-participate:active,
+  .nav-participate:focus-visible,
+  .nav-participate:focus,
+  .nav-participate:active,
+  .nav-participate:focus-visible,
+  .nav-participate:focus
+  {
+    outline-width: 0.1580rem;
+    border-radius: 1px;
+    outline-style: dotted;
+    outline-color: #2ef853;
+}

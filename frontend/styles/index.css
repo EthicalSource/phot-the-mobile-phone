@@ -203,3 +203,18 @@ button:focus-visible {
   }
   .general-content-page-tpl__inner-content-fence { }
 }
+
+
+.footer-logo-link
+.footer-logo-link:active,
+.footer-logo-link:focus-visible,
+.footer-logo-link:focus,
+.footer-logo-link:active,
+.footer-logo-link:focus,
+.footer-logo-link:focus-visible {
+  display: block;
+  outline-width: 0.09375rem;
+  border-radius: 1px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}

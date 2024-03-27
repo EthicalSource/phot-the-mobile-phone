@@ -114,3 +114,16 @@
     min-width: 100% !important;
   }
 }
+
+.card.prompt > article
+  a:active,
+  a:focus-visible,
+  a:focus,
+  button:active,
+  button:focus-visible,
+  button:focus {
+  outline-width: 0.2000rem;
+  border-radius: 1px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}

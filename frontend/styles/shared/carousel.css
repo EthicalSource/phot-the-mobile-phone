@@ -89,6 +89,25 @@
         vertical-align: sub;
       }
     }
+
+    [data-carousel-target="prev"]:active,
+    [data-carousel-target="prev"]:focus-visible,
+    [data-carousel-target="prev"]:focus {
+      outline-width: 0.18000rem;
+      border-radius: 1px;
+      outline-style: dotted;
+      outline-color: #2ef853;
+    }
+
+    [data-carousel-target="next"]:active,
+    [data-carousel-target="next"]:focus-visible,
+    [data-carousel-target="next"]:focus {
+      outline-width: 0.18000rem;
+      border-radius: 1px;
+      outline-style: dotted;
+      outline-color: #2ef853;
+    }
+
   }
 }
 .carousel {
@@ -124,6 +143,15 @@
   @apply text-dark-grey
 }
 
+.carousel-link:active,
+.carousel-link:focus-visible,
+.carousel-link:focus {
+  display: block;
+  outline-width: 0.2200rem;
+  border-radius: 1px;
+  outline-style: dotted;
+  outline-color: #19ac34;
+}
 
 @media screen and (max-width: 768px) {
   body.cta,
