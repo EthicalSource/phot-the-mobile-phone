@@ -10,11 +10,10 @@
     <%= partial "nav/logo" %>
     <div class="flex items-center">
         <button
-        id="menu-button"
-        type="button" data-action="click->open-close#updateState" class="inline-block mr-1">
-          Menu
+        type="button" data-action="click->open-close#updateState" class="inline-block mr-1 h-[44px] flex items-center">
+          <span id="menu-text">Menu</span>
+          <%= svg "images/shared/menu-icon.svg",class: "fill-white mr-[1.5rem] ml-[0.25rem]" %>
         </button>
-        <%= svg "images/shared/menu-icon.svg", class: "z-30 fill-white mr-[1.5rem]" %>
       <%= link_to "Participate", "/participate", class: "nav-participate button primary !hidden lg:!block !w-[146px] !min-w-[146px]" %>
     </div>
   </div>
