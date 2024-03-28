@@ -291,69 +291,12 @@
     }
   }
 
-.cluster-heading-link:active,
-.cluster-heading-link:focus-visible,
-.cluster-heading-link:focus,
-.entry-link:active,
-.entry-link:focus-visible,
-.entry-link:focus,
-.cluster-link:active,
-.cluster-link:focus-visible,
-.cluster-link:focus,
-.journal-link:active,
-.journal-link:focus-visible,
-.journal-link:focus,
-.journal-cluster-link:active,
-.journal-cluster-link:focus-visible,
-.journal-cluster-link:focus,
-.resource-link:active,
-.resource-link:focus-visible,
-.resource-link:focus,
-.tag-link:active,
-.tag-link:focus-visible,
-.tag-link:focus {
-  outline-width: 0.1850rem;
-  border-radius: 1px;
-  outline-style: dotted;
-  outline-color: #1fb23a;
-}
-
-li.home.prompt > .wrapper.participate > article >
-  a:active,
-  a:focus-visible,
-  a:focus,
-  button:active,
-  button:focus-visible,
-  button:focus
-  {
-    outline-width: 0.2000rem;
-    border-radius: 1px;
-    outline-style: dotted;
-    outline-color: #19ac34;
-}
-
 .introduction > p > a:active,
   a:focus-visible,
-  a:focus,
-  button:active,
-  button:focus-visible,
-  button:focus {
-    outline-width: 0.1800rem;
-    border-radius: 1px;
+  a:focus {
+    outline-width: 0.15rem;
+    border-radius: 0px;
     outline-style: dotted;
-    outline-color: #1fa137;
-}
-
-.tell-your-story > div >
-  a:active,
-  a:focus-visible,
-  a:focus,
-  button:active,
-  button:focus-visible,
-  button:focus {
-  outline-width: 0.2000rem;
-  border-radius: 1px;
-  outline-style: dotted;
-  outline-color: #2ef853;
+    outline-color: #1fb23a;
 }
 

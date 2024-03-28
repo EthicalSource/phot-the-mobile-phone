@@ -79,15 +79,3 @@ nav #menu-icon path {
     transition: none;
   }
 }
-
-nav > div.menu-participate > .nav-participate:active,
-.nav-participate:focus-visible,
-.nav-participate:focus,
-.nav-participate:active,
-.nav-participate:focus-visible,
-.nav-participate:focus {
-  outline-width: 0.158rem;
-  border-radius: 1px;
-  outline-style: dotted;
-  outline-color: #2ef853;
-}

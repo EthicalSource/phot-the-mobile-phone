@@ -147,8 +147,18 @@
 .carousel-link:focus-visible,
 .carousel-link:focus {
   display: block;
-  outline-width: 0.2200rem;
-  border-radius: 1px;
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #19ac34;
+}
+
+.carousel-img-link:active,
+.carousel-img-link:focus-visible
+.carousel-img-link:focus {
+  display: block;
+  outline-width: 0.17rem;
+  border-radius: 0px;
   outline-style: dotted;
   outline-color: #19ac34;
 }
