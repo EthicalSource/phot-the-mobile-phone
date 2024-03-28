@@ -148,7 +148,10 @@ header > .explore {
 
 a:active,
 a:focus-visible,
-a:focus {
+a:focus,
+button:active,
+button:focus-visible
+button:focus {
   outline-width: 0.15rem;
   border-radius: 0px;
   outline-style: dotted;
