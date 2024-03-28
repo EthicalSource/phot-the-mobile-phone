@@ -43,12 +43,3 @@
   outline-style: dotted;
   outline-color: #19ac34;
 }
-
-.button.primary:active,
-.button.button.primary:focus-visible,
-.button:focus {
-  outline-width: 0.17rem;
-  border-radius: 0px;
-  outline-style: dotted;
-  outline-color: #1fb23a;
-}
