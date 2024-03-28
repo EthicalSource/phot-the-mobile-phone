@@ -1,5 +1,9 @@
 import { Controller } from '@hotwired/stimulus';
 
+const menuText = document.getElementById('menu-text');
+const menuButton = document.getElementById('menu-button');
+const nav = document.getElementById('nav-menu')
+
 export default class extends Controller {
   static classes = [ 'open', 'closed', 'closing' ]
   static targets  = [ 'menu' ]
@@ -7,8 +11,14 @@ export default class extends Controller {
   updateState(e) {
     e.preventDefault();
     if (this.isOpen()) {
+      menuText.textContent = 'Menu';
+      menuButton.setAttribute("aria-expanded", false)
+      nav.setAttribute("aria-expanded", false)
       this.closeElement()
     } else {
+      menuText.textContent = 'Close Menu'
+      menuButton.setAttribute("aria-expanded", true)
+      nav.setAttribute("aria-expanded", true)
       this.openElement()
     }
   }
