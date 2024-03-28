@@ -1,5 +1,7 @@
 import { Controller } from '@hotwired/stimulus';
 
+const menuButton = document.getElementById('menu-button');
+
 export default class extends Controller {
   static classes = [ 'open', 'closed', 'closing' ]
   static targets  = [ 'menu' ]
@@ -7,8 +9,10 @@ export default class extends Controller {
   updateState(e) {
     e.preventDefault();
     if (this.isOpen()) {
+      menuButton.textContent = 'Menu';
       this.closeElement()
     } else {
+      menuButton.textContent = 'Close Menu'
       this.openElement()
     }
   }
