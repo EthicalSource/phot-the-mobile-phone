@@ -79,3 +79,31 @@ nav #menu-icon path {
     transition: none;
   }
 }
+
+.nav-logo:active,
+.nav-logo:focus-visible,
+.nav-logo:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
+
+button.nav-menu-button:active,
+button.nav-menu-button:focus-visible,
+button.nav-menu-button:focus
+{
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+  }
+
+.nav-participate:active,
+.nav-participate:focus-visible,
+.nav-participate:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}

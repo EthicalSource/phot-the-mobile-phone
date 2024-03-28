@@ -148,14 +148,11 @@ header > .explore {
 
 a:active,
 a:focus-visible,
-a:focus,
-button:active,
-button:focus-visible
-button:focus {
+a:focus {
   outline-width: 0.15rem;
   border-radius: 0px;
   outline-style: dotted;
-  outline-color: #2ef853;
+  outline-color: #1fb23a;
 }
 
 .link:hover {
