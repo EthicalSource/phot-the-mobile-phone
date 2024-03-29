@@ -124,3 +124,12 @@
   outline-style: dotted;
   outline-color: #2ef853;
 }
+
+.card-event-link:active,
+.card-event-link:focus,
+.card-event-link:focus-visible {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
