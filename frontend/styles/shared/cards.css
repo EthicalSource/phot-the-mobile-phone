@@ -118,6 +118,7 @@
 .explore-card-link:active,
 .explore-card-link:focus,
 .explore-card-link:focus-visible {
+  display: block;
   outline-width: 0.15rem;
   border-radius: 0px;
   outline-style: dotted;
