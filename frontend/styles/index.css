@@ -20,22 +20,20 @@
 @tailwind utilities;
 
 :root {
-  --cluster-image-size:
-    clamp(
-      var(--cluster-image-size-min),
-      var(--cluster-image-size-val),
-      var(--cluster-image-size-max)
-    );
+  --cluster-image-size: clamp(
+    var(--cluster-image-size-min),
+    var(--cluster-image-size-val),
+    var(--cluster-image-size-max)
+  );
   --cluster-image-size-min: 260px;
   --cluster-image-size-val: 25vw;
   --cluster-image-size-max: 454px;
 
-  --event-image-square-size:
-    clamp(
-      var(--event-image-square-min),
-      var(--event-image-square-val),
-      var(--event-image-square-max)
-    );
+  --event-image-square-size: clamp(
+    var(--event-image-square-min),
+    var(--event-image-square-val),
+    var(--event-image-square-max)
+  );
 
   --event-image-square-min: 200px;
   --event-image-square-val: 18vw;
@@ -46,18 +44,21 @@ body {
 
   > header {
     @apply px-[30px] lg:px-[70px];
-    img[src=""] { display: none; }
+    img[src=""] {
+      display: none;
+    }
   }
   main {
-    @apply px-[30px] lg:px-[70px]
+    @apply px-[30px] lg:px-[70px];
   }
 }
-
 
 .outbound {
   aside {
     flex: flex-col;
-    > *:not(p) { display: none !important }
+    > *:not(p) {
+      display: none !important;
+    }
     a {
       display: block;
       font-weight: bold;
@@ -68,7 +69,7 @@ body {
       content: "";
       background-color: currentColor;
       display: inline-block;
-      mask: url('/images/shared/arrow_forward_icon.svg') no-repeat 50% 50%;
+      mask: url("/images/shared/arrow_forward_icon.svg") no-repeat 50% 50%;
       width: 16px;
       height: 16px;
       margin-left: 4px;
@@ -79,7 +80,6 @@ body {
     }
   }
 }
-
 
 body.cta main,
 body.entry main,
@@ -106,18 +106,37 @@ body.page main {
 .cta main article,
 .entry main article,
 .page-md-style {
-  h2 { @apply md:text-2xl lg:text-4xl font-semibold mt-[44px] mb-6 text-white }
-  h3 { @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white }
-  h4 { @apply md:text-lg  lg:text-xl  font-semibold mb-6 text-white }
-  p  { @apply text-[17px] leading-relaxed mb-6 text-medium-grey }
-  strong { @apply font-semibold text-white }
-  a { @apply text-white underline decoration-lime-green hover:underline-offset-4 hover:text-off-white transition-all   }
-  ul { @apply list-disc pl-6 marker:text-lime-green }
+  h2 {
+    @apply md:text-2xl lg:text-4xl font-semibold mt-[44px] mb-6 text-white;
+  }
+  h3 {
+    @apply md:text-xl  lg:text-2xl font-semibold mb-6 text-white;
+  }
+  h4 {
+    @apply md:text-lg  lg:text-xl  font-semibold mb-6 text-white;
+  }
+  p {
+    @apply text-[17px] leading-relaxed mb-6 text-medium-grey;
+  }
+  strong {
+    @apply font-semibold text-white;
+  }
+  a {
+    @apply text-white underline decoration-lime-green hover:underline-offset-4 hover:text-off-white transition-all;
+  }
+  ul {
+    @apply list-disc pl-6 marker:text-lime-green;
+  }
 }
 
 .bg-gradient {
-  background: rgb(25,25,25);
-  background: linear-gradient(315deg, rgba(38,38,38,1), rgba(25,25,25,1) 63%, rgba(25,25,25,1) 0% 100%);
+  background: rgb(25, 25, 25);
+  background: linear-gradient(
+    315deg,
+    rgba(38, 38, 38, 1),
+    rgba(25, 25, 25, 1) 63%,
+    rgba(25, 25, 25, 1) 0% 100%
+  );
 }
 .bg-gradient-story {
   background: linear-gradient(to bottom, #000000 0%, #101012 100%);
@@ -165,7 +184,7 @@ button:focus-visible {
   main.general-content-page-tpl {
     padding-left: 30px;
     padding-right: 30px;
-    max-width: calc((960/1024)*100%);
+    max-width: calc((960 / 1024) * 100%);
   }
   .general-content-page-tpl__inner-content-fence {
     margin-left: auto;
@@ -177,36 +196,35 @@ button:focus-visible {
   main.general-content-page-tpl {
     padding-left: 70px;
     padding-right: 70px;
-    max-width: calc((960/1024)*100%);
+    max-width: calc((960 / 1024) * 100%);
   }
   .general-content-page-tpl__inner-content-fence {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
   main.general-content-page-tpl {
     padding-left: 70px;
     padding-right: 70px;
-    max-width: calc((960/1024)*100%);
+    max-width: calc((960 / 1024) * 100%);
   }
   .general-content-page-tpl__inner-content-fence {
-      max-width: 960px;
-      margin-left: auto;
-      margin-right: auto;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1366px) {
   main.general-content-page-tpl {
     max-width: 1100px;
   }
-  .general-content-page-tpl__inner-content-fence { }
+  .general-content-page-tpl__inner-content-fence {
+  }
 }
 
-
-.footer-logo-link
-.footer-logo-link:active,
+.footer-logo-link .footer-logo-link:active,
 .footer-logo-link:focus-visible,
 .footer-logo-link:focus,
 .footer-logo-link:active,
