@@ -128,6 +128,14 @@ body.page main {
     @apply list-disc pl-6 marker:text-lime-green;
   }
 }
+.entry main article {
+  h3 {
+    @apply body text-medium-grey font-normal;
+  }
+  p {
+    @apply text-[1.5rem] leading-8 text-white font-medium;
+  }
+}
 
 .bg-gradient {
   background: rgb(25, 25, 25);
