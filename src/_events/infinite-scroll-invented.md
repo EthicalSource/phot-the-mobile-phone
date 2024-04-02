@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Infinite scroll invented.
+title: Infinite scroll invented
 location: United States
 clusters: Economy & Labor
 tags:

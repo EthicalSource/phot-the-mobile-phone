@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Digital Right to Repair Coalition forms.
+title: Digital Right to Repair Coalition forms
 location: United States, European Union,
 clusters: Materials & Waste
 tags:

@@ -9,6 +9,7 @@ tags:
   - 2010s
   - Bodies & Minds
   - Culture & Behaviors
+  - People's Stories
 year: 2010
 media:
   thumbnail: /images/uploads/img_5178.jpeg
