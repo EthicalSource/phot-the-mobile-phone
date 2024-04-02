@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<% event = resource %>
+<% entry = resource %>
 <%= partial 'post/headline' %>
 <main>
-  <%= partial 'entry/card' %>
+  <%= partial 'entry/card', locals: { resource: entry } %>
 </main>
-<%= partial 'post/related', locals: { resource: event } %>
+<%= partial 'post/related', locals: { resource: entry } %>
