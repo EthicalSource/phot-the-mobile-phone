@@ -10,11 +10,10 @@
   <div class="flex justify-between items-center w-full">
     <%= partial "nav/logo" %>
     <div class="flex items-center">
-        <button
+      <button
         id="menu-button"
-        type="button"
         aria-expanded="false"
-        data-action="click->open-close#updateState" class="inline-block mr-1 h-[44px] flex items-center">
+        data-action="click->open-close#updateState" class="inline-block mr-1 h-[44px] flex items-center nav-menu-button">
           <span id="menu-text">Menu</span>
           <%= svg "images/shared/menu-icon.svg",class: "fill-white mr-[1.5rem] ml-[0.25rem]" %>
         </button>

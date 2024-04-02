@@ -1,8 +1,8 @@
 <div class="wrapper journal">
   <div class="quote-wrapper flex justify-end items-center">
     <div class="flex flex-col justify-center">
-      <a class="journal-link" href="<%= url_for(@journal)%>">
-        <h2 class="heading-sm text-fuchsia text-left font-extrabold mb-[20px] tracking-[0.01em]">
+      <a class="journal-link landing-page-link" href="<%= url_for(@journal)%>">
+        <h2 class="heading-sm text-fuchsia text-center font-extrabold mb-[20px] tracking-[0.01em]">
           <%= @journal.highlight_summary(length: 110) %>
         </h2>
       </a>
@@ -10,7 +10,7 @@
         - <%= @journal.data.source%>, <%= @journal.data.location%>
       </p>
       <p class="text-left md:text-center">
-        <a href="/collections/peoples-stories" class="p-1 px-4 border border-solid-black mt-[25px] w-fit lowercase journal-cluster-link">
+        <a href="/collections/peoples-stories" class="p-1 px-4 border border-solid-black mt-[25px] w-fit lowercase journal-cluster-link landing-page-link">
           people's stories
         </a>
       </p>

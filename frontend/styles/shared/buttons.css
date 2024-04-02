@@ -34,3 +34,21 @@
   @apply px-[25px] py-[17px] md:py-[15px];
   @apply md:text-[24px];
 }
+
+.button.secondary:active,
+.button.secondary:focus-visible,
+.button.secondary:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
+
+.button.tertiary:active,
+.button.tertiary:focus-visible,
+.button.tertiary:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}

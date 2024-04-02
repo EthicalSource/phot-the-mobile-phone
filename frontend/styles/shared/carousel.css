@@ -89,25 +89,6 @@
         vertical-align: sub;
       }
     }
-
-    [data-carousel-target="prev"]:active,
-    [data-carousel-target="prev"]:focus-visible,
-    [data-carousel-target="prev"]:focus {
-      outline-width: 0.18000rem;
-      border-radius: 1px;
-      outline-style: dotted;
-      outline-color: #2ef853;
-    }
-
-    [data-carousel-target="next"]:active,
-    [data-carousel-target="next"]:focus-visible,
-    [data-carousel-target="next"]:focus {
-      outline-width: 0.18000rem;
-      border-radius: 1px;
-      outline-style: dotted;
-      outline-color: #2ef853;
-    }
-
   }
 }
 .carousel {
@@ -147,10 +128,32 @@
 .carousel-link:focus-visible,
 .carousel-link:focus {
   display: block;
-  outline-width: 0.2200rem;
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #1fb23a;
+}
+
+.carousel-img-link:active,
+.carousel-img-link:focus-visible
+.carousel-img-link:focus {
+  display: block;
+  outline-width: 0.17rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #1fb23a;
+}
+
+[data-carousel-target="next"]:active,
+[data-carousel-target="next"]:focus-visible,
+[data-carousel-target="next"]:focus,
+[data-carousel-target="prev"]:active,
+[data-carousel-target="prev"]:focus-visible,
+[data-carousel-target="prev"]:focus {
+  outline-width: 0.15rem;
   border-radius: 1px;
   outline-style: dotted;
-  outline-color: #19ac34;
+  outline-color: #1fb23a;
 }
 
 @media screen and (max-width: 768px) {

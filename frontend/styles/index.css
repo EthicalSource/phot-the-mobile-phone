@@ -175,15 +175,13 @@ header > .explore {
 
 a:active,
 a:focus-visible,
-a:focus,
-button:active,
-button:focus,
-button:focus-visible {
-  outline-width: 0.09375rem;
-  border-radius: 1px;
+a:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
   outline-style: dotted;
-  outline-color: #2ef853;
+  outline-color: #1fb23a;
 }
+
 .link:hover {
   text-decoration: underline;
 }
@@ -232,15 +230,33 @@ button:focus-visible {
   }
 }
 
-.footer-logo-link .footer-logo-link:active,
-.footer-logo-link:focus-visible,
-.footer-logo-link:focus,
+.tag-link:active,
+.tag-link:focus-visible,
+.tag-link:focus {
+  outline-width: 0.2rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #1fb23a;
+}
+
+.footer-logo-link
 .footer-logo-link:active,
-.footer-logo-link:focus,
-.footer-logo-link:focus-visible {
+.footer-logo-link:focus-visible,
+.footer-logo-link:focus {
   display: block;
-  outline-width: 0.09375rem;
-  border-radius: 1px;
+  outline-width: 0.15rem;
+  border-radius: 0px;
   outline-style: dotted;
   outline-color: #2ef853;
+}
+
+.general-content-page-tpl__inner-content-fence > p {
+  a:active,
+  a:focus,
+  a:focus-visible  {
+    outline-width: 0.15rem;
+    border-radius: 0px;
+    outline-style: dotted;
+    outline-color: #2ef853;
+  }
 }

@@ -115,15 +115,30 @@
   }
 }
 
-.card.prompt > article
-  a:active,
-  a:focus-visible,
-  a:focus,
-  button:active,
-  button:focus-visible,
-  button:focus {
-  outline-width: 0.2000rem;
-  border-radius: 1px;
+.explore-card-link:active,
+.explore-card-link:focus,
+.explore-card-link:focus-visible {
+  display: block;
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
+
+.card-event-link:active,
+.card-event-link:focus,
+.card-event-link:focus-visible {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
+
+.card-journal-link:active,
+.card-journal-link:focus,
+.card-journal-link:focus-visible {
+  outline-width: 0.15rem;
+  border-radius: 0px;
   outline-style: dotted;
   outline-color: #2ef853;
 }

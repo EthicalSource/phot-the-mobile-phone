@@ -125,7 +125,6 @@
     }
   }
 
-
   @media screen and (min-width: 849px) {
     main.revised-cluster-grid .card article header {
         width: 100%;
@@ -143,6 +142,7 @@
     }
   }
 }
+
 @media screen and (max-width: 849px) {
   body.cluster,
   body.cluster_decade,

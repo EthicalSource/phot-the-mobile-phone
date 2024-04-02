@@ -6,7 +6,7 @@
 
 <footer class="footer bg-solid-black text-white w-full pt-[38px] px-[30px]">
   <div class="footer-content flex flex-col items-center">
-    <%= link_to "/" do %>
+    <%= link_to "/", class: 'footer-logo-link' do %>
       <img src="/images/shared/APHOT_white_transparent.svg"
           class="w-[50px] h-[50px] mb-[40px]"
           alt="Home" aria-hidden="true" />
@@ -15,12 +15,12 @@
     <ul class="flex flex-wrap gap-x-[20px] gap-y-[10px] mb-[26px] w-full justify-center base text-white">
       <% PageHelpers.pages_in_footer(pages: collections.pages.resources).each do |page| %>
         <li>
-          <%= link_to page.data.nav_label, page.relative_url %>
+          <%= link_to page.data.nav_label, page.relative_url, class: 'footer-logo-link' %>
         </li>
       <% end %>
       <li>
         <%= link_to "Subscribe",
-          subscribe_link.data.href %>
+          subscribe_link.data.href, class: 'footer-logo-link' %>
       </li>
     </ul>
     <ul class="flex flex-end justify-center mb-[28px] md:mb-[33px] gap-[30px]">

@@ -80,14 +80,44 @@ nav #menu-icon path {
   }
 }
 
-nav > div.menu-participate > .nav-participate:active,
-.nav-participate:focus-visible,
-.nav-participate:focus,
-.nav-participate:active,
-.nav-participate:focus-visible,
-.nav-participate:focus {
-  outline-width: 0.158rem;
-  border-radius: 1px;
+.nav-logo:active,
+.nav-logo:focus-visible,
+.nav-logo:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
   outline-style: dotted;
   outline-color: #2ef853;
+}
+
+button.nav-menu-button:active,
+button.nav-menu-button:focus-visible,
+button.nav-menu-button:focus
+{
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+  }
+
+.nav-participate:active,
+.nav-participate:focus-visible,
+.nav-participate:focus,
+.nav-link:active,
+.nav-link:focus-visible,
+.nav-link:focus {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
+
+.nav > ul > li {
+  a:active,
+  a:focus,
+  a:focus-visible  {
+    outline-width: 0.15rem;
+    border-radius: 0px;
+    outline-style: dotted;
+    outline-color: #2ef853;
+  }
 }
