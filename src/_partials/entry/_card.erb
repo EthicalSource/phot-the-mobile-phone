@@ -1,4 +1,4 @@
-<%= render("post/card/base") do %>
+<%= render("post/card/base", locals: { resource: resource }) do %>
   <%= partial 'entry/card/credit' %>
   <%= partial 'post/card/body' %>
   <%= partial 'post/card/links' %>
