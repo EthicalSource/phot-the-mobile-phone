@@ -133,3 +133,12 @@
   outline-style: dotted;
   outline-color: #2ef853;
 }
+
+.card-journal-link:active,
+.card-journal-link:focus,
+.card-journal-link:focus-visible {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}

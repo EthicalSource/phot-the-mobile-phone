@@ -221,3 +221,14 @@ a:focus {
   outline-style: dotted;
   outline-color: #2ef853;
 }
+
+.general-content-page-tpl__inner-content-fence > p {
+  a:active,
+  a:focus,
+  a:focus-visible  {
+    outline-width: 0.15rem;
+    border-radius: 0px;
+    outline-style: dotted;
+    outline-color: #2ef853;
+  }
+}
