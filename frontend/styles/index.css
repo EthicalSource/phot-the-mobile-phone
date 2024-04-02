@@ -239,8 +239,7 @@ a:focus {
   outline-color: #1fb23a;
 }
 
-.footer-logo-link
-.footer-logo-link:active,
+.footer-logo-link .footer-logo-link:active,
 .footer-logo-link:focus-visible,
 .footer-logo-link:focus {
   display: block;
@@ -253,7 +252,7 @@ a:focus {
 .general-content-page-tpl__inner-content-fence > p {
   a:active,
   a:focus,
-  a:focus-visible  {
+  a:focus-visible {
     outline-width: 0.15rem;
     border-radius: 0px;
     outline-style: dotted;
