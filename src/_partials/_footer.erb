@@ -9,7 +9,7 @@
     <%= link_to "/" do %>
       <img src="/images/shared/APHOT_white_transparent.svg"
           class="w-[50px] h-[50px] mb-[40px]"
-          alt="" aria-hidden="true" />
+          alt="Home" aria-hidden="true" />
     <% end %>
     <p class="mb-[23px] md:mb-[18px] body text-medium-grey">© 2023 CC BY-NC 4.0</p>
     <ul class="flex flex-wrap gap-x-[20px] gap-y-[10px] mb-[26px] w-full justify-center base text-white">
@@ -25,13 +25,13 @@
     </ul>
     <ul class="flex flex-end justify-center mb-[28px] md:mb-[33px] gap-[30px]">
       <li>
-        <a href="https://omidyar.com/the-tech-we-want/" target="blank">
+        <a class="footer-logo-link"  href="https://omidyar.com/the-tech-we-want/" target="blank">
           <img src="/images/shared/the-tech-we-want_footer-logo-white.svg"
           alt="The Tech We Want" class="h-[40px]">
         </a>
       </li>
       <li>
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">
+        <a class="footer-logo-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">
           <img src="/images/shared/by-nc-sa.svg"
           alt="Creative Commons License - Attribution-NonCommercial-ShareAlike 4.0 International"
           class="h-[30px] mt-[10px]">
@@ -41,7 +41,7 @@
     <ul class="flex justify-center mb-[43px] h-[40px] gap-x-[29px]">
       <% social_icons.each do |social_icon| %>
         <li>
-          <%= link_to social_icon.data.href do %>
+          <%= link_to social_icon.data.href, class: 'footer-logo-link' do %>
             <img src="<%= relative_url social_icon.data.media.src %>"
                  alt="<%= social_icon.data.media.alt %>"
                  class="h-[20px]"

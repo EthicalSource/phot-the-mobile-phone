@@ -2,15 +2,15 @@
   <div class="quote-wrapper flex justify-end items-center">
     <div class="flex flex-col justify-center">
       <a class="journal-link" href="<%= url_for(@journal)%>">
-        <h3 class="heading-sm text-fuchsia text-left font-extrabold mb-[20px] tracking-[0.01em]">
+        <h2 class="heading-sm text-fuchsia text-left font-extrabold mb-[20px] tracking-[0.01em]">
           <%= @journal.highlight_summary(length: 110) %>
-        </h3>
+        </h2>
       </a>
       <p class="source-location mb-[16px]">
         - <%= @journal.data.source%>, <%= @journal.data.location%>
       </p>
       <p class="text-left md:text-center">
-        <a href="/collections/peoples-stories" class="p-1 px-4 border border-solid-black mt-[25px] w-fit lowercase link">
+        <a href="/collections/peoples-stories" class="p-1 px-4 border border-solid-black mt-[25px] w-fit lowercase journal-cluster-link">
           people's stories
         </a>
       </p>

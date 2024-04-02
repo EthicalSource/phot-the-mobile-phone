@@ -1,9 +1,11 @@
 <div class="poster swiper-slide">
-  <%= link_to @link do %>
     <div class="content">
-      <div class="cover" style="background-image: url(<%= relative_url @cluster.explore_image&.src %>)"></div>
-      <h2><%= @cluster.title %></h2>
+      <%= link_to @link, class: "carousel-link" do %>
+        <div class="cover" style="background-image: url(<%= relative_url @cluster.explore_image&.src %>)"></div>
+      <% end %>
+      <%= link_to @link, class: "carousel-link" do %>
+        <h3><%= @cluster.title %></h3>
+      <% end %>
       <p><%= @carousel_description %></p>
     </div>
-  <% end %>
 </div>
