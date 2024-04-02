@@ -136,7 +136,10 @@
 
 .card-journal-link:active,
 .card-journal-link:focus,
-.card-journal-link:focus-visible {
+.card-journal-link:focus-visible,
+.cta-card-link:active,
+.cta-card-link:focus,
+.cta-card-link:focus-visible {
   outline-width: 0.15rem;
   border-radius: 0px;
   outline-style: dotted;
