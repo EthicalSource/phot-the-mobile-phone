@@ -101,9 +101,23 @@ button.nav-menu-button:focus
 
 .nav-participate:active,
 .nav-participate:focus-visible,
-.nav-participate:focus {
+.nav-participate:focus,
+.nav-link:active,
+.nav-link:focus-visible,
+.nav-link:focus {
   outline-width: 0.15rem;
   border-radius: 0px;
   outline-style: dotted;
   outline-color: #2ef853;
+}
+
+.nav > ul > li {
+  a:active,
+  a:focus,
+  a:focus-visible  {
+    outline-width: 0.15rem;
+    border-radius: 0px;
+    outline-style: dotted;
+    outline-color: #2ef853;
+  }
 }
