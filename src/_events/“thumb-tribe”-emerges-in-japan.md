@@ -1,13 +1,13 @@
 ---
 layout: entry
 feature: true
-title: “Thumb tribe” emerges in Japan.
+title: “Thumb tribe” emerges in Japan
 location: Japan
+clusters: Bodies & Minds
 tags:
   - 2000s
 start_date:
   year: 2001
-clusters: Bodies & Minds
 summary: The "thumb tribe" or "thumb generation" refers to the tech-savvy youth
   who grew up using mobile phones with touchscreens, relying on their thumbs for
   texting and navigating screens. The term originates in Japan, 拇指族

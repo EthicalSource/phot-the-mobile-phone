@@ -8,6 +8,7 @@ clusters: People's Stories
 tags:
   - 2000s
   - Culture & Behaviors
+  - People's Stories
 year: 2003
 media:
   thumbnail: /images/uploads/img_5196.jpeg
