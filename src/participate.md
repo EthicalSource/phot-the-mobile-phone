@@ -8,6 +8,7 @@ body_classes: "bg-black text-off-white"
   <%= render Shared::Navbar.new(site: site, resource: resource) %>
 </div>
 <main class="px-[30px] lg:px-[70px] my-[40px]">
+  <h1 class="heading-xxl my-[50px] text-center">Tell Your Story</h1>
   <%= render Prompt::TypeForm.new() %>
 </main>
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
