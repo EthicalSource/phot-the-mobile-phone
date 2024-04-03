@@ -25,7 +25,7 @@
   @apply bg-white pt-[80px] md:pt-[100px] pb-[80px] md:pb-[95px] text-medium-black;
   padding-left: var(--carousel-padding-left) !important;
 
-  h2 {
+  h3 {
     @apply heading-xs mb-[30px] md:mb-[15px] md:pl-[15px] w-fit;
     @apply text-medium-black font-semibold tracking-[.01em];
   }
