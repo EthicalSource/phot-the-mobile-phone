@@ -8,11 +8,10 @@ clusters: Design & Use
 tags:
   - 2000s
 year: 2007
+prompt: Describe a time when your mobile phone made you feel powerful.
 media:
   credit: A People's History of Tech
   alt: Scan of a handwritten participatory workshop contribution
 source: Anonymous
 ---
-### Tell us about a time when a mobile phone made you feel powerful:
-
-"Jailbreaking my iPhone, learning how to code so I could make apps for my phone, adding features to my phone that Apple hadn't added yet, engaging with the jailbreaking community"
+## "Jailbreaking my iPhone, learning how to code so I could make apps for my phone, adding features to my phone that Apple hadn't added yet, engaging with the jailbreaking community"
