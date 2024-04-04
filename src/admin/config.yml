@@ -465,6 +465,12 @@ collections:
         name: "year"
         widget: "number"
         value_type: int
+      - label: "Prompt"
+        name: "prompt"
+        widget: "relation"
+        collection: "prompts"
+        search_fields: [ "question" ]
+        value_field: "question"
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Media"
         name: "media"
