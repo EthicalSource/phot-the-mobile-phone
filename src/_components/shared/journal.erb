@@ -2,7 +2,7 @@
   <div class="quote-wrapper flex justify-end items-center">
     <div class="flex flex-col justify-center">
       <a class="journal-link landing-page-link" href="<%= url_for(@journal)%>">
-        <h2 class="heading-sm text-fuchsia text-center font-extrabold mb-[20px] tracking-[0.01em]">
+        <h2 class="heading-sm text-fuchsia text-left md:text-center font-extrabold mb-[20px] tracking-[0.01em] ">
           <%= @journal.highlight_summary(length: 110) %>
         </h2>
       </a>
