@@ -10,11 +10,10 @@ tags:
   - Connection & Access
   - Design & Use
 year: 2012
+prompt: Recall a time you felt vulnerable because of your mobile phone.
 media:
   alt: Scan of a handwritten participatory workshop contribution
   credit: A People's History of Tech
 source: Anonymous
 ---
-### Tell us about a time when you felt vulnerable because of your mobile phone:
-
-"In middle school (!) I felt pressured to get an iPhone by my friends (instead of an Android I guess??) very confusing dynamic we were like 12? 13?"
+## "In middle school (!) I felt pressured to get an iPhone by my friends (instead of an Android I guess??) very confusing dynamic we were like 12? 13?"

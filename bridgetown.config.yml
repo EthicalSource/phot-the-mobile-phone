@@ -76,6 +76,7 @@ collections:
     relations:
       belongs_to:
         - cluster
+        - prompt
 
   prompts:
     permalink: /:collection/:slug.*
@@ -85,6 +86,8 @@ collections:
     relations:
       belongs_to:
         - cluster
+      has_many:
+        - journals
 
   tags:
     permalink: /collections/:slug.*
