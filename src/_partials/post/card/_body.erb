@@ -1,3 +1,4 @@
-<article class="mb-[50px]">
+<article class="mb-[50px] flex flex-col">
   <%= content %>
+  <p class="order-first !mb-0"><%= resource&.data&.prompt %></p>
 </article>
