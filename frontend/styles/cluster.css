@@ -190,3 +190,12 @@
   width: var(--cluster-image-size);
   height: var(--cluster-image-size);
 }
+
+.media-credit:active,
+.media-credit:focus,
+.media-credit:focus-visible  {
+  outline-width: 0.15rem;
+  border-radius: 0px;
+  outline-style: dotted;
+  outline-color: #2ef853;
+}
