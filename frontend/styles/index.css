@@ -133,7 +133,7 @@ body.page main {
     @apply body text-medium-grey font-normal;
   }
   p {
-    @apply text-[1.5rem] leading-8 text-white font-medium;
+    @apply !text-[1.5rem] leading-8 !text-medium-grey !font-medium;
   }
 }
 

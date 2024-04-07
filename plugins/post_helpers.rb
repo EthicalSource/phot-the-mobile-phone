@@ -37,7 +37,8 @@ module PostHelpers
     output
   end
 
-  def self.events_by_collection(posts:, value:, prefer_featured: false, count: 5)
+  # 500 is an arbitrary large number intended to return all the content in the system
+  def self.events_by_collection(posts:, value:, prefer_featured: false, count: 500)
     return [] if value.nil?
 
     collection_posts = posts.select do |item|
