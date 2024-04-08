@@ -436,6 +436,7 @@ collections:
         hint: "Featured journals appear on the homepage"
         widget: "boolean"
         default: false
+        required: false
       - { label: "Headline", name: "title", widget: "string" }
       - label: "Highlight"
         name: "highlight"
