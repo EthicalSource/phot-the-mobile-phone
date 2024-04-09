@@ -1,5 +1,7 @@
 ---
 layout: entry
+prompt: Describe a time when your mobile phone made you feel powerful.
+related_events: []
 feature: true
 title: SMS enters the group chat
 highlight: I am partially deaf...people could tell me things discreetly over SMS.
@@ -7,8 +9,7 @@ location: Birmingham, UK
 clusters: Bodies & Minds
 tags:
   - 1990s
-prompt: Describe a time when your mobile phone made you feel powerful.
-related_events: []
+  - People's Stories
 year: 1999
 source: Natalya Dell
 ---
