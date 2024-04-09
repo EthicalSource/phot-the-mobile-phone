@@ -9,6 +9,7 @@ tags:
   - Movements & Resistance
   - People's Stories
   - 2020s
+  - Materials & Waste
 year: 2022
 prompt: How has your phone changed your relationship to your environment?
 media:
