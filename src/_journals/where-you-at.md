@@ -8,7 +8,6 @@ clusters: Risk & Safety
 tags:
   - 2020s
 year: 2022
-clusters: Risk & Safety
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 media:
   credit: A People's History of Tech
