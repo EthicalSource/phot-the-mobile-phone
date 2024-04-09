@@ -1,9 +1,10 @@
 ---
 layout: entry
+feature: false
 title: Where you at?
-highlight: Received a text from someone I had accidentally continued to share my
-  location with... Creepy.
+highlight: Accidentally continuing to share my location with someone... Creepy.
 location: San Francisco, CA
+clusters: Risk & Safety
 tags:
   - 2020s
 year: 2022
