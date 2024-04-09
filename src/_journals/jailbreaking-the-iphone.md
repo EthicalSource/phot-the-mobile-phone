@@ -7,6 +7,7 @@ location: San Francisco, CA
 clusters: Design & Use
 tags:
   - 2000s
+  - People's Stories
 year: 2007
 prompt: Describe a time when your mobile phone made you feel powerful.
 media:
