@@ -8,6 +8,7 @@ clusters: Risk & Safety
 tags:
   - 2020s
   - People's Stories
+  - Bodies & Minds
 year: 2022
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 media:
