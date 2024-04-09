@@ -12,6 +12,6 @@ prompt: Recall a time you felt vulnerable because of your mobile phone.
 media:
   credit: A People's History of Tech
   alt: Scan of a handwritten participatory workshop contribution
-source: Anonymous
+source: Anonymouse
 ---
 ## "Receiving a text message from someone I had accidentally continued to share my location with asking if I was in a particular place. Creepy."
