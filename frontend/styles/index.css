@@ -129,10 +129,14 @@ body.page main {
   }
 }
 .entry main section.journal article {
-  h1,h2,h3,h4,h5 {
+  p {
     @apply body text-medium-grey font-normal;
   }
-  p {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     @apply !text-[1.5rem] leading-8 text-white font-medium;
   }
 }
