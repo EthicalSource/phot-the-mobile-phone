@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: true
+feature: false
 title: BlackBerry 5810 released
 location: Canada
 clusters: Design & Use
