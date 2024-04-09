@@ -9,7 +9,6 @@ tags:
   - 2010s
   - Bodies & Minds
   - Culture & Behaviors
-  - People's Stories
 year: 2010
 prompt: How has your phone changed your relationship to your environment?
 media:
