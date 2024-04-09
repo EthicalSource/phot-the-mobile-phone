@@ -17,4 +17,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous
 ---
-## "THE KIDS 'DON'T HAVE EMAIL'"
+"THE KIDS 'DON'T HAVE EMAIL'"

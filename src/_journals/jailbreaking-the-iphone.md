@@ -14,4 +14,4 @@ media:
   alt: Scan of a handwritten participatory workshop contribution
 source: Anonymous
 ---
-## "Jailbreaking my iPhone, learning how to code so I could make apps for my phone, adding features to my phone that Apple hadn't added yet, engaging with the jailbreaking community"
+"Jailbreaking my iPhone, learning how to code so I could make apps for my phone, adding features to my phone that Apple hadn't added yet, engaging with the jailbreaking community"

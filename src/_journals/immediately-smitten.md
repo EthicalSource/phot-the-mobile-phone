@@ -17,4 +17,4 @@ media:
   alt: Photo of a hand holding the Treo 650 featuring the home screen settings.
 source: Anonymous
 ---
-## In 2010, I got my first cell phone, a Treo 650. At the same time, I met someone truly special and was immediately smitten with them. I had been using IRC, instant messages and the like from a computer for years at that point, but had never texted. I also had never conventionally dated before, and texting became a critical part of how I navigated creating and nurturing a relationship with this person, who is still my partner to this day.
+In 2010, I got my first cell phone, a Treo 650. At the same time, I met someone truly special and was immediately smitten with them. I had been using IRC, instant messages and the like from a computer for years at that point, but had never texted. I also had never conventionally dated before, and texting became a critical part of how I navigated creating and nurturing a relationship with this person, who is still my partner to this day.

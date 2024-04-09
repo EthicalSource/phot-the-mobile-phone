@@ -18,4 +18,4 @@ media:
   credit: A People's History of Tech
 source: Ben, 1987
 ---
-## “iPhone shame cult: they've created behavior in consumers to make people feel lesser than for these ‘green text bubble’ not because of a better product. Purely ’us vs. them’ cult behavior. Are you guilty of this?"
+“iPhone shame cult: they've created behavior in consumers to make people feel lesser than for these ‘green text bubble’ not because of a better product. Purely ’us vs. them’ cult behavior. Are you guilty of this?"

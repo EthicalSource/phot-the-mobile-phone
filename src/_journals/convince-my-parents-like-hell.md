@@ -18,4 +18,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous, 1996
 ---
-## “Got my first phone at the age of 16 in 2012. Had to convince my parents like hell and then lost it at my first high school party.”
+“Got my first phone at the age of 16 in 2012. Had to convince my parents like hell and then lost it at my first high school party.”

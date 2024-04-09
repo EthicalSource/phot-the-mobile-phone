@@ -18,7 +18,7 @@ tags:
 year: 2011
 source: Anonymous
 ---
-### A People's History of Tech Interview
+A People's History of Tech Interview
 
 "It's kind of been glorified in a way-- the Facebook revolution, the Twitter revolution, mobile phones pushing for revolutions in whatever way. It's not fully that. It's more it was just one small part of what was happening. 
 

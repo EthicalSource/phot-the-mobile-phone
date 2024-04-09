@@ -16,6 +16,6 @@ media:
   credit: A People's History of Tech
 source: Theresa Richardson, 1962
 ---
-## “My maternal unit bought a PALM Pilot when it was released '97 and learned a whole new language.* It both inspired and shamed me into inviting personal communication tech into my life.
+“My maternal unit bought a PALM Pilot when it was released '97 and learned a whole new language.* It both inspired and shamed me into inviting personal communication tech into my life.
 
-## \*She was in her 70's at the time. We can ALWAYS learn new things."
+She was in her 70's at the time. We can ALWAYS learn new things."

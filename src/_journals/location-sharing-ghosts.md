@@ -18,4 +18,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous, 1981
 ---
-## “Location sharing with my friends and partners is usually something that makes me feel safer—but it is shadowed by a memory of my earliest location-sharing experience. In college, in 2002, my ex-boyfriend used our computer network to show up at my new girlfriend's apartment, where he could see I had logged in. He screamed obscenities at us, and I have been aware that my phone makes me even more vulnerable to oversight of my location."
+“Location sharing with my friends and partners is usually something that makes me feel safer—but it is shadowed by a memory of my earliest location-sharing experience. In college, in 2002, my ex-boyfriend used our computer network to show up at my new girlfriend's apartment, where he could see I had logged in. He screamed obscenities at us, and I have been aware that my phone makes me even more vulnerable to oversight of my location."

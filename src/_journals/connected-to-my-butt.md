@@ -16,4 +16,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous
 ---
-## "Everything in my life is connected to my butt and there's something wrong with that."
+"Everything in my life is connected to my butt and there's something wrong with that."

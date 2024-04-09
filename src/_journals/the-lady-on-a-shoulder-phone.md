@@ -17,6 +17,6 @@ media:
   credit: Who Magazine
 source: Bettina Dalton
 ---
-## "It made me feel empowered!! In contact with the world on my travel."
+"It made me feel empowered!! In contact with the world on my travel."
 
-## "It's like I'm the female Harry Butler," says Dalton, on her ubiquitous mobile. "I don't see why this job is a male domain."
+"It's like I'm the female Harry Butler," says Dalton, on her ubiquitous mobile. "I don't see why this job is a male domain."

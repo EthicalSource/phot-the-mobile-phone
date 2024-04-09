@@ -19,4 +19,4 @@ media:
 source: Nick
 ---
 
-## "In 2004 and 2005, I lived in China, where a lot of life happened via SMS. When I came back to the US in 2005, SMS was barely a thing. Phone companies were charging per message or selling bundles of messages. People wouldn't respond to messages. Sometimes people wouldn't even open messages, because you had to pay for it. It felt like going back in time..."
+"In 2004 and 2005, I lived in China, where a lot of life happened via SMS. When I came back to the US in 2005, SMS was barely a thing. Phone companies were charging per message or selling bundles of messages. People wouldn't respond to messages. Sometimes people wouldn't even open messages, because you had to pay for it. It felt like going back in time..."

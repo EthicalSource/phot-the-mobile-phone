@@ -16,4 +16,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous, 1972
 ---
-## “When I was cheating on my girlfriend, and there was fear around notifications, photos, etc. revealing just how out of integrity I was. It was a constant anxiety."
+“When I was cheating on my girlfriend, and there was fear around notifications, photos, etc. revealing just how out of integrity I was. It was a constant anxiety."

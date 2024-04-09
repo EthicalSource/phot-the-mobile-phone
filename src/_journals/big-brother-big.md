@@ -18,4 +18,4 @@ source: Spencer
 ---
 What mobile phone story is important to you to add to the timeline? 
 
-## “In the early 2000s, Chinese people referred to mobile phones as dàgēdà (大哥大) which translates to ‘big brother big.’ They called it that \[because] the one ringtone everyone had sounded like that."
+“In the early 2000s, Chinese people referred to mobile phones as dàgēdà (大哥大) which translates to ‘big brother big.’ They called it that \[because] the one ringtone everyone had sounded like that."

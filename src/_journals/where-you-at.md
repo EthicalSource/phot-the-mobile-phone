@@ -14,4 +14,4 @@ media:
   alt: Scan of a handwritten participatory workshop contribution
 source: Anonymous
 ---
-## "Receiving a text message from someone I had accidentally continued to share my location with asking if I was in a particular place. Creepy."
+"Receiving a text message from someone I had accidentally continued to share my location with asking if I was in a particular place. Creepy."

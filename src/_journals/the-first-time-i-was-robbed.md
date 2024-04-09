@@ -18,4 +18,4 @@ source: Pablo
 ---
 What mobile phone story is important to you to add to the timeline? 
 
-## "First time I was robbed they stole my phone, but it was too old so they returned it to me."
+"First time I was robbed they stole my phone, but it was too old so they returned it to me."

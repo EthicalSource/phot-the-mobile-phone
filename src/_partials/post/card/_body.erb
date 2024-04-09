@@ -1,4 +1,6 @@
-<article class="mb-[50px] flex flex-col text-white text-2xl">
-  <%= content %>
-  <p class="order-first !mb-0"><%= resource&.data&.prompt %></p>
+<article class="mb-[50px] flex flex-col text-white">
+  <p class="prompt"><%= resource&.data&.prompt %></p>
+  <div class="response">
+    <%= content %>
+  </div>
 </article>

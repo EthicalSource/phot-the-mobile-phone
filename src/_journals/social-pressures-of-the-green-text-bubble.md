@@ -16,4 +16,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous
 ---
-## "In middle school (!) I felt pressured to get an iPhone by my friends (instead of an Android I guess??) very confusing dynamic we were like 12? 13?"
+"In middle school (!) I felt pressured to get an iPhone by my friends (instead of an Android I guess??) very confusing dynamic we were like 12? 13?"

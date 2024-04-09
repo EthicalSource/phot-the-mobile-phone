@@ -18,4 +18,4 @@ media:
   credit: A People's History of Tech
 source: Anonymous
 ---
-## "My phone holds so many memories of first and lasts that hold so much importance to me."
+"My phone holds so many memories of first and lasts that hold so much importance to me."

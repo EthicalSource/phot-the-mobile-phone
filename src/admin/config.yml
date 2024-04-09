@@ -466,13 +466,14 @@ collections:
         name: "year"
         widget: "number"
         value_type: int
+        required: false
       - label: "Prompt"
         name: "prompt"
         widget: "relation"
         collection: "prompts"
         search_fields: [ "question" ]
         value_field: "question"
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "text" }
       - label: "Media"
         name: "media"
         widget: "object"
