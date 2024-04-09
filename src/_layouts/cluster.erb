@@ -23,7 +23,7 @@ layout: default
   <% end %>
 
   <% # Draw two more event cards %>
-  <% events.slice(0,2).each do |event| %>
+  <% events.slice!(0,2).each do |event| %>
     <%= render Cards::Event.new(post: event) %>
   <% end %>
 
@@ -35,6 +35,11 @@ layout: default
   <% # Draw the take action card %>
   <% ctas.each do |cta| %>
     <%= render Cards::CallToAction.new(post: cta) %>
+  <% end %>
+
+  <% # Draw the rest of the events %>
+  <% events.each do |event| %>
+    <%= render Cards::Event.new(post: event) %>
   <% end %>
 </main>
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>

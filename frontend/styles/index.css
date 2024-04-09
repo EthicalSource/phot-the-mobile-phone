@@ -132,7 +132,6 @@ body.page main {
   p {
     @apply body text-medium-grey font-normal;
   }
-
   h2 {
     @apply !text-[1.5rem] leading-8 text-white font-medium;
   }
