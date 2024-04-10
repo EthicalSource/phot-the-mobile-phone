@@ -9,6 +9,7 @@ layout: default
   <%= render Shared::Navbar.new(site: site, resource: resource) %>
 </header>
 <main class="px-[30px] lg:px-[70px] my-[40px]">
+    <h1 class="heading-xxl my-[50px] text-center">Tell Your Story</h1>
   <%= render Prompt::TypeForm.new(prompt.data.typeform_id) %>
 </main>
 <%= render Shared::Carousel.new(header_text: "Explore Collections") do %>
