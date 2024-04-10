@@ -11,11 +11,11 @@ tags:
   - 2020s
 year: 2022
 prompt: How has your phone changed your relationship to your environment?
-response: WHEN TRAVELING TO THE ATACAMA DESERT IN CHILE, WE NOTICED POSTERS WITH
-  A PHOTO OF AN INDIGENOUS WARRIOR THAT READ ""YOU WILL DRINK LITHIUM YOU WILL
-  EAT COPPER"" PROTESTING THE EXTRACTION OF THESE METALS THAT WERE SUCKING THE
-  LAND DRY IN AN ALREADY WATER SCARCE PLACE. THE LOCALS HAD BOYCOTTED CELL PHONE
-  USE TO UNDERSCORE THEIR PLIGHT.
+response: '"When traveling to the Atacama Desert in Chile we noticed posters
+  with a photo of an indigenous warrior that read “You will drink lithium. You
+  will eat copper.” protesting the extraction of these metals that were sucking
+  the land dry in an already water scarce place. The locals had boycotted cell
+  phone use to underscore their plight."'
 media:
   thumbnail: /images/uploads/img_5147.jpeg
   alt: Scan of a handwritten participatory workshop contribution
