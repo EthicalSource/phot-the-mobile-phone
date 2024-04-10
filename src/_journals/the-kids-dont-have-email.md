@@ -11,10 +11,10 @@ tags:
   - Culture & Behaviors
 year: 2018
 prompt: Describe a significant moment in your life that involved a mobile phone.
+response: "\"THE KIDS 'DON'T HAVE EMAIL'\""
 media:
   thumbnail: /images/uploads/img_5155.jpeg
   alt: Scan of a handwritten participatory workshop contribution
   credit: A People's History of Tech
 source: Anonymous
 ---
-## "THE KIDS 'DON'T HAVE EMAIL'"

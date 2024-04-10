@@ -447,6 +447,7 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+        required: false
       - label: "Collection"
         name: "clusters"
         widget: "relation"
@@ -466,13 +467,22 @@ collections:
         name: "year"
         widget: "number"
         value_type: int
+        required: false
       - label: "Prompt"
         name: "prompt"
         widget: "relation"
         collection: "prompts"
         search_fields: [ "question" ]
         value_field: "question"
-      - { label: "Body", name: "body", widget: "markdown" }
+        required: false
+      - label: "Response"
+        name: "response"
+        widget: "text"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
       - label: "Media"
         name: "media"
         widget: "object"

@@ -1,4 +1,9 @@
-<article class="mb-[50px] flex flex-col text-white text-2xl">
+<article class="mb-[50px] flex flex-col text-white">
+  <% if resource&.data&.prompt %>
+    <p class="prompt"><%= resource&.data&.prompt %></p>
+  <% end %>
+  <% if resource&.data&.response %>
+    <p class="response"><%= resource&.data&.response %></p>
+  <% end %>
   <%= content %>
-  <p class="order-first !mb-0"><%= resource&.data&.prompt %></p>
 </article>

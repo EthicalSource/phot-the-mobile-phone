@@ -12,9 +12,10 @@ title: Connectivity is always in jeopardy
 highlight: Connectivity is always in jeopardy...It is not something to be
   assumed at any point.
 location: Bay Area, California
-clusters: Connection & Access
+clusters: People's Stories
 tags:
   - 2010s
+  - Connection & Access
 year: 2012
 source: Willow Idlewild
 ---

@@ -5,7 +5,7 @@ title: Re-contracting our embrace of technologies
 highlight: My son's 9. There's some kids who already have phones in his class,
   some that don't.
 location: Brooklyn, NY
-clusters: Economy & Labor
+clusters: People's Stories
 tags:
   - 2020s
   - Economy & Labor
