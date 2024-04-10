@@ -5,7 +5,6 @@ title: Doomscrolling
 location: Global
 clusters: Bodies & Minds
 tags:
-  - Bodies & Minds
   - 2020s
 start_date:
   month: 3
