@@ -1,6 +1,9 @@
 <article class="mb-[50px] flex flex-col text-white">
-  <p class="prompt"><%= resource&.data&.prompt %></p>
-  <div class="response">
-    <%= content %>
-  </div>
+  <% if resource&.data&.prompt %>
+    <p class="prompt"><%= resource&.data&.prompt %></p>
+  <% end %>
+  <% if resource&.data&.response %>
+    <p class="response"><%= resource&.data&.response %></p>
+  <% end %>
+  <%= content %>
 </article>

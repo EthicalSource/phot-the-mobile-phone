@@ -16,6 +16,6 @@ media:
   credit: A People's History of Tech
 source: "1982"
 ---
-What mobile phone story is important to you to add to the timeline? 
+### What mobile phone story is important to you to add to the timeline? 
 
 “Getting a smartphone, with a touchscreen, was different than my old candy bar phone. I touch its face, listen when it calls out to me (with notifications), respond to it in ways that are intimate -- we touch and attend to babies, lovers, and our phones in the same ways.”

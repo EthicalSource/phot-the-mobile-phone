@@ -5,14 +5,14 @@ title: Re-contracting our embrace of technologies
 highlight: My son's 9. There's some kids who already have phones in his class,
   some that don't.
 location: Brooklyn, NY
-clusters: Economy & Labor
+clusters: People's Stories
 tags:
   - 2020s
   - Economy & Labor
 year: 2023
 source: Eli Pariser
 ---
-A People's History of Tech Interview
+### A People's History of Tech Interview
 
 "My son's nine. There's some kids who already have cell phones in his class, there are kids that don't. There's a way that in that context in particular, it feels like kind of already out of control despite a lot of people's best efforts not to. And the socioeconomic context of that is complicated. He has a super socioeconomically mixed class. And it's the lower income kids that have phones, and then all the upper income kids don't. But upper income parents--including me--are like, 'should we  contract with each other not to have phones at all?' But that's already a fraught thing.
 

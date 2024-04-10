@@ -475,7 +475,14 @@ collections:
         search_fields: [ "question" ]
         value_field: "question"
         required: false
-      - { label: "Body", name: "body", widget: "text" }
+      - label: "Response"
+        name: "response"
+        widget: "text"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        required: false
       - label: "Media"
         name: "media"
         widget: "object"

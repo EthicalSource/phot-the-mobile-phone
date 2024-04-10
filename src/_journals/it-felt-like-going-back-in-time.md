@@ -12,11 +12,14 @@ tags:
   - Culture & Behaviors
 year: 2004
 prompt: Describe a significant moment in your life that involved a mobile phone.
+response: "\"In 2004 and 2005, I lived in China, where a lot of life happened
+  via SMS. When I came back to the US in 2005, SMS was barely a thing. Phone
+  companies were charging per message or selling bundles of messages. People
+  wouldn't respond to messages. Sometimes people wouldn't even open messages,
+  because you had to pay for it. It felt like going back in time...\""
 media:
   thumbnail: /images/shared/default-entry.jpg
   alt: "Decorative placeholder image: Grayscale logo for A People's History of
     Tech on a light grey colored background."
 source: Nick
 ---
-
-"In 2004 and 2005, I lived in China, where a lot of life happened via SMS. When I came back to the US in 2005, SMS was barely a thing. Phone companies were charging per message or selling bundles of messages. People wouldn't respond to messages. Sometimes people wouldn't even open messages, because you had to pay for it. It felt like going back in time..."
