@@ -447,6 +447,7 @@ collections:
         name: "location"
         widget: string
         hint: "Enter either [City] or [City, Country]"
+        required: false
       - label: "Collection"
         name: "clusters"
         widget: "relation"
