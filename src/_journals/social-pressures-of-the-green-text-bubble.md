@@ -9,6 +9,7 @@ tags:
   - 2010s
   - Connection & Access
   - Design & Use
+  - People's Stories
 year: 2012
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 response: '"In middle school (!) I felt pressured to get an iPhone by my friends

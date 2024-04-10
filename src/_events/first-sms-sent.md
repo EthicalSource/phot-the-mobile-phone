@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: false
+feature: true
 title: First SMS sent
 location: United Kingdom
 clusters: Design & Use

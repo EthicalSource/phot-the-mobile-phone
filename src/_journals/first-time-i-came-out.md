@@ -8,6 +8,7 @@ clusters: Risk & Safety
 tags:
   - 2000s
   - Bodies & Minds
+  - People's Stories
 year: 2004
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 response: '"The first time I came out to someone was via a ?burner?

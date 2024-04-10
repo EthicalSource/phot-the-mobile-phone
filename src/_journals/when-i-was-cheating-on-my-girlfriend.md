@@ -6,8 +6,8 @@ highlight: Fear around notifications, photos, revealing just how out of integrit
 location: Unknown
 clusters: People's Stories
 tags:
-  - 2000s
   - Culture & Behaviors
+  - 2000s
 year: 2002
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 response: “When I was cheating on my girlfriend, and there was fear around

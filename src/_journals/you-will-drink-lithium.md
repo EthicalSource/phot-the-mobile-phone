@@ -22,5 +22,5 @@ media:
   credit: A People's History of Tech
 source: Ligaya
 source_link: https://www.instagram.com/p/C2h8K3qAtnG/
-outbound_links: <https://www.instagram.com/p/C2h8K3qAtnG/>
+outbound_links: "[Learn more on Instagram!](https://www.instagram.com/p/C2h8K3qAtnG/)"
 ---

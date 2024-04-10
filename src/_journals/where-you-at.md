@@ -8,6 +8,7 @@ clusters: People's Stories
 tags:
   - 2020s
   - Risk & Safety
+  - Bodies & Minds
 year: 2022
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 response: '"Receiving a text message from someone I had accidentally continued

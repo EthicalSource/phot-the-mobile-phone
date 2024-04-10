@@ -1,5 +1,6 @@
 ---
 layout: entry
+feature: true
 title: Return of the dumbphone
 location: United States
 clusters: Design & Use
