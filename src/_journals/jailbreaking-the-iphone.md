@@ -14,7 +14,7 @@ response: "\"Jailbreaking my iPhone, learning how to code so I could make apps
   for my phone, adding features to my phone that Apple hadn't added yet,
   engaging with the jailbreaking community\""
 media:
-  credit: A People's History of Tech
-  alt: Scan of a handwritten participatory workshop contribution
+  credit: ""
+  alt: ""
 source: Anonymous
 ---
