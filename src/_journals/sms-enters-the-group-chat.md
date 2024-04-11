@@ -18,10 +18,10 @@ feature: true
 title: SMS enters the group chat
 highlight: I am partially deaf...people could tell me things discreetly over SMS.
 location: Birmingham, UK
-clusters: People's Stories
+clusters: Bodies & Minds
 tags:
   - 1990s
-  - Bodies & Minds
+  - People's Stories
 year: 1999
 source: Natalya Dell
 ---
