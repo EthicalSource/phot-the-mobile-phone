@@ -4,10 +4,10 @@ feature: true
 title: Jailbreaking the iPhone
 highlight: Making apps for my phone, engaging with the jailbreaking community.
 location: San Francisco, CA
-clusters: People's Stories
+clusters: Design & Use
 tags:
   - 2000s
-  - Design & Use
+  - People's Stories
 year: 2007
 prompt: Describe a time when your mobile phone made you feel powerful.
 response: "\"Jailbreaking my iPhone, learning how to code so I could make apps
