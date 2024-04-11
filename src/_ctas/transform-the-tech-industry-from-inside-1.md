@@ -1,6 +1,6 @@
 ---
 layout: cta
-feature: true
+feature: false
 summary: Collective Action School has a grassroots theory of change. We believe
   the people who make the tech industry run—its workers—have the power to not
   only transform it, but to build and imagine new technologies. They welcome all
