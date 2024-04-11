@@ -12,10 +12,10 @@ feature: true
 title: On the ground in Tahrir Square
 highlight: Just having a phone in Egypt at that time [was] a privilege.
 location: Cairo, Egypt
-clusters: People's Stories
+clusters: Movements & Resistance
 tags:
   - 2010s
-  - Movements & Resistance
+  - People's Stories
 year: 2011
 source: Anonymous
 ---
