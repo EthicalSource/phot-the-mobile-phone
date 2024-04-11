@@ -1,5 +1,15 @@
 ---
 layout: entry
+feature: true
+title: Connectivity is always in jeopardy
+highlight: Connectivity is always in jeopardy...It is not something to be
+  assumed at any point.
+location: Bay Area, California
+clusters: Connection & Access
+tags:
+  - 2010s
+  - Connection & Access
+  - People's Stories
 media:
   credit: Brendan Smialowski/AFP Getty Images
   link: https://www.usatoday.com/story/tech/columnist/2012/11/01/smartphones-storms-tips/1674461/
@@ -7,15 +17,6 @@ media:
     Hoboken, NJ after hurricane Sandy.
 related_events:
   - Arab Spring
-feature: true
-title: Connectivity is always in jeopardy
-highlight: Connectivity is always in jeopardy...It is not something to be
-  assumed at any point.
-location: Bay Area, California
-clusters: People's Stories
-tags:
-  - 2010s
-  - Connection & Access
 year: 2012
 source: Willow Idlewild
 ---
