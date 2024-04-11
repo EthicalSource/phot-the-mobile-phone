@@ -5,11 +5,12 @@ title: iPhone shame cult
 highlight: People feel lesser than for these ‘green text bubble’ not because of
   a better product
 location: Los Angeles, CA
-clusters: People's Stories
+clusters: Decades
 tags:
   - Culture & Behaviors
   - Economy & Labor
   - 2010s
+  - People's Stories
 year: 2008
 prompt: Recall a time you felt vulnerable because of your mobile phone.
 response: "“iPhone shame cult: they've created behavior in consumers to make
