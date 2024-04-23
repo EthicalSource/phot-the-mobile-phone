@@ -30,3 +30,7 @@ source: Al Jazeera
 source_link: https://www.aljazeera.com/news/2021/1/14/arab-spring-ten-years-on
 ---
 The Arab Spring was a series of protests and revolutions that started in 2010 in the Arab world. It began in Tunisia and spread to countries like Egypt, Libya, and Syria. In Egypt, images and videos from Tahrir Square, largely captured on smartphones, garnered global attention. People were unhappy with their governments and used social media and mobile phones to organize demonstrations and disseminate information.
+
+
+
+It was the best
