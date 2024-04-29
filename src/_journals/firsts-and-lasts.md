@@ -4,7 +4,7 @@ feature: true
 title: Firsts and lasts
 highlight: My phone holds so many memories of first and lasts that hold so much
   importance to me
-location: Unknown
+location: ""
 clusters: People's Stories
 tags:
   - Bodies & Minds
@@ -16,7 +16,7 @@ response: '"My phone holds so many memories of first and lasts that hold so much
   importance to me."'
 media:
   thumbnail: /images/uploads/img_5172.jpeg
-  alt: Scan of a handwritten participatory workshop contribution
+  alt: Scan of a handwritten event contribution (scroll for full text)
   credit: A People's History of Tech
 source: Anonymous
 ---
