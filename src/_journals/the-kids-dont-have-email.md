@@ -3,7 +3,7 @@ layout: entry
 feature: false
 title: The kids 'don't have email'
 highlight: The kids 'don't have email'
-location: Unknown
+location: ""
 clusters: People's Stories
 tags:
   - 2010s
@@ -14,7 +14,7 @@ prompt: Describe a significant moment in your life that involved a mobile phone.
 response: "\"THE KIDS 'DON'T HAVE EMAIL'\""
 media:
   thumbnail: /images/uploads/img_5155.jpeg
-  alt: Scan of a handwritten participatory workshop contribution
+  alt: Scan of a handwritten event contribution (scroll for full text)
   credit: A People's History of Tech
 source: Anonymous
 ---
