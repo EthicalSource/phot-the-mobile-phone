@@ -12,7 +12,7 @@ response: '"Being able to connect seamlessly with friends internationally
   through WhatsApp and not having to buy a calling card"'
 media:
   thumbnail: /images/uploads/img_5850.jpeg
-  alt: Scan of a handwritten workshop contribution (scroll for full text)
+  alt: Scan of a handwritten event contribution (scroll for full text)
   credit: A People's History of Tech
 source: Anonymous
 ---
