@@ -4,7 +4,7 @@ feature: false
 title: Connected to my butt
 highlight: Everything in my life is connected to my butt and there's something
   wrong with that.
-location: Unknown
+location: ""
 clusters: People's Stories
 tags:
   - Bodies & Minds
@@ -14,7 +14,7 @@ response: "\"Everything in my life is connected to my butt and there's something
   wrong with that.\""
 media:
   thumbnail: /images/shared/default-entry.jpg
-  alt: Scan of a handwritten participatory workshop contribution
+  alt: ""
   credit: A People's History of Tech
 source: Anonymous
 ---
