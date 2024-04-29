@@ -16,8 +16,7 @@ response: "\"I once took a cross-country road trip with only paper maps, I got
   experience of serendipity while tied to Google Maps. =(\""
 media:
   thumbnail: /images/uploads/img_5856.jpeg
-  alt: "Decorative placeholder image: Grayscale logo for A People's History of
-    Tech on a light grey colored background."
-  credit: ""
+  alt: Scan of a handwritten event contribution (scroll for full text)
+  credit: A People's History of Tech
 source: Owen, 35
 ---
