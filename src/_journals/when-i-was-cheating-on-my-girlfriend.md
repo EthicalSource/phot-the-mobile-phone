@@ -3,7 +3,7 @@ layout: entry
 feature: false
 title: When I was cheating on my girlfriend
 highlight: Fear around notifications, photos, revealing just how out of integrity I was
-location: Unknown
+location: ""
 clusters: People's Stories
 tags:
   - Culture & Behaviors
@@ -15,7 +15,7 @@ response: “When I was cheating on my girlfriend, and there was fear around
   a constant anxiety."
 media:
   thumbnail: /images/uploads/img_5195.jpeg
-  alt: Scan of a handwritten participatory workshop contribution
+  alt: Scan of a handwritten event contribution (scroll for full text)
   credit: A People's History of Tech
 source: Anonymous, 1972
 ---
