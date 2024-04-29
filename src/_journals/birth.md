@@ -13,6 +13,7 @@ prompt: Describe a significant moment in your life that involved a mobile phone.
 response: '"I filmed my own birth."'
 media:
   thumbnail: /images/uploads/img_5854.jpeg
-  alt: "Decorative placeholder image: Grayscale logo for A People's History of
-    Tech on a light grey colored background."
+  alt: Scan of a handwritten event contribution (scroll for full text)
+  credit: A People's History of Tech
+source: Anonymous
 ---
