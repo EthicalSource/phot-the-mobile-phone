@@ -4,7 +4,7 @@ feature: false
 title: It felt like going back in time...
 highlight: In 2004 in China a lot of life happened via SMS. In the US, SMS was
   barely a thing.
-location: New York City
+location: New York, NY
 clusters: People's Stories
 tags:
   - 2000s
