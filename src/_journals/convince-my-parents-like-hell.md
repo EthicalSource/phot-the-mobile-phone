@@ -4,7 +4,7 @@ feature: false
 title: Convince my parents like hell
 highlight: Had to convince my parents like hell and then lost it at my first
   high school party.
-location: Unknown
+location: ""
 clusters: People's Stories
 tags:
   - 2010s
@@ -16,7 +16,7 @@ response: “Got my first phone at the age of 16 in 2012. Had to convince my
   parents like hell and then lost it at my first high school party.”
 media:
   thumbnail: /images/uploads/img_5185.jpeg
-  alt: Scan of a handwritten participatory workshop contribution
+  alt: Scan of a handwritten event contribution (scroll for full text)
   credit: A People's History of Tech
 source: Anonymous, 1996
 ---
