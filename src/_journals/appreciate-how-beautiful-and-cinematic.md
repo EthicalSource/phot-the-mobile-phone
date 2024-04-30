@@ -1,6 +1,6 @@
 ---
 layout: entry
-feature: true
+feature: false
 title: Appreciate how beautiful and cinematic
 highlight: And then my phone could play music on its own, and my whole world changed.
 location: Wilmington, NC
