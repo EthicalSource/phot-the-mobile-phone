@@ -11,8 +11,7 @@ prompt: Describe a significant moment in your life that involved a mobile phone.
 response: "\"I swiped right on a Tinder 'Super Like' and he is the great love of
   my life.\""
 media:
-  thumbnail: /images/shared/default-entry.jpg
-  alt: "Decorative placeholder image: Grayscale logo for A People's History of
-    Tech on a light grey colored background."
+  thumbnail: ""
+  alt: ""
 source: Dana
 ---
