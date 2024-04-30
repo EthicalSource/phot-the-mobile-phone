@@ -23,8 +23,7 @@ response: >-
 
   "Also, blind people with smartphones have often done a lot to make that phone accessible to them—and only that literal phone in particular. Someone I know with no sight at all says her phone is the only way she can access her banking. So mobile phones are important not just for the meal or train journey or whatever a blind person is doing when out and about, but also for the rest of their life. Relying on such a thing so heavily does make me feel vulnerable."
 media:
-  thumbnail: /images/shared/default-entry.jpg
-  alt: "Decorative placeholder image: Grayscale logo for A People's History of
-    Tech on a light grey colored background."
+  thumbnail: ""
+  alt: ""
 source: Erik Matthies
 ---
