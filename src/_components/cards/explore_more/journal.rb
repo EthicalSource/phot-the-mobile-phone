@@ -1,7 +1,7 @@
 class Cards::ExploreMore::Journal < Cards::ExploreMore::Base
   def source
     return "Anonymous" if journal.source.nil?
-    return journal.source if journal.location.empty?
+    return journal.source if journal.location.blank?
     "– #{journal.source}, #{journal.location}"
   end
 
