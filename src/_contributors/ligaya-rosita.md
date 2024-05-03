@@ -1,3 +1,3 @@
 ---
-name: Ligaya, Rosita
+name: Ligaya
 ---
