@@ -159,6 +159,13 @@
   ul > li.home {
     @apply w-full;
 
+    @media (max-width: 1025px) {
+      & .quote-wrapper {
+        h2 {
+          @apply !text-left;
+        }
+      }
+    }
 
     @media (max-width: 1024px) {
       .thumbnail-desktop {
@@ -247,8 +254,9 @@
         @apply my-[60px];
       }
       & .wrapper.event article {
-        @apply mt-[50px];
+        @apply mt-[32px];
       }
+
     }
 
     & .wrapper {
@@ -262,6 +270,7 @@
     }
   }
 }
+
 @media (min-width: 1366px) {
   & .wrapper {
     flex-wrap: unset !important;
@@ -288,6 +297,13 @@
       column-gap: calc((100 / 1550) * 100%);
       grid-template-columns: repeat(2,minmax(46%,725px));
       grid-template-rows: auto;
+    }
+  }
+
+
+  @media (min-width: 1025px) and (max-width: 1365px) {
+    li > .wrapper.event {
+      gap: 0 !important;
     }
   }
 
