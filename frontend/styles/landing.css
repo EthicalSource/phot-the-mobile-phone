@@ -156,7 +156,7 @@
       }
     }
 
-    @media (min-width: 1475px) {
+    @media (min-width: 1365px) {
       & > li:nth-child(3) {
         display: flex;
         align-items: end;
