@@ -158,7 +158,7 @@
 
     @media (min-width: 1365px) {
       & > li:nth-child(2) {
-        height: 485px;
+        @apply h-[485px];
       }
 
       & > li:nth-child(3) {
