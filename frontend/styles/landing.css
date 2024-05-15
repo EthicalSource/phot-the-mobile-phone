@@ -211,6 +211,7 @@
       & .wrapper.participate article {
         @apply flex flex-col items-end text-right;
       }
+
       &:nth-child(even) {
         @apply items-start;
 
@@ -279,6 +280,12 @@
         @apply my-[60px];
       }
       & .wrapper.event article, .wrapper.resource article {
+        @apply mt-[45px];
+      }
+    }
+
+    @media (max-width: 1365px) {
+      & .wrapper.event article {
         @apply mt-[26px];
       }
     }
