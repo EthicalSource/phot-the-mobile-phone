@@ -164,6 +164,20 @@
       & > li:nth-child(3) {
         @apply !mt-[154px] flex items-end;
       }
+
+      & > li:nth-child(5) {
+        @apply !mt-[169px] flex items-end;
+      }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1365px) {
+      & > li:nth-child(3) {
+        @apply mt-[140px];
+
+        figure .event-image {
+          @apply mt-0;
+        }
+      }
     }
 
   }
