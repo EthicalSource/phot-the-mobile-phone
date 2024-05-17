@@ -172,7 +172,7 @@
 
     @media (min-width: 1025px) and (max-width: 1365px) {
       & > li:nth-child(3) {
-        @apply mt-[140px];
+        @apply mt-[130px];
       }
 
       & > li:nth-child(5) {
