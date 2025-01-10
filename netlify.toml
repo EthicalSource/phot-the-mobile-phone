@@ -1,0 +1,5 @@
+[[redirects]]
+	from = "https://peoplestech.com/*"
+	to = "https://mobile.peoplestech.com/:splat"
+	status = 301
+	force = true
