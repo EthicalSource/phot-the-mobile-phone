@@ -9,3 +9,9 @@
 	to = "https://mobile.peoplestech.com/:splat"
 	status = 301
 	force = true
+	
+[[redirects]]
+	from = "https://www.peoplestech.com/*"
+	to = "https://mobile.peoplestech.com/:splat"
+	status = 301
+	force = true
