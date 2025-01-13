@@ -1,6 +1,6 @@
 # A People's History of Tech: The Mobile Phone
 
-This project is managed by the members of the [(m)otherboard](https://m.otherboard.org) organization, in accordance with its [governance structure](https://m.otherboard.org/governance/.
+This project is managed by the members of the [(m)otherboard](https://m.otherboard.org) organization, in accordance with its [governance structure](https://m.otherboard.org/governance/).
 
 We strive to center the [Ethical Source Principles](https://ethicalsource.dev/principles/) in all the work we do and the decisions we make.
 
