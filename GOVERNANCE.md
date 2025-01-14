@@ -18,7 +18,7 @@ By participating in this community, through collaboration, contribution, adoptio
 In addition, you agree to behave in accordance with community values and norms as documented in our Code of Conduct.
 
 ## Code of Conduct
-We work to maintain and enforce our [code of conduct](https://github.com/EthicalSource/phot-the-mobile-phone/blob/main/CODE_OF_CONDUCT.md) fairly and transparently. In case of conflict we prioritize the safety and well-being of those who are most impacted by a violation of our community norms and standards.
+We work to maintain and enforce our [code of conduct](https://github.com/m-otherboard/aphot-mobile-phone/blob/main/CODE_OF_CONDUCT.md) fairly and transparently. In case of conflict we prioritize the safety and well-being of those who are most impacted by a violation of our community norms and standards.
 
 ---
 
